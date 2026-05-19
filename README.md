@@ -15,12 +15,12 @@
 Здесь собраны все зашифоранные в файлах игры модели и тексруты. 
 
 * [Интерлопер](https://github.com/MagicBearBo/VotV-Wiki-Archive/raw/main/assets/Интерлопер.7z)
-* Проклятый Паук
-* Повешенный
-* Fast Shadow Figure
-* CorpseWalker
-* The Head
-* Таннуел
+* [Проклятый Паук](https://github.com/MagicBearBo/VotV-Wiki-Archive/raw/main/assets/Cursed%20Spider.7z)
+* [Повешенный](https://github.com/MagicBearBo/VotV-Wiki-Archive/raw/main/assets/Hanged%20Man.7z)
+* [Fast Shadow Figure](https://github.com/MagicBearBo/VotV-Wiki-Archive/raw/main/assets/Fast%20Shadow%20Figure.7z)
+* [CorpseWalker](https://github.com/MagicBearBo/VotV-Wiki-Archive/raw/main/assets/CorpseWalker.7z)
+* [The Head](https://github.com/MagicBearBo/VotV-Wiki-Archive/raw/main/assets/The%20Head.zip)
+* [Таннуел](https://github.com/MagicBearBo/VotV-Wiki-Archive/raw/main/assets/Tannuel.7z)
 * Горные люди
 * Другой мусор (не загружен)
 
