@@ -19,10 +19,9 @@
 * [Повешенный](https://github.com/MagicBearBo/VotV-Wiki-Archive/raw/main/assets/Hanged%20Man.7z)
 * [Fast Shadow Figure](https://github.com/MagicBearBo/VotV-Wiki-Archive/raw/main/assets/Fast%20Shadow%20Figure.7z)
 * [CorpseWalker](https://github.com/MagicBearBo/VotV-Wiki-Archive/raw/main/assets/CorpseWalker.7z)
-* [The Head](https://github.com/MagicBearBo/VotV-Wiki-Archive/raw/main/assets/The%20Head.zip)
+* [The Head](https://github.com/MagicBearBo/VotV-Wiki-Archive/raw/main/assets/The%20Head.7z)
 * [Таннуел](https://github.com/MagicBearBo/VotV-Wiki-Archive/raw/main/assets/Tannuel.7z)
-* Горные люди
-* Другой мусор (не загружен)
+* [Горные люди](https://github.com/MagicBearBo/VotV-Wiki-Archive/raw/main/assets/Mountain_People.png)
 
 
 
