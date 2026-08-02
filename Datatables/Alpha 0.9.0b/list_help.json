@@ -1,0 +1,1082 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "list_help",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "VotV/Content/main/datatables/list_help",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'struct_help'",
+        "ObjectPath": "VotV/Content/main/structs/struct_help.0"
+      }
+    },
+    "Rows": {
+      "cantProcessDrive": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "28B0CDF84F91615692F5AEAC0B6A021B",
+          "SourceString": "Can't process signals",
+          "LocalizedString": "Can't process signals"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "3C402D534783D4D5E21D4AA2CA21B683",
+          "SourceString": "To start processing signals, you should upgrade \"Processing level\" at least by one level.\r\nKeep in mind it will increase daily task difficulty.",
+          "LocalizedString": "To start processing signals, you should upgrade \"Processing level\" at least by one level.\r\nKeep in mind it will increase daily task difficulty."
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "useItems": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "A6AE10354B4D8F39C444708901182D6D",
+          "SourceString": "How to use objects",
+          "LocalizedString": "How to use objects"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "F36D6CCF4D18CC95EA95FDAA9105081B",
+          "SourceString": "To use the object - look at the object, look at \"Actions list\" and use Mouse Wheel to select the action, then press E",
+          "LocalizedString": "To use the object - look at the object, look at \"Actions list\" and use Mouse Wheel to select the action, then press E"
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "noPower": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "D70893044EEA2BB95CF061AE237C820C",
+          "SourceString": "Power went off completely",
+          "LocalizedString": "Power went off completely"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "3D1A309849962C544ED4BA8A23AF4F41",
+          "SourceString": "If you can't turn on your power - one of the transformers went down. Go to transformer root outside the base, look for the red lamps - these are disabled transformers. To turn on the transformer - follow the power lines or type sv.target \"transformer name\" and go to the transformer booth, then press the red button twice - first push activates the transformer, second push resets the transformer cycle back to 100. Dont forget to reset the cycle from time to time.",
+          "LocalizedString": "If you can't turn on your power - one of the transformers went down. Go to transformer root outside the base, look for the red lamps - these are disabled transformers. To turn on the transformer - follow the power lines or type sv.target \"transformer name\" and go to the transformer booth, then press the red button twice - first push activates the transformer, second push resets the transformer cycle back to 100. Dont forget to reset the cycle from time to time."
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "slowProcessing": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "E7AEADD54608B735B33AAD989F722408",
+          "SourceString": "Slow signal downloading",
+          "LocalizedString": "Slow signal downloading"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "94022E4947CD67A1B57669BB13949A0D",
+          "SourceString": "If all the filters are at the correct positions but signal downloading is slow - that means some of the satellite servers are down, you have to get to the satellite and fix the server manually. Or that means the satellite calibration is off, use sd.calch to check the calibration, and sd.calall to calibrate the satellites. ",
+          "LocalizedString": "If all the filters are at the correct positions but signal downloading is slow - that means some of the satellite servers are down, you have to get to the satellite and fix the server manually. Or that means the satellite calibration is off, use sd.calch to check the calibration, and sd.calall to calibrate the satellites. "
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "hashCodes": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "0F5297F745A704ECC30C95ABB83C3A8A",
+          "SourceString": "How to do hashcodes",
+          "LocalizedString": "How to do hashcodes"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "F8D48CFD4E22A20838421A8634F08185",
+          "SourceString": "To do hashcodes you need to check the emails for daily tasks first, the email will explain which satellites you require hashcodes from. Travel to the requested satellites and when you reach the console inside, type sv.hash, this will print out a response with the desired hashcode for that day which you will need to put into your daily report.",
+          "LocalizedString": "To do hashcodes you need to check the emails for daily tasks first, the email will explain which satellites you require hashcodes from. Travel to the requested satellites and when you reach the console inside, type sv.hash, this will print out a response with the desired hashcode for that day which you will need to put into your daily report."
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "upgrades": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "BAE263B84AE93DCC93CAB2B300047929",
+          "SourceString": "What does upgrades mean",
+          "LocalizedString": "What does upgrades mean"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "CEE151D640A0B86E33A15AB113C995E4",
+          "SourceString": "Download speed - Improves the speed of downloading signals\r\n\r\nFilter size - make it easier to stop at 100.0% at the downloading panel, by widening the required range\r\n\r\nServer stability - less server malfunctions\r\n\r\nProcessing speed - Improves the speed of processing signals\r\n\r\nPing size - make the green ping circle larger when pinging in the coordinates panel\r\n\r\nPing speed - makes green ping signal ping faster\r\n\r\nSensor speed - faster cursor speed in the coordinates panel\r\n\r\nSensor size - higher levels make all signals larger and easier to see\r\n\r\nCooldown - higher levels reduce the cooldown of the quick scan in the coordinate panel\r\n\r\nDetector sensitivity - higher levels mean bigger detector updates\r\n\r\nDetector frequency - Higher levels mean more frequent detector updates\r\n\r\nSensor success rate - higher levels reduce the chance of errors when pinging a signal on the coordinates panel, such as \"invalid object\" or \"sensor error\"\r\n\r\nDetector quality - higher levels makes the signal object image quality better/high res\r\n\r\nProcessing level - each upgrade level allows signals to be processed and refined further, up to a maximum of level 3 when upgraded 3 times.\r\n\r\nTransformer stability - higher levels make transformers lose power at a slower rate",
+          "LocalizedString": "Download speed - Improves the speed of downloading signals\r\n\r\nFilter size - make it easier to stop at 100.0% at the downloading panel, by widening the required range\r\n\r\nServer stability - less server malfunctions\r\n\r\nProcessing speed - Improves the speed of processing signals\r\n\r\nPing size - make the green ping circle larger when pinging in the coordinates panel\r\n\r\nPing speed - makes green ping signal ping faster\r\n\r\nSensor speed - faster cursor speed in the coordinates panel\r\n\r\nSensor size - higher levels make all signals larger and easier to see\r\n\r\nCooldown - higher levels reduce the cooldown of the quick scan in the coordinate panel\r\n\r\nDetector sensitivity - higher levels mean bigger detector updates\r\n\r\nDetector frequency - Higher levels mean more frequent detector updates\r\n\r\nSensor success rate - higher levels reduce the chance of errors when pinging a signal on the coordinates panel, such as \"invalid object\" or \"sensor error\"\r\n\r\nDetector quality - higher levels makes the signal object image quality better/high res\r\n\r\nProcessing level - each upgrade level allows signals to be processed and refined further, up to a maximum of level 3 when upgraded 3 times.\r\n\r\nTransformer stability - higher levels make transformers lose power at a slower rate"
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "modules": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "B9051850475F428107D7D58632815D1C",
+          "SourceString": "What does modules mean",
+          "LocalizedString": "What does modules mean"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "C1D6DC8C49969EB7B09D18B5DDFFFB3F",
+          "SourceString": "Server alert - When purchased, upon a server having a malfunction and requiring maintenance, the console at the base will sound a brief alarm and print which server has malfunctioned\r\n\r\nSpectogram Visualisation - Allows the playback panel to show a spectogram view of a signal on the bottom instead of the visualiser\r\n\r\nAutomatic signal processing - When processing a signal to higher levels, the process must be started again each time the signal's level is raised.This module will instead continue processing the signal to the highest level allowed by the current Processing Level without needing to press \"Start processing\" each time\r\n\r\nAutomatic polarity detection - Purchasing this module will make it so that the filter polarity is always correct no matter what the setting is, meaning only the filter offset matters when downloading a signal and the filter polarity dial can be completely ignored\r\n\r\nATV solar power - Causes the ATV to slowly recharge fuel passively during the day\r\n\r\nSignal autosave - Purchasing this module will make all signals save a copy of themselves to your laptop for future reference or replaying\r\n\r\nStorm filter - Purchasing this module will remove storm interference completely",
+          "LocalizedString": "Server alert - When purchased, upon a server having a malfunction and requiring maintenance, the console at the base will sound a brief alarm and print which server has malfunctioned\r\n\r\nSpectogram Visualisation - Allows the playback panel to show a spectogram view of a signal on the bottom instead of the visualiser\r\n\r\nAutomatic signal processing - When processing a signal to higher levels, the process must be started again each time the signal's level is raised.This module will instead continue processing the signal to the highest level allowed by the current Processing Level without needing to press \"Start processing\" each time\r\n\r\nAutomatic polarity detection - Purchasing this module will make it so that the filter polarity is always correct no matter what the setting is, meaning only the filter offset matters when downloading a signal and the filter polarity dial can be completely ignored\r\n\r\nATV solar power - Causes the ATV to slowly recharge fuel passively during the day\r\n\r\nSignal autosave - Purchasing this module will make all signals save a copy of themselves to your laptop for future reference or replaying\r\n\r\nStorm filter - Purchasing this module will remove storm interference completely"
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "comboKeys": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "9C674AD74DFB68A920674FAF41C15354",
+          "SourceString": "What are combo keys for item actions",
+          "LocalizedString": "What are combo keys for item actions"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "B89647764619ACAA3F5D528A53D0B177",
+          "SourceString": "E - Pickup\r\n\r\n(While holding an object)\r\nE + alt - put item in inventory (collect)\r\nE + R - hold item\r\nE + LMB - throw\r\nE + RMB + Mouse Move - rotatee held object\r\nE + Mouse Whell - change object distance (move closer or further)",
+          "LocalizedString": "E - Pickup\r\n\r\n(While holding an object)\r\nE + alt - put item in inventory (collect)\r\nE + R - hold item\r\nE + LMB - throw\r\nE + RMB + Mouse Move - rotatee held object\r\nE + Mouse Whell - change object distance (move closer or further)"
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "fuelAtv": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "024C71C841E330D26606E2906F8EA5FA",
+          "SourceString": "How to fuel atv",
+          "LocalizedString": "How to fuel atv"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "9299EBE049BED8B30B58FE887D3D0B1A",
+          "SourceString": "Hold a gas can, and LMB with it on an ATV gas tank (the circle in front of the atv - gas tank)\r\n\r\nIf you have solar upgrade - leave atv on the sun. But it will not charge at night.",
+          "LocalizedString": "Hold a gas can, and LMB with it on an ATV gas tank (the circle in front of the atv - gas tank)\r\n\r\nIf you have solar upgrade - leave atv on the sun. But it will not charge at night."
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "keepCollapsing": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "601671D34606088FDE79DBA3F7F75E50",
+          "SourceString": "Why do i keep collapsing",
+          "LocalizedString": "Why do i keep collapsing"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "DF7E70804CA317F68094C3AA825AD0F9",
+          "SourceString": "Low hunger makes you fall over and hallucinate food. Eat food to restore hunger.\r\n\r\nIf your hunger is at 0 - you will start taking damage and eventually die.",
+          "LocalizedString": "Low hunger makes you fall over and hallucinate food. Eat food to restore hunger.\r\n\r\nIf your hunger is at 0 - you will start taking damage and eventually die."
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "playerInterface": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "A763881C4167C318E7C2E0B66660D450",
+          "SourceString": "Player interface",
+          "LocalizedString": "Player interface"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "2BAB99154FECF528555240AE46512506",
+          "SourceString": "Bottom left corner:\r\nF - food meter\r\nS - sleep/stamina\r\n\r\nBottom right corner:\r\nCompass\r\nGreen number - FPS\r\n\r\nTop left corner:\r\nWhite number - total points\r\n\r\nTop right corner:\r\nFl - Flashlight battery",
+          "LocalizedString": "Bottom left corner:\r\nF - food meter\r\nS - sleep/stamina\r\n\r\nBottom right corner:\r\nCompass\r\nGreen number - FPS\r\n\r\nTop left corner:\r\nWhite number - total points\r\n\r\nTop right corner:\r\nFl - Flashlight battery"
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "polarity": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "3F8392D44CDABCFCD01244B714545214",
+          "SourceString": "How to adjust polarity/frequency",
+          "LocalizedString": "How to adjust polarity/frequency"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "AB5E8E8C402742496B4AF292BBA29259",
+          "SourceString": "Look at the knobs on Downloading Panel, hold E, look at the screen, and use Mouse Wheel to adjust polarity/frequency",
+          "LocalizedString": "Look at the knobs on Downloading Panel, hold E, look at the screen, and use Mouse Wheel to adjust polarity/frequency"
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "cantSleep": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "BFBC88AE47DA73F56E5D49A694C626FA",
+          "SourceString": "Why can't i sleep/autosave/pause",
+          "LocalizedString": "Why can't i sleep/autosave/pause"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "3492E10C450FF0C5A0531B935C717CE6",
+          "SourceString": "The pause, sleep, and autosaves are disabled during events and near [REDACTED] or if they are in field of vision",
+          "LocalizedString": "The pause, sleep, and autosaves are disabled during events and near [REDACTED] or if they are in field of vision"
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "coordErrors": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "D402C8E84D7DEF82475B25996F78D973",
+          "SourceString": "Coordinate panels errors",
+          "LocalizedString": "Coordinate panels errors"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "E992348244101CB9C83F9E87AAEF31A6",
+          "SourceString": "Error code [1] Satellites are active - can't run a ping because the satellites are movin\r\nError [2] Ping failed, weak or no signal - no signal detected\r\nError [3] Invalid object - the object was invalid, find a different signal\r\nError [4] sensor error - sensor fail, random chance of failure that can be decreased by upgrading the sensor",
+          "LocalizedString": "Error code [1] Satellites are active - can't run a ping because the satellites are movin\r\nError [2] Ping failed, weak or no signal - no signal detected\r\nError [3] Invalid object - the object was invalid, find a different signal\r\nError [4] sensor error - sensor fail, random chance of failure that can be decreased by upgrading the sensor"
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "atvGone": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "1036569A431099C42AA8DAB05429A0B8",
+          "SourceString": "I can't find my ATV",
+          "LocalizedString": "I can't find my ATV"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "1C2AAD754BBE111D2876749DEF24EE09",
+          "SourceString": "Check the radar for atv location, its either lost, or gets transported due to events",
+          "LocalizedString": "Check the radar for atv location, its either lost, or gets transported due to events"
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "saveReset": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "FB15777B42A869633A0844B83F518C14",
+          "SourceString": "What does \"save reset\" mean",
+          "LocalizedString": "What does \"save reset\" mean"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "BC03E157425A1953867446AD42BA5815",
+          "SourceString": "By choosing specific data you can erase/reset problematic or bugged situations. For example - days/events reset is necessary in case of a global/major update\r\n\r\nEach entry explained:\r\nEvents and objects - resets current day, all objects on the map including player and atv. Recommended in case of a major update\r\nLevels - resets upgrades and modules\r\nPoints - resets all points\r\nPlayer stats - resets player stats such as Hunger, Stamina, Flashlight, Inventory, Position (useful in case of a major softlock), Vehicle - resets ATV location (useful in case of a softlock/if atv is lost. Note: fuel will be reset to 0)\r\n\r\n\"Day\" entry - used with \"Events and objects\" reset, basically sets the starting day to reset the save from",
+          "LocalizedString": "By choosing specific data you can erase/reset problematic or bugged situations. For example - days/events reset is necessary in case of a global/major update\r\n\r\nEach entry explained:\r\nEvents and objects - resets current day, all objects on the map including player and atv. Recommended in case of a major update\r\nLevels - resets upgrades and modules\r\nPoints - resets all points\r\nPlayer stats - resets player stats such as Hunger, Stamina, Flashlight, Inventory, Position (useful in case of a major softlock), Vehicle - resets ATV location (useful in case of a softlock/if atv is lost. Note: fuel will be reset to 0)\r\n\r\n\"Day\" entry - used with \"Events and objects\" reset, basically sets the starting day to reset the save from"
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "newSaveDay": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "22536F9E4876EC1E1C6E51A1B0B4522C",
+          "SourceString": "How to start the game from a different day",
+          "LocalizedString": "How to start the game from a different day"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "5FC24933424BDCFABC37BA9CB7EF4A37",
+          "SourceString": "2 ways how to change the day:\r\n1) In main menu > save slots menu see \"Day\" entry, set the day you want, then create a new save\r\n2) Reset \"Events and objects\" and set a day in \"Day\" field",
+          "LocalizedString": "2 ways how to change the day:\r\n1) In main menu > save slots menu see \"Day\" entry, set the day you want, then create a new save\r\n2) Reset \"Events and objects\" and set a day in \"Day\" field"
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "goals": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "677FD46948C126B1498CD48FAD7F5C4E",
+          "SourceString": "Whats the goal of the game",
+          "LocalizedString": "Whats the goal of the game"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "195350804FF5F054B21807AB3EF221C0",
+          "SourceString": "You work as a scientist in the isolated research lab in the mountains of Switzerland. Your task is to gather signals from space, analyse them, process them and sell them to get points.\r\n\r\nYou can get regular signals and objects like dwarf planets and stars, or you can get something \"unusual\" or \"strange\"\r\n\r\nThe game has 50+ days, 200+ signals, 50+ events that occur at night or at any time\r\nGood luck.",
+          "LocalizedString": "You work as a scientist in the isolated research lab in the mountains of Switzerland. Your task is to gather signals from space, analyse them, process them and sell them to get points.\r\n\r\nYou can get regular signals and objects like dwarf planets and stars, or you can get something \"unusual\" or \"strange\"\r\n\r\nThe game has 50+ days, 200+ signals, 50+ events that occur at night or at any time\r\nGood luck."
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "noTapes": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "D8E9634244F1D996ACB202BD97D4E634",
+          "SourceString": "Ran out of tapes",
+          "LocalizedString": "Ran out of tapes"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "09A387734EA11508BB68AB8D1C0210B6",
+          "SourceString": "You can order new drive tapes on the store via the laptop. Also, a single drive tape will arrive by drone shortly after midnight each day in case you run out of points",
+          "LocalizedString": "You can order new drive tapes on the store via the laptop. Also, a single drive tape will arrive by drone shortly after midnight each day in case you run out of points"
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "noBoxes": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "149C05644DF05BE7D85970AD593225E7",
+          "SourceString": "Ran out of boxes",
+          "LocalizedString": "Ran out of boxes"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "4F967E94420AA1F708D3B6A1F9A445CE",
+          "SourceString": "You can order new drive boxes on the store via the laptop",
+          "LocalizedString": "You can order new drive boxes on the store via the laptop"
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "sandboxUnlock": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "E95AC01E486E7525C5853FA7258B3306",
+          "SourceString": "How to unlock sandbox",
+          "LocalizedString": "How to unlock sandbox"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "EF94858547A9C268718F9D9CCEDC475E",
+          "SourceString": "Play the game for 30 in game days to unlock sandbox gamemode",
+          "LocalizedString": "Play the game for 30 in game days to unlock sandbox gamemode"
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "trappedInPool": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "947E0CA5402891972CB50F916321DAE9",
+          "SourceString": "I can't get out of the pool",
+          "LocalizedString": "I can't get out of the pool"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "502C008646B140A076DDB9A5B98B80DC",
+          "SourceString": "Do crouch jump to get out. Jump and crouch in mid air to perform a crouch jump",
+          "LocalizedString": "Do crouch jump to get out. Jump and crouch in mid air to perform a crouch jump"
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "cusPictures": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "B8E4BC97434E7C62275D078CA382F620",
+          "SourceString": "How to set custom pictures",
+          "LocalizedString": "How to set custom pictures"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "77F4DE0F41EA91D3B6FBBB94C95E2E18",
+          "SourceString": "Go to appdata/local/votv/assets/paintings and put a PNG in one of the folder\r\n\r\nh - horizontal\r\nv - vertical\r\ns - square\r\nt - table picture",
+          "LocalizedString": "Go to appdata/local/votv/assets/paintings and put a PNG in one of the folder\r\n\r\nh - horizontal\r\nv - vertical\r\ns - square\r\nt - table picture"
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "cusRugs": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "BA3D8BD541D24C2E93A69B8043773C20",
+          "SourceString": "How to set custom rugs",
+          "LocalizedString": "How to set custom rugs"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "5AA390FE4C23B7BBA55BF998D1AEAA33",
+          "SourceString": "Go to appdata/local/votv/assets/rugs and put a PNG in one of the folder. You need to purchase a custom rug from the store",
+          "LocalizedString": "Go to appdata/local/votv/assets/rugs and put a PNG in one of the folder. You need to purchase a custom rug from the store"
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "cusPosters": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "50C3D5B74F6CB0813F7E17A3AA904367",
+          "SourceString": "How to set custom posters",
+          "LocalizedString": "How to set custom posters"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "37F35F5549A153D27564F492B0665CD2",
+          "SourceString": "Go to appdata/local/votv/assets/posters and put a PNG in one of the folder. You need to purchase a custom poster from the store",
+          "LocalizedString": "Go to appdata/local/votv/assets/posters and put a PNG in one of the folder. You need to purchase a custom poster from the store"
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "cusModels": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "47DFAB054D0AC9635088C4B33D3D1063",
+          "SourceString": "How to upload printer models",
+          "LocalizedString": "How to upload printer models"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "7DBAFD4C491CD32231FE8786A9049AF0",
+          "SourceString": "To use the model in the printer make sure to follow these steps:\r\n\r\n[Model and texture]\r\nGo to appdata/local/votv/assets/meshes/printer (can be changed to '%localappdata%/votv/assets/meshes/printer'\r\nCreate a separated folder inside the Printer folder, name the folder after the model (for example - TestModel)\r\nCreate a model in any 3D software (note the model should not be bigger than 200x200x300 units)\r\nSave the model as .obj with the same name as the folder inside Printer folder (TestModel.obj)\r\nIf your model has textures - put a .png image in the folder and set the name as [diffuse_\"model name\"] (in our case - diffuse_TestModel.png)\r\nYou can use PBR map and Normal map, to use them - replace diffuse_ prefix with pbr_ or normal_ prefix (in our case - pbr_TestModel.png, normal_TestModel.png)\r\n\r\n[Collision]\r\nIf you don't set the collision - the game will use visual mesh as convex hull for collision, which can impact the performance.\r\nTo add a collision mesh - create a new object, in the name of the object add prefix UCX_\r\nThe UCX object should be as simple as possible, while covering the necessary geometry you need.\r\nYou can have ONLY ONE visual mesh, but you can create multiple objects with UCX_ prefixes for more complex collision.\r\n\r\n[PBR]\r\nPBR map uses 3 color channels RGB to store roughness, specular and metallic maps in one texture.\r\nIf your model has PBR maps - you should merge 3 grayscale textures into one RGB texture.\r\nRed channel - metallic\r\nGreen channel - specular\r\nBlue channel - roughness\r\n\r\n[Multi-segment mesh]\r\nYou can use multiple materials\r\ntextures in a single model.\r\nTo do that - create a few materials for your mesh and assign names for them (for example - mat1, mat2, mat3)\r\nThen go into edit mode, select the material, select faces you want to assign to that material and click the \"Assign\" button. (for Blender)\r\nRepeat for all material sections.\r\nTo apply textures for these materials you should follow the scheme: \"texture map prefix_material name\"\r\nFor example: diffuse_mat1.png, pbr_mat1.png, normal_mat1.png, diffuse_mat2.pngfd, pbr_mat2.png, diffuse_mat3.png\r\nIn this example the material mat1 will use diffuse, PBR and normal map, mat2 will use diffuse and pbr only, mat3 will use diffuse only.\r\n\r\n[Emissive]\r\nYou can use emissive_ prefix for the texture and it will use this texture and make the object glow.\r\nControl the brightness of the material inside properties.cfg\r\n\r\n[Properties.cfg]\r\nThe game will generate .cfg file automatically, in the game open the printer interface and click on the model slot to generate the .cfg file inside the model folder.\r\n.cfg file uses variables and changes the material accordingly:\r\nfilter_ - texture filter, it can be either 0 (nearest) or 1 (bilinear)\r\nphysical_material - uses numbers from 0 to 15 and changes the physical material of the object (making it wooden, glass etc)\r\nemissive_strength - strength of the emissive map\r\nis_lamp - turns the print into the lamp (lamp has a light component that emits real light)\r\nlamp_color - color of the light uses format (R=0,G=0,B=0) Uses numbers from 0 to 1\r\nlamp_offset - local offset of the light component, uses format (X=0,Y=0,Z=0)\r\nlamp_intensity - intensity of the light\r\nlamp_attenuation - max light radius\r\nlamp_shadows - cast shadows (can impact performance)\r\n\r\n[Model folder structure example]\r\nInside Appdata/local/votv/assets/meshes/printer/TestModel: (can be changed to %localappdata%/votv/assets/meshes/printer/TestModel)\r\nTestModel.obj\r\ndiffuse_TestModel.png\r\npbr_TestModel.png\r\nnormal_TestModel.png\r\nproperties.cfg\r\n\r\nor for multi section  mesh:\r\nTestModel.obj\r\ndiffuse_mat1.png\r\npbr_mat1.png\r\nnormal_mat1.png\r\ndiffuse_mat2.png\r\npbr_mat2.png\r\nnormal_mat2.png\r\ndiffuse_mat3.png\r\npbr_mat3.png\r\nnormal_mat3.png\r\nemissive_mat2.png\r\nproperties.cfg\r\n\r\nNote you can open the Assets folder for printer through ingame printer UI or through settings",
+          "LocalizedString": "To use the model in the printer make sure to follow these steps:\r\n\r\n[Model and texture]\r\nGo to appdata/local/votv/assets/meshes/printer (can be changed to '%localappdata%/votv/assets/meshes/printer'\r\nCreate a separated folder inside the Printer folder, name the folder after the model (for example - TestModel)\r\nCreate a model in any 3D software (note the model should not be bigger than 200x200x300 units)\r\nSave the model as .obj with the same name as the folder inside Printer folder (TestModel.obj)\r\nIf your model has textures - put a .png image in the folder and set the name as [diffuse_\"model name\"] (in our case - diffuse_TestModel.png)\r\nYou can use PBR map and Normal map, to use them - replace diffuse_ prefix with pbr_ or normal_ prefix (in our case - pbr_TestModel.png, normal_TestModel.png)\r\n\r\n[Collision]\r\nIf you don't set the collision - the game will use visual mesh as convex hull for collision, which can impact the performance.\r\nTo add a collision mesh - create a new object, in the name of the object add prefix UCX_\r\nThe UCX object should be as simple as possible, while covering the necessary geometry you need.\r\nYou can have ONLY ONE visual mesh, but you can create multiple objects with UCX_ prefixes for more complex collision.\r\n\r\n[PBR]\r\nPBR map uses 3 color channels RGB to store roughness, specular and metallic maps in one texture.\r\nIf your model has PBR maps - you should merge 3 grayscale textures into one RGB texture.\r\nRed channel - metallic\r\nGreen channel - specular\r\nBlue channel - roughness\r\n\r\n[Multi-segment mesh]\r\nYou can use multiple materials\r\ntextures in a single model.\r\nTo do that - create a few materials for your mesh and assign names for them (for example - mat1, mat2, mat3)\r\nThen go into edit mode, select the material, select faces you want to assign to that material and click the \"Assign\" button. (for Blender)\r\nRepeat for all material sections.\r\nTo apply textures for these materials you should follow the scheme: \"texture map prefix_material name\"\r\nFor example: diffuse_mat1.png, pbr_mat1.png, normal_mat1.png, diffuse_mat2.pngfd, pbr_mat2.png, diffuse_mat3.png\r\nIn this example the material mat1 will use diffuse, PBR and normal map, mat2 will use diffuse and pbr only, mat3 will use diffuse only.\r\n\r\n[Emissive]\r\nYou can use emissive_ prefix for the texture and it will use this texture and make the object glow.\r\nControl the brightness of the material inside properties.cfg\r\n\r\n[Properties.cfg]\r\nThe game will generate .cfg file automatically, in the game open the printer interface and click on the model slot to generate the .cfg file inside the model folder.\r\n.cfg file uses variables and changes the material accordingly:\r\nfilter_ - texture filter, it can be either 0 (nearest) or 1 (bilinear)\r\nphysical_material - uses numbers from 0 to 15 and changes the physical material of the object (making it wooden, glass etc)\r\nemissive_strength - strength of the emissive map\r\nis_lamp - turns the print into the lamp (lamp has a light component that emits real light)\r\nlamp_color - color of the light uses format (R=0,G=0,B=0) Uses numbers from 0 to 1\r\nlamp_offset - local offset of the light component, uses format (X=0,Y=0,Z=0)\r\nlamp_intensity - intensity of the light\r\nlamp_attenuation - max light radius\r\nlamp_shadows - cast shadows (can impact performance)\r\n\r\n[Model folder structure example]\r\nInside Appdata/local/votv/assets/meshes/printer/TestModel: (can be changed to %localappdata%/votv/assets/meshes/printer/TestModel)\r\nTestModel.obj\r\ndiffuse_TestModel.png\r\npbr_TestModel.png\r\nnormal_TestModel.png\r\nproperties.cfg\r\n\r\nor for multi section  mesh:\r\nTestModel.obj\r\ndiffuse_mat1.png\r\npbr_mat1.png\r\nnormal_mat1.png\r\ndiffuse_mat2.png\r\npbr_mat2.png\r\nnormal_mat2.png\r\ndiffuse_mat3.png\r\npbr_mat3.png\r\nnormal_mat3.png\r\nemissive_mat2.png\r\nproperties.cfg\r\n\r\nNote you can open the Assets folder for printer through ingame printer UI or through settings"
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "cusStickers": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "F94BF4AA494FC89BE2614B8B59AABCD5",
+          "SourceString": "How to set custom stickers",
+          "LocalizedString": "How to set custom stickers"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "0BE4817D4DB9C96C1D45D1A312AB44D7",
+          "SourceString": "Go to appdata/local/votv/assets/stickers and put a PNG in one of the folder. You need to purchase a sticker pack from the store",
+          "LocalizedString": "Go to appdata/local/votv/assets/stickers and put a PNG in one of the folder. You need to purchase a sticker pack from the store"
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "cusRadio": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "133EB0DB490E7B0F3C19EE811FC4B3C3",
+          "SourceString": "How to use radio",
+          "LocalizedString": "How to use radio"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "0B793662410971FBD869C79FA3336250",
+          "SourceString": "Go to appdata/local/votv/assets/radio, you can put MP3 files for offline usage, or you can use \"online.txt\"\r\nTo put an online link in a radio - in the first line type the name that will be used in game, then put the link in the next line. You can add more links, radio links, direct file links, except links that require API (for example YouTube video links)",
+          "LocalizedString": "Go to appdata/local/votv/assets/radio, you can put MP3 files for offline usage, or you can use \"online.txt\"\r\nTo put an online link in a radio - in the first line type the name that will be used in game, then put the link in the next line. You can add more links, radio links, direct file links, except links that require API (for example YouTube video links)"
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "cusTv": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "9118DC75475FBB6AC48708A2D5437854",
+          "SourceString": "How to use tv",
+          "LocalizedString": "How to use tv"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "CAF6887F42F752E3C507C886294D222C",
+          "SourceString": "Go to appdata/local/votv/assets/tv, you can put MP4 files for offline usage, or you can use \"online.txt\"\r\nTo put an online link in a tv - in the first line type the name that will be used in game, then put the link in the next line. You can add more links, direct file links, except links that require API (for example YouTube video links)",
+          "LocalizedString": "Go to appdata/local/votv/assets/tv, you can put MP4 files for offline usage, or you can use \"online.txt\"\r\nTo put an online link in a tv - in the first line type the name that will be used in game, then put the link in the next line. You can add more links, direct file links, except links that require API (for example YouTube video links)"
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "customRes": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "E4396930435D0A9C8D8971B0CCD7EBDF",
+          "SourceString": "How to add custom resolution",
+          "LocalizedString": "How to add custom resolution"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "9D38861549EEFC819DD7348C8F785C17",
+          "SourceString": "To add a custom resolution - go to appdata/local/votv/assets/res.txt and add your resolution to the list\r\n\r\nFor example:\r\n200x200\r\n256x128\r\n1920x1080\r\n\r\nWarning: dont set screen resolution too low, it will break the UI. To fix broken resolution - press F11 to quit the fullscreen, then change the resolution to normal one",
+          "LocalizedString": "To add a custom resolution - go to appdata/local/votv/assets/res.txt and add your resolution to the list\r\n\r\nFor example:\r\n200x200\r\n256x128\r\n1920x1080\r\n\r\nWarning: dont set screen resolution too low, it will break the UI. To fix broken resolution - press F11 to quit the fullscreen, then change the resolution to normal one"
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "sellDrives": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "52F9908345FF9D3675C72498296DFFD7",
+          "SourceString": "How to sell drives",
+          "LocalizedString": "How to sell drives"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "89BF382C450B34F9C921B4A75F13C360",
+          "SourceString": "To sell the drives you need to get a Drive Box (cardboard looking small orange box) and drives you want to sell (keep in mind the drives should contain some data at least; glows green)\r\n1) Open the box\r\n2) Hold the drive in your hand, press LMB and put the drive in the box\r\n3) Hold the paper with reports, press LMB to put it on top\r\n4) Hold the drive box lid, press LMB and close the box\r\n5) Grab the box and put it outside of the garage on the cargo spot\r\n6) Open drone control panel and use it.\r\nWait for the drone to pick up the box and wait for it to get back, you will get points for each drive.\r\nKeep in mind you can't set few instances of the same drive, the game will count them as one (Look at drive ID, same IDs can't be sold multiple times)",
+          "LocalizedString": "To sell the drives you need to get a Drive Box (cardboard looking small orange box) and drives you want to sell (keep in mind the drives should contain some data at least; glows green)\r\n1) Open the box\r\n2) Hold the drive in your hand, press LMB and put the drive in the box\r\n3) Hold the paper with reports, press LMB to put it on top\r\n4) Hold the drive box lid, press LMB and close the box\r\n5) Grab the box and put it outside of the garage on the cargo spot\r\n6) Open drone control panel and use it.\r\nWait for the drone to pick up the box and wait for it to get back, you will get points for each drive.\r\nKeep in mind you can't set few instances of the same drive, the game will count them as one (Look at drive ID, same IDs can't be sold multiple times)"
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "noassets": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "026F8D164B870C3F777EF58F13C81981",
+          "SourceString": "Can't open Assets folder",
+          "LocalizedString": "Can't open Assets folder"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "2335C7F441BF773D296DE78D56E0BDBF",
+          "SourceString": "Try to run the game \"as an administrator\". RMB on the exe file and click on \"run as an administrator\". Then try to click the \"Assets folder\" button again",
+          "LocalizedString": "Try to run the game \"as an administrator\". RMB on the exe file and click on \"run as an administrator\". Then try to click the \"Assets folder\" button again"
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "batterycharge": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "E1B5AFAA4136B8289EEB39B3446E32B0",
+          "SourceString": "How to charge the flashlight batteries",
+          "LocalizedString": "How to charge the flashlight batteries"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "6ED3AA4246AF874F2B28D89A43F3F49D",
+          "SourceString": "To change the flashlight battery, use the button item, it will be automatically replaced.\r\n\r\nTo manually change the battery (in case if you use rechargable battery and you need to recharge it): open your inventory and click \"Discharge FL\" - it will empty your flashlight battery. Then use any battery to insert it into the flashlight.",
+          "LocalizedString": "To change the flashlight battery, use the button item, it will be automatically replaced.\r\n\r\nTo manually change the battery (in case if you use rechargable battery and you need to recharge it): open your inventory and click \"Discharge FL\" - it will empty your flashlight battery. Then use any battery to insert it into the flashlight."
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "climb": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "5EBDF4984D559A18150F61B0CE1633E0",
+          "SourceString": "How to climb/ledge over",
+          "LocalizedString": "How to climb/ledge over"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "1CB80934428968CC77300DBCE0242C99",
+          "SourceString": "Find a ledge you want to climb on, and press Spacebar (jump key) two times",
+          "LocalizedString": "Find a ledge you want to climb on, and press Spacebar (jump key) two times"
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "noradio": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "C5768242482CFCD211824EAB14F6926D",
+          "SourceString": "Can't use shop/can't use drone",
+          "LocalizedString": "Can't use shop/can't use drone"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "E4B70F31444EE300DBEE2D99307E17B4",
+          "SourceString": "If you can't use the shop or can't call the drone - your radio tower is down. To fix the tower - climb on top of it and use the breakers panel.",
+          "LocalizedString": "If you can't use the shop or can't call the drone - your radio tower is down. To fix the tower - climb on top of it and use the breakers panel."
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "pushpull": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "ADFC9FC04A6DFD2EF55617ADA008C54A",
+          "SourceString": "How to push/pull heavy objects",
+          "LocalizedString": "How to push/pull heavy objects"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "8D1D2CE14F890D23FCC2E98D7F1BD2C0",
+          "SourceString": "Hold Shift and use Drag action.",
+          "LocalizedString": "Hold Shift and use Drag action."
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "plugsstuck": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "576DE6CF4D59181A92D441B927675919",
+          "SourceString": "Plug stuck/can't reach the plug",
+          "LocalizedString": "Plug stuck/can't reach the plug"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "238203FB4A102DBD4212F98E0E54D181",
+          "SourceString": "Use the base of the cord to retrieve the plug",
+          "LocalizedString": "Use the base of the cord to retrieve the plug"
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "roachlag": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "2E0C36254546EF114B3A738B17E7E910",
+          "SourceString": "I have too many roaches/roaches make the game lag",
+          "LocalizedString": "I have too many roaches/roaches make the game lag"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "81C931EE4AADBB22ADB9B49244923B8E",
+          "SourceString": "Go to Settings > Game > Max Roaches and set it to 1 (it will remove roaches), click apply, and then set the roach amount back to 128 if you want to.",
+          "LocalizedString": "Go to Settings > Game > Max Roaches and set it to 1 (it will remove roaches), click apply, and then set the roach amount back to 128 if you want to."
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "opencontainer": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "1D136C1547F7AAA1DEE443BBF06F974A",
+          "SourceString": "Open container",
+          "LocalizedString": "Open container"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "9C77DF334AB42EBF7B40799B19704D3E",
+          "SourceString": "Open containers are objects that can store small items inside themselves physically. Put a small item like a battery or a burger inside the Open Container, and once it stops moving - it will \"glue\" to the container. With this you can carry small objects inside crates and bowls without them tossing all over the place.\r\n\r\nNote - picking up open containers with items inside doesn't work right now.",
+          "LocalizedString": "Open containers are objects that can store small items inside themselves physically. Put a small item like a battery or a burger inside the Open Container, and once it stops moving - it will \"glue\" to the container. With this you can carry small objects inside crates and bowls without them tossing all over the place.\r\n\r\nNote - picking up open containers with items inside doesn't work right now."
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "pipes": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "54259A3E4F64853849FDAEB45989C672",
+          "SourceString": "Basement is flooding/pipes are leaking",
+          "LocalizedString": "Basement is flooding/pipes are leaking"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "270CCEF843E13FD81845F79BAD0890E7",
+          "SourceString": "Get a toolbox in your hand, then press LMB on a pipe with a toolbox to fix it",
+          "LocalizedString": "Get a toolbox in your hand, then press LMB on a pipe with a toolbox to fix it"
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "wallbuilder": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "F6FF8EEA4ECA10A64C2A9EBECE501A3E",
+          "SourceString": "How to build walls",
+          "LocalizedString": "How to build walls"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "BA83CA1C4B1EBB33115F88800CC9D481",
+          "SourceString": "How to use:\r\nHold LMB - start placing a wall\r\nRelease LMB - finish placing\r\nRMB while holding LMB - cancel\r\nShift+LMB - delete wall\r\nShift while holding LMB - keep pivot relative",
+          "LocalizedString": "How to use:\r\nHold LMB - start placing a wall\r\nRelease LMB - finish placing\r\nRMB while holding LMB - cancel\r\nShift+LMB - delete wall\r\nShift while holding LMB - keep pivot relative"
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "mailbox": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "07D1F44A4D86844A270B5694F03C0AC6",
+          "SourceString": "How to use mailbox",
+          "LocalizedString": "How to use mailbox"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "5585B6084479BD99650ECC81C7A4A409",
+          "SourceString": "Mailbox allows items to be transfered across saves of matching type (Sandbox can only transfer to other sandbox saves ect)\r\nUse mailbox in case if you want to transfer items between save files",
+          "LocalizedString": "Mailbox allows items to be transfered across saves of matching type (Sandbox can only transfer to other sandbox saves ect)\r\nUse mailbox in case if you want to transfer items between save files"
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "cooking": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "1ED00CE2421F54504146ECA812F520D8",
+          "SourceString": "How to cook/grill food",
+          "LocalizedString": "How to cook/grill food"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "9F37F3524B00101ED549408F39B0555B",
+          "SourceString": "You can cook food using a couple of ways - using fire, temperature, or cooking objects.\r\nUsing fire  you have a chance to burn down the food, which turns it into an inedible piece of charcoal. Using high temperature like the microwave has a chance to set the food on fire, which will burn down if not cooled down or extinguished. Using cooking objects such as Hot Plate or BBQ grill cooks items more carefully, they hold foods temperature around the set point which doesn't set the food on fire, however, if the food is cooked - it can burn down, keep an eye on the food you cook.\r\n\r\nYou can find recipes in a Cooking Book, the book is on the second floor above the kitchen counter, or you can buy it from the store.",
+          "LocalizedString": "You can cook food using a couple of ways - using fire, temperature, or cooking objects.\r\nUsing fire  you have a chance to burn down the food, which turns it into an inedible piece of charcoal. Using high temperature like the microwave has a chance to set the food on fire, which will burn down if not cooled down or extinguished. Using cooking objects such as Hot Plate or BBQ grill cooks items more carefully, they hold foods temperature around the set point which doesn't set the food on fire, however, if the food is cooked - it can burn down, keep an eye on the food you cook.\r\n\r\nYou can find recipes in a Cooking Book, the book is on the second floor above the kitchen counter, or you can buy it from the store."
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "cremator": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "A812293641F9C60C6E840ABAACDA4E05",
+          "SourceString": "How to use cremator",
+          "LocalizedString": "How to use cremator"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "77E2B08546B20D0DA4F6AAB2D7392139",
+          "SourceString": "Cremator burns down objects and turns them into fuel. To use the cremator - throw items inside the cremator, close the door and use the lever next to the door, then wait for objects to burn down. To gather fuel - put a gas can inside the gas can slot from the right side of the cremator, then turn on the red valve next to the gas can. When its done filling up the gas can - turn off the valve or it will spill the gas.",
+          "LocalizedString": "Cremator burns down objects and turns them into fuel. To use the cremator - throw items inside the cremator, close the door and use the lever next to the door, then wait for objects to burn down. To gather fuel - put a gas can inside the gas can slot from the right side of the cremator, then turn on the red valve next to the gas can. When its done filling up the gas can - turn off the valve or it will spill the gas."
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "target": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "0F3C1572419C045E627259833CD9FF8F",
+          "SourceString": "How to target/follow objects",
+          "LocalizedString": "How to target/follow objects"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "FA2A9F704A50427A1F7EF7AC4E36C5BB",
+          "SourceString": "You can use commands such as \"sv.target 'Satellite Name' \" to point the compass arrow towards the satellite you need. You can also use \"sv.target vehicle\" to point the compass arrow towards the ATV. Or you can use \"sv.target home/root/seat/alpha\" to point compass arrow towards the base.",
+          "LocalizedString": "You can use commands such as \"sv.target 'Satellite Name' \" to point the compass arrow towards the satellite you need. You can also use \"sv.target vehicle\" to point the compass arrow towards the ATV. Or you can use \"sv.target home/root/seat/alpha\" to point compass arrow towards the base."
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "health": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "4D0386054536FC08010AA3A80DAA15FE",
+          "SourceString": "Why my screen is dark/player health",
+          "LocalizedString": "Why my screen is dark/player health"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "12B0D0524E9D57265E32E28A8C480C0E",
+          "SourceString": "Dark edges of the screen indicates player health, the darker the sides are - the less health you have. Health regenerates very slowly over time, but you can use objects such as Medkit, pill boxes, and healthy food to restore health.",
+          "LocalizedString": "Dark edges of the screen indicates player health, the darker the sides are - the less health you have. Health regenerates very slowly over time, but you can use objects such as Medkit, pill boxes, and healthy food to restore health."
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "craft": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "189BD3A24B0F8DC582AAA2998CAF0F44",
+          "SourceString": "How to craft",
+          "LocalizedString": "How to craft"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "45C475084F09C5E9BF76C7B8B2BCBB83",
+          "SourceString": "To craft an item you should use the Workbench. Put items from the recipe on top of the workbench, then look at the workbench shelf, use Mouse Wheel to select the craft result, then press E to craft the item.\r\n\r\nYou can also use Blueprint objects to craft items you can't normally craft, to use blueprint - put it on top of the workbench along with the other items (\"No Blueprints\" text will show the blueprints name), then craft the item.",
+          "LocalizedString": "To craft an item you should use the Workbench. Put items from the recipe on top of the workbench, then look at the workbench shelf, use Mouse Wheel to select the craft result, then press E to craft the item.\r\n\r\nYou can also use Blueprint objects to craft items you can't normally craft, to use blueprint - put it on top of the workbench along with the other items (\"No Blueprints\" text will show the blueprints name), then craft the item."
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "lightsFlicker": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "EC69EA86444F62D560085F9D4CB8DC56",
+          "SourceString": "Why base lights flicker",
+          "LocalizedString": "Why base lights flicker"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "C89BF16241647E47109569AFB34AB3DA",
+          "SourceString": "Flickering lights is an indicator of transformers power. Lights can flicker sometimes by themselves, but frequent flickering shows that you need to check the transformers from the console and restart them.",
+          "LocalizedString": "Flickering lights is an indicator of transformers power. Lights can flicker sometimes by themselves, but frequent flickering shows that you need to check the transformers from the console and restart them."
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "sellProps": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "4DAFFA5C42D58C0666A4E99EF224E232",
+          "SourceString": "How to sell items",
+          "LocalizedString": "How to sell items"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "A3B44FDC40C813400514AAACE3BC2B1C",
+          "SourceString": "To sell items you need to buy an Item Box from the store. Put items you want to sell inside the box, put it on the drone spot, then call the drone. Drone will pick up the item box like it picks up the drive box, then you will receive points for each item you put in the box.",
+          "LocalizedString": "To sell items you need to buy an Item Box from the store. Put items you want to sell inside the box, put it on the drone spot, then call the drone. Drone will pick up the item box like it picks up the drive box, then you will receive points for each item you put in the box."
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "cleaning": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "87D11BAD4BD35CD00E2A1F890C0B74E5",
+          "SourceString": "How to clean the base",
+          "LocalizedString": "How to clean the base"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "936949A745226EBF5F237B8590B3F711",
+          "SourceString": "To clean the base more efficiently - use trash bag rolls to collect trash piles, use WET sponge or WET mop to clean up the wall spots and the front window. To make sponge or mop wet - hold the sponge, then CLICK LMB on the body of water or a bucket of water, then HOLD LMB to clean up wall stains, windows, or bathroom objects.",
+          "LocalizedString": "To clean the base more efficiently - use trash bag rolls to collect trash piles, use WET sponge or WET mop to clean up the wall spots and the front window. To make sponge or mop wet - hold the sponge, then CLICK LMB on the body of water or a bucket of water, then HOLD LMB to clean up wall stains, windows, or bathroom objects."
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "cancer": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "C1DAB7C1457042188C5084928746E869",
+          "SourceString": "Can't restore health/coughing/black borders",
+          "LocalizedString": "Can't restore health/coughing/black borders"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "CC4F1F9B459ED816B708248CA69AD396",
+          "SourceString": "You got low max health\r\nTo restore max health - use heavy meds from the store",
+          "LocalizedString": "You got low max health\r\nTo restore max health - use heavy meds from the store"
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": true
+      },
+      "radiation": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "E0222693412144F9110FEC83DF8A95CB",
+          "SourceString": "Radiation",
+          "LocalizedString": "Radiation"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "A996FABA4A5E91AB74FC5BA01517BC22",
+          "SourceString": "Radiation damages the player over time and also damages max health, which can be quite dangerous. To fight radiation - equip the hazmat suit. To cure max health use heavy meds from the store",
+          "LocalizedString": "Radiation damages the player over time and also damages max health, which can be quite dangerous. To fight radiation - equip the hazmat suit. To cure max health use heavy meds from the store"
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "kerfurstuck": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "C492631B458032E13F2CE49180616182",
+          "SourceString": "Kerfur is stuck",
+          "LocalizedString": "Kerfur is stuck"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "DB090059494C9E4A1A8DEC86ACA5738C",
+          "SourceString": "You can take control of the Kerfur or Kerfur-O by clicking on the green button in the camera interface on the computer",
+          "LocalizedString": "You can take control of the Kerfur or Kerfur-O by clicking on the green button in the camera interface on the computer"
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "lasersinsky": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "98CA3BDD4500EA2EA9CF1FB5D96D2705",
+          "SourceString": "Pink lasers/beams in the sky",
+          "LocalizedString": "Pink lasers/beams in the sky"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "6A6A14E6425D7F6DF0F72CA13FCEDA71",
+          "SourceString": "Go outside and visit the Hole area where the beams at",
+          "LocalizedString": "Go outside and visit the Hole area where the beams at"
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": true
+      },
+      "zombdeer": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "82D675934D1F3784AD27808AD4A9C01C",
+          "SourceString": "How to get rid of a zombie deer",
+          "LocalizedString": "How to get rid of a zombie deer"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "DCAEFD2E4F004130854F7DB089BAB406",
+          "SourceString": "Go outside and get rid of the corpse",
+          "LocalizedString": "Go outside and get rid of the corpse"
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": true
+      },
+      "krampus": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "2D0629AE4DBEFACA68DC4CB8EBF1C2DA",
+          "SourceString": "How to get rid of Krampus/The Brew",
+          "LocalizedString": "How to get rid of Krampus/The Brew"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "446A60994ABE6F5BB8B8038C4283B9D2",
+          "SourceString": "There are 2 ways too get rid of Krampus:\r\n1) Make The Brew.\r\nGet sugar, bread, a bucket of water, then put sugar and bread in the water bucket, then wait 5 real time minutes. When the water turns brown - get a clean jar, then use it on a bucket of the brown liquid to collect the alcohol. Then - leave the jar of alcohol outside, Krampus will see it, walks up to it, takes it and despawns.\r\n2) Create a Corvus Amulet.\r\nGather 5 feathers, 3 sticks, and craft the amulet. Hang it somewhere, and Krampus will disappear once if it gets close enough to it.\r\n\r\nTo get feathers – craft birds nest using 1 hay bundle, and put it outside on the balcony or on the roof.\r\n\r\nTo prevent Krampus from spawning you should fall asleep before midnight.",
+          "LocalizedString": "There are 2 ways too get rid of Krampus:\r\n1) Make The Brew.\r\nGet sugar, bread, a bucket of water, then put sugar and bread in the water bucket, then wait 5 real time minutes. When the water turns brown - get a clean jar, then use it on a bucket of the brown liquid to collect the alcohol. Then - leave the jar of alcohol outside, Krampus will see it, walks up to it, takes it and despawns.\r\n2) Create a Corvus Amulet.\r\nGather 5 feathers, 3 sticks, and craft the amulet. Hang it somewhere, and Krampus will disappear once if it gets close enough to it.\r\n\r\nTo get feathers – craft birds nest using 1 hay bundle, and put it outside on the balcony or on the roof.\r\n\r\nTo prevent Krampus from spawning you should fall asleep before midnight."
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": true
+      },
+      "nisse": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "075813A54E241A89EC4CF090571F4F05",
+          "SourceString": "How to deal with tomtenisse/gnomes",
+          "LocalizedString": "How to deal with tomtenisse/gnomes"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "8EAFF2444F0C530F787C46BAEFD886B2",
+          "SourceString": "The Nisse bring you gifts every night, if you fall asleep before midnight. You can try to catch a glimpse of them during their active hours. But if you disturb them - they will scatter around, knocking down stuff and doing mischief. But if you provoked them - they will start taking their revenge, and you must suffer for the harm you've done to them.",
+          "LocalizedString": "The Nisse bring you gifts every night, if you fall asleep before midnight. You can try to catch a glimpse of them during their active hours. But if you disturb them - they will scatter around, knocking down stuff and doing mischief. But if you provoked them - they will start taking their revenge, and you must suffer for the harm you've done to them."
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": true
+      },
+      "safe": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "FE747A044FF97F41340543919B658324",
+          "SourceString": "How to open the safe",
+          "LocalizedString": "How to open the safe"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "34E91CE84876D4A36962A3A775D5AF88",
+          "SourceString": "To open the safe you must pick the key combination, use mouse scrolling wheel to pick the lock. Start with the Scroll Down, keep scrolling until you hear the distinct tick, then scroll the wheel in the opposite direction until you reach the distinct click again, change the direction and so on until you open the safe.\r\n\r\n\r\nOr just destroy the safe",
+          "LocalizedString": "To open the safe you must pick the key combination, use mouse scrolling wheel to pick the lock. Start with the Scroll Down, keep scrolling until you hear the distinct tick, then scroll the wheel in the opposite direction until you reach the distinct click again, change the direction and so on until you open the safe.\r\n\r\n\r\nOr just destroy the safe"
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": true
+      },
+      "sugar": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "FB776D63494F8740003DEFB9D35836AB",
+          "SourceString": "How to make sugar",
+          "LocalizedString": "How to make sugar"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "E969E3DF4830FAB92011BD80A83C30D0",
+          "SourceString": "Combine 4 sugar canes on the workbench. To find sugar cane - explore the sandy area around the lake and a small gravel island, you might find shoots of sugar cane growing out of the sand or gravel",
+          "LocalizedString": "Combine 4 sugar canes on the workbench. To find sugar cane - explore the sandy area around the lake and a small gravel island, you might find shoots of sugar cane growing out of the sand or gravel"
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "eggs": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "A44275104A981E7A14C4289BFBEC76B2",
+          "SourceString": "How to get eggs",
+          "LocalizedString": "How to get eggs"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "F8118B4440948AABCAB3569DABAC57CE",
+          "SourceString": "To get the eggs you need to make a nest, craft a bundle of hay on a workbench, then leave it outside",
+          "LocalizedString": "To get the eggs you need to make a nest, craft a bundle of hay on a workbench, then leave it outside"
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "caves": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "5B6D5B434FA0FAA0673D52A002D26945",
+          "SourceString": "Cave guide",
+          "LocalizedString": "Cave guide"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "B1528940494A3DB0B17277AEDD5792F4",
+          "SourceString": "Once you enter the cave system -  the game will autosave, and it will autosave when you exit the cave, saving the player's inventory. To survive in the cave you need to prepare a bunch of tools such as - a pickaxe, a hook, a hiking boots, a source of light, food, batteries, a backpack.\r\n\r\nCaves regenerate every time the player enters the cave, generating a new different cave, you cannot save or pause inside the cave, so, to exit the cave you have 2 ways: track back, or fall asleep",
+          "LocalizedString": "Once you enter the cave system -  the game will autosave, and it will autosave when you exit the cave, saving the player's inventory. To survive in the cave you need to prepare a bunch of tools such as - a pickaxe, a hook, a hiking boots, a source of light, food, batteries, a backpack.\r\n\r\nCaves regenerate every time the player enters the cave, generating a new different cave, you cannot save or pause inside the cave, so, to exit the cave you have 2 ways: track back, or fall asleep"
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": true
+      },
+      "breakers": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "1181CAE5417209ED27E01F9CC02FD058",
+          "SourceString": "Breakers/power box",
+          "LocalizedString": "Breakers/power box"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "A9283ADD4916134BF3342CBC22353DFF",
+          "SourceString": "A power box allows you to disable the components of the base, speeding up the active components.",
+          "LocalizedString": "A power box allows you to disable the components of the base, speeding up the active components."
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "fireext": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "86F35FFA408EAA42F2C6E3B1F2CA5CD2",
+          "SourceString": "Fire extinguishers",
+          "LocalizedString": "Fire extinguishers"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "20B0CC6340918497CFFC17B04B816104",
+          "SourceString": "Fire extinguishers extinguish  burning objects. If the extinguisher is damaged - it will start flying around wasting foam. Fire extinguishers have a limited supply of foam",
+          "LocalizedString": "Fire extinguishers extinguish  burning objects. If the extinguisher is damaged - it will start flying around wasting foam. Fire extinguishers have a limited supply of foam"
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "flashlight": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "85C8A5F14E69F77D8A5C28BB55F976EC",
+          "SourceString": "Flashlight beam is small/weird",
+          "LocalizedString": "Flashlight beam is small/weird"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "04C8BE534DCA9C5FE319A294F127A256",
+          "SourceString": "You can change the shape of the flashlight beam, press ALT + F to change the shape of a beam",
+          "LocalizedString": "You can change the shape of the flashlight beam, press ALT + F to change the shape of a beam"
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "krankflashlight": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "8A00E691429CE0305B0CF49F908DE3FB",
+          "SourceString": "How to use crank flashlight",
+          "LocalizedString": "How to use crank flashlight"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "04016BB94BA0CE2C6F28E9AF4A48EB2B",
+          "SourceString": "To use the crank flashlight you need to have a Rechargeable Battery as an active battery - open the inventory and click \"Discharge FL\" button, it will take out the active battery. Then use the rechargeable battery to set it as an active battery. Then you can equip the crank flashlight and use it as a regular flashlight, and you can unequip it, hold it in the hand and press RMB repeatedly to recharge it",
+          "LocalizedString": "To use the crank flashlight you need to have a Rechargeable Battery as an active battery - open the inventory and click \"Discharge FL\" button, it will take out the active battery. Then use the rechargeable battery to set it as an active battery. Then you can equip the crank flashlight and use it as a regular flashlight, and you can unequip it, hold it in the hand and press RMB repeatedly to recharge it"
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "wolfg": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "306329C945F10AA2910EB5A83F7F791E",
+          "SourceString": "Giant centipede will not leave my base",
+          "LocalizedString": "Giant centipede will not leave my base"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "41724E1B4B450C74E6E788A32E8AB22F",
+          "SourceString": "You can make it leave by making it follow the food, hold the food in front of you and try to make it leave. Or if you are having issues - you can despawn it by using an emergency console command \"debug del.wg\" in the console panel in the base's server room.\r\n\r\n[ATTENTION: DO NOT ABUSE THE DEBUG COMMANDS, OTHERWISE IT MIGHT BREAK YOUR SAVE!]",
+          "LocalizedString": "You can make it leave by making it follow the food, hold the food in front of you and try to make it leave. Or if you are having issues - you can despawn it by using an emergency console command \"debug del.wg\" in the console panel in the base's server room.\r\n\r\n[ATTENTION: DO NOT ABUSE THE DEBUG COMMANDS, OTHERWISE IT MIGHT BREAK YOUR SAVE!]"
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": true
+      },
+      "cantpause": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "4721606947028E4138D67D9B22E3C8FA",
+          "SourceString": "Cannot pause/cannot save",
+          "LocalizedString": "Cannot pause/cannot save"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "DB999B5849264D71B0BDE5B6A8BE6624",
+          "SourceString": "If you can't pause or save for a VERY long periods of time - walk around the base, around the table, in front of the computer, in the garage, trying to trigger any events that are active. Try going outside and look for unusual objects or markers in the distance, if you see something suspicious - you should check it out.\r\n\r\nIf you can't find the source of the active event and still can't pause - go to the console panel in the server room and type \"debug events\" to see what is the issue exactly, and report it to the bug reports.\r\n\r\nOr if things are really bad - you can wipe all the active events using \"debug scrape\" command\r\n\r\n[ATTENTION: DO NOT ABUSE THE DEBUG COMMANDS, OTHERWISE IT MIGHT BREAK YOUR SAVE! USE AT YOUR OWN RISK!!!]",
+          "LocalizedString": "If you can't pause or save for a VERY long periods of time - walk around the base, around the table, in front of the computer, in the garage, trying to trigger any events that are active. Try going outside and look for unusual objects or markers in the distance, if you see something suspicious - you should check it out.\r\n\r\nIf you can't find the source of the active event and still can't pause - go to the console panel in the server room and type \"debug events\" to see what is the issue exactly, and report it to the bug reports.\r\n\r\nOr if things are really bad - you can wipe all the active events using \"debug scrape\" command\r\n\r\n[ATTENTION: DO NOT ABUSE THE DEBUG COMMANDS, OTHERWISE IT MIGHT BREAK YOUR SAVE! USE AT YOUR OWN RISK!!!]"
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "oven": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "3FE014204B8DB0C360FBBBABA9E0D63C",
+          "SourceString": "How to fix the oven",
+          "LocalizedString": "How to fix the oven"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "CEB86A6C4C27AD0F1D5FD8AE0F5BAC10",
+          "SourceString": "use tools or empty hand\r\n\r\n3 steps in total\r\n\r\ngood luck",
+          "LocalizedString": "use tools or empty hand\r\n\r\n3 steps in total\r\n\r\ngood luck"
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "snowmen": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "238FCA8C4FC05E53650CBF9003A0201D",
+          "SourceString": "How to build a snowman",
+          "LocalizedString": "How to build a snowman"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "709240EF4598160DB8E849A9A325E4A9",
+          "SourceString": "To build a snowman you need to get 8 snowballs - to get snowballs RMB on the snow surfaces. Then put 8 snowballs on the workbench and craft a big snowball. You can roll it around in the snow to make it bigger, and then press Use to make a snowman base. Then you need to roll more snowballs and push it into the snowman base, then take some sticks and rocks and other stuff and build a complete snowman\r\n\r\nHint: to complete the snowman you need 6 items in total",
+          "LocalizedString": "To build a snowman you need to get 8 snowballs - to get snowballs RMB on the snow surfaces. Then put 8 snowballs on the workbench and craft a big snowball. You can roll it around in the snow to make it bigger, and then press Use to make a snowman base. Then you need to roll more snowballs and push it into the snowman base, then take some sticks and rocks and other stuff and build a complete snowman\r\n\r\nHint: to complete the snowman you need 6 items in total"
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "beehive": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "61CD3086488D4C201DE7FC881BE514CE",
+          "SourceString": "How to make beehive/honey",
+          "LocalizedString": "How to make beehive/honey"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "40390C7743C1A639F180AF9FCF20030F",
+          "SourceString": "To make a beehive, first - buy a beehive blueprint, buy resources, then craft a beehive. Then - you need to find a wild beehive, they spawn on trees pretty far from the ground, so you will need a hook. but be careful - you can't put it in the inventory, hitting the beehive will cause bees to spawn and deal damage.\r\nOnce you get the beehive and didn't destroy it in the process - go to your beehive box, put wild beehive in the box. Now you have a beehive, using beehive you can increase the growth of plants and fruits, and make honey.\r\n\r\nBeehives produce honey the more they polinate plants, over time the beehive will become filled with honey, you can gather the honey using an Empty Jar.\r\nTo get an empty jar you can clean the dirty jar in the water (toss the dirty jar in the water)",
+          "LocalizedString": "To make a beehive, first - buy a beehive blueprint, buy resources, then craft a beehive. Then - you need to find a wild beehive, they spawn on trees pretty far from the ground, so you will need a hook. but be careful - you can't put it in the inventory, hitting the beehive will cause bees to spawn and deal damage.\r\nOnce you get the beehive and didn't destroy it in the process - go to your beehive box, put wild beehive in the box. Now you have a beehive, using beehive you can increase the growth of plants and fruits, and make honey.\r\n\r\nBeehives produce honey the more they polinate plants, over time the beehive will become filled with honey, you can gather the honey using an Empty Jar.\r\nTo get an empty jar you can clean the dirty jar in the water (toss the dirty jar in the water)"
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      },
+      "videocamera": {
+        "name_2_50E0B5FF49B11852CC54278F6F7E8017": {
+          "Namespace": "",
+          "Key": "7E4AF6B34B6668A87BA91590F19FBBFC",
+          "SourceString": "Video camera",
+          "LocalizedString": "Video camera"
+        },
+        "description_4_C25F0DBC4A902D71BC78A889861CE2E9": {
+          "Namespace": "",
+          "Key": "7F988E314190E6855DE60FA1D7E57C7E",
+          "SourceString": "Records video and exports it directly to the disk automatically. Videos can be viewed at the main desk PC under the \"media\" tab. The filesize and process speed depends on the video/camera quality.\r\n\r\nControls:\r\nAlt + RMB - open options menu\r\nRMB while recording - hotkey for pause / resume\r\nLMB on a tripod - put camera on a tripod\r\n\r\nWhen the options menu is open:\r\nAlt - change the option\r\nRMB - select the option\r\n\r\nWhen the camera is placed on the ground\\on a tripod:\r\nAlt + E - start/stop recording\r\nTo pause/resume - select the Use option without using Alt hotkey\r\n\r\nTo change the battery:\r\nPick up the battery, then LMB with the battery on a camera.\r\n\r\nCan record up to 12 minutes, can record if the camera is in the inventory. Pauses recording if the camera was moved to a container.\r\nWARNING: GPU and CPU insensive! lag spikes can cause audio desync.\r\n\r\nNote: it is recommended to set the Master Volume slider down to 50% to avoid the most of hard audio clipping.",
+          "LocalizedString": "Records video and exports it directly to the disk automatically. Videos can be viewed at the main desk PC under the \"media\" tab. The filesize and process speed depends on the video/camera quality.\r\n\r\nControls:\r\nAlt + RMB - open options menu\r\nRMB while recording - hotkey for pause / resume\r\nLMB on a tripod - put camera on a tripod\r\n\r\nWhen the options menu is open:\r\nAlt - change the option\r\nRMB - select the option\r\n\r\nWhen the camera is placed on the ground\\on a tripod:\r\nAlt + E - start/stop recording\r\nTo pause/resume - select the Use option without using Alt hotkey\r\n\r\nTo change the battery:\r\nPick up the battery, then LMB with the battery on a camera.\r\n\r\nCan record up to 12 minutes, can record if the camera is in the inventory. Pauses recording if the camera was moved to a container.\r\nWARNING: GPU and CPU insensive! lag spikes can cause audio desync.\r\n\r\nNote: it is recommended to set the Master Volume slider down to 50% to avoid the most of hard audio clipping."
+        },
+        "spoiler_6_9E8D8413460BD0378C818087F9EB09CA": false
+      }
+    }
+  }
+]

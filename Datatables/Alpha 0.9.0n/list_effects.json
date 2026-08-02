@@ -1,0 +1,121 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "list_effects",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "VotV/Content/main/datatables/list_effects",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'struct_effect'",
+        "ObjectPath": "VotV/Content/main/structs/struct_effect.0"
+      }
+    },
+    "Rows": {
+      "vaccine": {
+        "displayName_13_5F6BEBF64DC5A33A54F629BA31AF649C": {
+          "Namespace": "",
+          "Key": "38F567654CD09C22568BB28C131B60A2",
+          "SourceString": "Ariral vaccine",
+          "LocalizedString": "Ariral vaccine"
+        },
+        "stackable_8_64267BAE468F725DE5D7698545DC9056": false,
+        "effectActor_12_1194B4C34657F69537D523856080BD90": {
+          "ObjectName": "BlueprintGeneratedClass'effect_ariralVaccine_C'",
+          "ObjectPath": "VotV/Content/objects/effect_ariralVaccine.3"
+        }
+      },
+      "lsd": {
+        "displayName_13_5F6BEBF64DC5A33A54F629BA31AF649C": {
+          "Namespace": "",
+          "Key": "C72098A840D1ED779230179DEDE845E7",
+          "SourceString": "LSD",
+          "LocalizedString": "LSD"
+        },
+        "stackable_8_64267BAE468F725DE5D7698545DC9056": false,
+        "effectActor_12_1194B4C34657F69537D523856080BD90": {
+          "ObjectName": "BlueprintGeneratedClass'effect_lsd_C'",
+          "ObjectPath": "VotV/Content/objects/effect_lsd.5"
+        }
+      },
+      "foodPoison": {
+        "displayName_13_5F6BEBF64DC5A33A54F629BA31AF649C": {
+          "Namespace": "",
+          "Key": "179D507642F69F977EED62A134BA3493",
+          "SourceString": "Food poisoning",
+          "LocalizedString": "Food poisoning"
+        },
+        "stackable_8_64267BAE468F725DE5D7698545DC9056": true,
+        "effectActor_12_1194B4C34657F69537D523856080BD90": {
+          "ObjectName": "BlueprintGeneratedClass'effect_foodPoison_C'",
+          "ObjectPath": "VotV/Content/objects/effect_foodPoison.4"
+        }
+      },
+      "nausea": {
+        "displayName_13_5F6BEBF64DC5A33A54F629BA31AF649C": {
+          "Namespace": "",
+          "Key": "2E611F434E694087888A72B82B245A9C",
+          "SourceString": "Nausea",
+          "LocalizedString": "Nausea"
+        },
+        "stackable_8_64267BAE468F725DE5D7698545DC9056": false,
+        "effectActor_12_1194B4C34657F69537D523856080BD90": {
+          "ObjectName": "BlueprintGeneratedClass'effect_nausea_C'",
+          "ObjectPath": "VotV/Content/objects/effect_nausea.4"
+        }
+      },
+      "sleepy": {
+        "displayName_13_5F6BEBF64DC5A33A54F629BA31AF649C": {
+          "Namespace": "",
+          "Key": "0D6BAE054CF2B43AF11694BBB68E2F4C",
+          "SourceString": "Sleepiness",
+          "LocalizedString": "Sleepiness"
+        },
+        "stackable_8_64267BAE468F725DE5D7698545DC9056": false,
+        "effectActor_12_1194B4C34657F69537D523856080BD90": {
+          "ObjectName": "BlueprintGeneratedClass'effect_sleepy_C'",
+          "ObjectPath": "VotV/Content/objects/effect_sleepy.2"
+        }
+      },
+      "vaccine_a": {
+        "displayName_13_5F6BEBF64DC5A33A54F629BA31AF649C": {
+          "Namespace": "",
+          "Key": "E8CDD8134C747EA2AD090586C1DE1D58",
+          "SourceString": "After-vaccine",
+          "LocalizedString": "After-vaccine"
+        },
+        "stackable_8_64267BAE468F725DE5D7698545DC9056": false,
+        "effectActor_12_1194B4C34657F69537D523856080BD90": {
+          "ObjectName": "BlueprintGeneratedClass'effect_afterVaccine_C'",
+          "ObjectPath": "VotV/Content/objects/effect_afterVaccine.0"
+        }
+      },
+      "poo": {
+        "displayName_13_5F6BEBF64DC5A33A54F629BA31AF649C": {
+          "Namespace": "",
+          "Key": "3C308FA74BA63FB473446CAFFFD21BE9",
+          "SourceString": "Poo",
+          "LocalizedString": "Poo"
+        },
+        "stackable_8_64267BAE468F725DE5D7698545DC9056": true,
+        "effectActor_12_1194B4C34657F69537D523856080BD90": {
+          "ObjectName": "BlueprintGeneratedClass'effect_poo_C'",
+          "ObjectPath": "VotV/Content/objects/effect_poo.4"
+        }
+      },
+      "bloodLoss": {
+        "displayName_13_5F6BEBF64DC5A33A54F629BA31AF649C": {
+          "Namespace": "",
+          "Key": "36BD7AA24D953401789A7683DD11AB04",
+          "SourceString": "Blood loss",
+          "LocalizedString": "Blood loss"
+        },
+        "stackable_8_64267BAE468F725DE5D7698545DC9056": false,
+        "effectActor_12_1194B4C34657F69537D523856080BD90": {
+          "ObjectName": "BlueprintGeneratedClass'effect_bloodLoss_C'",
+          "ObjectPath": "VotV/Content/objects/effect_bloodLoss.6"
+        }
+      }
+    }
+  }
+]

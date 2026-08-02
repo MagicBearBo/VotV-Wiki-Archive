@@ -1,0 +1,42 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "list_emailCharacters",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "VotV/Content/main/datatables/list_emailCharacters",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'struct_characterEmailProfile'",
+        "ObjectPath": "VotV/Content/main/structs/struct_characterEmailProfile.0"
+      }
+    },
+    "Rows": {
+      "Dr_Max": {
+        "avatar_2_C752830E42283D27CC48C0B32DEDD41A": {
+          "ObjectName": "Texture2D'tex_avaMax'",
+          "ObjectPath": "VotV/Content/textures/ui/tex_avaMax.0"
+        },
+        "enum_5_C16FFA66467350ADD8CE89B66C6DF800": "enum_emailChars::NewEnumerator3"
+      },
+      "Dr_Ken": {
+        "avatar_2_C752830E42283D27CC48C0B32DEDD41A": {
+          "ObjectName": "Texture2D'tex_avaKen'",
+          "ObjectPath": "VotV/Content/textures/ui/tex_avaKen.0"
+        },
+        "enum_5_C16FFA66467350ADD8CE89B66C6DF800": "enum_emailChars::NewEnumerator4"
+      },
+      "Dr_Ena": {
+        "avatar_2_C752830E42283D27CC48C0B32DEDD41A": {
+          "ObjectName": "Texture2D'tex_avaEna'",
+          "ObjectPath": "VotV/Content/textures/ui/tex_avaEna.0"
+        },
+        "enum_5_C16FFA66467350ADD8CE89B66C6DF800": "enum_emailChars::NewEnumerator5"
+      },
+      "user": {
+        "avatar_2_C752830E42283D27CC48C0B32DEDD41A": null,
+        "enum_5_C16FFA66467350ADD8CE89B66C6DF800": "enum_emailChars::NewEnumerator8"
+      }
+    }
+  }
+]

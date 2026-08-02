@@ -1,0 +1,1649 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "list_equipment",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "VotV/Content/main/datatables/list_equipment",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'struct_equipmentWear'",
+        "ObjectPath": "VotV/Content/main/structs/struct_equipmentWear.0"
+      }
+    },
+    "Rows": {
+      "nightGlasses": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_2_B741ADA44441078D77808785087F23AE": {
+            "name_3_8A6CE23C409B32F80BE3C2AE0D0B36F2": "None",
+            "key_13_DBE1E12D47A10F90DDE0F19C7E2FDAD5": "None"
+          },
+          "data_5_C195F69242C9AE793196B582EDDDFC9A": {
+            "class_3_5267A5ED44C89294283B8CBBEC685F8A": null,
+            "transform_8_9DFFF09E48141807687A338593998A8A": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "key_64_B7A233344901C6E374869B97AEC5A257": "None",
+            "bools_12_1EE56AD54E30A7ED1CB618AA037E80B4": [],
+            "floats_31_D6C466A44741391D1041468F43632D7F": [],
+            "ints_30_E691B1324599D17904E03BB5084DEBA0": [],
+            "strings_22_EDF921F74EB73C4C7A6A5F996A8C8A91": [],
+            "signals_45_CE5AB8DE4026B6660BF9A28FA6690AD5": [],
+            "classes_35_758B67A44C6C3C7BC8E2DB9FE951A49D": [],
+            "vectors_46_EC45327F47AD66E2F05ABFA4594BE8C6": [],
+            "rotators_65_BC52E5CF47AF76C8C7826C910980C8F5": [],
+            "transforms_61_EA7A62404681932910198193E1FCBD18": [],
+            "bytes_62_220D37744806390149E1128DDEB9F998": [],
+            "names_63_D074F50147CB91EADFFD9FB98BDF4016": []
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": true,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "backpack": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_2_B741ADA44441078D77808785087F23AE": {
+            "name_3_8A6CE23C409B32F80BE3C2AE0D0B36F2": "None",
+            "key_13_DBE1E12D47A10F90DDE0F19C7E2FDAD5": "None"
+          },
+          "data_5_C195F69242C9AE793196B582EDDDFC9A": {
+            "class_3_5267A5ED44C89294283B8CBBEC685F8A": null,
+            "transform_8_9DFFF09E48141807687A338593998A8A": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "key_64_B7A233344901C6E374869B97AEC5A257": "None",
+            "bools_12_1EE56AD54E30A7ED1CB618AA037E80B4": [],
+            "floats_31_D6C466A44741391D1041468F43632D7F": [],
+            "ints_30_E691B1324599D17904E03BB5084DEBA0": [],
+            "strings_22_EDF921F74EB73C4C7A6A5F996A8C8A91": [],
+            "signals_45_CE5AB8DE4026B6660BF9A28FA6690AD5": [],
+            "classes_35_758B67A44C6C3C7BC8E2DB9FE951A49D": [],
+            "vectors_46_EC45327F47AD66E2F05ABFA4594BE8C6": [],
+            "rotators_65_BC52E5CF47AF76C8C7826C910980C8F5": [],
+            "transforms_61_EA7A62404681932910198193E1FCBD18": [],
+            "bytes_62_220D37744806390149E1128DDEB9F998": [],
+            "names_63_D074F50147CB91EADFFD9FB98BDF4016": []
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": true,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "j_bracelet": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_2_B741ADA44441078D77808785087F23AE": {
+            "name_3_8A6CE23C409B32F80BE3C2AE0D0B36F2": "None",
+            "key_13_DBE1E12D47A10F90DDE0F19C7E2FDAD5": "None"
+          },
+          "data_5_C195F69242C9AE793196B582EDDDFC9A": {
+            "class_3_5267A5ED44C89294283B8CBBEC685F8A": null,
+            "transform_8_9DFFF09E48141807687A338593998A8A": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "key_64_B7A233344901C6E374869B97AEC5A257": "None",
+            "bools_12_1EE56AD54E30A7ED1CB618AA037E80B4": [],
+            "floats_31_D6C466A44741391D1041468F43632D7F": [],
+            "ints_30_E691B1324599D17904E03BB5084DEBA0": [],
+            "strings_22_EDF921F74EB73C4C7A6A5F996A8C8A91": [],
+            "signals_45_CE5AB8DE4026B6660BF9A28FA6690AD5": [],
+            "classes_35_758B67A44C6C3C7BC8E2DB9FE951A49D": [],
+            "vectors_46_EC45327F47AD66E2F05ABFA4594BE8C6": [],
+            "rotators_65_BC52E5CF47AF76C8C7826C910980C8F5": [],
+            "transforms_61_EA7A62404681932910198193E1FCBD18": [],
+            "bytes_62_220D37744806390149E1128DDEB9F998": [],
+            "names_63_D074F50147CB91EADFFD9FB98BDF4016": []
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": false,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "j_watches": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_2_B741ADA44441078D77808785087F23AE": {
+            "name_3_8A6CE23C409B32F80BE3C2AE0D0B36F2": "None",
+            "key_13_DBE1E12D47A10F90DDE0F19C7E2FDAD5": "None"
+          },
+          "data_5_C195F69242C9AE793196B582EDDDFC9A": {
+            "class_3_5267A5ED44C89294283B8CBBEC685F8A": null,
+            "transform_8_9DFFF09E48141807687A338593998A8A": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "key_64_B7A233344901C6E374869B97AEC5A257": "None",
+            "bools_12_1EE56AD54E30A7ED1CB618AA037E80B4": [],
+            "floats_31_D6C466A44741391D1041468F43632D7F": [],
+            "ints_30_E691B1324599D17904E03BB5084DEBA0": [],
+            "strings_22_EDF921F74EB73C4C7A6A5F996A8C8A91": [],
+            "signals_45_CE5AB8DE4026B6660BF9A28FA6690AD5": [],
+            "classes_35_758B67A44C6C3C7BC8E2DB9FE951A49D": [],
+            "vectors_46_EC45327F47AD66E2F05ABFA4594BE8C6": [],
+            "rotators_65_BC52E5CF47AF76C8C7826C910980C8F5": [],
+            "transforms_61_EA7A62404681932910198193E1FCBD18": [],
+            "bytes_62_220D37744806390149E1128DDEB9F998": [],
+            "names_63_D074F50147CB91EADFFD9FB98BDF4016": []
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": false,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "j_medallion": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_2_B741ADA44441078D77808785087F23AE": {
+            "name_3_8A6CE23C409B32F80BE3C2AE0D0B36F2": "None",
+            "key_13_DBE1E12D47A10F90DDE0F19C7E2FDAD5": "None"
+          },
+          "data_5_C195F69242C9AE793196B582EDDDFC9A": {
+            "class_3_5267A5ED44C89294283B8CBBEC685F8A": null,
+            "transform_8_9DFFF09E48141807687A338593998A8A": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "key_64_B7A233344901C6E374869B97AEC5A257": "None",
+            "bools_12_1EE56AD54E30A7ED1CB618AA037E80B4": [],
+            "floats_31_D6C466A44741391D1041468F43632D7F": [],
+            "ints_30_E691B1324599D17904E03BB5084DEBA0": [],
+            "strings_22_EDF921F74EB73C4C7A6A5F996A8C8A91": [],
+            "signals_45_CE5AB8DE4026B6660BF9A28FA6690AD5": [],
+            "classes_35_758B67A44C6C3C7BC8E2DB9FE951A49D": [],
+            "vectors_46_EC45327F47AD66E2F05ABFA4594BE8C6": [],
+            "rotators_65_BC52E5CF47AF76C8C7826C910980C8F5": [],
+            "transforms_61_EA7A62404681932910198193E1FCBD18": [],
+            "bytes_62_220D37744806390149E1128DDEB9F998": [],
+            "names_63_D074F50147CB91EADFFD9FB98BDF4016": []
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": false,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "tinhat": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_2_B741ADA44441078D77808785087F23AE": {
+            "name_3_8A6CE23C409B32F80BE3C2AE0D0B36F2": "None",
+            "key_13_DBE1E12D47A10F90DDE0F19C7E2FDAD5": "None"
+          },
+          "data_5_C195F69242C9AE793196B582EDDDFC9A": {
+            "class_3_5267A5ED44C89294283B8CBBEC685F8A": null,
+            "transform_8_9DFFF09E48141807687A338593998A8A": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "key_64_B7A233344901C6E374869B97AEC5A257": "None",
+            "bools_12_1EE56AD54E30A7ED1CB618AA037E80B4": [],
+            "floats_31_D6C466A44741391D1041468F43632D7F": [],
+            "ints_30_E691B1324599D17904E03BB5084DEBA0": [],
+            "strings_22_EDF921F74EB73C4C7A6A5F996A8C8A91": [],
+            "signals_45_CE5AB8DE4026B6660BF9A28FA6690AD5": [],
+            "classes_35_758B67A44C6C3C7BC8E2DB9FE951A49D": [],
+            "vectors_46_EC45327F47AD66E2F05ABFA4594BE8C6": [],
+            "rotators_65_BC52E5CF47AF76C8C7826C910980C8F5": [],
+            "transforms_61_EA7A62404681932910198193E1FCBD18": [],
+            "bytes_62_220D37744806390149E1128DDEB9F998": [],
+            "names_63_D074F50147CB91EADFFD9FB98BDF4016": []
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": true,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "scuba": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_2_B741ADA44441078D77808785087F23AE": {
+            "name_3_8A6CE23C409B32F80BE3C2AE0D0B36F2": "None",
+            "key_13_DBE1E12D47A10F90DDE0F19C7E2FDAD5": "None"
+          },
+          "data_5_C195F69242C9AE793196B582EDDDFC9A": {
+            "class_3_5267A5ED44C89294283B8CBBEC685F8A": null,
+            "transform_8_9DFFF09E48141807687A338593998A8A": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "key_64_B7A233344901C6E374869B97AEC5A257": "None",
+            "bools_12_1EE56AD54E30A7ED1CB618AA037E80B4": [],
+            "floats_31_D6C466A44741391D1041468F43632D7F": [],
+            "ints_30_E691B1324599D17904E03BB5084DEBA0": [],
+            "strings_22_EDF921F74EB73C4C7A6A5F996A8C8A91": [],
+            "signals_45_CE5AB8DE4026B6660BF9A28FA6690AD5": [],
+            "classes_35_758B67A44C6C3C7BC8E2DB9FE951A49D": [],
+            "vectors_46_EC45327F47AD66E2F05ABFA4594BE8C6": [],
+            "rotators_65_BC52E5CF47AF76C8C7826C910980C8F5": [],
+            "transforms_61_EA7A62404681932910198193E1FCBD18": [],
+            "bytes_62_220D37744806390149E1128DDEB9F998": [],
+            "names_63_D074F50147CB91EADFFD9FB98BDF4016": []
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": true,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "bikehelmet": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_2_B741ADA44441078D77808785087F23AE": {
+            "name_3_8A6CE23C409B32F80BE3C2AE0D0B36F2": "None",
+            "key_13_DBE1E12D47A10F90DDE0F19C7E2FDAD5": "None"
+          },
+          "data_5_C195F69242C9AE793196B582EDDDFC9A": {
+            "class_3_5267A5ED44C89294283B8CBBEC685F8A": null,
+            "transform_8_9DFFF09E48141807687A338593998A8A": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "key_64_B7A233344901C6E374869B97AEC5A257": "None",
+            "bools_12_1EE56AD54E30A7ED1CB618AA037E80B4": [],
+            "floats_31_D6C466A44741391D1041468F43632D7F": [],
+            "ints_30_E691B1324599D17904E03BB5084DEBA0": [],
+            "strings_22_EDF921F74EB73C4C7A6A5F996A8C8A91": [],
+            "signals_45_CE5AB8DE4026B6660BF9A28FA6690AD5": [],
+            "classes_35_758B67A44C6C3C7BC8E2DB9FE951A49D": [],
+            "vectors_46_EC45327F47AD66E2F05ABFA4594BE8C6": [],
+            "rotators_65_BC52E5CF47AF76C8C7826C910980C8F5": [],
+            "transforms_61_EA7A62404681932910198193E1FCBD18": [],
+            "bytes_62_220D37744806390149E1128DDEB9F998": [],
+            "names_63_D074F50147CB91EADFFD9FB98BDF4016": []
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": true,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "limbprotect": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_2_B741ADA44441078D77808785087F23AE": {
+            "name_3_8A6CE23C409B32F80BE3C2AE0D0B36F2": "None",
+            "key_13_DBE1E12D47A10F90DDE0F19C7E2FDAD5": "None"
+          },
+          "data_5_C195F69242C9AE793196B582EDDDFC9A": {
+            "class_3_5267A5ED44C89294283B8CBBEC685F8A": null,
+            "transform_8_9DFFF09E48141807687A338593998A8A": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "key_64_B7A233344901C6E374869B97AEC5A257": "None",
+            "bools_12_1EE56AD54E30A7ED1CB618AA037E80B4": [],
+            "floats_31_D6C466A44741391D1041468F43632D7F": [],
+            "ints_30_E691B1324599D17904E03BB5084DEBA0": [],
+            "strings_22_EDF921F74EB73C4C7A6A5F996A8C8A91": [],
+            "signals_45_CE5AB8DE4026B6660BF9A28FA6690AD5": [],
+            "classes_35_758B67A44C6C3C7BC8E2DB9FE951A49D": [],
+            "vectors_46_EC45327F47AD66E2F05ABFA4594BE8C6": [],
+            "rotators_65_BC52E5CF47AF76C8C7826C910980C8F5": [],
+            "transforms_61_EA7A62404681932910198193E1FCBD18": [],
+            "bytes_62_220D37744806390149E1128DDEB9F998": [],
+            "names_63_D074F50147CB91EADFFD9FB98BDF4016": []
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": true,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "bodyprotect": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_2_B741ADA44441078D77808785087F23AE": {
+            "name_3_8A6CE23C409B32F80BE3C2AE0D0B36F2": "None",
+            "key_13_DBE1E12D47A10F90DDE0F19C7E2FDAD5": "None"
+          },
+          "data_5_C195F69242C9AE793196B582EDDDFC9A": {
+            "class_3_5267A5ED44C89294283B8CBBEC685F8A": null,
+            "transform_8_9DFFF09E48141807687A338593998A8A": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "key_64_B7A233344901C6E374869B97AEC5A257": "None",
+            "bools_12_1EE56AD54E30A7ED1CB618AA037E80B4": [],
+            "floats_31_D6C466A44741391D1041468F43632D7F": [],
+            "ints_30_E691B1324599D17904E03BB5084DEBA0": [],
+            "strings_22_EDF921F74EB73C4C7A6A5F996A8C8A91": [],
+            "signals_45_CE5AB8DE4026B6660BF9A28FA6690AD5": [],
+            "classes_35_758B67A44C6C3C7BC8E2DB9FE951A49D": [],
+            "vectors_46_EC45327F47AD66E2F05ABFA4594BE8C6": [],
+            "rotators_65_BC52E5CF47AF76C8C7826C910980C8F5": [],
+            "transforms_61_EA7A62404681932910198193E1FCBD18": [],
+            "bytes_62_220D37744806390149E1128DDEB9F998": [],
+            "names_63_D074F50147CB91EADFFD9FB98BDF4016": []
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": true,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "jetpack": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_2_B741ADA44441078D77808785087F23AE": {
+            "name_3_8A6CE23C409B32F80BE3C2AE0D0B36F2": "None",
+            "key_13_DBE1E12D47A10F90DDE0F19C7E2FDAD5": "None"
+          },
+          "data_5_C195F69242C9AE793196B582EDDDFC9A": {
+            "class_3_5267A5ED44C89294283B8CBBEC685F8A": null,
+            "transform_8_9DFFF09E48141807687A338593998A8A": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "key_64_B7A233344901C6E374869B97AEC5A257": "None",
+            "bools_12_1EE56AD54E30A7ED1CB618AA037E80B4": [],
+            "floats_31_D6C466A44741391D1041468F43632D7F": [],
+            "ints_30_E691B1324599D17904E03BB5084DEBA0": [],
+            "strings_22_EDF921F74EB73C4C7A6A5F996A8C8A91": [],
+            "signals_45_CE5AB8DE4026B6660BF9A28FA6690AD5": [],
+            "classes_35_758B67A44C6C3C7BC8E2DB9FE951A49D": [],
+            "vectors_46_EC45327F47AD66E2F05ABFA4594BE8C6": [],
+            "rotators_65_BC52E5CF47AF76C8C7826C910980C8F5": [],
+            "transforms_61_EA7A62404681932910198193E1FCBD18": [],
+            "bytes_62_220D37744806390149E1128DDEB9F998": [],
+            "names_63_D074F50147CB91EADFFD9FB98BDF4016": []
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": true,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "tool_wm": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_2_B741ADA44441078D77808785087F23AE": {
+            "name_3_8A6CE23C409B32F80BE3C2AE0D0B36F2": "None",
+            "key_13_DBE1E12D47A10F90DDE0F19C7E2FDAD5": "None"
+          },
+          "data_5_C195F69242C9AE793196B582EDDDFC9A": {
+            "class_3_5267A5ED44C89294283B8CBBEC685F8A": null,
+            "transform_8_9DFFF09E48141807687A338593998A8A": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "key_64_B7A233344901C6E374869B97AEC5A257": "None",
+            "bools_12_1EE56AD54E30A7ED1CB618AA037E80B4": [],
+            "floats_31_D6C466A44741391D1041468F43632D7F": [],
+            "ints_30_E691B1324599D17904E03BB5084DEBA0": [],
+            "strings_22_EDF921F74EB73C4C7A6A5F996A8C8A91": [],
+            "signals_45_CE5AB8DE4026B6660BF9A28FA6690AD5": [],
+            "classes_35_758B67A44C6C3C7BC8E2DB9FE951A49D": [],
+            "vectors_46_EC45327F47AD66E2F05ABFA4594BE8C6": [],
+            "rotators_65_BC52E5CF47AF76C8C7826C910980C8F5": [],
+            "transforms_61_EA7A62404681932910198193E1FCBD18": [],
+            "bytes_62_220D37744806390149E1128DDEB9F998": [],
+            "names_63_D074F50147CB91EADFFD9FB98BDF4016": []
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": true,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "hazsuit": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_2_B741ADA44441078D77808785087F23AE": {
+            "name_3_8A6CE23C409B32F80BE3C2AE0D0B36F2": "None",
+            "key_13_DBE1E12D47A10F90DDE0F19C7E2FDAD5": "None"
+          },
+          "data_5_C195F69242C9AE793196B582EDDDFC9A": {
+            "class_3_5267A5ED44C89294283B8CBBEC685F8A": null,
+            "transform_8_9DFFF09E48141807687A338593998A8A": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "key_64_B7A233344901C6E374869B97AEC5A257": "None",
+            "bools_12_1EE56AD54E30A7ED1CB618AA037E80B4": [],
+            "floats_31_D6C466A44741391D1041468F43632D7F": [],
+            "ints_30_E691B1324599D17904E03BB5084DEBA0": [],
+            "strings_22_EDF921F74EB73C4C7A6A5F996A8C8A91": [],
+            "signals_45_CE5AB8DE4026B6660BF9A28FA6690AD5": [],
+            "classes_35_758B67A44C6C3C7BC8E2DB9FE951A49D": [],
+            "vectors_46_EC45327F47AD66E2F05ABFA4594BE8C6": [],
+            "rotators_65_BC52E5CF47AF76C8C7826C910980C8F5": [],
+            "transforms_61_EA7A62404681932910198193E1FCBD18": [],
+            "bytes_62_220D37744806390149E1128DDEB9F998": [],
+            "names_63_D074F50147CB91EADFFD9FB98BDF4016": []
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": true,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "charhat": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_2_B741ADA44441078D77808785087F23AE": {
+            "name_3_8A6CE23C409B32F80BE3C2AE0D0B36F2": "None",
+            "key_13_DBE1E12D47A10F90DDE0F19C7E2FDAD5": "None"
+          },
+          "data_5_C195F69242C9AE793196B582EDDDFC9A": {
+            "class_3_5267A5ED44C89294283B8CBBEC685F8A": null,
+            "transform_8_9DFFF09E48141807687A338593998A8A": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "key_64_B7A233344901C6E374869B97AEC5A257": "None",
+            "bools_12_1EE56AD54E30A7ED1CB618AA037E80B4": [],
+            "floats_31_D6C466A44741391D1041468F43632D7F": [],
+            "ints_30_E691B1324599D17904E03BB5084DEBA0": [],
+            "strings_22_EDF921F74EB73C4C7A6A5F996A8C8A91": [],
+            "signals_45_CE5AB8DE4026B6660BF9A28FA6690AD5": [],
+            "classes_35_758B67A44C6C3C7BC8E2DB9FE951A49D": [],
+            "vectors_46_EC45327F47AD66E2F05ABFA4594BE8C6": [],
+            "rotators_65_BC52E5CF47AF76C8C7826C910980C8F5": [],
+            "transforms_61_EA7A62404681932910198193E1FCBD18": [],
+            "bytes_62_220D37744806390149E1128DDEB9F998": [],
+            "names_63_D074F50147CB91EADFFD9FB98BDF4016": []
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": false,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "firesuit": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_2_B741ADA44441078D77808785087F23AE": {
+            "name_3_8A6CE23C409B32F80BE3C2AE0D0B36F2": "None",
+            "key_13_DBE1E12D47A10F90DDE0F19C7E2FDAD5": "None"
+          },
+          "data_5_C195F69242C9AE793196B582EDDDFC9A": {
+            "class_3_5267A5ED44C89294283B8CBBEC685F8A": null,
+            "transform_8_9DFFF09E48141807687A338593998A8A": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "key_64_B7A233344901C6E374869B97AEC5A257": "None",
+            "bools_12_1EE56AD54E30A7ED1CB618AA037E80B4": [],
+            "floats_31_D6C466A44741391D1041468F43632D7F": [],
+            "ints_30_E691B1324599D17904E03BB5084DEBA0": [],
+            "strings_22_EDF921F74EB73C4C7A6A5F996A8C8A91": [],
+            "signals_45_CE5AB8DE4026B6660BF9A28FA6690AD5": [],
+            "classes_35_758B67A44C6C3C7BC8E2DB9FE951A49D": [],
+            "vectors_46_EC45327F47AD66E2F05ABFA4594BE8C6": [],
+            "rotators_65_BC52E5CF47AF76C8C7826C910980C8F5": [],
+            "transforms_61_EA7A62404681932910198193E1FCBD18": [],
+            "bytes_62_220D37744806390149E1128DDEB9F998": [],
+            "names_63_D074F50147CB91EADFFD9FB98BDF4016": []
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": true,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "fallboots": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_2_B741ADA44441078D77808785087F23AE": {
+            "name_3_8A6CE23C409B32F80BE3C2AE0D0B36F2": "None",
+            "key_13_DBE1E12D47A10F90DDE0F19C7E2FDAD5": "None"
+          },
+          "data_5_C195F69242C9AE793196B582EDDDFC9A": {
+            "class_3_5267A5ED44C89294283B8CBBEC685F8A": null,
+            "transform_8_9DFFF09E48141807687A338593998A8A": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "key_64_B7A233344901C6E374869B97AEC5A257": "None",
+            "bools_12_1EE56AD54E30A7ED1CB618AA037E80B4": [],
+            "floats_31_D6C466A44741391D1041468F43632D7F": [],
+            "ints_30_E691B1324599D17904E03BB5084DEBA0": [],
+            "strings_22_EDF921F74EB73C4C7A6A5F996A8C8A91": [],
+            "signals_45_CE5AB8DE4026B6660BF9A28FA6690AD5": [],
+            "classes_35_758B67A44C6C3C7BC8E2DB9FE951A49D": [],
+            "vectors_46_EC45327F47AD66E2F05ABFA4594BE8C6": [],
+            "rotators_65_BC52E5CF47AF76C8C7826C910980C8F5": [],
+            "transforms_61_EA7A62404681932910198193E1FCBD18": [],
+            "bytes_62_220D37744806390149E1128DDEB9F998": [],
+            "names_63_D074F50147CB91EADFFD9FB98BDF4016": []
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": true,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "fannypack": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_2_B741ADA44441078D77808785087F23AE": {
+            "name_3_8A6CE23C409B32F80BE3C2AE0D0B36F2": "None",
+            "key_13_DBE1E12D47A10F90DDE0F19C7E2FDAD5": "None"
+          },
+          "data_5_C195F69242C9AE793196B582EDDDFC9A": {
+            "class_3_5267A5ED44C89294283B8CBBEC685F8A": null,
+            "transform_8_9DFFF09E48141807687A338593998A8A": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "key_64_B7A233344901C6E374869B97AEC5A257": "None",
+            "bools_12_1EE56AD54E30A7ED1CB618AA037E80B4": [],
+            "floats_31_D6C466A44741391D1041468F43632D7F": [],
+            "ints_30_E691B1324599D17904E03BB5084DEBA0": [],
+            "strings_22_EDF921F74EB73C4C7A6A5F996A8C8A91": [],
+            "signals_45_CE5AB8DE4026B6660BF9A28FA6690AD5": [],
+            "classes_35_758B67A44C6C3C7BC8E2DB9FE951A49D": [],
+            "vectors_46_EC45327F47AD66E2F05ABFA4594BE8C6": [],
+            "rotators_65_BC52E5CF47AF76C8C7826C910980C8F5": [],
+            "transforms_61_EA7A62404681932910198193E1FCBD18": [],
+            "bytes_62_220D37744806390149E1128DDEB9F998": [],
+            "names_63_D074F50147CB91EADFFD9FB98BDF4016": []
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": false,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "witch_hat": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_2_B741ADA44441078D77808785087F23AE": {
+            "name_3_8A6CE23C409B32F80BE3C2AE0D0B36F2": "None",
+            "key_13_DBE1E12D47A10F90DDE0F19C7E2FDAD5": "None"
+          },
+          "data_5_C195F69242C9AE793196B582EDDDFC9A": {
+            "class_3_5267A5ED44C89294283B8CBBEC685F8A": null,
+            "transform_8_9DFFF09E48141807687A338593998A8A": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "key_64_B7A233344901C6E374869B97AEC5A257": "None",
+            "bools_12_1EE56AD54E30A7ED1CB618AA037E80B4": [],
+            "floats_31_D6C466A44741391D1041468F43632D7F": [],
+            "ints_30_E691B1324599D17904E03BB5084DEBA0": [],
+            "strings_22_EDF921F74EB73C4C7A6A5F996A8C8A91": [],
+            "signals_45_CE5AB8DE4026B6660BF9A28FA6690AD5": [],
+            "classes_35_758B67A44C6C3C7BC8E2DB9FE951A49D": [],
+            "vectors_46_EC45327F47AD66E2F05ABFA4594BE8C6": [],
+            "rotators_65_BC52E5CF47AF76C8C7826C910980C8F5": [],
+            "transforms_61_EA7A62404681932910198193E1FCBD18": [],
+            "bytes_62_220D37744806390149E1128DDEB9F998": [],
+            "names_63_D074F50147CB91EADFFD9FB98BDF4016": []
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": true,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "watches": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_2_B741ADA44441078D77808785087F23AE": {
+            "name_3_8A6CE23C409B32F80BE3C2AE0D0B36F2": "None",
+            "key_13_DBE1E12D47A10F90DDE0F19C7E2FDAD5": "None"
+          },
+          "data_5_C195F69242C9AE793196B582EDDDFC9A": {
+            "class_3_5267A5ED44C89294283B8CBBEC685F8A": null,
+            "transform_8_9DFFF09E48141807687A338593998A8A": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "key_64_B7A233344901C6E374869B97AEC5A257": "None",
+            "bools_12_1EE56AD54E30A7ED1CB618AA037E80B4": [],
+            "floats_31_D6C466A44741391D1041468F43632D7F": [],
+            "ints_30_E691B1324599D17904E03BB5084DEBA0": [],
+            "strings_22_EDF921F74EB73C4C7A6A5F996A8C8A91": [],
+            "signals_45_CE5AB8DE4026B6660BF9A28FA6690AD5": [],
+            "classes_35_758B67A44C6C3C7BC8E2DB9FE951A49D": [],
+            "vectors_46_EC45327F47AD66E2F05ABFA4594BE8C6": [],
+            "rotators_65_BC52E5CF47AF76C8C7826C910980C8F5": [],
+            "transforms_61_EA7A62404681932910198193E1FCBD18": [],
+            "bytes_62_220D37744806390149E1128DDEB9F998": [],
+            "names_63_D074F50147CB91EADFFD9FB98BDF4016": []
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": true,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "compass": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_2_B741ADA44441078D77808785087F23AE": {
+            "name_3_8A6CE23C409B32F80BE3C2AE0D0B36F2": "None",
+            "key_13_DBE1E12D47A10F90DDE0F19C7E2FDAD5": "None"
+          },
+          "data_5_C195F69242C9AE793196B582EDDDFC9A": {
+            "class_3_5267A5ED44C89294283B8CBBEC685F8A": null,
+            "transform_8_9DFFF09E48141807687A338593998A8A": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "key_64_B7A233344901C6E374869B97AEC5A257": "None",
+            "bools_12_1EE56AD54E30A7ED1CB618AA037E80B4": [],
+            "floats_31_D6C466A44741391D1041468F43632D7F": [],
+            "ints_30_E691B1324599D17904E03BB5084DEBA0": [],
+            "strings_22_EDF921F74EB73C4C7A6A5F996A8C8A91": [],
+            "signals_45_CE5AB8DE4026B6660BF9A28FA6690AD5": [],
+            "classes_35_758B67A44C6C3C7BC8E2DB9FE951A49D": [],
+            "vectors_46_EC45327F47AD66E2F05ABFA4594BE8C6": [],
+            "rotators_65_BC52E5CF47AF76C8C7826C910980C8F5": [],
+            "transforms_61_EA7A62404681932910198193E1FCBD18": [],
+            "bytes_62_220D37744806390149E1128DDEB9F998": [],
+            "names_63_D074F50147CB91EADFFD9FB98BDF4016": []
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": true,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "glasses": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_2_B741ADA44441078D77808785087F23AE": {
+            "name_3_8A6CE23C409B32F80BE3C2AE0D0B36F2": "None",
+            "key_13_DBE1E12D47A10F90DDE0F19C7E2FDAD5": "None"
+          },
+          "data_5_C195F69242C9AE793196B582EDDDFC9A": {
+            "class_3_5267A5ED44C89294283B8CBBEC685F8A": null,
+            "transform_8_9DFFF09E48141807687A338593998A8A": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "key_64_B7A233344901C6E374869B97AEC5A257": "None",
+            "bools_12_1EE56AD54E30A7ED1CB618AA037E80B4": [],
+            "floats_31_D6C466A44741391D1041468F43632D7F": [],
+            "ints_30_E691B1324599D17904E03BB5084DEBA0": [],
+            "strings_22_EDF921F74EB73C4C7A6A5F996A8C8A91": [],
+            "signals_45_CE5AB8DE4026B6660BF9A28FA6690AD5": [],
+            "classes_35_758B67A44C6C3C7BC8E2DB9FE951A49D": [],
+            "vectors_46_EC45327F47AD66E2F05ABFA4594BE8C6": [],
+            "rotators_65_BC52E5CF47AF76C8C7826C910980C8F5": [],
+            "transforms_61_EA7A62404681932910198193E1FCBD18": [],
+            "bytes_62_220D37744806390149E1128DDEB9F998": [],
+            "names_63_D074F50147CB91EADFFD9FB98BDF4016": []
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": true,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "flashlight": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_2_B741ADA44441078D77808785087F23AE": {
+            "name_3_8A6CE23C409B32F80BE3C2AE0D0B36F2": "None",
+            "key_13_DBE1E12D47A10F90DDE0F19C7E2FDAD5": "None"
+          },
+          "data_5_C195F69242C9AE793196B582EDDDFC9A": {
+            "class_3_5267A5ED44C89294283B8CBBEC685F8A": null,
+            "transform_8_9DFFF09E48141807687A338593998A8A": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "key_64_B7A233344901C6E374869B97AEC5A257": "None",
+            "bools_12_1EE56AD54E30A7ED1CB618AA037E80B4": [],
+            "floats_31_D6C466A44741391D1041468F43632D7F": [],
+            "ints_30_E691B1324599D17904E03BB5084DEBA0": [],
+            "strings_22_EDF921F74EB73C4C7A6A5F996A8C8A91": [],
+            "signals_45_CE5AB8DE4026B6660BF9A28FA6690AD5": [],
+            "classes_35_758B67A44C6C3C7BC8E2DB9FE951A49D": [],
+            "vectors_46_EC45327F47AD66E2F05ABFA4594BE8C6": [],
+            "rotators_65_BC52E5CF47AF76C8C7826C910980C8F5": [],
+            "transforms_61_EA7A62404681932910198193E1FCBD18": [],
+            "bytes_62_220D37744806390149E1128DDEB9F998": [],
+            "names_63_D074F50147CB91EADFFD9FB98BDF4016": []
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": true,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "flashlight"
+      },
+      "flashlight_c": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_2_B741ADA44441078D77808785087F23AE": {
+            "name_3_8A6CE23C409B32F80BE3C2AE0D0B36F2": "None",
+            "key_13_DBE1E12D47A10F90DDE0F19C7E2FDAD5": "None"
+          },
+          "data_5_C195F69242C9AE793196B582EDDDFC9A": {
+            "class_3_5267A5ED44C89294283B8CBBEC685F8A": null,
+            "transform_8_9DFFF09E48141807687A338593998A8A": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "key_64_B7A233344901C6E374869B97AEC5A257": "None",
+            "bools_12_1EE56AD54E30A7ED1CB618AA037E80B4": [],
+            "floats_31_D6C466A44741391D1041468F43632D7F": [],
+            "ints_30_E691B1324599D17904E03BB5084DEBA0": [],
+            "strings_22_EDF921F74EB73C4C7A6A5F996A8C8A91": [],
+            "signals_45_CE5AB8DE4026B6660BF9A28FA6690AD5": [],
+            "classes_35_758B67A44C6C3C7BC8E2DB9FE951A49D": [],
+            "vectors_46_EC45327F47AD66E2F05ABFA4594BE8C6": [],
+            "rotators_65_BC52E5CF47AF76C8C7826C910980C8F5": [],
+            "transforms_61_EA7A62404681932910198193E1FCBD18": [],
+            "bytes_62_220D37744806390149E1128DDEB9F998": [],
+            "names_63_D074F50147CB91EADFFD9FB98BDF4016": []
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": true,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "flashlight"
+      },
+      "p_emf": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_2_B741ADA44441078D77808785087F23AE": {
+            "name_3_8A6CE23C409B32F80BE3C2AE0D0B36F2": "None",
+            "key_13_DBE1E12D47A10F90DDE0F19C7E2FDAD5": "None"
+          },
+          "data_5_C195F69242C9AE793196B582EDDDFC9A": {
+            "class_3_5267A5ED44C89294283B8CBBEC685F8A": null,
+            "transform_8_9DFFF09E48141807687A338593998A8A": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "key_64_B7A233344901C6E374869B97AEC5A257": "None",
+            "bools_12_1EE56AD54E30A7ED1CB618AA037E80B4": [],
+            "floats_31_D6C466A44741391D1041468F43632D7F": [],
+            "ints_30_E691B1324599D17904E03BB5084DEBA0": [],
+            "strings_22_EDF921F74EB73C4C7A6A5F996A8C8A91": [],
+            "signals_45_CE5AB8DE4026B6660BF9A28FA6690AD5": [],
+            "classes_35_758B67A44C6C3C7BC8E2DB9FE951A49D": [],
+            "vectors_46_EC45327F47AD66E2F05ABFA4594BE8C6": [],
+            "rotators_65_BC52E5CF47AF76C8C7826C910980C8F5": [],
+            "transforms_61_EA7A62404681932910198193E1FCBD18": [],
+            "bytes_62_220D37744806390149E1128DDEB9F998": [],
+            "names_63_D074F50147CB91EADFFD9FB98BDF4016": []
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": true,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "p_gei": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_2_B741ADA44441078D77808785087F23AE": {
+            "name_3_8A6CE23C409B32F80BE3C2AE0D0B36F2": "None",
+            "key_13_DBE1E12D47A10F90DDE0F19C7E2FDAD5": "None"
+          },
+          "data_5_C195F69242C9AE793196B582EDDDFC9A": {
+            "class_3_5267A5ED44C89294283B8CBBEC685F8A": null,
+            "transform_8_9DFFF09E48141807687A338593998A8A": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "key_64_B7A233344901C6E374869B97AEC5A257": "None",
+            "bools_12_1EE56AD54E30A7ED1CB618AA037E80B4": [],
+            "floats_31_D6C466A44741391D1041468F43632D7F": [],
+            "ints_30_E691B1324599D17904E03BB5084DEBA0": [],
+            "strings_22_EDF921F74EB73C4C7A6A5F996A8C8A91": [],
+            "signals_45_CE5AB8DE4026B6660BF9A28FA6690AD5": [],
+            "classes_35_758B67A44C6C3C7BC8E2DB9FE951A49D": [],
+            "vectors_46_EC45327F47AD66E2F05ABFA4594BE8C6": [],
+            "rotators_65_BC52E5CF47AF76C8C7826C910980C8F5": [],
+            "transforms_61_EA7A62404681932910198193E1FCBD18": [],
+            "bytes_62_220D37744806390149E1128DDEB9F998": [],
+            "names_63_D074F50147CB91EADFFD9FB98BDF4016": []
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": true,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "woolboots": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_2_B741ADA44441078D77808785087F23AE": {
+            "name_3_8A6CE23C409B32F80BE3C2AE0D0B36F2": "None",
+            "key_13_DBE1E12D47A10F90DDE0F19C7E2FDAD5": "None"
+          },
+          "data_5_C195F69242C9AE793196B582EDDDFC9A": {
+            "class_3_5267A5ED44C89294283B8CBBEC685F8A": null,
+            "transform_8_9DFFF09E48141807687A338593998A8A": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "key_64_B7A233344901C6E374869B97AEC5A257": "None",
+            "bools_12_1EE56AD54E30A7ED1CB618AA037E80B4": [],
+            "floats_31_D6C466A44741391D1041468F43632D7F": [],
+            "ints_30_E691B1324599D17904E03BB5084DEBA0": [],
+            "strings_22_EDF921F74EB73C4C7A6A5F996A8C8A91": [],
+            "signals_45_CE5AB8DE4026B6660BF9A28FA6690AD5": [],
+            "classes_35_758B67A44C6C3C7BC8E2DB9FE951A49D": [],
+            "vectors_46_EC45327F47AD66E2F05ABFA4594BE8C6": [],
+            "rotators_65_BC52E5CF47AF76C8C7826C910980C8F5": [],
+            "transforms_61_EA7A62404681932910198193E1FCBD18": [],
+            "bytes_62_220D37744806390149E1128DDEB9F998": [],
+            "names_63_D074F50147CB91EADFFD9FB98BDF4016": []
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": true,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "portableMD": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_2_B741ADA44441078D77808785087F23AE": {
+            "name_3_8A6CE23C409B32F80BE3C2AE0D0B36F2": "None",
+            "key_13_DBE1E12D47A10F90DDE0F19C7E2FDAD5": "None"
+          },
+          "data_5_C195F69242C9AE793196B582EDDDFC9A": {
+            "class_3_5267A5ED44C89294283B8CBBEC685F8A": null,
+            "transform_8_9DFFF09E48141807687A338593998A8A": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "key_64_B7A233344901C6E374869B97AEC5A257": "None",
+            "bools_12_1EE56AD54E30A7ED1CB618AA037E80B4": [],
+            "floats_31_D6C466A44741391D1041468F43632D7F": [],
+            "ints_30_E691B1324599D17904E03BB5084DEBA0": [],
+            "strings_22_EDF921F74EB73C4C7A6A5F996A8C8A91": [],
+            "signals_45_CE5AB8DE4026B6660BF9A28FA6690AD5": [],
+            "classes_35_758B67A44C6C3C7BC8E2DB9FE951A49D": [],
+            "vectors_46_EC45327F47AD66E2F05ABFA4594BE8C6": [],
+            "rotators_65_BC52E5CF47AF76C8C7826C910980C8F5": [],
+            "transforms_61_EA7A62404681932910198193E1FCBD18": [],
+            "bytes_62_220D37744806390149E1128DDEB9F998": [],
+            "names_63_D074F50147CB91EADFFD9FB98BDF4016": []
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": true,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "krampushat": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_2_B741ADA44441078D77808785087F23AE": {
+            "name_3_8A6CE23C409B32F80BE3C2AE0D0B36F2": "None",
+            "key_13_DBE1E12D47A10F90DDE0F19C7E2FDAD5": "None"
+          },
+          "data_5_C195F69242C9AE793196B582EDDDFC9A": {
+            "class_3_5267A5ED44C89294283B8CBBEC685F8A": null,
+            "transform_8_9DFFF09E48141807687A338593998A8A": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "key_64_B7A233344901C6E374869B97AEC5A257": "None",
+            "bools_12_1EE56AD54E30A7ED1CB618AA037E80B4": [],
+            "floats_31_D6C466A44741391D1041468F43632D7F": [],
+            "ints_30_E691B1324599D17904E03BB5084DEBA0": [],
+            "strings_22_EDF921F74EB73C4C7A6A5F996A8C8A91": [],
+            "signals_45_CE5AB8DE4026B6660BF9A28FA6690AD5": [],
+            "classes_35_758B67A44C6C3C7BC8E2DB9FE951A49D": [],
+            "vectors_46_EC45327F47AD66E2F05ABFA4594BE8C6": [],
+            "rotators_65_BC52E5CF47AF76C8C7826C910980C8F5": [],
+            "transforms_61_EA7A62404681932910198193E1FCBD18": [],
+            "bytes_62_220D37744806390149E1128DDEB9F998": [],
+            "names_63_D074F50147CB91EADFFD9FB98BDF4016": []
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": true,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "mittens": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_2_B741ADA44441078D77808785087F23AE": {
+            "name_3_8A6CE23C409B32F80BE3C2AE0D0B36F2": "None",
+            "key_13_DBE1E12D47A10F90DDE0F19C7E2FDAD5": "None"
+          },
+          "data_5_C195F69242C9AE793196B582EDDDFC9A": {
+            "class_3_5267A5ED44C89294283B8CBBEC685F8A": null,
+            "transform_8_9DFFF09E48141807687A338593998A8A": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "key_64_B7A233344901C6E374869B97AEC5A257": "None",
+            "bools_12_1EE56AD54E30A7ED1CB618AA037E80B4": [],
+            "floats_31_D6C466A44741391D1041468F43632D7F": [],
+            "ints_30_E691B1324599D17904E03BB5084DEBA0": [],
+            "strings_22_EDF921F74EB73C4C7A6A5F996A8C8A91": [],
+            "signals_45_CE5AB8DE4026B6660BF9A28FA6690AD5": [],
+            "classes_35_758B67A44C6C3C7BC8E2DB9FE951A49D": [],
+            "vectors_46_EC45327F47AD66E2F05ABFA4594BE8C6": [],
+            "rotators_65_BC52E5CF47AF76C8C7826C910980C8F5": [],
+            "transforms_61_EA7A62404681932910198193E1FCBD18": [],
+            "bytes_62_220D37744806390149E1128DDEB9F998": [],
+            "names_63_D074F50147CB91EADFFD9FB98BDF4016": []
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": true,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "kerfoout_maid": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_2_B741ADA44441078D77808785087F23AE": {
+            "name_3_8A6CE23C409B32F80BE3C2AE0D0B36F2": "None",
+            "key_13_DBE1E12D47A10F90DDE0F19C7E2FDAD5": "None"
+          },
+          "data_5_C195F69242C9AE793196B582EDDDFC9A": {
+            "class_3_5267A5ED44C89294283B8CBBEC685F8A": null,
+            "transform_8_9DFFF09E48141807687A338593998A8A": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "key_64_B7A233344901C6E374869B97AEC5A257": "None",
+            "bools_12_1EE56AD54E30A7ED1CB618AA037E80B4": [],
+            "floats_31_D6C466A44741391D1041468F43632D7F": [],
+            "ints_30_E691B1324599D17904E03BB5084DEBA0": [],
+            "strings_22_EDF921F74EB73C4C7A6A5F996A8C8A91": [],
+            "signals_45_CE5AB8DE4026B6660BF9A28FA6690AD5": [],
+            "classes_35_758B67A44C6C3C7BC8E2DB9FE951A49D": [],
+            "vectors_46_EC45327F47AD66E2F05ABFA4594BE8C6": [],
+            "rotators_65_BC52E5CF47AF76C8C7826C910980C8F5": [],
+            "transforms_61_EA7A62404681932910198193E1FCBD18": [],
+            "bytes_62_220D37744806390149E1128DDEB9F998": [],
+            "names_63_D074F50147CB91EADFFD9FB98BDF4016": []
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": true,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "biglight": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_2_B741ADA44441078D77808785087F23AE": {
+            "name_3_8A6CE23C409B32F80BE3C2AE0D0B36F2": "None",
+            "key_13_DBE1E12D47A10F90DDE0F19C7E2FDAD5": "None"
+          },
+          "data_5_C195F69242C9AE793196B582EDDDFC9A": {
+            "class_3_5267A5ED44C89294283B8CBBEC685F8A": null,
+            "transform_8_9DFFF09E48141807687A338593998A8A": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "key_64_B7A233344901C6E374869B97AEC5A257": "None",
+            "bools_12_1EE56AD54E30A7ED1CB618AA037E80B4": [],
+            "floats_31_D6C466A44741391D1041468F43632D7F": [],
+            "ints_30_E691B1324599D17904E03BB5084DEBA0": [],
+            "strings_22_EDF921F74EB73C4C7A6A5F996A8C8A91": [],
+            "signals_45_CE5AB8DE4026B6660BF9A28FA6690AD5": [],
+            "classes_35_758B67A44C6C3C7BC8E2DB9FE951A49D": [],
+            "vectors_46_EC45327F47AD66E2F05ABFA4594BE8C6": [],
+            "rotators_65_BC52E5CF47AF76C8C7826C910980C8F5": [],
+            "transforms_61_EA7A62404681932910198193E1FCBD18": [],
+            "bytes_62_220D37744806390149E1128DDEB9F998": [],
+            "names_63_D074F50147CB91EADFFD9FB98BDF4016": []
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": true,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "flashlight"
+      },
+      "headphones": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_2_B741ADA44441078D77808785087F23AE": {
+            "name_3_8A6CE23C409B32F80BE3C2AE0D0B36F2": "None",
+            "key_13_DBE1E12D47A10F90DDE0F19C7E2FDAD5": "None"
+          },
+          "data_5_C195F69242C9AE793196B582EDDDFC9A": {
+            "class_3_5267A5ED44C89294283B8CBBEC685F8A": null,
+            "transform_8_9DFFF09E48141807687A338593998A8A": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "key_64_B7A233344901C6E374869B97AEC5A257": "None",
+            "bools_12_1EE56AD54E30A7ED1CB618AA037E80B4": [],
+            "floats_31_D6C466A44741391D1041468F43632D7F": [],
+            "ints_30_E691B1324599D17904E03BB5084DEBA0": [],
+            "strings_22_EDF921F74EB73C4C7A6A5F996A8C8A91": [],
+            "signals_45_CE5AB8DE4026B6660BF9A28FA6690AD5": [],
+            "classes_35_758B67A44C6C3C7BC8E2DB9FE951A49D": [],
+            "vectors_46_EC45327F47AD66E2F05ABFA4594BE8C6": [],
+            "rotators_65_BC52E5CF47AF76C8C7826C910980C8F5": [],
+            "transforms_61_EA7A62404681932910198193E1FCBD18": [],
+            "bytes_62_220D37744806390149E1128DDEB9F998": [],
+            "names_63_D074F50147CB91EADFFD9FB98BDF4016": []
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": true,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "floorAngleGlasses": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_2_B741ADA44441078D77808785087F23AE": {
+            "name_3_8A6CE23C409B32F80BE3C2AE0D0B36F2": "None",
+            "key_13_DBE1E12D47A10F90DDE0F19C7E2FDAD5": "None"
+          },
+          "data_5_C195F69242C9AE793196B582EDDDFC9A": {
+            "class_3_5267A5ED44C89294283B8CBBEC685F8A": null,
+            "transform_8_9DFFF09E48141807687A338593998A8A": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "key_64_B7A233344901C6E374869B97AEC5A257": "None",
+            "bools_12_1EE56AD54E30A7ED1CB618AA037E80B4": [],
+            "floats_31_D6C466A44741391D1041468F43632D7F": [],
+            "ints_30_E691B1324599D17904E03BB5084DEBA0": [],
+            "strings_22_EDF921F74EB73C4C7A6A5F996A8C8A91": [],
+            "signals_45_CE5AB8DE4026B6660BF9A28FA6690AD5": [],
+            "classes_35_758B67A44C6C3C7BC8E2DB9FE951A49D": [],
+            "vectors_46_EC45327F47AD66E2F05ABFA4594BE8C6": [],
+            "rotators_65_BC52E5CF47AF76C8C7826C910980C8F5": [],
+            "transforms_61_EA7A62404681932910198193E1FCBD18": [],
+            "bytes_62_220D37744806390149E1128DDEB9F998": [],
+            "names_63_D074F50147CB91EADFFD9FB98BDF4016": []
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": true,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "bunnyears": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_2_B741ADA44441078D77808785087F23AE": {
+            "name_3_8A6CE23C409B32F80BE3C2AE0D0B36F2": "None",
+            "key_13_DBE1E12D47A10F90DDE0F19C7E2FDAD5": "None"
+          },
+          "data_5_C195F69242C9AE793196B582EDDDFC9A": {
+            "class_3_5267A5ED44C89294283B8CBBEC685F8A": null,
+            "transform_8_9DFFF09E48141807687A338593998A8A": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "key_64_B7A233344901C6E374869B97AEC5A257": "None",
+            "bools_12_1EE56AD54E30A7ED1CB618AA037E80B4": [],
+            "floats_31_D6C466A44741391D1041468F43632D7F": [],
+            "ints_30_E691B1324599D17904E03BB5084DEBA0": [],
+            "strings_22_EDF921F74EB73C4C7A6A5F996A8C8A91": [],
+            "signals_45_CE5AB8DE4026B6660BF9A28FA6690AD5": [],
+            "classes_35_758B67A44C6C3C7BC8E2DB9FE951A49D": [],
+            "vectors_46_EC45327F47AD66E2F05ABFA4594BE8C6": [],
+            "rotators_65_BC52E5CF47AF76C8C7826C910980C8F5": [],
+            "transforms_61_EA7A62404681932910198193E1FCBD18": [],
+            "bytes_62_220D37744806390149E1128DDEB9F998": [],
+            "names_63_D074F50147CB91EADFFD9FB98BDF4016": []
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": false,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      }
+    }
+  }
+]

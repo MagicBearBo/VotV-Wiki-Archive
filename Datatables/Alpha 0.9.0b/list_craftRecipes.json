@@ -1,0 +1,2837 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "list_craftRecipes",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "VotV/Content/main/datatables/list_craftRecipes",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'struct_crafting'",
+        "ObjectPath": "VotV/Content/main/structs/struct_crafting.0"
+      }
+    },
+    "Rows": {
+      "test_0": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "burger",
+          "nail",
+          "digcam"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "physgun_soft",
+          "sleepingbag"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "rwereerw",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": true,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "test_1": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "burger",
+          "digcam"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "hammer"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "rewrew",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": true,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "test_2": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "burger"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "fax"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "rewrew",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": true,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "test_3": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "stick",
+          "rock"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "craftTest"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": true,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "test_4": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "stick",
+          "rock",
+          "rock"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "craftTest_0"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "test_0",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": true,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "test_5": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "craftTest_0"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "stick",
+          "rock",
+          "rock"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": true,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "test_6": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "craftTest"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "stick",
+          "rock"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": true,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "rainbowGlowstick": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "glowstick_r",
+          "glowstick_g",
+          "glowstick_b",
+          "glowstick_c",
+          "glowstick_m",
+          "glowstick_y"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "glowstick_gamer"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "fungSd_brown": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "shroom"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "seedpf_b",
+          "seedpf_b"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "fungSd_red": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "shroom_2"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "seedpf_r",
+          "seedpf_r"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "fungSd_flat": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "shroom_3"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "seedpf_f",
+          "seedpf_f"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "fungSd_yellow": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "shroom_4"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "seedpf_y",
+          "seedpf_y"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "fungSd_blue": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "shroom_5"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "seedpf_bl",
+          "seedpf_bl"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "fungSd_thicc": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "shroom_6"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "seedpf_t",
+          "seedpf_t"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "fungSd_puff": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "shroom_7"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "seedpf_p",
+          "seedpf_p"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "fishbaitMre": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "mre"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "fbait_7",
+          "fbait_7",
+          "fbait_7",
+          "fbait_8",
+          "fbait_8",
+          "fbait_9",
+          "fbait_10"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "plasticScrap": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "\\gplastic",
+          "\\gplastic",
+          "\\gplastic",
+          "\\gplastic",
+          "\\gplastic",
+          "\\gplastic"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "scrap_plastic"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "woodScrap": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "\\gwood",
+          "\\gwood",
+          "\\gwood",
+          "\\gwood"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "scrap_wood"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "paperScrap": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "\\gpaper",
+          "\\gpaper",
+          "\\gpaper",
+          "\\gpaper",
+          "\\gpaper",
+          "\\gpaper",
+          "\\gpaper",
+          "\\gpaper"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "scrap_paper"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "metalScrap": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "\\gmetal",
+          "\\gmetal",
+          "\\gmetal",
+          "\\gmetal"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "scrap_metal"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "bookPaperScrap": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "\\gbook",
+          "\\gbook"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "scrap_paper"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "rubberScrap": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "\\grubber",
+          "\\grubber",
+          "\\grubber",
+          "\\grubber"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "scrap_rubber"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "elecScrap": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "\\gelec",
+          "\\gelec",
+          "\\gelec",
+          "\\gelec"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "scrap_elec"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "tireToRubber": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "riv_tire"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "scrap_rubber",
+          "scrap_rubber"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "roomwell": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "roomba",
+          "dingus"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "roomba_m"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": true,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": true
+      },
+      "drives": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "scrap_metal",
+          "scrap_elec"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "drive",
+          "drive",
+          "drive",
+          "drive"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "rubbleScrap": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "rock",
+          "rock"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "scrap_rubble",
+          "scrap_rubble",
+          "scrap_rubble"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "elecScrap_drives": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "drive",
+          "drive",
+          "drive",
+          "drive"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "scrap_elec"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "fishingrod": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "p_fishrod_0",
+          "p_fishrod_1",
+          "p_fishrod_2",
+          "p_fishrod_3",
+          "p_fishrod_4",
+          "p_fishrod_5",
+          "p_fishrod_6"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "fishingrod_0"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "hook": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "hook_s",
+          "hook_s",
+          "scrap_rubber"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "hook"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "kerfurToParts_0": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "kerfus"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "kerfurParts_0",
+          "kerfurParts_0",
+          "kerfurParts_0",
+          "kerfusWheel",
+          "kerfCol_0"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "partsToKerfur_0": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "kerfurParts_0",
+          "kerfurParts_0",
+          "kerfurParts_0",
+          "kerfusWheel",
+          "kerfCol_0"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "kerfus"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "kerfurToParts_1": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "kerfus_0"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "kerfurParts_0",
+          "kerfurParts_0",
+          "kerfurParts_0",
+          "kerfusWheel",
+          "kerfCol_1"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "partsToKerfur_1": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "kerfurParts_0",
+          "kerfurParts_0",
+          "kerfurParts_0",
+          "kerfusWheel",
+          "kerfCol_1"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "kerfus_0"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "kerfurToParts_2": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "kerfus_1"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "kerfurParts_0",
+          "kerfurParts_0",
+          "kerfurParts_0",
+          "kerfusWheel",
+          "kerfCol_2"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "partsToKerfur_2": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "kerfurParts_0",
+          "kerfurParts_0",
+          "kerfurParts_0",
+          "kerfusWheel",
+          "kerfCol_2"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "kerfus_1"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "fungSd_funny": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "funnyshroom"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "seedpf_fn",
+          "seedpf_fn"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": true,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "cheesewheel": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "cheese",
+          "cheese",
+          "cheese",
+          "cheese",
+          "cheese",
+          "cheese",
+          "cheese",
+          "cheese"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "cheesew"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": true,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "cheesslice": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "cheesec",
+          "cheesec",
+          "cheesec",
+          "cheesec",
+          "cheesec",
+          "cheesec",
+          "cheesec",
+          "cheesec",
+          "cheesec",
+          "cheesec"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "cheese"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": true,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "plasticScrap_0": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "curtains",
+          "curtains"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "scrap_plastic"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "plasticScrap_1": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "curtains_0",
+          "curtains_0"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "scrap_plastic"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "plasticScrap_2": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "curtains_fr",
+          "curtains_fr"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "scrap_plastic"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "metalScrap_0": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "gascan",
+          "gascan"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "scrap_metal"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "woodScrap_0": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "palete"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "scrap_wood",
+          "scrap_wood"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "metalScrap_1": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "bucket",
+          "bucket",
+          "bucket"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "scrap_metal"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "halfhooks": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "hook"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "hook_h",
+          "hook_h"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "halfhooks_join": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "hook_h",
+          "hook_h"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "hook"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "radCube": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "radCrystal",
+          "radCrystal",
+          "radCrystal",
+          "radCrystal",
+          "tool_gw"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "radCube",
+          "tool_gw"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "radCapsule": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "radCube",
+          "radCube",
+          "radCube",
+          "radCube",
+          "scrap_metal",
+          "scrap_metal",
+          "scrap_metal",
+          "scrap_metal",
+          "tool_gw"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "rad",
+          "tool_gw"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "radCapBp",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "miner_fan": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "batt_a",
+          "batt_a",
+          "scrap_metal",
+          "scrap_metal",
+          "scrap_metal",
+          "scrap_metal",
+          "scrap_elec",
+          "scrap_elec",
+          "scrap_elec",
+          "scrap_elec"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "miner_fan"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "pizzaboxToPaper": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "pizza_b"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "scrap_paper"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "coalToBig": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "coal_s",
+          "coal_s",
+          "coal_s",
+          "coal_s"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "coal"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "coalToSmall": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "coal"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "coal_s",
+          "coal_s",
+          "coal_s",
+          "coal_s"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "molotov_0": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "beer_g",
+          "/gpaper",
+          "/gpaper"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "molotov"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "gascan_0": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "scrap_metal",
+          "scrap_metal"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "gascan"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "kerfuro_head": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "scrap_plastic",
+          "scrap_plastic",
+          "scrap_metal",
+          "scrap_elec",
+          "scrap_elec",
+          "kerfsp_0",
+          "scrap_glass",
+          "kerfurParts_0"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "kerfognc_5"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "kerfurOmanual",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": true,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "kerfuro_torso": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "scrap_plastic",
+          "scrap_plastic",
+          "scrap_plastic",
+          "scrap_metal",
+          "scrap_elec",
+          "scrap_elec",
+          "cam_b_1",
+          "kerfurParts_0"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "kerfognc_2"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "kerfurOmanual",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": true,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "kerfuro_pelvis": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "scrap_plastic",
+          "scrap_metal",
+          "scrap_elec",
+          "rad",
+          "kerfurParts_0"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "kerfognc_1"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "kerfurOmanual",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": true,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "kerfuro_arms": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "scrap_plastic",
+          "scrap_plastic",
+          "scrap_plastic",
+          "scrap_plastic",
+          "scrap_metal",
+          "scrap_metal",
+          "scrap_elec",
+          "kerfsp_2",
+          "kerfsp_2",
+          "kerfsp_1",
+          "kerfsp_1",
+          "kerfsp_1",
+          "kerfsp_1",
+          "kerfurParts_0"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "kerfognc_0",
+          "kerfognc_0"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "kerfurOmanual",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": true,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "kerfuro_legs": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "scrap_plastic",
+          "scrap_plastic",
+          "scrap_plastic",
+          "scrap_plastic",
+          "scrap_metal",
+          "scrap_metal",
+          "scrap_elec",
+          "scrap_elec",
+          "kerfsp_2",
+          "kerfsp_2",
+          "kerfsp_1",
+          "kerfsp_1",
+          "kerfsp_1",
+          "kerfsp_1",
+          "kerfurParts_0"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "kerfognc_6",
+          "kerfognc_6"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "kerfurOmanual",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": true,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "kerfuro_nocol": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "kerfognc_5",
+          "kerfognc_2",
+          "kerfognc_1",
+          "kerfognc_0",
+          "kerfognc_0",
+          "kerfognc_6",
+          "kerfognc_6"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "kerfurO_nc"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": true,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "kerfuro_col_b": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "kerfurO_nc",
+          "kerfCol_0"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "kerfurO"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": true,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "kerfuro_col_p": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "kerfurO_nc",
+          "kerfCol_1"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "kerfurO_p"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": true,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "kerfuro_col_r": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "kerfurO_nc",
+          "kerfCol_2"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "kerfurO_r"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": true,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "kerftv": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "tv_0",
+          "kerfus"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "kerfuro_tv"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": true,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": true
+      },
+      "kerfuro_col_keljoy": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "kerfurO_nc",
+          "kelplush"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "keljoy_p"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": true,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": true,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": true
+      },
+      "kerfuro_col_ab": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "kerfurO_nc",
+          "shroom",
+          "shroom_2",
+          "shroom_3",
+          "shroom_4",
+          "shroom_5",
+          "shroom_6",
+          "shroom_7",
+          "abplush"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "abplush_0"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": true,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": true,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": true
+      },
+      "kerfuro_col_furfur": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "kerfurO_nc",
+          "wendplush",
+          "g_bone_0",
+          "g_bone_0",
+          "g_bone_0",
+          "g_bone_0",
+          "g_bone_1",
+          "g_bone_2",
+          "g_bone_2",
+          "g_bone_2",
+          "g_bone_2",
+          "g_bone_3",
+          "g_bone_3",
+          "g_bone_3"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "wendplush_0"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": true,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": true,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": true
+      },
+      "kerfuro_col_mann": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "kerfurO_nc",
+          "mann_w",
+          "lighter"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "kerfurO_mann"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": true,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": true,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": true
+      },
+      "kerfuro_col_erie": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "kerfurO_nc",
+          "eriePlush"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "eriePlush_0"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": true,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": true,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": true
+      },
+      "kerfuro_col_erie4": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "eriePlush_0",
+          "cheesew"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "eriePlushV4_0"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": true,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": true,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": true
+      },
+      "kerfuro_col_alien": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "kerfurO_nc",
+          "grayFigure_s"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "grayFigure_o"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": true,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": true,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": true
+      },
+      "kerfuro_col_moniq": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "kerfurO_nc",
+          "moniquePlush",
+          "cigp",
+          "cigp",
+          "cigp",
+          "cigp",
+          "french"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "moniquePlush_0"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": true,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": true,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": true
+      },
+      "kerfuro_col_igetis": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "kerfurO_nc",
+          "hcontainer_1"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "igetisKerf"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": true,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": true,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": true
+      },
+      "kerfuro_col_gamer": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "kerfurO",
+          "kerfurO_p",
+          "kerfurO_r"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "kerfurO_g"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": true,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": true,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": true
+      },
+      "kerfur_col_gamer": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "kerfus",
+          "kerfus_0",
+          "kerfus_1"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "kerfus_g"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": true,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": true,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": true
+      },
+      "kerfuro_col_arg": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "kerfurO_nc",
+          "argemia",
+          "argemia_0",
+          "argemia_1"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "argemia_15"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": true,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": true,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": true
+      },
+      "kerfuro_col_keith": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "kerfurO_nc",
+          "scrap_metal",
+          "scrap_metal",
+          "scrap_metal",
+          "scrap_metal",
+          "scrap_elec",
+          "scrap_elec",
+          "scrap_rubber"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "kerfurO_k"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": true,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": true,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": true
+      },
+      "kerfuro_gibs_b": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "kerfogb_0",
+          "kerfogb_0",
+          "kerfogb_1",
+          "kerfogb_2",
+          "kerfogb_5",
+          "kerfogb_6",
+          "kerfogb_6"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "kerfurO"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": true,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "kerfuro_gibs_r": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "kerfogr_0",
+          "kerfogr_0",
+          "kerfogr_1",
+          "kerfogr_2",
+          "kerfogr_5",
+          "kerfogr_6",
+          "kerfogr_6"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "kerfurO_r"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": true,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "kerfuro_gibs_p": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "kerfogp_0",
+          "kerfogp_0",
+          "kerfogp_1",
+          "kerfogp_2",
+          "kerfogp_5",
+          "kerfogp_6",
+          "kerfogp_6"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "kerfurO_p"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": true,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "pipebomb": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "beer_g",
+          "beer_g",
+          "scrap_metal",
+          "scrap_plastic"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "pipebomb"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "stickybomb_0": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "pipebomb",
+          "scrap_plastic",
+          "scrap_elec",
+          "glue_0"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "stickybomb_0",
+          "glue_0"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": true,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "crossbow": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "xbowp_0",
+          "xbowp_1",
+          "xbowp_2",
+          "xbowp_3"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "fungun_crossbow"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "xbow",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "xbowBolt": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "scrap_metal"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "fungunAmmo_crossbow",
+          "fungunAmmo_crossbow"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "xbow",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "seed_cucumber": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "cucumber"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "seedp_c"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "seed_lemon": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "lemon"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "seedp_l"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "seed_orange": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "orange"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "seedp_o"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "seed_tomato": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "tomato"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "seedp_tm"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "logToWood": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "logcut_1",
+          "logcut_1"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "scrap_wood"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "weedSeed": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "thingyLeaf"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "seedp_t"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "joint": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "thingyLeaf",
+          "paper"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "joint"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "joint_0": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "thingyLeaf",
+          "toiletroll_s"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "joint"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "wmelonSeeds": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "watermelon_sl_0"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "seedp_w"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "pumpkinSeeds": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "pumpkin_sl_0"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "seedp_pu"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "canepaper": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "sugarcane",
+          "sugarcane",
+          "sugarcane",
+          "sugarcane",
+          "sugarcane"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "scrap_paper"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "canesugar": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "sugarcane",
+          "sugarcane",
+          "sugarcane",
+          "sugarcane",
+          "scrap_paper"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "sugar"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "glassScrap_0": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "\\gglass",
+          "\\gglass",
+          "\\gglass",
+          "\\gglass"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "scrap_glass"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "glassScrap_1": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "quartzCrystal"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "scrap_glass"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "burger": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "burgerBuns",
+          "patty_c",
+          "tomato_sl_0",
+          "cheeses"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "burger"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "hotdog": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "hotdogBun",
+          "sausage_c"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "hotdog"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "doughBun_h": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "doughbun_h"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "doughbun_b"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "doughBun_b": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "doughbun_b"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "doughbun_h"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "patty": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "sausage_r"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "patty_r"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "sausage": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "patty_r"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "sausage_r"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "cigfish": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "cigp"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "cig_f",
+          "cig_f",
+          "cig_f"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": true,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": true
+      },
+      "jacko_0": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "pumpkin",
+          "ut_knife",
+          "candle"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "jacko_0",
+          "ut_knife"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "jacko_1": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "pumpkin",
+          "ut_knife",
+          "candle"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "jacko_1",
+          "ut_knife"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "jacko_2": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "pumpkin",
+          "ut_knife",
+          "candle"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "jacko_2",
+          "ut_knife"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "jacko_3": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "pumpkin",
+          "ut_knife",
+          "candle"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "jacko_3",
+          "ut_knife"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "jacko_4": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "pumpkin",
+          "ut_knife",
+          "candle"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "jacko_4",
+          "ut_knife"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "jacko_5": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "pumpkin",
+          "ut_knife",
+          "candle"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "jacko_5",
+          "ut_knife"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "fixWatches": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "j_watches",
+          "tool_sc"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "watches",
+          "tool_sc"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "seed_bberry": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "berry_0",
+          "berry_0"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "seedp_brb"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "seed_rberry": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "berry_1",
+          "berry_1"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "seedp_brr"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "seed_sberry": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "berry_2",
+          "berry_2"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "seedp_brs"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "seed_aberry": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "berry_3",
+          "berry_3"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "seedp_bra"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "upg_emf": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "emfdetec",
+          "scrap_elec",
+          "scrap_elec",
+          "scrap_plastic"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "p_emf"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "upg_emf",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": true,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "upg_geiger": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "rad_d",
+          "scrap_elec",
+          "scrap_elec",
+          "scrap_plastic"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "p_gei"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "upg_geiger",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": true,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "pizza_pepp": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "pizzad_0",
+          "tomato",
+          "cheesec",
+          "cheesec",
+          "cheesec",
+          "sausage_r",
+          "sausage_r"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "pizzad_pepp"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "pizza_mush": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "pizzad_0",
+          "tomato",
+          "cheesec",
+          "cheesec",
+          "cheesec",
+          "shroom",
+          "shroom",
+          "shroom"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "pizzad_mush"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "pizza_pine": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "pizzad_0",
+          "tomato",
+          "cheesec",
+          "cheesec",
+          "cheesec",
+          "pineapple_sl_1",
+          "pineapple_sl_1"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "pizzad_pine"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "pizza_shri": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "pizzad_0",
+          "tomato",
+          "cheesec",
+          "cheesec",
+          "cheesec",
+          "shrimp_r",
+          "shrimp_r",
+          "shrimp_r",
+          "shrimp_r",
+          "shrimp_r",
+          "shrimp_r"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "pizzad_shri"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "notebook": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "scrap_paper",
+          "scrap_paper"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "clipboard"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "beebox": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "plank",
+          "plank",
+          "plank",
+          "plank",
+          "scrap_wood",
+          "scrap_wood",
+          "scrap_plastic"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "beebox"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "beebox",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "yulegoat": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "hay",
+          "hay",
+          "hay",
+          "hay",
+          "hay",
+          "hay"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "yulegoat"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": true,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "woolboots": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "woolboot",
+          "woolboot"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "woolboots"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": true,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "hotdogcar": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "bread",
+          "cucumber",
+          "sausage_r"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "hotdogcar"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": true
+      },
+      "upg_metaldetec": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "mdetect",
+          "scrap_elec",
+          "scrap_elec",
+          "scrap_plastic",
+          "scrap_plastic",
+          "scrap_rubber"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "portableMD"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "upg_metaldetec",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": true,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "birdnest": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "hay"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "birdnest"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": true,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "snowballRoll": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "snowball",
+          "snowball",
+          "snowball",
+          "snowball",
+          "snowball",
+          "snowball",
+          "snowball",
+          "snowball"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "snowball_r"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "feathersticks": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "stick",
+          "stick",
+          "stick",
+          "feather",
+          "feather",
+          "feather",
+          "feather",
+          "feather"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "feathersticks"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "torch": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "stick",
+          "stick",
+          "stick",
+          "scrap_paper",
+          "scrap_paper"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "torch"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "marinade": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "jar_honey",
+          "varg"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "marinade"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": true
+      },
+      "drivebox": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "scrap_metal",
+          "scrap_plastic",
+          "scrap_rubber"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "box_p"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "scrapToolbox": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "toolbox"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "scrap_metal",
+          "scrap_metal"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "kerfurSkele": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "g_bone_0",
+          "g_bone_0",
+          "g_bone_0",
+          "g_bone_0",
+          "g_bone_2",
+          "g_bone_2",
+          "g_bone_2",
+          "g_bone_2",
+          "g_bone_3",
+          "g_bone_3",
+          "g_bone_3",
+          "glue_0",
+          "g_bone_1",
+          "kerfurO_nc"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "kerfur_skel"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": true,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": true,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": true
+      },
+      "kerfurVarg": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "g_bone_0",
+          "g_bone_0",
+          "g_bone_0",
+          "g_bone_0",
+          "g_bone_2",
+          "g_bone_2",
+          "g_bone_2",
+          "g_bone_2",
+          "g_bone_3",
+          "g_bone_3",
+          "g_bone_3",
+          "meatball",
+          "varg",
+          "kerfoacc_jacket",
+          "kerfurO_nc"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "kerfur_varg"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": true,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": true,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": true
+      },
+      "lithium": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "batts",
+          "batts",
+          "batts",
+          "batts",
+          "batts",
+          "batts",
+          "batts",
+          "batts"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "scrap_elec",
+          "lithium"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "toiletSheetPaper": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "toiletroll_s",
+          "toiletroll_s"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "paper"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "scrapNails": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "scrap_metal"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "nail",
+          "nail",
+          "nail",
+          "nail"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "scrapNails_ax": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "scrap_metal"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "nail_ax",
+          "nail_ax"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "rubbleScrap_0": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "kidneyStone",
+          "kidneyStone",
+          "kidneyStone",
+          "kidneyStone",
+          "kidneyStone",
+          "kidneyStone",
+          "kidneyStone",
+          "kidneyStone"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "scrap_rubble"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "snuskloaf": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "g4_organic_0",
+          "g4_organic_1",
+          "g4_organic_2",
+          "g4_organic_3",
+          "g4_organic_4",
+          "banana_p",
+          "banana_p",
+          "bread_sl",
+          "bread_sl",
+          "bread_sl",
+          "bread_sl",
+          "patty_r",
+          "patty_r"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "snuskloaf"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": true
+      },
+      "moneyBills_10": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "pmoney_b_10",
+          "pmoney_b_10",
+          "pmoney_b_10",
+          "pmoney_b_10",
+          "pmoney_b_10",
+          "pmoney_b_10",
+          "pmoney_b_10",
+          "pmoney_b_10",
+          "pmoney_b_10",
+          "pmoney_b_10"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "pmoney_ss_10"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": true,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "moneyBills_20": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "pmoney_b_20",
+          "pmoney_b_20",
+          "pmoney_b_20",
+          "pmoney_b_20",
+          "pmoney_b_20",
+          "pmoney_b_20",
+          "pmoney_b_20",
+          "pmoney_b_20",
+          "pmoney_b_20",
+          "pmoney_b_20"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "pmoney_ss_20"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": true,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "moneyBills_50": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "pmoney_b_50",
+          "pmoney_b_50",
+          "pmoney_b_50",
+          "pmoney_b_50",
+          "pmoney_b_50",
+          "pmoney_b_50",
+          "pmoney_b_50",
+          "pmoney_b_50",
+          "pmoney_b_50",
+          "pmoney_b_50"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "pmoney_ss_50"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": true,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "moneyBills_100": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "pmoney_b_100",
+          "pmoney_b_100",
+          "pmoney_b_100",
+          "pmoney_b_100",
+          "pmoney_b_100",
+          "pmoney_b_100",
+          "pmoney_b_100",
+          "pmoney_b_100",
+          "pmoney_b_100",
+          "pmoney_b_100"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "pmoney_ss_100"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": true,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "moneyBills_200": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "pmoney_b_200",
+          "pmoney_b_200",
+          "pmoney_b_200",
+          "pmoney_b_200",
+          "pmoney_b_200",
+          "pmoney_b_200",
+          "pmoney_b_200",
+          "pmoney_b_200",
+          "pmoney_b_200",
+          "pmoney_b_200"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "pmoney_ss_200"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": true,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "moneyBills_1000": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "pmoney_b_1000",
+          "pmoney_b_1000",
+          "pmoney_b_1000",
+          "pmoney_b_1000",
+          "pmoney_b_1000",
+          "pmoney_b_1000",
+          "pmoney_b_1000",
+          "pmoney_b_1000",
+          "pmoney_b_1000",
+          "pmoney_b_1000"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "pmoney_ss_1000"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": true,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "moneyStack_M_10": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "pmoney_ss_10",
+          "pmoney_ss_10",
+          "pmoney_ss_10",
+          "pmoney_ss_10",
+          "pmoney_ss_10"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "pmoney_sm_10"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": true,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "moneyStack_M_20": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "pmoney_ss_20",
+          "pmoney_ss_20",
+          "pmoney_ss_20",
+          "pmoney_ss_20",
+          "pmoney_ss_20"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "pmoney_sm_20"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": true,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "moneyStack_M_50": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "pmoney_ss_50",
+          "pmoney_ss_50",
+          "pmoney_ss_50",
+          "pmoney_ss_50",
+          "pmoney_ss_50"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "pmoney_sm_50"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": true,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "moneyStack_M_100": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "pmoney_ss_100",
+          "pmoney_ss_100",
+          "pmoney_ss_100",
+          "pmoney_ss_100",
+          "pmoney_ss_100"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "pmoney_sm_100"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": true,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "moneyStack_M_200": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "pmoney_ss_200",
+          "pmoney_ss_200",
+          "pmoney_ss_200",
+          "pmoney_ss_200",
+          "pmoney_ss_200"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "pmoney_sm_200"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": true,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "moneyStack_M_1000": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "pmoney_ss_1000",
+          "pmoney_ss_1000",
+          "pmoney_ss_1000",
+          "pmoney_ss_1000",
+          "pmoney_ss_1000"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "pmoney_sm_1000"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": true,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "moneyStack_L_10": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "pmoney_sm_10",
+          "pmoney_sm_10",
+          "pmoney_sm_10",
+          "pmoney_sm_10",
+          "pmoney_sm_10"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "pmoney_sl_10"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": true,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "moneyStack_L_20": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "pmoney_sm_20",
+          "pmoney_sm_20",
+          "pmoney_sm_20",
+          "pmoney_sm_20",
+          "pmoney_sm_20"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "pmoney_sl_20"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": true,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "moneyStack_L_50": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "pmoney_sm_50",
+          "pmoney_sm_50",
+          "pmoney_sm_50",
+          "pmoney_sm_50",
+          "pmoney_sm_50"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "pmoney_sl_50"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": true,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "moneyStack_L_100": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "pmoney_sm_100",
+          "pmoney_sm_100",
+          "pmoney_sm_100",
+          "pmoney_sm_100",
+          "pmoney_sm_100"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "pmoney_sl_100"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": true,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "moneyStack_L_200": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "pmoney_sm_200",
+          "pmoney_sm_200",
+          "pmoney_sm_200",
+          "pmoney_sm_200",
+          "pmoney_sm_200"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "pmoney_sl_200"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": true,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "moneyStack_L_1000": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "pmoney_sm_1000",
+          "pmoney_sm_1000",
+          "pmoney_sm_1000",
+          "pmoney_sm_1000",
+          "pmoney_sm_1000"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "pmoney_sl_1000"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": true,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "scrapNails_long": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "scrap_metal",
+          "scrap_metal"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "nail_l",
+          "nail_l"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "stolasseeds": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "stolasherb",
+          "stolasherb"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "seedp_stolasherb"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "atvWheelRubber": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "atvwheel"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "scrap_rubber",
+          "scrap_rubber",
+          "scrap_rubber",
+          "scrap_rubber"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "mynetKerfuro": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "kerfurO_nc",
+          "scrap_elec",
+          "scrap_elec",
+          "trElec_0",
+          "trElec_0",
+          "trElec_1",
+          "trElec_1",
+          "trElec_2",
+          "trElec_2",
+          "trElec_3",
+          "trElec_3",
+          "trElec_4",
+          "trElec_4",
+          "trElec_5",
+          "trElec_5",
+          "pcpart_0",
+          "pcpart_0",
+          "pcpart_1",
+          "pcpart_1",
+          "pcpart_2",
+          "pcpart_2",
+          "pcpart_3",
+          "pcpart_3",
+          "floppy_0",
+          "floppy_0",
+          "floppy_1",
+          "floppy_1",
+          "floppy_2",
+          "floppy_2",
+          "floppy_4",
+          "floppy_4",
+          "fhoundCrys",
+          "orange",
+          "orange",
+          "orange",
+          "orange",
+          "orange",
+          "orange",
+          "orange",
+          "orange"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "mynetKerfuro"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": true,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": true,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": true
+      },
+      "serverUpg_1": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "scrap_metal",
+          "scrap_plastic",
+          "scrap_elec"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "serverUpg_1"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "fuse": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "copperwire",
+          "scrap_glass",
+          "scrap_metal",
+          "scrap_elec"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [
+          "copperwire"
+        ],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "fuse"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      },
+      "fuseToMetal": {
+        "ingredients_4_403E56644866154088F5C3A4F2E20B55": [
+          "fuse_0"
+        ],
+        "depletingIngredients_26_518D9DF746A4B1A2393013B50D35C1F8": [],
+        "result_6_893C01EE4438C4AAF7E917954BB7F448": [
+          "scrap_metal"
+        ],
+        "blueprint_9_1946A61745B0008C0F2F268F1D73DB38": "",
+        "reverse_17_FF574DE14D51000F2D3913849A26EE8B": false,
+        "hidden_19_A9FB3219431E6D0680B003B86D3414F1": false,
+        "funny_21_61DB0DB249E13D1C0A642D8F95A28E13": false
+      }
+    }
+  }
+]

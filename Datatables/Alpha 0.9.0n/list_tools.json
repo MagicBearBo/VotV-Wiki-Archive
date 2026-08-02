@@ -1,0 +1,774 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "list_tools",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "VotV/Content/main/datatables/list_tools",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'struct_toolData'",
+        "ObjectPath": "VotV/Content/main/structs/struct_toolData.0"
+      }
+    },
+    "Rows": {
+      "disintegrator": {
+        "toolName_11_7EFA6C2A4CF2E827413D24B510CCB602": "None",
+        "object_2_6204D7384B81A0CE11A8ACA0685AA210": {
+          "ObjectName": "BlueprintGeneratedClass'tool_disintegrator_C'",
+          "ObjectPath": "VotV/Content/objects/tool_disintegrator.2"
+        },
+        "category_8_D7A964BD482F8E702775FBA6B66F1632": "enum_toolCategory::NewEnumerator0",
+        "displayName_5_D614FE314B908AACC83291A273ED6C31": {
+          "Namespace": "",
+          "Key": "962DDB624FC9312641489E93C2A6F234",
+          "SourceString": "Disintegrator",
+          "LocalizedString": "Disintegrator"
+        },
+        "displayDesc_14_99F611674CDE4EA1DE7E3DB0F3265E31": {
+          "Namespace": "",
+          "Key": "464CAA0C4FCC609112CFCEA9AEFCA2CC",
+          "SourceString": "Deletes the object but prettier.",
+          "LocalizedString": "Deletes the object but prettier."
+        }
+      },
+      "remover": {
+        "toolName_11_7EFA6C2A4CF2E827413D24B510CCB602": "None",
+        "object_2_6204D7384B81A0CE11A8ACA0685AA210": {
+          "ObjectName": "BlueprintGeneratedClass'tool_remover_C'",
+          "ObjectPath": "VotV/Content/objects/tool_remover.2"
+        },
+        "category_8_D7A964BD482F8E702775FBA6B66F1632": "enum_toolCategory::NewEnumerator2",
+        "displayName_5_D614FE314B908AACC83291A273ED6C31": {
+          "Namespace": "",
+          "Key": "2AB4DBA24B06425A2D4A0A81485CF9A4",
+          "SourceString": "Remover",
+          "LocalizedString": "Remover"
+        },
+        "displayDesc_14_99F611674CDE4EA1DE7E3DB0F3265E31": {
+          "Namespace": "",
+          "Key": "67247C71461EBAAB093D56B6A0F3E167",
+          "SourceString": "Deletes the object.",
+          "LocalizedString": "Deletes the object."
+        }
+      },
+      "spawn": {
+        "toolName_11_7EFA6C2A4CF2E827413D24B510CCB602": "None",
+        "object_2_6204D7384B81A0CE11A8ACA0685AA210": {
+          "ObjectName": "BlueprintGeneratedClass'tool_spawn_C'",
+          "ObjectPath": "VotV/Content/objects/tool_spawn.2"
+        },
+        "category_8_D7A964BD482F8E702775FBA6B66F1632": "enum_toolCategory::NewEnumerator0",
+        "displayName_5_D614FE314B908AACC83291A273ED6C31": {
+          "Namespace": "",
+          "Key": "CB79A0D64516435FA869518EE024F6DB",
+          "SourceString": "Spawner",
+          "LocalizedString": "Spawner"
+        },
+        "displayDesc_14_99F611674CDE4EA1DE7E3DB0F3265E31": {
+          "Namespace": "",
+          "Key": "4FFF6B61434EFFA251E190B87C6D4191",
+          "SourceString": "Spawns an object from spawn menu.\r\nTo select an object: hold Alt and LMB on the object icon.",
+          "LocalizedString": "Spawns an object from spawn menu.\r\nTo select an object: hold Alt and LMB on the object icon."
+        }
+      },
+      "weld": {
+        "toolName_11_7EFA6C2A4CF2E827413D24B510CCB602": "None",
+        "object_2_6204D7384B81A0CE11A8ACA0685AA210": {
+          "ObjectName": "BlueprintGeneratedClass'tool_weld_C'",
+          "ObjectPath": "VotV/Content/objects/tool_weld.16"
+        },
+        "category_8_D7A964BD482F8E702775FBA6B66F1632": "enum_toolCategory::NewEnumerator1",
+        "displayName_5_D614FE314B908AACC83291A273ED6C31": {
+          "Namespace": "",
+          "Key": "1774C9174C4C10FEC639B8935F57CD13",
+          "SourceString": "Welder",
+          "LocalizedString": "Welder"
+        },
+        "displayDesc_14_99F611674CDE4EA1DE7E3DB0F3265E31": {
+          "Namespace": "",
+          "Key": "3EA2793549BBECFB28A93297F1CA2A64",
+          "SourceString": "Welds two objects together.\r\nLMB on two objects to weld them.",
+          "LocalizedString": "Welds two objects together.\r\nLMB on two objects to weld them."
+        }
+      },
+      "identifier": {
+        "toolName_11_7EFA6C2A4CF2E827413D24B510CCB602": "None",
+        "object_2_6204D7384B81A0CE11A8ACA0685AA210": {
+          "ObjectName": "BlueprintGeneratedClass'tool_identify_C'",
+          "ObjectPath": "VotV/Content/objects/tool_identify.2"
+        },
+        "category_8_D7A964BD482F8E702775FBA6B66F1632": "enum_toolCategory::NewEnumerator7",
+        "displayName_5_D614FE314B908AACC83291A273ED6C31": {
+          "Namespace": "",
+          "Key": "C747AAE64139220FB5800FB35EF333AC",
+          "SourceString": "Identifier",
+          "LocalizedString": "Identifier"
+        },
+        "displayDesc_14_99F611674CDE4EA1DE7E3DB0F3265E31": {
+          "Namespace": "",
+          "Key": "CD8EA8464465C0989EA191A04412F9EF",
+          "SourceString": "Lists a bunch of information about the hit trace point.",
+          "LocalizedString": "Lists a bunch of information about the hit trace point."
+        }
+      },
+      "trashClumpSpawner": {
+        "toolName_11_7EFA6C2A4CF2E827413D24B510CCB602": "None",
+        "object_2_6204D7384B81A0CE11A8ACA0685AA210": {
+          "ObjectName": "BlueprintGeneratedClass'tool_garbageSpawner_C'",
+          "ObjectPath": "VotV/Content/objects/tool_garbageSpawner.5"
+        },
+        "category_8_D7A964BD482F8E702775FBA6B66F1632": "enum_toolCategory::NewEnumerator7",
+        "displayName_5_D614FE314B908AACC83291A273ED6C31": {
+          "Namespace": "",
+          "Key": "86E8C5664542751EBBC8C98FA9E919A4",
+          "SourceString": "Trash clump spawner",
+          "LocalizedString": "Trash clump spawner"
+        },
+        "displayDesc_14_99F611674CDE4EA1DE7E3DB0F3265E31": {
+          "Namespace": "",
+          "Key": "3E8B02C242A8F9CB9C82D585DAE101AA",
+          "SourceString": "Debug spawner for trash piles\r\n0 - metal\r\n1 - paper\r\n2 - plastic\r\n3 - wood\r\n4 - elec\r\n5 - gore\r\n6 - organic\r\n7 - rubber\r\n8 - glass\r\n9 - dirt\r\n10 - ash\r\n11 - coal",
+          "LocalizedString": "Debug spawner for trash piles\r\n0 - metal\r\n1 - paper\r\n2 - plastic\r\n3 - wood\r\n4 - elec\r\n5 - gore\r\n6 - organic\r\n7 - rubber\r\n8 - glass\r\n9 - dirt\r\n10 - ash\r\n11 - coalDebug spawner for trash piles"
+        }
+      },
+      "zerograv": {
+        "toolName_11_7EFA6C2A4CF2E827413D24B510CCB602": "None",
+        "object_2_6204D7384B81A0CE11A8ACA0685AA210": {
+          "ObjectName": "BlueprintGeneratedClass'tool_zerograv_C'",
+          "ObjectPath": "VotV/Content/objects/tool_zerograv.2"
+        },
+        "category_8_D7A964BD482F8E702775FBA6B66F1632": "enum_toolCategory::NewEnumerator5",
+        "displayName_5_D614FE314B908AACC83291A273ED6C31": {
+          "Namespace": "",
+          "Key": "131F467D423B13443613D88402BE8023",
+          "SourceString": "Zero G",
+          "LocalizedString": "Zero G"
+        },
+        "displayDesc_14_99F611674CDE4EA1DE7E3DB0F3265E31": {
+          "Namespace": "",
+          "Key": "FBFC538844993FEA914119806DC92281",
+          "SourceString": "Turns off the gravity for an object for 10 seconds.",
+          "LocalizedString": "Turns off the gravity for an object for 10 seconds."
+        }
+      },
+      "stacker": {
+        "toolName_11_7EFA6C2A4CF2E827413D24B510CCB602": "None",
+        "object_2_6204D7384B81A0CE11A8ACA0685AA210": {
+          "ObjectName": "BlueprintGeneratedClass'tool_stacker_C'",
+          "ObjectPath": "VotV/Content/objects/tool_stacker.14"
+        },
+        "category_8_D7A964BD482F8E702775FBA6B66F1632": "enum_toolCategory::NewEnumerator1",
+        "displayName_5_D614FE314B908AACC83291A273ED6C31": {
+          "Namespace": "",
+          "Key": "73ECD79F45C8AF078AEA6F854F3C6DE4",
+          "SourceString": "Stacker",
+          "LocalizedString": "Stacker"
+        },
+        "displayDesc_14_99F611674CDE4EA1DE7E3DB0F3265E31": {
+          "Namespace": "",
+          "Key": "31BA4BA8408A55F070D7FEB30FE07981",
+          "SourceString": "Creates a chain of props along the certain axis.\r\n\r\nAxis map:\r\n0: +X\r\n1: +Y\r\n2: +Z\r\n3: -X\r\n4: -Y\r\n5: -Z",
+          "LocalizedString": "Creates a chain of props along the certain axis.\r\n\r\nAxis map:\r\n0: +X\r\n1: +Y\r\n2: +Z\r\n3: -X\r\n4: -Y\r\n5: -Z"
+        }
+      },
+      "nocollide": {
+        "toolName_11_7EFA6C2A4CF2E827413D24B510CCB602": "None",
+        "object_2_6204D7384B81A0CE11A8ACA0685AA210": {
+          "ObjectName": "BlueprintGeneratedClass'tool_nocollide_C'",
+          "ObjectPath": "VotV/Content/objects/tool_nocollide.12"
+        },
+        "category_8_D7A964BD482F8E702775FBA6B66F1632": "enum_toolCategory::NewEnumerator2",
+        "displayName_5_D614FE314B908AACC83291A273ED6C31": {
+          "Namespace": "",
+          "Key": "CC989D154B151401BCE1A6B196F7EEE9",
+          "SourceString": "NoCollide",
+          "LocalizedString": "NoCollide"
+        },
+        "displayDesc_14_99F611674CDE4EA1DE7E3DB0F3265E31": {
+          "Namespace": "",
+          "Key": "F0F2FBF443E67ACB2DC9B5A3396D9D9B",
+          "SourceString": "Turns off collision between two objects.",
+          "LocalizedString": "Turns off collision between two objects."
+        }
+      },
+      "ignite": {
+        "toolName_11_7EFA6C2A4CF2E827413D24B510CCB602": "None",
+        "object_2_6204D7384B81A0CE11A8ACA0685AA210": {
+          "ObjectName": "BlueprintGeneratedClass'tool_ignite_C'",
+          "ObjectPath": "VotV/Content/objects/tool_ignite.5"
+        },
+        "category_8_D7A964BD482F8E702775FBA6B66F1632": "enum_toolCategory::NewEnumerator7",
+        "displayName_5_D614FE314B908AACC83291A273ED6C31": {
+          "Namespace": "",
+          "Key": "4F3001A84FDBE181F80159BA271AE2D5",
+          "SourceString": "Ignite",
+          "LocalizedString": "Ignite"
+        },
+        "displayDesc_14_99F611674CDE4EA1DE7E3DB0F3265E31": {
+          "Namespace": "",
+          "Key": "0AB301E44E09D54E38664CA414B4FDF1",
+          "SourceString": "Sets the object on fire for N seconds.",
+          "LocalizedString": "Sets the object on fire for N seconds."
+        }
+      },
+      "damage": {
+        "toolName_11_7EFA6C2A4CF2E827413D24B510CCB602": "None",
+        "object_2_6204D7384B81A0CE11A8ACA0685AA210": {
+          "ObjectName": "BlueprintGeneratedClass'tool_damage_C'",
+          "ObjectPath": "VotV/Content/objects/tool_damage.5"
+        },
+        "category_8_D7A964BD482F8E702775FBA6B66F1632": "enum_toolCategory::NewEnumerator7",
+        "displayName_5_D614FE314B908AACC83291A273ED6C31": {
+          "Namespace": "",
+          "Key": "FC812A1D4862723C57778DBACC823C94",
+          "SourceString": "Damage",
+          "LocalizedString": "Damage"
+        },
+        "displayDesc_14_99F611674CDE4EA1DE7E3DB0F3265E31": {
+          "Namespace": "",
+          "Key": "A777D832476E63DF4F3648B379D4FD10",
+          "SourceString": "Deals damage to an object.",
+          "LocalizedString": "Deals damage to an object."
+        }
+      },
+      "resizer": {
+        "toolName_11_7EFA6C2A4CF2E827413D24B510CCB602": "None",
+        "object_2_6204D7384B81A0CE11A8ACA0685AA210": {
+          "ObjectName": "BlueprintGeneratedClass'tool_objectResizer_C'",
+          "ObjectPath": "VotV/Content/objects/tool_objectResizer.5"
+        },
+        "category_8_D7A964BD482F8E702775FBA6B66F1632": "enum_toolCategory::NewEnumerator2",
+        "displayName_5_D614FE314B908AACC83291A273ED6C31": {
+          "Namespace": "",
+          "Key": "164B17834A3EA2C0A7DE57AF46567A11",
+          "SourceString": "Object resizer",
+          "LocalizedString": "Object resizer"
+        },
+        "displayDesc_14_99F611674CDE4EA1DE7E3DB0F3265E31": {
+          "Namespace": "",
+          "Key": "E34913F042240048ABF9E4AA5E000BCE",
+          "SourceString": "Changes the size of an object.\r\nLMB to resize\r\nRMB to copy size",
+          "LocalizedString": "Changes the size of an object.\r\nLMB to resize\r\nRMB to copy size"
+        }
+      },
+      "lockAxis": {
+        "toolName_11_7EFA6C2A4CF2E827413D24B510CCB602": "None",
+        "object_2_6204D7384B81A0CE11A8ACA0685AA210": {
+          "ObjectName": "BlueprintGeneratedClass'tool_orientationConstraint_C'",
+          "ObjectPath": "VotV/Content/objects/tool_orientationConstraint.13"
+        },
+        "category_8_D7A964BD482F8E702775FBA6B66F1632": "enum_toolCategory::NewEnumerator2",
+        "displayName_5_D614FE314B908AACC83291A273ED6C31": {
+          "Namespace": "",
+          "Key": "F759EA3142D545C12A6863A64D4A8DCF",
+          "SourceString": "Lock orientation axis",
+          "LocalizedString": "Lock orientation axis"
+        },
+        "displayDesc_14_99F611674CDE4EA1DE7E3DB0F3265E31": {
+          "Namespace": "",
+          "Key": "3AA4FD8944B407C82EC7F287C65BBE93",
+          "SourceString": "Locks objects rotation along chosen axis.",
+          "LocalizedString": "Locks objects rotation along chosen axis."
+        }
+      },
+      "lockMove": {
+        "toolName_11_7EFA6C2A4CF2E827413D24B510CCB602": "None",
+        "object_2_6204D7384B81A0CE11A8ACA0685AA210": {
+          "ObjectName": "BlueprintGeneratedClass'tool_movementConstraint_C'",
+          "ObjectPath": "VotV/Content/objects/tool_movementConstraint.13"
+        },
+        "category_8_D7A964BD482F8E702775FBA6B66F1632": "enum_toolCategory::NewEnumerator2",
+        "displayName_5_D614FE314B908AACC83291A273ED6C31": {
+          "Namespace": "",
+          "Key": "1E1CE61841F89C67774FDA84A318E87B",
+          "SourceString": "Lock movement axis",
+          "LocalizedString": "Lock movement axis"
+        },
+        "displayDesc_14_99F611674CDE4EA1DE7E3DB0F3265E31": {
+          "Namespace": "",
+          "Key": "530B01E44CCF948C53A51885266F6E90",
+          "SourceString": "Locks objects movement along chosen axis.",
+          "LocalizedString": "Locks objects movement along chosen axis."
+        }
+      },
+      "setHidden": {
+        "toolName_11_7EFA6C2A4CF2E827413D24B510CCB602": "None",
+        "object_2_6204D7384B81A0CE11A8ACA0685AA210": {
+          "ObjectName": "BlueprintGeneratedClass'tool_makeHidden_C'",
+          "ObjectPath": "VotV/Content/objects/tool_makeHidden.11"
+        },
+        "category_8_D7A964BD482F8E702775FBA6B66F1632": "enum_toolCategory::NewEnumerator4",
+        "displayName_5_D614FE314B908AACC83291A273ED6C31": {
+          "Namespace": "",
+          "Key": "AD44D0904929309E76AB1BAF378B64CE",
+          "SourceString": "Make hidden",
+          "LocalizedString": "Make hidden"
+        },
+        "displayDesc_14_99F611674CDE4EA1DE7E3DB0F3265E31": {
+          "Namespace": "",
+          "Key": "3C94083943B88CD9F7E054A4F239FAF5",
+          "SourceString": "Sets object visibility to hidden.",
+          "LocalizedString": "Sets object visibility to hidden."
+        }
+      },
+      "explode": {
+        "toolName_11_7EFA6C2A4CF2E827413D24B510CCB602": "None",
+        "object_2_6204D7384B81A0CE11A8ACA0685AA210": {
+          "ObjectName": "BlueprintGeneratedClass'tool_explode_C'",
+          "ObjectPath": "VotV/Content/objects/tool_explode.2"
+        },
+        "category_8_D7A964BD482F8E702775FBA6B66F1632": "enum_toolCategory::NewEnumerator5",
+        "displayName_5_D614FE314B908AACC83291A273ED6C31": {
+          "Namespace": "",
+          "Key": "1F15969A46802ADD99B1F997EC01CF5C",
+          "SourceString": "Explode",
+          "LocalizedString": "Explode"
+        },
+        "displayDesc_14_99F611674CDE4EA1DE7E3DB0F3265E31": {
+          "Namespace": "",
+          "Key": "CD63A6EB4E7D1FBD3C1430919A414616",
+          "SourceString": "Spawns an explosion.",
+          "LocalizedString": "Spawns an explosion."
+        }
+      },
+      "lightning": {
+        "toolName_11_7EFA6C2A4CF2E827413D24B510CCB602": "None",
+        "object_2_6204D7384B81A0CE11A8ACA0685AA210": {
+          "ObjectName": "BlueprintGeneratedClass'tool_lightning_C'",
+          "ObjectPath": "VotV/Content/objects/tool_lightning.2"
+        },
+        "category_8_D7A964BD482F8E702775FBA6B66F1632": "enum_toolCategory::NewEnumerator5",
+        "displayName_5_D614FE314B908AACC83291A273ED6C31": {
+          "Namespace": "",
+          "Key": "ED1414A844E192A60CF78199C9629D3D",
+          "SourceString": "Lightning strike",
+          "LocalizedString": "Lightning strike"
+        },
+        "displayDesc_14_99F611674CDE4EA1DE7E3DB0F3265E31": {
+          "Namespace": "",
+          "Key": "6768070445DE753D9FC738927C303CEF",
+          "SourceString": "LMB - spawn a lightning strike\r\nRMB - spawn a height analysis lightning strike",
+          "LocalizedString": "LMB - spawn a lightning strike\r\nRMB - spawn a height analysis lightning strike"
+        }
+      },
+      "atvDamage": {
+        "toolName_11_7EFA6C2A4CF2E827413D24B510CCB602": "None",
+        "object_2_6204D7384B81A0CE11A8ACA0685AA210": {
+          "ObjectName": "BlueprintGeneratedClass'tool_tireBreaker_C'",
+          "ObjectPath": "VotV/Content/objects/tool_tireBreaker.5"
+        },
+        "category_8_D7A964BD482F8E702775FBA6B66F1632": "enum_toolCategory::NewEnumerator7",
+        "displayName_5_D614FE314B908AACC83291A273ED6C31": {
+          "Namespace": "",
+          "Key": "F46B28824F168555E5472094C0BFAEEC",
+          "SourceString": "ATV damage",
+          "LocalizedString": "ATV damage"
+        },
+        "displayDesc_14_99F611674CDE4EA1DE7E3DB0F3265E31": {
+          "Namespace": "",
+          "Key": "8F2FD8A546C748571B0AB3990BBC225F",
+          "SourceString": "Deals damage to an ATV or its tires",
+          "LocalizedString": "Deals damage to an ATV or its tires"
+        }
+      },
+      "rain": {
+        "toolName_11_7EFA6C2A4CF2E827413D24B510CCB602": "None",
+        "object_2_6204D7384B81A0CE11A8ACA0685AA210": {
+          "ObjectName": "BlueprintGeneratedClass'tool_rain_C'",
+          "ObjectPath": "VotV/Content/objects/tool_rain.5"
+        },
+        "category_8_D7A964BD482F8E702775FBA6B66F1632": "enum_toolCategory::NewEnumerator6",
+        "displayName_5_D614FE314B908AACC83291A273ED6C31": {
+          "Namespace": "",
+          "Key": "8333EF1F46D9C596FB15059DFBC34983",
+          "SourceString": "Rain",
+          "LocalizedString": "Rain"
+        },
+        "displayDesc_14_99F611674CDE4EA1DE7E3DB0F3265E31": {
+          "Namespace": "",
+          "Key": "D588552245E6954DD6F86D9DF871C07D",
+          "SourceString": "Toggles rain and changes its properties.",
+          "LocalizedString": "Toggles rain and changes its properties."
+        }
+      },
+      "wind": {
+        "toolName_11_7EFA6C2A4CF2E827413D24B510CCB602": "None",
+        "object_2_6204D7384B81A0CE11A8ACA0685AA210": {
+          "ObjectName": "BlueprintGeneratedClass'tool_wind_C'",
+          "ObjectPath": "VotV/Content/objects/tool_wind.5"
+        },
+        "category_8_D7A964BD482F8E702775FBA6B66F1632": "enum_toolCategory::NewEnumerator6",
+        "displayName_5_D614FE314B908AACC83291A273ED6C31": {
+          "Namespace": "",
+          "Key": "D165F4B448B37593B63850A757553A52",
+          "SourceString": "Wind",
+          "LocalizedString": "Wind"
+        },
+        "displayDesc_14_99F611674CDE4EA1DE7E3DB0F3265E31": {
+          "Namespace": "",
+          "Key": "3D5C3DD7445CCA02650E119154E6DF05",
+          "SourceString": "Sets the parameters of the background wind.",
+          "LocalizedString": "Sets the parameters of the background wind."
+        }
+      },
+      "modelManipulator": {
+        "toolName_11_7EFA6C2A4CF2E827413D24B510CCB602": "None",
+        "object_2_6204D7384B81A0CE11A8ACA0685AA210": {
+          "ObjectName": "BlueprintGeneratedClass'tool_modelManipulator_C'",
+          "ObjectPath": "VotV/Content/objects/tool_modelManipulator.5"
+        },
+        "category_8_D7A964BD482F8E702775FBA6B66F1632": "enum_toolCategory::NewEnumerator5",
+        "displayName_5_D614FE314B908AACC83291A273ED6C31": {
+          "Namespace": "",
+          "Key": "5A35324540D4B98B85E634B95AF85259",
+          "SourceString": "Model manipulator",
+          "LocalizedString": "Model manipulator"
+        },
+        "displayDesc_14_99F611674CDE4EA1DE7E3DB0F3265E31": {
+          "Namespace": "",
+          "Key": "8D80B79F47D723556D6357B7ABAA300E",
+          "SourceString": "Changes the objects model.\r\nIf the object is a prop, \"as_prop\" value changes its prop name.\r\nLMB - set model\r\nRMB - get model\r\nAlt + RMB - get prop name",
+          "LocalizedString": "Changes the objects model.\r\nIf the object is a prop, \"as_prop\" value changes its prop name.\r\nLMB - set model\r\nRMB - get model\r\nAlt + RMB - get prop name"
+        }
+      },
+      "foodTemp": {
+        "toolName_11_7EFA6C2A4CF2E827413D24B510CCB602": "None",
+        "object_2_6204D7384B81A0CE11A8ACA0685AA210": {
+          "ObjectName": "BlueprintGeneratedClass'tool_foodTemp_C'",
+          "ObjectPath": "VotV/Content/objects/tool_foodTemp.5"
+        },
+        "category_8_D7A964BD482F8E702775FBA6B66F1632": "enum_toolCategory::NewEnumerator7",
+        "displayName_5_D614FE314B908AACC83291A273ED6C31": {
+          "Namespace": "",
+          "Key": "706E0DA548D36516BF4ED982AC1DFB78",
+          "SourceString": "Food temperature",
+          "LocalizedString": "Food temperature"
+        },
+        "displayDesc_14_99F611674CDE4EA1DE7E3DB0F3265E31": {
+          "Namespace": "",
+          "Key": "E267B0AA42267613646C388E010DF57F",
+          "SourceString": "LMB set food temperature\r\nRMB get food temperature\r\n\r\nStarts steaming above 323 K\r\nStarts cooking above 324 K\r\nStarts  burning above 393 K\r\nTurns into coal at 427 K\r\nTurns into ice below 273 K",
+          "LocalizedString": "LMB set food temperature\r\nRMB get food temperature\r\n\r\nStarts steaming above 323 K\r\nStarts cooking above 324 K\r\nStarts  burning above 393 K\r\nTurns into coal at 427 K\r\nTurns into ice below 273 K"
+        }
+      },
+      "foodRipe": {
+        "toolName_11_7EFA6C2A4CF2E827413D24B510CCB602": "None",
+        "object_2_6204D7384B81A0CE11A8ACA0685AA210": {
+          "ObjectName": "BlueprintGeneratedClass'tool_foodRipe_C'",
+          "ObjectPath": "VotV/Content/objects/tool_foodRipe.5"
+        },
+        "category_8_D7A964BD482F8E702775FBA6B66F1632": "enum_toolCategory::NewEnumerator7",
+        "displayName_5_D614FE314B908AACC83291A273ED6C31": {
+          "Namespace": "",
+          "Key": "1957D784402CBE0E4AA556BE9B1840A8",
+          "SourceString": "Food ripeness",
+          "LocalizedString": "Food ripeness"
+        },
+        "displayDesc_14_99F611674CDE4EA1DE7E3DB0F3265E31": {
+          "Namespace": "",
+          "Key": "4E02A3834012631794BFFDB53B682DCD",
+          "SourceString": "LMB set food ripeness\r\nRMB get food ripeness",
+          "LocalizedString": "LMB set food ripeness\r\nRMB get food ripeness"
+        }
+      },
+      "cookFood": {
+        "toolName_11_7EFA6C2A4CF2E827413D24B510CCB602": "None",
+        "object_2_6204D7384B81A0CE11A8ACA0685AA210": {
+          "ObjectName": "BlueprintGeneratedClass'tool_foodCook_C'",
+          "ObjectPath": "VotV/Content/objects/tool_foodCook.2"
+        },
+        "category_8_D7A964BD482F8E702775FBA6B66F1632": "enum_toolCategory::NewEnumerator7",
+        "displayName_5_D614FE314B908AACC83291A273ED6C31": {
+          "Namespace": "",
+          "Key": "DF78C92F4E23FF65E061D0A201F75D36",
+          "SourceString": "Cook food",
+          "LocalizedString": "Cook food"
+        },
+        "displayDesc_14_99F611674CDE4EA1DE7E3DB0F3265E31": {
+          "Namespace": "",
+          "Key": "A17D1AD7430F583F4C9A2885765FCB04",
+          "SourceString": "Instantly cooks the food item.",
+          "LocalizedString": "Instantly cooks the food item."
+        }
+      },
+      "dishCalibration": {
+        "toolName_11_7EFA6C2A4CF2E827413D24B510CCB602": "None",
+        "object_2_6204D7384B81A0CE11A8ACA0685AA210": {
+          "ObjectName": "BlueprintGeneratedClass'tool_setDishCalibration_C'",
+          "ObjectPath": "VotV/Content/objects/tool_setDishCalibration.7"
+        },
+        "category_8_D7A964BD482F8E702775FBA6B66F1632": "enum_toolCategory::NewEnumerator7",
+        "displayName_5_D614FE314B908AACC83291A273ED6C31": {
+          "Namespace": "",
+          "Key": "FA2AE39A48C5D2D32D47A1A359FBEE12",
+          "SourceString": "Dish calibration",
+          "LocalizedString": "Dish calibration"
+        },
+        "displayDesc_14_99F611674CDE4EA1DE7E3DB0F3265E31": {
+          "Namespace": "",
+          "Key": "2F707E2E474BBD3F0289AEB3A1FAB5FE",
+          "SourceString": "SEts calibration value for a dish.\r\nLMB - sets calibration for a dish directly\r\nRMB - sets calibration value using dish index or by name (uses by_name if the index is -1)",
+          "LocalizedString": "SEts calibration value for a dish.\r\nLMB - sets calibration for a dish directly\r\nRMB - sets calibration value using dish index or by name (uses by_name if the index is -1)"
+        }
+      },
+      "plantGrow": {
+        "toolName_11_7EFA6C2A4CF2E827413D24B510CCB602": "None",
+        "object_2_6204D7384B81A0CE11A8ACA0685AA210": {
+          "ObjectName": "BlueprintGeneratedClass'tool_plantGrow_C'",
+          "ObjectPath": "VotV/Content/objects/tool_plantGrow.5"
+        },
+        "category_8_D7A964BD482F8E702775FBA6B66F1632": "enum_toolCategory::NewEnumerator7",
+        "displayName_5_D614FE314B908AACC83291A273ED6C31": {
+          "Namespace": "",
+          "Key": "DD73CCDC4E5257CF86462D8154EEE158",
+          "SourceString": "Plant growth",
+          "LocalizedString": "Plant growth"
+        },
+        "displayDesc_14_99F611674CDE4EA1DE7E3DB0F3265E31": {
+          "Namespace": "",
+          "Key": "B9805E1F403F95D17568D3BF25A377BF",
+          "SourceString": "Sets plant's growth value",
+          "LocalizedString": "Sets plant's growth value"
+        }
+      },
+      "plantFertilizer": {
+        "toolName_11_7EFA6C2A4CF2E827413D24B510CCB602": "None",
+        "object_2_6204D7384B81A0CE11A8ACA0685AA210": {
+          "ObjectName": "BlueprintGeneratedClass'tool_plantFert_C'",
+          "ObjectPath": "VotV/Content/objects/tool_plantFert.5"
+        },
+        "category_8_D7A964BD482F8E702775FBA6B66F1632": "enum_toolCategory::NewEnumerator7",
+        "displayName_5_D614FE314B908AACC83291A273ED6C31": {
+          "Namespace": "",
+          "Key": "CD2B4C21424405F0C38C6A954C229B63",
+          "SourceString": "Plant fertilizer",
+          "LocalizedString": "Plant fertilizer"
+        },
+        "displayDesc_14_99F611674CDE4EA1DE7E3DB0F3265E31": {
+          "Namespace": "",
+          "Key": "3F41A43A4F87345EB73BEAA7C5C6D6E1",
+          "SourceString": "Sets plant's fertilizer value",
+          "LocalizedString": "Sets plant's fertilizer value"
+        }
+      },
+      "plantWater": {
+        "toolName_11_7EFA6C2A4CF2E827413D24B510CCB602": "None",
+        "object_2_6204D7384B81A0CE11A8ACA0685AA210": {
+          "ObjectName": "BlueprintGeneratedClass'tool_plantWater_C'",
+          "ObjectPath": "VotV/Content/objects/tool_plantWater.5"
+        },
+        "category_8_D7A964BD482F8E702775FBA6B66F1632": "enum_toolCategory::NewEnumerator7",
+        "displayName_5_D614FE314B908AACC83291A273ED6C31": {
+          "Namespace": "",
+          "Key": "4A66A1C34583CEB17373278915C49CEE",
+          "SourceString": "Plant water",
+          "LocalizedString": "Plant water"
+        },
+        "displayDesc_14_99F611674CDE4EA1DE7E3DB0F3265E31": {
+          "Namespace": "",
+          "Key": "726CC60642AB49BA2C894F948B6D5CDF",
+          "SourceString": "Sets plant's water value",
+          "LocalizedString": "Sets plant's water value"
+        }
+      },
+      "plantFruit": {
+        "toolName_11_7EFA6C2A4CF2E827413D24B510CCB602": "None",
+        "object_2_6204D7384B81A0CE11A8ACA0685AA210": {
+          "ObjectName": "BlueprintGeneratedClass'tool_plantFruit_C'",
+          "ObjectPath": "VotV/Content/objects/tool_plantFruit.2"
+        },
+        "category_8_D7A964BD482F8E702775FBA6B66F1632": "enum_toolCategory::NewEnumerator7",
+        "displayName_5_D614FE314B908AACC83291A273ED6C31": {
+          "Namespace": "",
+          "Key": "77EAE0DD46E59EA7882BECBB16179B15",
+          "SourceString": "Plant fruit",
+          "LocalizedString": "Plant fruit"
+        },
+        "displayDesc_14_99F611674CDE4EA1DE7E3DB0F3265E31": {
+          "Namespace": "",
+          "Key": "2A63253C4ED3D6708062378393803488",
+          "SourceString": "Gives plant a fruit",
+          "LocalizedString": "Gives plant a fruit"
+        }
+      },
+      "propProps": {
+        "toolName_11_7EFA6C2A4CF2E827413D24B510CCB602": "None",
+        "object_2_6204D7384B81A0CE11A8ACA0685AA210": {
+          "ObjectName": "BlueprintGeneratedClass'tool_propProps_C'",
+          "ObjectPath": "VotV/Content/objects/tool_propProps.5"
+        },
+        "category_8_D7A964BD482F8E702775FBA6B66F1632": "enum_toolCategory::NewEnumerator7",
+        "displayName_5_D614FE314B908AACC83291A273ED6C31": {
+          "Namespace": "",
+          "Key": "69288F004EF2A4A852BF45987E3F0B71",
+          "SourceString": "Set prop properties",
+          "LocalizedString": "Set prop properties"
+        },
+        "displayDesc_14_99F611674CDE4EA1DE7E3DB0F3265E31": {
+          "Namespace": "",
+          "Key": "D9BA67824D1E2A75760529BAE87315AA",
+          "SourceString": "Sets specific properties of a prop.\r\n\r\nis_static - always static, can collide with a player, cannot be grabbed\r\nis_frozen - static until player interacts with the object\r\nis_active - special property\r\nis_sleeping - static until another object hits the sleeping object",
+          "LocalizedString": "Sets specific properties of a prop.\r\n\r\nis_static - always static, can collide with a player, cannot be grabbed\r\nis_frozen - static until player interacts with the object\r\nis_active - special property\r\nis_sleeping - static until another object hits the sleeping object"
+        }
+      },
+      "gridWeld": {
+        "toolName_11_7EFA6C2A4CF2E827413D24B510CCB602": "None",
+        "object_2_6204D7384B81A0CE11A8ACA0685AA210": {
+          "ObjectName": "BlueprintGeneratedClass'tool_gridWeld_C'",
+          "ObjectPath": "VotV/Content/objects/tool_gridWeld.3"
+        },
+        "category_8_D7A964BD482F8E702775FBA6B66F1632": "enum_toolCategory::NewEnumerator1",
+        "displayName_5_D614FE314B908AACC83291A273ED6C31": {
+          "Namespace": "",
+          "Key": "E5DF197A4551D4C7448388A023656C54",
+          "SourceString": "Grid weld",
+          "LocalizedString": "Grid weld"
+        },
+        "displayDesc_14_99F611674CDE4EA1DE7E3DB0F3265E31": {
+          "Namespace": "",
+          "Key": "6B4CF32449AECFA34BB017AA78E9C959",
+          "SourceString": "Welds a grid neighboring props",
+          "LocalizedString": "Welds a grid neighboring props"
+        }
+      },
+      "teleport": {
+        "toolName_11_7EFA6C2A4CF2E827413D24B510CCB602": "None",
+        "object_2_6204D7384B81A0CE11A8ACA0685AA210": {
+          "ObjectName": "BlueprintGeneratedClass'tool_teleport_C'",
+          "ObjectPath": "VotV/Content/objects/tool_teleport.5"
+        },
+        "category_8_D7A964BD482F8E702775FBA6B66F1632": "enum_toolCategory::NewEnumerator7",
+        "displayName_5_D614FE314B908AACC83291A273ED6C31": {
+          "Namespace": "",
+          "Key": "6BF50882443534304B7256834DD54583",
+          "SourceString": "Teleport",
+          "LocalizedString": "Teleport"
+        },
+        "displayDesc_14_99F611674CDE4EA1DE7E3DB0F3265E31": {
+          "Namespace": "",
+          "Key": "874FF65F402A1DCF0759039AD67893A9",
+          "SourceString": "Teleports the player to target location",
+          "LocalizedString": "Teleports the player to target location"
+        }
+      },
+      "setGas": {
+        "toolName_11_7EFA6C2A4CF2E827413D24B510CCB602": "None",
+        "object_2_6204D7384B81A0CE11A8ACA0685AA210": {
+          "ObjectName": "BlueprintGeneratedClass'tool_gasAmount_C'",
+          "ObjectPath": "VotV/Content/objects/tool_gasAmount.5"
+        },
+        "category_8_D7A964BD482F8E702775FBA6B66F1632": "enum_toolCategory::NewEnumerator7",
+        "displayName_5_D614FE314B908AACC83291A273ED6C31": {
+          "Namespace": "",
+          "Key": "A8E4900A4526B92F5250A88C3D51AE8B",
+          "SourceString": "Gascan gas amount",
+          "LocalizedString": "Gascan gas amount"
+        },
+        "displayDesc_14_99F611674CDE4EA1DE7E3DB0F3265E31": {
+          "Namespace": "",
+          "Key": "0D94687C45E6EBDED22509873A96FC0A",
+          "SourceString": "LMB - set gas amount for a gas can\r\nRMB - get gas amount from a gas can",
+          "LocalizedString": "LMB - set gas amount for a gas can\r\nRMB - get gas amount from a gas can"
+        }
+      },
+      "keyFinder": {
+        "toolName_11_7EFA6C2A4CF2E827413D24B510CCB602": "None",
+        "object_2_6204D7384B81A0CE11A8ACA0685AA210": {
+          "ObjectName": "BlueprintGeneratedClass'tool_keyFinder_C'",
+          "ObjectPath": "VotV/Content/objects/tool_keyFinder.3"
+        },
+        "category_8_D7A964BD482F8E702775FBA6B66F1632": "enum_toolCategory::NewEnumerator7",
+        "displayName_5_D614FE314B908AACC83291A273ED6C31": {
+          "Namespace": "",
+          "Key": "47DAED714372BC83E5C92292B1C93085",
+          "SourceString": "Key finder",
+          "LocalizedString": "Key finder"
+        },
+        "displayDesc_14_99F611674CDE4EA1DE7E3DB0F3265E31": {
+          "Namespace": "",
+          "Key": "2A29399445AF1BD2DDEC1B82905FB331",
+          "SourceString": "Analuyzes the keys of objects",
+          "LocalizedString": "Analuyzes the keys of objects"
+        }
+      },
+      "chrome": {
+        "toolName_11_7EFA6C2A4CF2E827413D24B510CCB602": "None",
+        "object_2_6204D7384B81A0CE11A8ACA0685AA210": {
+          "ObjectName": "BlueprintGeneratedClass'tool_chromium_C'",
+          "ObjectPath": "VotV/Content/objects/tool_chromium.2"
+        },
+        "category_8_D7A964BD482F8E702775FBA6B66F1632": "enum_toolCategory::NewEnumerator7",
+        "displayName_5_D614FE314B908AACC83291A273ED6C31": {
+          "Namespace": "",
+          "Key": "6C2E15E04B2A51E51D138EB8912B1A3B",
+          "SourceString": "Chrome",
+          "LocalizedString": "Chrome"
+        },
+        "displayDesc_14_99F611674CDE4EA1DE7E3DB0F3265E31": {
+          "Namespace": "",
+          "Key": "9E306DCD4B22B60C5509FDBFC734A559",
+          "SourceString": "Changes the material of the object to \"chrome\" (HL2 like specular shader)",
+          "LocalizedString": "Changes the material of the object to \"chrome\" (HL2 like specular shader)"
+        }
+      },
+      "getComponentByName": {
+        "toolName_11_7EFA6C2A4CF2E827413D24B510CCB602": "None",
+        "object_2_6204D7384B81A0CE11A8ACA0685AA210": {
+          "ObjectName": "BlueprintGeneratedClass'tool_getComponentByName_C'",
+          "ObjectPath": "VotV/Content/objects/tool_getComponentByName.5"
+        },
+        "category_8_D7A964BD482F8E702775FBA6B66F1632": "enum_toolCategory::NewEnumerator7",
+        "displayName_5_D614FE314B908AACC83291A273ED6C31": {
+          "Namespace": "",
+          "Key": "E641635B448F25091EB1C38D21C4D514",
+          "SourceString": "getComponentByName",
+          "LocalizedString": "getComponentByName"
+        },
+        "displayDesc_14_99F611674CDE4EA1DE7E3DB0F3265E31": {
+          "CultureInvariantString": null
+        }
+      },
+      "duplicateObject": {
+        "toolName_11_7EFA6C2A4CF2E827413D24B510CCB602": "None",
+        "object_2_6204D7384B81A0CE11A8ACA0685AA210": {
+          "ObjectName": "BlueprintGeneratedClass'tool_duplicateObject_C'",
+          "ObjectPath": "VotV/Content/objects/tool_duplicateObject.2"
+        },
+        "category_8_D7A964BD482F8E702775FBA6B66F1632": "enum_toolCategory::NewEnumerator0",
+        "displayName_5_D614FE314B908AACC83291A273ED6C31": {
+          "Namespace": "",
+          "Key": "9BC05642498D03CCA400C4844B2860FA",
+          "SourceString": "Duplicate object",
+          "LocalizedString": "Duplicate object"
+        },
+        "displayDesc_14_99F611674CDE4EA1DE7E3DB0F3265E31": {
+          "Namespace": "",
+          "Key": "1524F264405ADCBF87F1B3A1B303E970",
+          "SourceString": "RMB to select the object template\r\nLMB to spawn an object from template",
+          "LocalizedString": "RMB to select the object template\r\nLMB to spawn an object from template"
+        }
+      },
+      "wallAutoBuild": {
+        "toolName_11_7EFA6C2A4CF2E827413D24B510CCB602": "None",
+        "object_2_6204D7384B81A0CE11A8ACA0685AA210": {
+          "ObjectName": "BlueprintGeneratedClass'tool_wallAutoComplete_C'",
+          "ObjectPath": "VotV/Content/objects/tool_wallAutoComplete.2"
+        },
+        "category_8_D7A964BD482F8E702775FBA6B66F1632": "enum_toolCategory::NewEnumerator7",
+        "displayName_5_D614FE314B908AACC83291A273ED6C31": {
+          "Namespace": "",
+          "Key": "A1F0B8584A32A32421983697ADE95AF1",
+          "SourceString": "Builds wall",
+          "LocalizedString": "Builds wall"
+        },
+        "displayDesc_14_99F611674CDE4EA1DE7E3DB0F3265E31": {
+          "Namespace": "",
+          "Key": "4C57F29345045DC549CC8B9219C5D7AD",
+          "SourceString": "Completes the custom wall.\r\nTo change the wall material: toss one resource element into a non completed wall, then use the tool to build the wall.",
+          "LocalizedString": "Completes the custom wall.\r\nTo change the wall material: toss one resource element into a non completed wall, then use the tool to build the wall."
+        }
+      }
+    }
+  }
+]

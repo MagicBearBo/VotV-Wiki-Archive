@@ -1,0 +1,917 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "list_keybinds",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "VotV/Content/main/datatables/list_keybinds",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'struct_keybind'",
+        "ObjectPath": "VotV/Content/main/structs/struct_keybind.0"
+      }
+    },
+    "Rows": {
+      "forward": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "0204C4994EEA714F4F7DDBBB758172D2",
+          "SourceString": "Move forward",
+          "LocalizedString": "Move forward"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "W"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator4"
+      },
+      "back": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "3BD809C84828B4E64B4EDC9AFA0B17F6",
+          "SourceString": "Move back",
+          "LocalizedString": "Move back"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "S"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator4"
+      },
+      "right": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "FDC775714A74FD0647895692D8AD44F3",
+          "SourceString": "Move right",
+          "LocalizedString": "Move right"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "D"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator4"
+      },
+      "left": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "41037C824CBBF7A3A03DE98B9E54D270",
+          "SourceString": "Move left",
+          "LocalizedString": "Move left"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "A"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator4"
+      },
+      "up": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "A0267A3B4D9F4A33BFE5218F1CDAEB25",
+          "SourceString": "Move up",
+          "LocalizedString": "Move up"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "E"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator4"
+      },
+      "down": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "CBC0383944AA6D430F8A35890315E9C2",
+          "SourceString": "Move down",
+          "LocalizedString": "Move down"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "Q"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator4"
+      },
+      "use": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "E9957C1F40826DE9B386EB9F16268C6F",
+          "SourceString": "Pickup\\use",
+          "LocalizedString": "Pickup\\use"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "E"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator4"
+      },
+      "run": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "FF82C56D49D616A4E30744B5D8C7F5EE",
+          "SourceString": "Run",
+          "LocalizedString": "Run"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "LeftShift"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator4"
+      },
+      "crouch": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "08AEC0F546C92D872630F3960DD9B02A",
+          "SourceString": "Crouch",
+          "LocalizedString": "Crouch"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "LeftControl"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator4"
+      },
+      "jump": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "DAE6335E4D178C0006D1ABB58F20372C",
+          "SourceString": "Jump",
+          "LocalizedString": "Jump"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "SpaceBar"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator4"
+      },
+      "scrollUp": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "0A9A0BC94B3D03A05A30FAA68FCA3BBF",
+          "SourceString": "Scroll up",
+          "LocalizedString": "Scroll up"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "MouseScrollUp"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator4"
+      },
+      "scrollDown": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "E05386324A9D073A33089DA4D334CE7F",
+          "SourceString": "Scroll down",
+          "LocalizedString": "Scroll down"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "MouseScrollDown"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator4"
+      },
+      "flashlight": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "EB8FE3DE4AEC793343D5918B54F06791",
+          "SourceString": "Flashlight",
+          "LocalizedString": "Flashlight"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "F"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator4"
+      },
+      "alt": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "3CC47F5E46122589BCA5649900FE09A6",
+          "SourceString": "Alt",
+          "LocalizedString": "Alt"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "LeftAlt"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator4"
+      },
+      "zoom": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "C06F0A654630AC61D8B3B1AD89838856",
+          "SourceString": "Zoom",
+          "LocalizedString": "Zoom"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "X"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator4"
+      },
+      "inventory": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "CB745B51411D1B5043427CBBF3B77233",
+          "SourceString": "Inventory",
+          "LocalizedString": "Inventory"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "Tab"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator4"
+      },
+      "fire": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "D59E67044DCBED0B820A55AF034176F4",
+          "SourceString": "Fire\\attack\\throw",
+          "LocalizedString": "Fire\\attack\\throw"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "LeftMouseButton"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator4"
+      },
+      "rotate": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "FFE640F543C27C451A00ED9F4F76CACE",
+          "SourceString": "Rotate object",
+          "LocalizedString": "Rotate object"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "RightMouseButton"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator4"
+      },
+      "quicksave": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "B3891FEF456A6CC8AF0A6F8D8ED5B1E1",
+          "SourceString": "Quicksave",
+          "LocalizedString": "Quicksave"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "F5"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator4"
+      },
+      "backupsave": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "593F271E4EAAE9F9E7CB02810DEAB716",
+          "SourceString": "Quick backup save",
+          "LocalizedString": "Quick backup save"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "F6"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator4"
+      },
+      "lockmouse": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "14C13F004FD01C585FC2B582A2826D7B",
+          "SourceString": "Toggle mouse lock",
+          "LocalizedString": "Toggle mouse lock"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "F1"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator4"
+      },
+      "spawnmenu": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "84F6EB804A7491D2D4B22FBC137E6F7D",
+          "SourceString": "Spawn menu",
+          "LocalizedString": "Spawn menu"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "Q"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator4"
+      },
+      "cheatmenu": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "A95666374BDF1181C3013BAAF9E110C2",
+          "SourceString": "Cheat menu",
+          "LocalizedString": "Cheat menu"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "NumPadZero"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator4"
+      },
+      "noclip": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "EB07A7944B446D60497F93AD363FF387",
+          "SourceString": "Noclip",
+          "LocalizedString": "Noclip"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "V"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator4"
+      },
+      "ragdoll": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "A12CAF8342D76E95BB91BA8FEB5EF8EE",
+          "SourceString": "Ragdoll",
+          "LocalizedString": "Ragdoll"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "C"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator4"
+      },
+      "undo": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "3B0E128547432CE3002A1DB36D7AD17A",
+          "SourceString": "Undo",
+          "LocalizedString": "Undo"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "Z"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator4"
+      },
+      "drop": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "35F90A2F487D81DF610C1CAC0A7B16E1",
+          "SourceString": "Drop item",
+          "LocalizedString": "Drop item"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "R"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator4"
+      },
+      "containerPut": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "A677C1DB4FA19E8C522CD6A6A594B7A2",
+          "SourceString": "Put in container",
+          "LocalizedString": "Put in container"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "LeftShift"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator4"
+      },
+      "commit": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "20A858514449B375A2145886896A222B",
+          "SourceString": "Commit",
+          "LocalizedString": "Commit"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "Enter"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator4"
+      },
+      "hotbar_1": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "03641FE44E83434CA7CE92B59C77A608",
+          "SourceString": "Hotbar 1",
+          "LocalizedString": "Hotbar 1"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "One"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator4"
+      },
+      "hotbar_2": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "DE9D11454F6A3C845AC11EBA8725921F",
+          "SourceString": "Hotbar 2",
+          "LocalizedString": "Hotbar 2"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "Two"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator4"
+      },
+      "hotbar_3": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "2651083A43F5C100804A7CB58346F230",
+          "SourceString": "Hotbar 3",
+          "LocalizedString": "Hotbar 3"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "Three"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator4"
+      },
+      "hotbar_4": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "68B1FB154019B45688D3E7891B4B1B92",
+          "SourceString": "Hotbar 4",
+          "LocalizedString": "Hotbar 4"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "Four"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator4"
+      },
+      "hotbar_5": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "A1C70FF449D49EB8B517E9BF9DD5E1EC",
+          "SourceString": "Hotbar 5",
+          "LocalizedString": "Hotbar 5"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "Five"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator4"
+      },
+      "hotbar_6": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "87F111FF45DBB6815EFCBFBCAA40230E",
+          "SourceString": "Hotbar 6",
+          "LocalizedString": "Hotbar 6"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "Six"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator4"
+      },
+      "hotbar_7": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "DD2E0F984CA22FBA43895D858651AF43",
+          "SourceString": "Hotbar 7",
+          "LocalizedString": "Hotbar 7"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "Seven"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator4"
+      },
+      "hotbar_8": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "C56E659140AE97F90684B4A8D85FD87B",
+          "SourceString": "Hotbar 8",
+          "LocalizedString": "Hotbar 8"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "Eight"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator4"
+      },
+      "hotbar_9": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "CB3CC837451E251973DDC4A72356D720",
+          "SourceString": "Hotbar 9",
+          "LocalizedString": "Hotbar 9"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "Nine"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator4"
+      },
+      "hotbar_10": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "1ADF5DA743D7A6D4373EF5AA519D276D",
+          "SourceString": "Hotbar 10",
+          "LocalizedString": "Hotbar 10"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "Zero"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator4"
+      },
+      "debugtp": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "D9B1CF004568CC17086034B96814B6AA",
+          "SourceString": "Debug TP",
+          "LocalizedString": "Debug TP"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "Decimal"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator4"
+      },
+      "lockObject": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "F11947B1435961EA6F10F3827252324D",
+          "SourceString": "Fix object in place",
+          "LocalizedString": "Fix object in place"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "MiddleMouseButton"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator4"
+      },
+      "dismount": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "63DAA22F48F0BF075B80E8B04CEC4264",
+          "SourceString": "Dismount chair/ATV",
+          "LocalizedString": "Dismount chair/ATV"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "Escape"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator4"
+      },
+      "atv_forward": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "07E1747546EDBCF682C4269BA666975F",
+          "SourceString": "Forward",
+          "LocalizedString": "Forward"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "W"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator3"
+      },
+      "atv_back": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "A3BB949046135450FC4FEB9B98498054",
+          "SourceString": "Backwards",
+          "LocalizedString": "Backwards"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "S"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator3"
+      },
+      "atv_right": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "C89165B346CA7B09E8AEAC9D2087014D",
+          "SourceString": "Steering right",
+          "LocalizedString": "Steering right"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "D"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator3"
+      },
+      "atv_left": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "4B7086B54968CC18B059D99693BF98DD",
+          "SourceString": "Steering left",
+          "LocalizedString": "Steering left"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "A"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator3"
+      },
+      "atv_use": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "27B6B74C43745B9A01795E88BC47D94F",
+          "SourceString": "Use from ATV",
+          "LocalizedString": "Use from ATV"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "E"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator3"
+      },
+      "atv_turbo": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "D29A1E7C45CDAC7DDC7DDC8AB4278B70",
+          "SourceString": "Turbo",
+          "LocalizedString": "Turbo"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "LeftShift"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator3"
+      },
+      "atv_viewSteering": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "A3E90C0C49B714B1B501248B44A43CD0",
+          "SourceString": "View steering",
+          "LocalizedString": "View steering"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "LeftControl"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator3"
+      },
+      "atv_honk": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "29A85A3E429BDBA31C914F8C9049DA29",
+          "SourceString": "Honk",
+          "LocalizedString": "Honk"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "LeftAlt"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator3"
+      },
+      "atv_lights": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "98610E7E401FD1D8B1B142871AB3B376",
+          "SourceString": "Lights",
+          "LocalizedString": "Lights"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "F"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator3"
+      },
+      "atv_zoom": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "7CBF063049929A442D5C0B89CB688EF2",
+          "SourceString": "Zoom",
+          "LocalizedString": "Zoom"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "X"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator3"
+      },
+      "atv_brake": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "E0D5D1F646F8B8FE4E62E1BCEFD8899E",
+          "SourceString": "Brake",
+          "LocalizedString": "Brake"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "SpaceBar"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator3"
+      },
+      "atv_fall": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "E46B7D93465A2AF49DA47D902F876C04",
+          "SourceString": "Fall/drop",
+          "LocalizedString": "Fall/drop"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "C"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator3"
+      },
+      "coord_up": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "90BD2D9E42FB4A73C7F0659022D1B012",
+          "SourceString": "Move up",
+          "LocalizedString": "Move up"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "W"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator5"
+      },
+      "coord_down": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "D871261A4725CD3CD34876AD039EEC08",
+          "SourceString": "Move down",
+          "LocalizedString": "Move down"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "S"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator5"
+      },
+      "coord_right": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "0714AA5047C349AF99A53A8EEA326845",
+          "SourceString": "Move right",
+          "LocalizedString": "Move right"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "D"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator5"
+      },
+      "coord_left": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "4FFD602A4B21E74D2522DE8B23AE50B8",
+          "SourceString": "Move left",
+          "LocalizedString": "Move left"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "A"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator5"
+      },
+      "coord_quickScan": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "C22143D84B5C6B75295730B2B46276F5",
+          "SourceString": "Quick scan",
+          "LocalizedString": "Quick scan"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "LeftShift"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator5"
+      },
+      "coord_ping": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "D2F9B0E5440512EB12ACBFA1B5590B47",
+          "SourceString": "Ping",
+          "LocalizedString": "Ping"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "Enter"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator5"
+      },
+      "coord_switchTarget": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "FE96B7004826D823B557B4AD198A6753",
+          "SourceString": "Switch target",
+          "LocalizedString": "Switch target"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "LeftAlt"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator5"
+      },
+      "coord_bringTarget_1": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "A8E797984A57E40B6A73D3B1F9A0FA1F",
+          "SourceString": "Bring radar 1",
+          "LocalizedString": "Bring radar 1"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "One"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator5"
+      },
+      "coord_bringTarget_2": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "9E2150CA40FFEE925260F689D1916CDF",
+          "SourceString": "Bring radar 2",
+          "LocalizedString": "Bring radar 2"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "Two"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator5"
+      },
+      "coord_bringTarget_3": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "216011834634A5B3B818B8A0294029BB",
+          "SourceString": "Bring radar 3",
+          "LocalizedString": "Bring radar 3"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "Three"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator5"
+      },
+      "radar_up": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "89F1F55F4B00BAE542688A9951FF2ECF",
+          "SourceString": "Move up",
+          "LocalizedString": "Move up"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "W"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator2"
+      },
+      "radar_down": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "1754E3B34885DE3E2D9C34A61CA85FAF",
+          "SourceString": "Move down",
+          "LocalizedString": "Move down"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "S"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator2"
+      },
+      "radar_right": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "732750984BAC836269E9CF8E14FA0E18",
+          "SourceString": "Move right",
+          "LocalizedString": "Move right"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "D"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator2"
+      },
+      "radar_left": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "61CF3F784EF54FA31958B6B10F0A4459",
+          "SourceString": "Move left",
+          "LocalizedString": "Move left"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "A"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator2"
+      },
+      "radar_zoomIn": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "EE4D800844951EBB6D8E999BEE981259",
+          "SourceString": "Zoom in",
+          "LocalizedString": "Zoom in"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "E"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator2"
+      },
+      "radar_zoomOut": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "B596DEC842C08EFB3BFA189F2DFE4EB1",
+          "SourceString": "Zoom out",
+          "LocalizedString": "Zoom out"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "Q"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator2"
+      },
+      "radar_target": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "A4D5D80945E01CABE0F793A055655F80",
+          "SourceString": "Set target",
+          "LocalizedString": "Set target"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "Enter"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator2"
+      },
+      "radar_resetView": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "C2638F2B44D4C62BAF72108B7EEF7588",
+          "SourceString": "Reset view",
+          "LocalizedString": "Reset view"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "LeftShift"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator2"
+      },
+      "activateEquipment": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "821A9DF5443B236F1C8BE5B7DB6FD380",
+          "SourceString": "Activate equipment",
+          "LocalizedString": "Activate equipment"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "LeftAlt"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator1"
+      },
+      "throwPath": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "9467D7E049FFC3049A9F518784A6F269",
+          "SourceString": "Show throw trajectory",
+          "LocalizedString": "Show throw trajectory"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "None"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator1"
+      },
+      "superscreenshot": {
+        "displayName_2_4CB4C80A43B446BAF3C9DD95B32FEEA7": {
+          "Namespace": "",
+          "Key": "41F078FE483514A4C1BA2E8F6BF9724A",
+          "SourceString": "Super screenshot",
+          "LocalizedString": "Super screenshot"
+        },
+        "key_5_7DFFFB4645768511021CD2B3B6C2997F": {
+          "KeyName": "None"
+        },
+        "category_9_54D6F4C24D02C80749C8C885E5991013": "enum_keybindCategory::NewEnumerator1"
+      }
+    }
+  }
+]

@@ -1,0 +1,1857 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "list_physSound",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "VotV/Content/main/datatables/list_physSound",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'struct_physSound'",
+        "ObjectPath": "VotV/Content/main/structs/struct_physSound.0"
+      }
+    },
+    "Rows": {
+      "grass": {
+        "step_2_264EF62E47692AC3EC4D1DB1D2EFDB37": {
+          "ObjectName": "SoundCue'foot_grass_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/footsteps/foot_grass_Cue.0"
+        },
+        "impact_4_B669AE3D4B8D794F27201B972A9C256C": {
+          "ObjectName": "SoundCue'dirt_impact_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/dirt_impact_Cue.0"
+        },
+        "soft_30_1E6AA0474C29728BFC6F82AF9108D822": {
+          "ObjectName": "SoundCue'foot_grass_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/footsteps/foot_grass_Cue.0"
+        },
+        "damaged_7_BE976D7C45CF1D5F920305B1CB262187": {
+          "ObjectName": "SoundCue'dirt_impact_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/dirt_impact_Cue.0"
+        },
+        "destroyed_9_755C91FF493AF4A154B5AFA566C4EDB4": {
+          "ObjectName": "SoundCue'dirt_impact_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/dirt_impact_Cue.0"
+        },
+        "scrape_12_D33ECAAF4F65CE405E09C693C27B7C40": {
+          "ObjectName": "SoundWave'scrape_paper'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/scrape/scrape_paper.0"
+        },
+        "particles_damage_16_95FC380F43EFC12B3D6D898494E55ADC": {
+          "ObjectName": "ParticleSystem'eff_dirtDamage'",
+          "ObjectPath": "VotV/Content/particles/eff_dirtDamage.33"
+        },
+        "particles_destroy_18_931F4A3B4D11F18EEB1F9CA953CE116C": {
+          "ObjectName": "ParticleSystem'eff_dirtBreak'",
+          "ObjectPath": "VotV/Content/particles/eff_dirtBreak.35"
+        },
+        "staticSound_20_882C181F4ED7AD6803CAC3A3B025613D": true,
+        "pTypes_destroy_27_97200A304E4BCEB4B5A2C195BE99C887": []
+      },
+      "plastic": {
+        "step_2_264EF62E47692AC3EC4D1DB1D2EFDB37": {
+          "ObjectName": "SoundCue'foot_def_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/footsteps/foot_def_Cue.0"
+        },
+        "impact_4_B669AE3D4B8D794F27201B972A9C256C": {
+          "ObjectName": "SoundCue'impact_plastic_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/impact_plastic_Cue.0"
+        },
+        "soft_30_1E6AA0474C29728BFC6F82AF9108D822": {
+          "ObjectName": "SoundCue'softImpact_plastic_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/softImpact/softImpact_plastic_Cue.0"
+        },
+        "damaged_7_BE976D7C45CF1D5F920305B1CB262187": {
+          "ObjectName": "SoundCue'damage_plastic_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/damage/damage_plastic_Cue.0"
+        },
+        "destroyed_9_755C91FF493AF4A154B5AFA566C4EDB4": {
+          "ObjectName": "SoundCue'break_plastic_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/break/break_plastic_Cue.0"
+        },
+        "scrape_12_D33ECAAF4F65CE405E09C693C27B7C40": {
+          "ObjectName": "SoundWave'plastic_scrape'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/scrape/plastic_scrape.0"
+        },
+        "particles_damage_16_95FC380F43EFC12B3D6D898494E55ADC": {
+          "ObjectName": "ParticleSystem'eff_plasticDamage'",
+          "ObjectPath": "VotV/Content/particles/eff_plasticDamage.36"
+        },
+        "particles_destroy_18_931F4A3B4D11F18EEB1F9CA953CE116C": {
+          "ObjectName": "ParticleSystem'eff_plasticBreak'",
+          "ObjectPath": "VotV/Content/particles/eff_plasticBreak.250"
+        },
+        "staticSound_20_882C181F4ED7AD6803CAC3A3B025613D": true,
+        "pTypes_destroy_27_97200A304E4BCEB4B5A2C195BE99C887": []
+      },
+      "metal": {
+        "step_2_264EF62E47692AC3EC4D1DB1D2EFDB37": {
+          "ObjectName": "SoundCue'foot_metal_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/footsteps/foot_metal_Cue.0"
+        },
+        "impact_4_B669AE3D4B8D794F27201B972A9C256C": {
+          "ObjectName": "SoundCue'impact_metal_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/impact_metal_Cue.0"
+        },
+        "soft_30_1E6AA0474C29728BFC6F82AF9108D822": {
+          "ObjectName": "SoundCue'softImpact_metal_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/softImpact/softImpact_metal_Cue.0"
+        },
+        "damaged_7_BE976D7C45CF1D5F920305B1CB262187": {
+          "ObjectName": "SoundCue'break_metal_cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/break/break_metal_cue.0"
+        },
+        "destroyed_9_755C91FF493AF4A154B5AFA566C4EDB4": {
+          "ObjectName": "SoundCue'break_metal_cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/break/break_metal_cue.0"
+        },
+        "scrape_12_D33ECAAF4F65CE405E09C693C27B7C40": {
+          "ObjectName": "SoundWave'metal_scrape'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/scrape/metal_scrape.0"
+        },
+        "particles_damage_16_95FC380F43EFC12B3D6D898494E55ADC": {
+          "ObjectName": "ParticleSystem'eff_metalSpark'",
+          "ObjectPath": "VotV/Content/particles/eff_metalSpark.21"
+        },
+        "particles_destroy_18_931F4A3B4D11F18EEB1F9CA953CE116C": {
+          "ObjectName": "ParticleSystem'eff_metalBreak'",
+          "ObjectPath": "VotV/Content/particles/eff_metalBreak.155"
+        },
+        "staticSound_20_882C181F4ED7AD6803CAC3A3B025613D": true,
+        "pTypes_destroy_27_97200A304E4BCEB4B5A2C195BE99C887": []
+      },
+      "silent": {
+        "step_2_264EF62E47692AC3EC4D1DB1D2EFDB37": null,
+        "impact_4_B669AE3D4B8D794F27201B972A9C256C": null,
+        "soft_30_1E6AA0474C29728BFC6F82AF9108D822": null,
+        "damaged_7_BE976D7C45CF1D5F920305B1CB262187": null,
+        "destroyed_9_755C91FF493AF4A154B5AFA566C4EDB4": null,
+        "scrape_12_D33ECAAF4F65CE405E09C693C27B7C40": null,
+        "particles_damage_16_95FC380F43EFC12B3D6D898494E55ADC": {
+          "ObjectName": "ParticleSystem'eff_woodDamage'",
+          "ObjectPath": "VotV/Content/particles/eff_woodDamage.20"
+        },
+        "particles_destroy_18_931F4A3B4D11F18EEB1F9CA953CE116C": null,
+        "staticSound_20_882C181F4ED7AD6803CAC3A3B025613D": false,
+        "pTypes_destroy_27_97200A304E4BCEB4B5A2C195BE99C887": []
+      },
+      "wood": {
+        "step_2_264EF62E47692AC3EC4D1DB1D2EFDB37": {
+          "ObjectName": "SoundCue'foot_wood_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/footsteps/foot_wood_Cue.0"
+        },
+        "impact_4_B669AE3D4B8D794F27201B972A9C256C": {
+          "ObjectName": "SoundCue'impact_wood_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/impact_wood_Cue.0"
+        },
+        "soft_30_1E6AA0474C29728BFC6F82AF9108D822": {
+          "ObjectName": "SoundCue'softImpact_wood_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/softImpact/softImpact_wood_Cue.0"
+        },
+        "damaged_7_BE976D7C45CF1D5F920305B1CB262187": {
+          "ObjectName": "SoundCue'damage_wood_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/damage/damage_wood_Cue.0"
+        },
+        "destroyed_9_755C91FF493AF4A154B5AFA566C4EDB4": {
+          "ObjectName": "SoundCue'break_wood_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/break/break_wood_Cue.0"
+        },
+        "scrape_12_D33ECAAF4F65CE405E09C693C27B7C40": {
+          "ObjectName": "SoundWave'wood_scrape'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/scrape/wood_scrape.0"
+        },
+        "particles_damage_16_95FC380F43EFC12B3D6D898494E55ADC": {
+          "ObjectName": "ParticleSystem'eff_woodDamage'",
+          "ObjectPath": "VotV/Content/particles/eff_woodDamage.20"
+        },
+        "particles_destroy_18_931F4A3B4D11F18EEB1F9CA953CE116C": {
+          "ObjectName": "ParticleSystem'eff_woodBreak'",
+          "ObjectPath": "VotV/Content/particles/eff_woodBreak.120"
+        },
+        "staticSound_20_882C181F4ED7AD6803CAC3A3B025613D": true,
+        "pTypes_destroy_27_97200A304E4BCEB4B5A2C195BE99C887": []
+      },
+      "vehicle": {
+        "step_2_264EF62E47692AC3EC4D1DB1D2EFDB37": {
+          "ObjectName": "SoundCue'ns_footstep_metal_Cue'",
+          "ObjectPath": "VotV/Content/audio/newsounds/effects/physics/footsteps/ns_footstep_metal_Cue.0"
+        },
+        "impact_4_B669AE3D4B8D794F27201B972A9C256C": {
+          "ObjectName": "SoundCue'impact_vehicle_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/impact_vehicle_Cue.0"
+        },
+        "soft_30_1E6AA0474C29728BFC6F82AF9108D822": {
+          "ObjectName": "SoundCue'impact_body_soft_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/impact_body_soft_Cue.0"
+        },
+        "damaged_7_BE976D7C45CF1D5F920305B1CB262187": null,
+        "destroyed_9_755C91FF493AF4A154B5AFA566C4EDB4": {
+          "ObjectName": "SoundCue'break_metal_cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/break/break_metal_cue.0"
+        },
+        "scrape_12_D33ECAAF4F65CE405E09C693C27B7C40": {
+          "ObjectName": "SoundWave'metal_scrape'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/scrape/metal_scrape.0"
+        },
+        "particles_damage_16_95FC380F43EFC12B3D6D898494E55ADC": {
+          "ObjectName": "ParticleSystem'eff_metalSpark'",
+          "ObjectPath": "VotV/Content/particles/eff_metalSpark.21"
+        },
+        "particles_destroy_18_931F4A3B4D11F18EEB1F9CA953CE116C": {
+          "ObjectName": "ParticleSystem'eff_metalBreak'",
+          "ObjectPath": "VotV/Content/particles/eff_metalBreak.155"
+        },
+        "staticSound_20_882C181F4ED7AD6803CAC3A3B025613D": true,
+        "pTypes_destroy_27_97200A304E4BCEB4B5A2C195BE99C887": []
+      },
+      "concrete": {
+        "step_2_264EF62E47692AC3EC4D1DB1D2EFDB37": {
+          "ObjectName": "SoundCue'foot_def_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/footsteps/foot_def_Cue.0"
+        },
+        "impact_4_B669AE3D4B8D794F27201B972A9C256C": {
+          "ObjectName": "SoundCue'impact_concrete_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/impact_concrete_Cue.0"
+        },
+        "soft_30_1E6AA0474C29728BFC6F82AF9108D822": {
+          "ObjectName": "SoundCue'softImpact_concrete_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/softImpact/softImpact_concrete_Cue.0"
+        },
+        "damaged_7_BE976D7C45CF1D5F920305B1CB262187": {
+          "ObjectName": "SoundCue'concrete_damage_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/concrete_damage_Cue.0"
+        },
+        "destroyed_9_755C91FF493AF4A154B5AFA566C4EDB4": {
+          "ObjectName": "SoundCue'concrete_break_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/concrete_break_Cue.0"
+        },
+        "scrape_12_D33ECAAF4F65CE405E09C693C27B7C40": {
+          "ObjectName": "SoundWave'concrete_scrape'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/scrape/concrete_scrape.0"
+        },
+        "particles_damage_16_95FC380F43EFC12B3D6D898494E55ADC": {
+          "ObjectName": "ParticleSystem'eff_concreteDamage'",
+          "ObjectPath": "VotV/Content/particles/eff_concreteDamage.19"
+        },
+        "particles_destroy_18_931F4A3B4D11F18EEB1F9CA953CE116C": {
+          "ObjectName": "ParticleSystem'eff_concreteBreak'",
+          "ObjectPath": "VotV/Content/particles/eff_concreteBreak.186"
+        },
+        "staticSound_20_882C181F4ED7AD6803CAC3A3B025613D": true,
+        "pTypes_destroy_27_97200A304E4BCEB4B5A2C195BE99C887": []
+      },
+      "paper": {
+        "step_2_264EF62E47692AC3EC4D1DB1D2EFDB37": {
+          "ObjectName": "SoundCue'footstep_drywall_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/footsteps/footstep_drywall_Cue.0"
+        },
+        "impact_4_B669AE3D4B8D794F27201B972A9C256C": {
+          "ObjectName": "SoundCue'impact_paper_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/impact_paper_Cue.0"
+        },
+        "soft_30_1E6AA0474C29728BFC6F82AF9108D822": {
+          "ObjectName": "SoundCue'impact_paper_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/impact_paper_Cue.0"
+        },
+        "damaged_7_BE976D7C45CF1D5F920305B1CB262187": {
+          "ObjectName": "SoundCue'damage_paper_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/damage/damage_paper_Cue.0"
+        },
+        "destroyed_9_755C91FF493AF4A154B5AFA566C4EDB4": {
+          "ObjectName": "SoundCue'break_paper_cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/break/break_paper_cue.0"
+        },
+        "scrape_12_D33ECAAF4F65CE405E09C693C27B7C40": {
+          "ObjectName": "SoundWave'scrape_paper'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/scrape/scrape_paper.0"
+        },
+        "particles_damage_16_95FC380F43EFC12B3D6D898494E55ADC": {
+          "ObjectName": "ParticleSystem'eff_paperDamage'",
+          "ObjectPath": "VotV/Content/particles/eff_paperDamage.53"
+        },
+        "particles_destroy_18_931F4A3B4D11F18EEB1F9CA953CE116C": {
+          "ObjectName": "ParticleSystem'eff_paperBreak'",
+          "ObjectPath": "VotV/Content/particles/eff_paperBreak.257"
+        },
+        "staticSound_20_882C181F4ED7AD6803CAC3A3B025613D": false,
+        "pTypes_destroy_27_97200A304E4BCEB4B5A2C195BE99C887": []
+      },
+      "food": {
+        "step_2_264EF62E47692AC3EC4D1DB1D2EFDB37": {
+          "ObjectName": "SoundCue'foot_def_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/footsteps/foot_def_Cue.0"
+        },
+        "impact_4_B669AE3D4B8D794F27201B972A9C256C": {
+          "ObjectName": "SoundCue'impact_food_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/impact_food_Cue.0"
+        },
+        "soft_30_1E6AA0474C29728BFC6F82AF9108D822": {
+          "ObjectName": "SoundCue'softImpact_soft_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/softImpact/softImpact_soft_Cue.0"
+        },
+        "damaged_7_BE976D7C45CF1D5F920305B1CB262187": null,
+        "destroyed_9_755C91FF493AF4A154B5AFA566C4EDB4": null,
+        "scrape_12_D33ECAAF4F65CE405E09C693C27B7C40": {
+          "ObjectName": "SoundWave'scrape_food'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/scrape/scrape_food.0"
+        },
+        "particles_damage_16_95FC380F43EFC12B3D6D898494E55ADC": null,
+        "particles_destroy_18_931F4A3B4D11F18EEB1F9CA953CE116C": null,
+        "staticSound_20_882C181F4ED7AD6803CAC3A3B025613D": false,
+        "pTypes_destroy_27_97200A304E4BCEB4B5A2C195BE99C887": []
+      },
+      "cup": {
+        "step_2_264EF62E47692AC3EC4D1DB1D2EFDB37": {
+          "ObjectName": "SoundCue'foot_def_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/footsteps/foot_def_Cue.0"
+        },
+        "impact_4_B669AE3D4B8D794F27201B972A9C256C": {
+          "ObjectName": "SoundCue'impact_cup_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/impact_cup_Cue.0"
+        },
+        "soft_30_1E6AA0474C29728BFC6F82AF9108D822": {
+          "ObjectName": "SoundCue'softImpact_can_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/softImpact/softImpact_can_Cue.0"
+        },
+        "damaged_7_BE976D7C45CF1D5F920305B1CB262187": null,
+        "destroyed_9_755C91FF493AF4A154B5AFA566C4EDB4": null,
+        "scrape_12_D33ECAAF4F65CE405E09C693C27B7C40": {
+          "ObjectName": "SoundWave'scrape_paper'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/scrape/scrape_paper.0"
+        },
+        "particles_damage_16_95FC380F43EFC12B3D6D898494E55ADC": {
+          "ObjectName": "ParticleSystem'eff_paperDamage'",
+          "ObjectPath": "VotV/Content/particles/eff_paperDamage.53"
+        },
+        "particles_destroy_18_931F4A3B4D11F18EEB1F9CA953CE116C": {
+          "ObjectName": "ParticleSystem'eff_paperBreak'",
+          "ObjectPath": "VotV/Content/particles/eff_paperBreak.257"
+        },
+        "staticSound_20_882C181F4ED7AD6803CAC3A3B025613D": false,
+        "pTypes_destroy_27_97200A304E4BCEB4B5A2C195BE99C887": []
+      },
+      "bag": {
+        "step_2_264EF62E47692AC3EC4D1DB1D2EFDB37": {
+          "ObjectName": "SoundCue'foot_def_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/footsteps/foot_def_Cue.0"
+        },
+        "impact_4_B669AE3D4B8D794F27201B972A9C256C": {
+          "ObjectName": "SoundCue'impact_bag_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/impact_bag_Cue.0"
+        },
+        "soft_30_1E6AA0474C29728BFC6F82AF9108D822": {
+          "ObjectName": "SoundCue'impact_bag_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/impact_bag_Cue.0"
+        },
+        "damaged_7_BE976D7C45CF1D5F920305B1CB262187": null,
+        "destroyed_9_755C91FF493AF4A154B5AFA566C4EDB4": null,
+        "scrape_12_D33ECAAF4F65CE405E09C693C27B7C40": {
+          "ObjectName": "SoundWave'scrape_bag'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/scrape/scrape_bag.0"
+        },
+        "particles_damage_16_95FC380F43EFC12B3D6D898494E55ADC": {
+          "ObjectName": "ParticleSystem'eff_plasticDamage'",
+          "ObjectPath": "VotV/Content/particles/eff_plasticDamage.36"
+        },
+        "particles_destroy_18_931F4A3B4D11F18EEB1F9CA953CE116C": {
+          "ObjectName": "ParticleSystem'eff_plasticBreak'",
+          "ObjectPath": "VotV/Content/particles/eff_plasticBreak.250"
+        },
+        "staticSound_20_882C181F4ED7AD6803CAC3A3B025613D": false,
+        "pTypes_destroy_27_97200A304E4BCEB4B5A2C195BE99C887": []
+      },
+      "battery": {
+        "step_2_264EF62E47692AC3EC4D1DB1D2EFDB37": {
+          "ObjectName": "SoundCue'foot_def_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/footsteps/foot_def_Cue.0"
+        },
+        "impact_4_B669AE3D4B8D794F27201B972A9C256C": {
+          "ObjectName": "SoundCue'impact_batt_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/impact_batt_Cue.0"
+        },
+        "soft_30_1E6AA0474C29728BFC6F82AF9108D822": null,
+        "damaged_7_BE976D7C45CF1D5F920305B1CB262187": null,
+        "destroyed_9_755C91FF493AF4A154B5AFA566C4EDB4": null,
+        "scrape_12_D33ECAAF4F65CE405E09C693C27B7C40": {
+          "ObjectName": "SoundWave'scrape_batt'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/scrape/scrape_batt.0"
+        },
+        "particles_damage_16_95FC380F43EFC12B3D6D898494E55ADC": {
+          "ObjectName": "ParticleSystem'eff_metalSpark'",
+          "ObjectPath": "VotV/Content/particles/eff_metalSpark.21"
+        },
+        "particles_destroy_18_931F4A3B4D11F18EEB1F9CA953CE116C": {
+          "ObjectName": "ParticleSystem'eff_metalSpark'",
+          "ObjectPath": "VotV/Content/particles/eff_metalSpark.21"
+        },
+        "staticSound_20_882C181F4ED7AD6803CAC3A3B025613D": false,
+        "pTypes_destroy_27_97200A304E4BCEB4B5A2C195BE99C887": []
+      },
+      "gravel": {
+        "step_2_264EF62E47692AC3EC4D1DB1D2EFDB37": {
+          "ObjectName": "SoundCue'ns_footstep_gravel_Cue'",
+          "ObjectPath": "VotV/Content/audio/newsounds/effects/physics/footsteps/ns_footstep_gravel_Cue.0"
+        },
+        "impact_4_B669AE3D4B8D794F27201B972A9C256C": {
+          "ObjectName": "SoundCue'dirt_impact_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/dirt_impact_Cue.0"
+        },
+        "soft_30_1E6AA0474C29728BFC6F82AF9108D822": {
+          "ObjectName": "SoundCue'footstep_gravel_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/footsteps/footstep_gravel_Cue.0"
+        },
+        "damaged_7_BE976D7C45CF1D5F920305B1CB262187": null,
+        "destroyed_9_755C91FF493AF4A154B5AFA566C4EDB4": null,
+        "scrape_12_D33ECAAF4F65CE405E09C693C27B7C40": {
+          "ObjectName": "SoundWave'scrape_paper'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/scrape/scrape_paper.0"
+        },
+        "particles_damage_16_95FC380F43EFC12B3D6D898494E55ADC": {
+          "ObjectName": "ParticleSystem'eff_dirtDamage'",
+          "ObjectPath": "VotV/Content/particles/eff_dirtDamage.33"
+        },
+        "particles_destroy_18_931F4A3B4D11F18EEB1F9CA953CE116C": {
+          "ObjectName": "ParticleSystem'eff_dirtBreak'",
+          "ObjectPath": "VotV/Content/particles/eff_dirtBreak.35"
+        },
+        "staticSound_20_882C181F4ED7AD6803CAC3A3B025613D": true,
+        "pTypes_destroy_27_97200A304E4BCEB4B5A2C195BE99C887": []
+      },
+      "ball": {
+        "step_2_264EF62E47692AC3EC4D1DB1D2EFDB37": {
+          "ObjectName": "SoundCue'foot_def_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/footsteps/foot_def_Cue.0"
+        },
+        "impact_4_B669AE3D4B8D794F27201B972A9C256C": {
+          "ObjectName": "SoundCue'impact_rubber_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/impact_rubber_Cue.0"
+        },
+        "soft_30_1E6AA0474C29728BFC6F82AF9108D822": {
+          "ObjectName": "SoundCue'softImpact_rubber_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/softImpact/softImpact_rubber_Cue.0"
+        },
+        "damaged_7_BE976D7C45CF1D5F920305B1CB262187": {
+          "ObjectName": "SoundCue'damage_rubber_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/damage/damage_rubber_Cue.0"
+        },
+        "destroyed_9_755C91FF493AF4A154B5AFA566C4EDB4": {
+          "ObjectName": "SoundCue'damage_rubber_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/damage/damage_rubber_Cue.0"
+        },
+        "scrape_12_D33ECAAF4F65CE405E09C693C27B7C40": null,
+        "particles_damage_16_95FC380F43EFC12B3D6D898494E55ADC": {
+          "ObjectName": "ParticleSystem'eff_plasticDamage'",
+          "ObjectPath": "VotV/Content/particles/eff_plasticDamage.36"
+        },
+        "particles_destroy_18_931F4A3B4D11F18EEB1F9CA953CE116C": {
+          "ObjectName": "ParticleSystem'eff_plasticBreak'",
+          "ObjectPath": "VotV/Content/particles/eff_plasticBreak.250"
+        },
+        "staticSound_20_882C181F4ED7AD6803CAC3A3B025613D": false,
+        "pTypes_destroy_27_97200A304E4BCEB4B5A2C195BE99C887": []
+      },
+      "sball": {
+        "step_2_264EF62E47692AC3EC4D1DB1D2EFDB37": {
+          "ObjectName": "SoundCue'foot_def_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/footsteps/foot_def_Cue.0"
+        },
+        "impact_4_B669AE3D4B8D794F27201B972A9C256C": {
+          "ObjectName": "SoundCue'impact_rubber_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/impact_rubber_Cue.0"
+        },
+        "soft_30_1E6AA0474C29728BFC6F82AF9108D822": {
+          "ObjectName": "SoundCue'softImpact_rubber_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/softImpact/softImpact_rubber_Cue.0"
+        },
+        "damaged_7_BE976D7C45CF1D5F920305B1CB262187": {
+          "ObjectName": "SoundCue'damage_rubber_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/damage/damage_rubber_Cue.0"
+        },
+        "destroyed_9_755C91FF493AF4A154B5AFA566C4EDB4": {
+          "ObjectName": "SoundCue'damage_rubber_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/damage/damage_rubber_Cue.0"
+        },
+        "scrape_12_D33ECAAF4F65CE405E09C693C27B7C40": {
+          "ObjectName": "SoundWave'scrape_bag'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/scrape/scrape_bag.0"
+        },
+        "particles_damage_16_95FC380F43EFC12B3D6D898494E55ADC": {
+          "ObjectName": "ParticleSystem'eff_plasticDamage'",
+          "ObjectPath": "VotV/Content/particles/eff_plasticDamage.36"
+        },
+        "particles_destroy_18_931F4A3B4D11F18EEB1F9CA953CE116C": {
+          "ObjectName": "ParticleSystem'eff_plasticBreak'",
+          "ObjectPath": "VotV/Content/particles/eff_plasticBreak.250"
+        },
+        "staticSound_20_882C181F4ED7AD6803CAC3A3B025613D": false,
+        "pTypes_destroy_27_97200A304E4BCEB4B5A2C195BE99C887": []
+      },
+      "device": {
+        "step_2_264EF62E47692AC3EC4D1DB1D2EFDB37": {
+          "ObjectName": "SoundCue'foot_def_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/footsteps/foot_def_Cue.0"
+        },
+        "impact_4_B669AE3D4B8D794F27201B972A9C256C": {
+          "ObjectName": "SoundCue'impact_drive_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/impact_drive_Cue.0"
+        },
+        "soft_30_1E6AA0474C29728BFC6F82AF9108D822": {
+          "ObjectName": "SoundCue'softImpact_device_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/softImpact/softImpact_device_Cue.0"
+        },
+        "damaged_7_BE976D7C45CF1D5F920305B1CB262187": {
+          "ObjectName": "SoundCue'damage_drive_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/damage_drive_Cue.0"
+        },
+        "destroyed_9_755C91FF493AF4A154B5AFA566C4EDB4": {
+          "ObjectName": "SoundCue'break_drive_cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/break/break_drive_cue.0"
+        },
+        "scrape_12_D33ECAAF4F65CE405E09C693C27B7C40": {
+          "ObjectName": "SoundWave'scrape_drive'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/scrape/scrape_drive.0"
+        },
+        "particles_damage_16_95FC380F43EFC12B3D6D898494E55ADC": {
+          "ObjectName": "ParticleSystem'eff_metalSpark'",
+          "ObjectPath": "VotV/Content/particles/eff_metalSpark.21"
+        },
+        "particles_destroy_18_931F4A3B4D11F18EEB1F9CA953CE116C": {
+          "ObjectName": "ParticleSystem'eff_metalBreak'",
+          "ObjectPath": "VotV/Content/particles/eff_metalBreak.155"
+        },
+        "staticSound_20_882C181F4ED7AD6803CAC3A3B025613D": true,
+        "pTypes_destroy_27_97200A304E4BCEB4B5A2C195BE99C887": []
+      },
+      "gold_s": {
+        "step_2_264EF62E47692AC3EC4D1DB1D2EFDB37": {
+          "ObjectName": "SoundCue'ns_footstep_metal_Cue'",
+          "ObjectPath": "VotV/Content/audio/newsounds/effects/physics/footsteps/ns_footstep_metal_Cue.0"
+        },
+        "impact_4_B669AE3D4B8D794F27201B972A9C256C": {
+          "ObjectName": "SoundCue'impact_metal_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/impact_metal_Cue.0"
+        },
+        "soft_30_1E6AA0474C29728BFC6F82AF9108D822": {
+          "ObjectName": "SoundCue'softImpact_metal_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/softImpact/softImpact_metal_Cue.0"
+        },
+        "damaged_7_BE976D7C45CF1D5F920305B1CB262187": null,
+        "destroyed_9_755C91FF493AF4A154B5AFA566C4EDB4": null,
+        "scrape_12_D33ECAAF4F65CE405E09C693C27B7C40": {
+          "ObjectName": "SoundWave'metal_scrape'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/scrape/metal_scrape.0"
+        },
+        "particles_damage_16_95FC380F43EFC12B3D6D898494E55ADC": {
+          "ObjectName": "ParticleSystem'eff_metalSpark'",
+          "ObjectPath": "VotV/Content/particles/eff_metalSpark.21"
+        },
+        "particles_destroy_18_931F4A3B4D11F18EEB1F9CA953CE116C": {
+          "ObjectName": "ParticleSystem'eff_metalBreak'",
+          "ObjectPath": "VotV/Content/particles/eff_metalBreak.155"
+        },
+        "staticSound_20_882C181F4ED7AD6803CAC3A3B025613D": true,
+        "pTypes_destroy_27_97200A304E4BCEB4B5A2C195BE99C887": []
+      },
+      "body": {
+        "step_2_264EF62E47692AC3EC4D1DB1D2EFDB37": {
+          "ObjectName": "SoundCue'impact_body_soft_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/impact_body_soft_Cue.0"
+        },
+        "impact_4_B669AE3D4B8D794F27201B972A9C256C": {
+          "ObjectName": "SoundCue'impact_bodyH_slap_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/impact_bodyH_slap_Cue.0"
+        },
+        "soft_30_1E6AA0474C29728BFC6F82AF9108D822": {
+          "ObjectName": "SoundCue'impact_body_soft_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/impact_body_soft_Cue.0"
+        },
+        "damaged_7_BE976D7C45CF1D5F920305B1CB262187": {
+          "ObjectName": "SoundCue'flesh_impact_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/flesh_impact_Cue.0"
+        },
+        "destroyed_9_755C91FF493AF4A154B5AFA566C4EDB4": {
+          "ObjectName": "SoundCue'break_flesh_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/break_flesh_Cue.0"
+        },
+        "scrape_12_D33ECAAF4F65CE405E09C693C27B7C40": {
+          "ObjectName": "SoundWave'scrape_paper'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/scrape/scrape_paper.0"
+        },
+        "particles_damage_16_95FC380F43EFC12B3D6D898494E55ADC": {
+          "ObjectName": "ParticleSystem'eff_bloodSpray'",
+          "ObjectPath": "VotV/Content/particles/eff_bloodSpray.42"
+        },
+        "particles_destroy_18_931F4A3B4D11F18EEB1F9CA953CE116C": {
+          "ObjectName": "ParticleSystem'eff_bloodLimbDetach'",
+          "ObjectPath": "VotV/Content/particles/eff_bloodLimbDetach.111"
+        },
+        "staticSound_20_882C181F4ED7AD6803CAC3A3B025613D": false,
+        "pTypes_destroy_27_97200A304E4BCEB4B5A2C195BE99C887": []
+      },
+      "metal_grate": {
+        "step_2_264EF62E47692AC3EC4D1DB1D2EFDB37": {
+          "ObjectName": "SoundCue'footstepVent_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/footsteps/footstepVent_Cue.0"
+        },
+        "impact_4_B669AE3D4B8D794F27201B972A9C256C": {
+          "ObjectName": "SoundCue'metal_heavy_impact_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/metal_heavy_impact_Cue.0"
+        },
+        "soft_30_1E6AA0474C29728BFC6F82AF9108D822": {
+          "ObjectName": "SoundCue'softImpact_solidMetal_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/softImpact/softImpact_solidMetal_Cue.0"
+        },
+        "damaged_7_BE976D7C45CF1D5F920305B1CB262187": {
+          "ObjectName": "SoundCue'break_metal_cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/break/break_metal_cue.0"
+        },
+        "destroyed_9_755C91FF493AF4A154B5AFA566C4EDB4": {
+          "ObjectName": "SoundCue'break_metal_cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/break/break_metal_cue.0"
+        },
+        "scrape_12_D33ECAAF4F65CE405E09C693C27B7C40": {
+          "ObjectName": "SoundWave'metal_scrape'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/scrape/metal_scrape.0"
+        },
+        "particles_damage_16_95FC380F43EFC12B3D6D898494E55ADC": {
+          "ObjectName": "ParticleSystem'eff_metalSpark'",
+          "ObjectPath": "VotV/Content/particles/eff_metalSpark.21"
+        },
+        "particles_destroy_18_931F4A3B4D11F18EEB1F9CA953CE116C": {
+          "ObjectName": "ParticleSystem'eff_metalBreak'",
+          "ObjectPath": "VotV/Content/particles/eff_metalBreak.155"
+        },
+        "staticSound_20_882C181F4ED7AD6803CAC3A3B025613D": true,
+        "pTypes_destroy_27_97200A304E4BCEB4B5A2C195BE99C887": []
+      },
+      "slide": {
+        "step_2_264EF62E47692AC3EC4D1DB1D2EFDB37": {
+          "ObjectName": "SoundCue'ns_footstep_wood_Cue'",
+          "ObjectPath": "VotV/Content/audio/newsounds/effects/physics/footsteps/ns_footstep_wood_Cue.0"
+        },
+        "impact_4_B669AE3D4B8D794F27201B972A9C256C": {
+          "ObjectName": "SoundCue'impact_wood_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/impact_wood_Cue.0"
+        },
+        "soft_30_1E6AA0474C29728BFC6F82AF9108D822": null,
+        "damaged_7_BE976D7C45CF1D5F920305B1CB262187": {
+          "ObjectName": "SoundCue'damage_wood_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/damage/damage_wood_Cue.0"
+        },
+        "destroyed_9_755C91FF493AF4A154B5AFA566C4EDB4": {
+          "ObjectName": "SoundCue'break_wood_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/break/break_wood_Cue.0"
+        },
+        "scrape_12_D33ECAAF4F65CE405E09C693C27B7C40": {
+          "ObjectName": "SoundWave'wood_scrape'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/scrape/wood_scrape.0"
+        },
+        "particles_damage_16_95FC380F43EFC12B3D6D898494E55ADC": {
+          "ObjectName": "ParticleSystem'eff_woodDamage'",
+          "ObjectPath": "VotV/Content/particles/eff_woodDamage.20"
+        },
+        "particles_destroy_18_931F4A3B4D11F18EEB1F9CA953CE116C": null,
+        "staticSound_20_882C181F4ED7AD6803CAC3A3B025613D": true,
+        "pTypes_destroy_27_97200A304E4BCEB4B5A2C195BE99C887": []
+      },
+      "glass": {
+        "step_2_264EF62E47692AC3EC4D1DB1D2EFDB37": {
+          "ObjectName": "SoundCue'foot_glass_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/footsteps/foot_glass_Cue.0"
+        },
+        "impact_4_B669AE3D4B8D794F27201B972A9C256C": {
+          "ObjectName": "SoundCue'glass_impact_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/glass_impact_Cue.0"
+        },
+        "soft_30_1E6AA0474C29728BFC6F82AF9108D822": {
+          "ObjectName": "SoundCue'softImpact_glass_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/softImpact/softImpact_glass_Cue.0"
+        },
+        "damaged_7_BE976D7C45CF1D5F920305B1CB262187": {
+          "ObjectName": "SoundCue'damage_glass_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/damage/damage_glass_Cue.0"
+        },
+        "destroyed_9_755C91FF493AF4A154B5AFA566C4EDB4": {
+          "ObjectName": "SoundCue'break_glass_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/break/break_glass_Cue.0"
+        },
+        "scrape_12_D33ECAAF4F65CE405E09C693C27B7C40": {
+          "ObjectName": "SoundWave'concrete_scrape'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/scrape/concrete_scrape.0"
+        },
+        "particles_damage_16_95FC380F43EFC12B3D6D898494E55ADC": {
+          "ObjectName": "ParticleSystem'eff_glassDamage'",
+          "ObjectPath": "VotV/Content/particles/eff_glassDamage.19"
+        },
+        "particles_destroy_18_931F4A3B4D11F18EEB1F9CA953CE116C": {
+          "ObjectName": "ParticleSystem'eff_glassBreak'",
+          "ObjectPath": "VotV/Content/particles/eff_glassBreak.120"
+        },
+        "staticSound_20_882C181F4ED7AD6803CAC3A3B025613D": true,
+        "pTypes_destroy_27_97200A304E4BCEB4B5A2C195BE99C887": []
+      },
+      "gold": {
+        "step_2_264EF62E47692AC3EC4D1DB1D2EFDB37": {
+          "ObjectName": "SoundCue'foot_metal_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/footsteps/foot_metal_Cue.0"
+        },
+        "impact_4_B669AE3D4B8D794F27201B972A9C256C": {
+          "ObjectName": "SoundCue'impact_metal_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/impact_metal_Cue.0"
+        },
+        "soft_30_1E6AA0474C29728BFC6F82AF9108D822": {
+          "ObjectName": "SoundCue'softImpact_metal_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/softImpact/softImpact_metal_Cue.0"
+        },
+        "damaged_7_BE976D7C45CF1D5F920305B1CB262187": null,
+        "destroyed_9_755C91FF493AF4A154B5AFA566C4EDB4": null,
+        "scrape_12_D33ECAAF4F65CE405E09C693C27B7C40": {
+          "ObjectName": "SoundWave'metal_scrape'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/scrape/metal_scrape.0"
+        },
+        "particles_damage_16_95FC380F43EFC12B3D6D898494E55ADC": {
+          "ObjectName": "ParticleSystem'eff_metalSpark'",
+          "ObjectPath": "VotV/Content/particles/eff_metalSpark.21"
+        },
+        "particles_destroy_18_931F4A3B4D11F18EEB1F9CA953CE116C": {
+          "ObjectName": "ParticleSystem'eff_metalBreak'",
+          "ObjectPath": "VotV/Content/particles/eff_metalBreak.155"
+        },
+        "staticSound_20_882C181F4ED7AD6803CAC3A3B025613D": true,
+        "pTypes_destroy_27_97200A304E4BCEB4B5A2C195BE99C887": []
+      },
+      "balloon": {
+        "step_2_264EF62E47692AC3EC4D1DB1D2EFDB37": {
+          "ObjectName": "SoundCue'foot_def_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/footsteps/foot_def_Cue.0"
+        },
+        "impact_4_B669AE3D4B8D794F27201B972A9C256C": null,
+        "soft_30_1E6AA0474C29728BFC6F82AF9108D822": null,
+        "damaged_7_BE976D7C45CF1D5F920305B1CB262187": null,
+        "destroyed_9_755C91FF493AF4A154B5AFA566C4EDB4": null,
+        "scrape_12_D33ECAAF4F65CE405E09C693C27B7C40": null,
+        "particles_damage_16_95FC380F43EFC12B3D6D898494E55ADC": {
+          "ObjectName": "ParticleSystem'eff_woodDamage'",
+          "ObjectPath": "VotV/Content/particles/eff_woodDamage.20"
+        },
+        "particles_destroy_18_931F4A3B4D11F18EEB1F9CA953CE116C": null,
+        "staticSound_20_882C181F4ED7AD6803CAC3A3B025613D": true,
+        "pTypes_destroy_27_97200A304E4BCEB4B5A2C195BE99C887": []
+      },
+      "concrete_massive": {
+        "step_2_264EF62E47692AC3EC4D1DB1D2EFDB37": {
+          "ObjectName": "SoundCue'ns_footstep_default_Cue'",
+          "ObjectPath": "VotV/Content/audio/newsounds/effects/physics/footsteps/ns_footstep_default_Cue.0"
+        },
+        "impact_4_B669AE3D4B8D794F27201B972A9C256C": {
+          "ObjectName": "SoundCue'concrete_damage_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/concrete_damage_Cue.0"
+        },
+        "soft_30_1E6AA0474C29728BFC6F82AF9108D822": {
+          "ObjectName": "SoundCue'softImpact_concrete_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/softImpact/softImpact_concrete_Cue.0"
+        },
+        "damaged_7_BE976D7C45CF1D5F920305B1CB262187": {
+          "ObjectName": "SoundCue'concrete_damage_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/concrete_damage_Cue.0"
+        },
+        "destroyed_9_755C91FF493AF4A154B5AFA566C4EDB4": {
+          "ObjectName": "SoundCue'concrete_break_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/concrete_break_Cue.0"
+        },
+        "scrape_12_D33ECAAF4F65CE405E09C693C27B7C40": {
+          "ObjectName": "SoundWave'scrape_rock'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/scrape/scrape_rock.0"
+        },
+        "particles_damage_16_95FC380F43EFC12B3D6D898494E55ADC": {
+          "ObjectName": "ParticleSystem'eff_concreteDamage'",
+          "ObjectPath": "VotV/Content/particles/eff_concreteDamage.19"
+        },
+        "particles_destroy_18_931F4A3B4D11F18EEB1F9CA953CE116C": {
+          "ObjectName": "ParticleSystem'eff_concreteBreak'",
+          "ObjectPath": "VotV/Content/particles/eff_concreteBreak.186"
+        },
+        "staticSound_20_882C181F4ED7AD6803CAC3A3B025613D": true,
+        "pTypes_destroy_27_97200A304E4BCEB4B5A2C195BE99C887": []
+      },
+      "flesh": {
+        "step_2_264EF62E47692AC3EC4D1DB1D2EFDB37": {
+          "ObjectName": "SoundCue'footstepGoop_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/footstepGoop_Cue.0"
+        },
+        "impact_4_B669AE3D4B8D794F27201B972A9C256C": {
+          "ObjectName": "SoundCue'flesh_impact_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/flesh_impact_Cue.0"
+        },
+        "soft_30_1E6AA0474C29728BFC6F82AF9108D822": {
+          "ObjectName": "SoundCue'flesh_impact_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/flesh_impact_Cue.0"
+        },
+        "damaged_7_BE976D7C45CF1D5F920305B1CB262187": {
+          "ObjectName": "SoundCue'flesh_impact_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/flesh_impact_Cue.0"
+        },
+        "destroyed_9_755C91FF493AF4A154B5AFA566C4EDB4": {
+          "ObjectName": "SoundCue'break_flesh_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/break_flesh_Cue.0"
+        },
+        "scrape_12_D33ECAAF4F65CE405E09C693C27B7C40": null,
+        "particles_damage_16_95FC380F43EFC12B3D6D898494E55ADC": {
+          "ObjectName": "ParticleSystem'eff_bloodSpray'",
+          "ObjectPath": "VotV/Content/particles/eff_bloodSpray.42"
+        },
+        "particles_destroy_18_931F4A3B4D11F18EEB1F9CA953CE116C": {
+          "ObjectName": "ParticleSystem'eff_bloodSpray'",
+          "ObjectPath": "VotV/Content/particles/eff_bloodSpray.42"
+        },
+        "staticSound_20_882C181F4ED7AD6803CAC3A3B025613D": false,
+        "pTypes_destroy_27_97200A304E4BCEB4B5A2C195BE99C887": []
+      },
+      "concrete_slide": {
+        "step_2_264EF62E47692AC3EC4D1DB1D2EFDB37": {
+          "ObjectName": "SoundCue'ns_footstep_default_Cue'",
+          "ObjectPath": "VotV/Content/audio/newsounds/effects/physics/footsteps/ns_footstep_default_Cue.0"
+        },
+        "impact_4_B669AE3D4B8D794F27201B972A9C256C": {
+          "ObjectName": "SoundCue'impact_concrete_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/impact_concrete_Cue.0"
+        },
+        "soft_30_1E6AA0474C29728BFC6F82AF9108D822": {
+          "ObjectName": "SoundCue'softImpact_concrete_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/softImpact/softImpact_concrete_Cue.0"
+        },
+        "damaged_7_BE976D7C45CF1D5F920305B1CB262187": {
+          "ObjectName": "SoundCue'concrete_damage_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/concrete_damage_Cue.0"
+        },
+        "destroyed_9_755C91FF493AF4A154B5AFA566C4EDB4": {
+          "ObjectName": "SoundCue'concrete_break_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/concrete_break_Cue.0"
+        },
+        "scrape_12_D33ECAAF4F65CE405E09C693C27B7C40": {
+          "ObjectName": "SoundWave'concrete_scrape'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/scrape/concrete_scrape.0"
+        },
+        "particles_damage_16_95FC380F43EFC12B3D6D898494E55ADC": {
+          "ObjectName": "ParticleSystem'eff_concreteDamage'",
+          "ObjectPath": "VotV/Content/particles/eff_concreteDamage.19"
+        },
+        "particles_destroy_18_931F4A3B4D11F18EEB1F9CA953CE116C": {
+          "ObjectName": "ParticleSystem'eff_concreteBreak'",
+          "ObjectPath": "VotV/Content/particles/eff_concreteBreak.186"
+        },
+        "staticSound_20_882C181F4ED7AD6803CAC3A3B025613D": true,
+        "pTypes_destroy_27_97200A304E4BCEB4B5A2C195BE99C887": []
+      },
+      "dirt": {
+        "step_2_264EF62E47692AC3EC4D1DB1D2EFDB37": {
+          "ObjectName": "SoundCue'ns_footstep_dirt_Cue'",
+          "ObjectPath": "VotV/Content/audio/newsounds/effects/physics/footsteps/ns_footstep_dirt_Cue.0"
+        },
+        "impact_4_B669AE3D4B8D794F27201B972A9C256C": {
+          "ObjectName": "SoundCue'dirt_impact_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/dirt_impact_Cue.0"
+        },
+        "soft_30_1E6AA0474C29728BFC6F82AF9108D822": {
+          "ObjectName": "SoundCue'footstep_gravel_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/footsteps/footstep_gravel_Cue.0"
+        },
+        "damaged_7_BE976D7C45CF1D5F920305B1CB262187": {
+          "ObjectName": "SoundCue'dirt_impact_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/dirt_impact_Cue.0"
+        },
+        "destroyed_9_755C91FF493AF4A154B5AFA566C4EDB4": {
+          "ObjectName": "SoundCue'dirt_impact_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/dirt_impact_Cue.0"
+        },
+        "scrape_12_D33ECAAF4F65CE405E09C693C27B7C40": {
+          "ObjectName": "SoundWave'scrape_paper'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/scrape/scrape_paper.0"
+        },
+        "particles_damage_16_95FC380F43EFC12B3D6D898494E55ADC": {
+          "ObjectName": "ParticleSystem'eff_dirtDamage'",
+          "ObjectPath": "VotV/Content/particles/eff_dirtDamage.33"
+        },
+        "particles_destroy_18_931F4A3B4D11F18EEB1F9CA953CE116C": {
+          "ObjectName": "ParticleSystem'eff_dirtBreak'",
+          "ObjectPath": "VotV/Content/particles/eff_dirtBreak.35"
+        },
+        "staticSound_20_882C181F4ED7AD6803CAC3A3B025613D": true,
+        "pTypes_destroy_27_97200A304E4BCEB4B5A2C195BE99C887": []
+      },
+      "metal_hollow": {
+        "step_2_264EF62E47692AC3EC4D1DB1D2EFDB37": {
+          "ObjectName": "SoundCue'ns_footstep_metal_Cue'",
+          "ObjectPath": "VotV/Content/audio/newsounds/effects/physics/footsteps/ns_footstep_metal_Cue.0"
+        },
+        "impact_4_B669AE3D4B8D794F27201B972A9C256C": {
+          "ObjectName": "SoundCue'impact_metalHollow_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/impact_metalHollow_Cue.0"
+        },
+        "soft_30_1E6AA0474C29728BFC6F82AF9108D822": {
+          "ObjectName": "SoundCue'softImpact_hollowMetal_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/softImpact/softImpact_hollowMetal_Cue.0"
+        },
+        "damaged_7_BE976D7C45CF1D5F920305B1CB262187": {
+          "ObjectName": "SoundCue'damage_metal_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/damage/damage_metal_Cue.0"
+        },
+        "destroyed_9_755C91FF493AF4A154B5AFA566C4EDB4": {
+          "ObjectName": "SoundCue'break_metal_cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/break/break_metal_cue.0"
+        },
+        "scrape_12_D33ECAAF4F65CE405E09C693C27B7C40": {
+          "ObjectName": "SoundWave'scrape_canister'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/scrape/scrape_canister.0"
+        },
+        "particles_damage_16_95FC380F43EFC12B3D6D898494E55ADC": {
+          "ObjectName": "ParticleSystem'eff_metalSpark'",
+          "ObjectPath": "VotV/Content/particles/eff_metalSpark.21"
+        },
+        "particles_destroy_18_931F4A3B4D11F18EEB1F9CA953CE116C": {
+          "ObjectName": "ParticleSystem'eff_metalBreak'",
+          "ObjectPath": "VotV/Content/particles/eff_metalBreak.155"
+        },
+        "staticSound_20_882C181F4ED7AD6803CAC3A3B025613D": true,
+        "pTypes_destroy_27_97200A304E4BCEB4B5A2C195BE99C887": []
+      },
+      "can": {
+        "step_2_264EF62E47692AC3EC4D1DB1D2EFDB37": {
+          "ObjectName": "SoundCue'foot_def_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/footsteps/foot_def_Cue.0"
+        },
+        "impact_4_B669AE3D4B8D794F27201B972A9C256C": {
+          "ObjectName": "SoundCue'impact_can_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/impact_can_Cue.0"
+        },
+        "soft_30_1E6AA0474C29728BFC6F82AF9108D822": {
+          "ObjectName": "SoundCue'softImpact_sodaCan_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/softImpact/softImpact_sodaCan_Cue.0"
+        },
+        "damaged_7_BE976D7C45CF1D5F920305B1CB262187": {
+          "ObjectName": "SoundCue'damage_metal_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/damage/damage_metal_Cue.0"
+        },
+        "destroyed_9_755C91FF493AF4A154B5AFA566C4EDB4": {
+          "ObjectName": "SoundCue'break_metal_cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/break/break_metal_cue.0"
+        },
+        "scrape_12_D33ECAAF4F65CE405E09C693C27B7C40": {
+          "ObjectName": "SoundWave'scrape_can'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/scrape/scrape_can.0"
+        },
+        "particles_damage_16_95FC380F43EFC12B3D6D898494E55ADC": {
+          "ObjectName": "ParticleSystem'eff_metalSpark'",
+          "ObjectPath": "VotV/Content/particles/eff_metalSpark.21"
+        },
+        "particles_destroy_18_931F4A3B4D11F18EEB1F9CA953CE116C": {
+          "ObjectName": "ParticleSystem'eff_metalBreak'",
+          "ObjectPath": "VotV/Content/particles/eff_metalBreak.155"
+        },
+        "staticSound_20_882C181F4ED7AD6803CAC3A3B025613D": true,
+        "pTypes_destroy_27_97200A304E4BCEB4B5A2C195BE99C887": []
+      },
+      "kerfusWheel": {
+        "step_2_264EF62E47692AC3EC4D1DB1D2EFDB37": {
+          "ObjectName": "SoundCue'foot_def_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/footsteps/foot_def_Cue.0"
+        },
+        "impact_4_B669AE3D4B8D794F27201B972A9C256C": null,
+        "soft_30_1E6AA0474C29728BFC6F82AF9108D822": null,
+        "damaged_7_BE976D7C45CF1D5F920305B1CB262187": null,
+        "destroyed_9_755C91FF493AF4A154B5AFA566C4EDB4": null,
+        "scrape_12_D33ECAAF4F65CE405E09C693C27B7C40": null,
+        "particles_damage_16_95FC380F43EFC12B3D6D898494E55ADC": {
+          "ObjectName": "ParticleSystem'eff_woodDamage'",
+          "ObjectPath": "VotV/Content/particles/eff_woodDamage.20"
+        },
+        "particles_destroy_18_931F4A3B4D11F18EEB1F9CA953CE116C": null,
+        "staticSound_20_882C181F4ED7AD6803CAC3A3B025613D": false,
+        "pTypes_destroy_27_97200A304E4BCEB4B5A2C195BE99C887": []
+      },
+      "rubber": {
+        "step_2_264EF62E47692AC3EC4D1DB1D2EFDB37": {
+          "ObjectName": "SoundCue'foot_def_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/footsteps/foot_def_Cue.0"
+        },
+        "impact_4_B669AE3D4B8D794F27201B972A9C256C": {
+          "ObjectName": "SoundCue'impact_rubber_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/impact_rubber_Cue.0"
+        },
+        "soft_30_1E6AA0474C29728BFC6F82AF9108D822": {
+          "ObjectName": "SoundCue'softImpact_rubber_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/softImpact/softImpact_rubber_Cue.0"
+        },
+        "damaged_7_BE976D7C45CF1D5F920305B1CB262187": {
+          "ObjectName": "SoundCue'damage_rubber_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/damage/damage_rubber_Cue.0"
+        },
+        "destroyed_9_755C91FF493AF4A154B5AFA566C4EDB4": {
+          "ObjectName": "SoundCue'damage_rubber_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/damage/damage_rubber_Cue.0"
+        },
+        "scrape_12_D33ECAAF4F65CE405E09C693C27B7C40": {
+          "ObjectName": "SoundWave'scrape_bag'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/scrape/scrape_bag.0"
+        },
+        "particles_damage_16_95FC380F43EFC12B3D6D898494E55ADC": {
+          "ObjectName": "ParticleSystem'eff_plasticDamage'",
+          "ObjectPath": "VotV/Content/particles/eff_plasticDamage.36"
+        },
+        "particles_destroy_18_931F4A3B4D11F18EEB1F9CA953CE116C": {
+          "ObjectName": "ParticleSystem'eff_plasticBreak'",
+          "ObjectPath": "VotV/Content/particles/eff_plasticBreak.250"
+        },
+        "staticSound_20_882C181F4ED7AD6803CAC3A3B025613D": false,
+        "pTypes_destroy_27_97200A304E4BCEB4B5A2C195BE99C887": []
+      },
+      "concrete_massive_float": {
+        "step_2_264EF62E47692AC3EC4D1DB1D2EFDB37": {
+          "ObjectName": "SoundCue'ns_footstep_default_Cue'",
+          "ObjectPath": "VotV/Content/audio/newsounds/effects/physics/footsteps/ns_footstep_default_Cue.0"
+        },
+        "impact_4_B669AE3D4B8D794F27201B972A9C256C": {
+          "ObjectName": "SoundCue'concrete_damage_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/concrete_damage_Cue.0"
+        },
+        "soft_30_1E6AA0474C29728BFC6F82AF9108D822": {
+          "ObjectName": "SoundCue'softImpact_concrete_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/softImpact/softImpact_concrete_Cue.0"
+        },
+        "damaged_7_BE976D7C45CF1D5F920305B1CB262187": {
+          "ObjectName": "SoundCue'concrete_damage_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/concrete_damage_Cue.0"
+        },
+        "destroyed_9_755C91FF493AF4A154B5AFA566C4EDB4": {
+          "ObjectName": "SoundCue'concrete_break_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/concrete_break_Cue.0"
+        },
+        "scrape_12_D33ECAAF4F65CE405E09C693C27B7C40": {
+          "ObjectName": "SoundWave'concrete_scrape'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/scrape/concrete_scrape.0"
+        },
+        "particles_damage_16_95FC380F43EFC12B3D6D898494E55ADC": {
+          "ObjectName": "ParticleSystem'eff_concreteDamage'",
+          "ObjectPath": "VotV/Content/particles/eff_concreteDamage.19"
+        },
+        "particles_destroy_18_931F4A3B4D11F18EEB1F9CA953CE116C": {
+          "ObjectName": "ParticleSystem'eff_concreteBreak'",
+          "ObjectPath": "VotV/Content/particles/eff_concreteBreak.186"
+        },
+        "staticSound_20_882C181F4ED7AD6803CAC3A3B025613D": true,
+        "pTypes_destroy_27_97200A304E4BCEB4B5A2C195BE99C887": []
+      },
+      "concrete_float": {
+        "step_2_264EF62E47692AC3EC4D1DB1D2EFDB37": {
+          "ObjectName": "SoundCue'ns_footstep_default_Cue'",
+          "ObjectPath": "VotV/Content/audio/newsounds/effects/physics/footsteps/ns_footstep_default_Cue.0"
+        },
+        "impact_4_B669AE3D4B8D794F27201B972A9C256C": {
+          "ObjectName": "SoundCue'impact_concrete_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/impact_concrete_Cue.0"
+        },
+        "soft_30_1E6AA0474C29728BFC6F82AF9108D822": {
+          "ObjectName": "SoundCue'softImpact_concrete_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/softImpact/softImpact_concrete_Cue.0"
+        },
+        "damaged_7_BE976D7C45CF1D5F920305B1CB262187": {
+          "ObjectName": "SoundCue'concrete_damage_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/concrete_damage_Cue.0"
+        },
+        "destroyed_9_755C91FF493AF4A154B5AFA566C4EDB4": {
+          "ObjectName": "SoundCue'concrete_break_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/concrete_break_Cue.0"
+        },
+        "scrape_12_D33ECAAF4F65CE405E09C693C27B7C40": {
+          "ObjectName": "SoundWave'concrete_scrape'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/scrape/concrete_scrape.0"
+        },
+        "particles_damage_16_95FC380F43EFC12B3D6D898494E55ADC": {
+          "ObjectName": "ParticleSystem'eff_concreteDamage'",
+          "ObjectPath": "VotV/Content/particles/eff_concreteDamage.19"
+        },
+        "particles_destroy_18_931F4A3B4D11F18EEB1F9CA953CE116C": {
+          "ObjectName": "ParticleSystem'eff_concreteBreak'",
+          "ObjectPath": "VotV/Content/particles/eff_concreteBreak.186"
+        },
+        "staticSound_20_882C181F4ED7AD6803CAC3A3B025613D": true,
+        "pTypes_destroy_27_97200A304E4BCEB4B5A2C195BE99C887": []
+      },
+      "plastic_hollow": {
+        "step_2_264EF62E47692AC3EC4D1DB1D2EFDB37": {
+          "ObjectName": "SoundCue'foot_plaster_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/footsteps/foot_plaster_Cue.0"
+        },
+        "impact_4_B669AE3D4B8D794F27201B972A9C256C": {
+          "ObjectName": "SoundCue'impact_plasticBarrel_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/impact_plasticBarrel_Cue.0"
+        },
+        "soft_30_1E6AA0474C29728BFC6F82AF9108D822": {
+          "ObjectName": "SoundCue'softImpact_hollowPlastic_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/softImpact/softImpact_hollowPlastic_Cue.0"
+        },
+        "damaged_7_BE976D7C45CF1D5F920305B1CB262187": {
+          "ObjectName": "SoundCue'damage_plastic_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/damage/damage_plastic_Cue.0"
+        },
+        "destroyed_9_755C91FF493AF4A154B5AFA566C4EDB4": {
+          "ObjectName": "SoundCue'break_plastic_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/break/break_plastic_Cue.0"
+        },
+        "scrape_12_D33ECAAF4F65CE405E09C693C27B7C40": {
+          "ObjectName": "SoundWave'scrape_plasticBarrel'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/scrape/scrape_plasticBarrel.0"
+        },
+        "particles_damage_16_95FC380F43EFC12B3D6D898494E55ADC": {
+          "ObjectName": "ParticleSystem'eff_plasticDamage'",
+          "ObjectPath": "VotV/Content/particles/eff_plasticDamage.36"
+        },
+        "particles_destroy_18_931F4A3B4D11F18EEB1F9CA953CE116C": {
+          "ObjectName": "ParticleSystem'eff_plasticBreak'",
+          "ObjectPath": "VotV/Content/particles/eff_plasticBreak.250"
+        },
+        "staticSound_20_882C181F4ED7AD6803CAC3A3B025613D": true,
+        "pTypes_destroy_27_97200A304E4BCEB4B5A2C195BE99C887": []
+      },
+      "coal": {
+        "step_2_264EF62E47692AC3EC4D1DB1D2EFDB37": {
+          "ObjectName": "SoundCue'foot_def_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/footsteps/foot_def_Cue.0"
+        },
+        "impact_4_B669AE3D4B8D794F27201B972A9C256C": {
+          "ObjectName": "SoundCue'impact_concrete_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/impact_concrete_Cue.0"
+        },
+        "soft_30_1E6AA0474C29728BFC6F82AF9108D822": {
+          "ObjectName": "SoundCue'softImpact_concrete_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/softImpact/softImpact_concrete_Cue.0"
+        },
+        "damaged_7_BE976D7C45CF1D5F920305B1CB262187": {
+          "ObjectName": "SoundCue'concrete_damage_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/concrete_damage_Cue.0"
+        },
+        "destroyed_9_755C91FF493AF4A154B5AFA566C4EDB4": {
+          "ObjectName": "SoundCue'concrete_break_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/concrete_break_Cue.0"
+        },
+        "scrape_12_D33ECAAF4F65CE405E09C693C27B7C40": {
+          "ObjectName": "SoundWave'concrete_scrape'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/scrape/concrete_scrape.0"
+        },
+        "particles_damage_16_95FC380F43EFC12B3D6D898494E55ADC": {
+          "ObjectName": "ParticleSystem'eff_concreteDamage'",
+          "ObjectPath": "VotV/Content/particles/eff_concreteDamage.19"
+        },
+        "particles_destroy_18_931F4A3B4D11F18EEB1F9CA953CE116C": {
+          "ObjectName": "ParticleSystem'eff_concreteBreak'",
+          "ObjectPath": "VotV/Content/particles/eff_concreteBreak.186"
+        },
+        "staticSound_20_882C181F4ED7AD6803CAC3A3B025613D": true,
+        "pTypes_destroy_27_97200A304E4BCEB4B5A2C195BE99C887": []
+      },
+      "fruit": {
+        "step_2_264EF62E47692AC3EC4D1DB1D2EFDB37": {
+          "ObjectName": "SoundCue'footstepGoop_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/footstepGoop_Cue.0"
+        },
+        "impact_4_B669AE3D4B8D794F27201B972A9C256C": {
+          "ObjectName": "SoundCue'flesh_impact_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/flesh_impact_Cue.0"
+        },
+        "soft_30_1E6AA0474C29728BFC6F82AF9108D822": {
+          "ObjectName": "SoundCue'softImpact_soft_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/softImpact/softImpact_soft_Cue.0"
+        },
+        "damaged_7_BE976D7C45CF1D5F920305B1CB262187": {
+          "ObjectName": "SoundCue'flesh_impact_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/flesh_impact_Cue.0"
+        },
+        "destroyed_9_755C91FF493AF4A154B5AFA566C4EDB4": {
+          "ObjectName": "SoundCue'flesh_impact_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/flesh_impact_Cue.0"
+        },
+        "scrape_12_D33ECAAF4F65CE405E09C693C27B7C40": {
+          "ObjectName": "SoundWave'scrape_food'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/scrape/scrape_food.0"
+        },
+        "particles_damage_16_95FC380F43EFC12B3D6D898494E55ADC": null,
+        "particles_destroy_18_931F4A3B4D11F18EEB1F9CA953CE116C": null,
+        "staticSound_20_882C181F4ED7AD6803CAC3A3B025613D": false,
+        "pTypes_destroy_27_97200A304E4BCEB4B5A2C195BE99C887": []
+      },
+      "snow": {
+        "step_2_264EF62E47692AC3EC4D1DB1D2EFDB37": {
+          "ObjectName": "SoundCue'ns_footstep_snow_Cue'",
+          "ObjectPath": "VotV/Content/audio/newsounds/effects/physics/footsteps/ns_footstep_snow_Cue.0"
+        },
+        "impact_4_B669AE3D4B8D794F27201B972A9C256C": {
+          "ObjectName": "SoundCue'foot_snow_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/footsteps/foot_snow_Cue.0"
+        },
+        "soft_30_1E6AA0474C29728BFC6F82AF9108D822": {
+          "ObjectName": "SoundCue'foot_snow_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/footsteps/foot_snow_Cue.0"
+        },
+        "damaged_7_BE976D7C45CF1D5F920305B1CB262187": {
+          "ObjectName": "SoundCue'foot_snow_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/footsteps/foot_snow_Cue.0"
+        },
+        "destroyed_9_755C91FF493AF4A154B5AFA566C4EDB4": {
+          "ObjectName": "SoundCue'break_snow_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/footsteps/break_snow_Cue.0"
+        },
+        "scrape_12_D33ECAAF4F65CE405E09C693C27B7C40": {
+          "ObjectName": "SoundWave'scrape_food'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/scrape/scrape_food.0"
+        },
+        "particles_damage_16_95FC380F43EFC12B3D6D898494E55ADC": {
+          "ObjectName": "ParticleSystem'eff_woodDamage'",
+          "ObjectPath": "VotV/Content/particles/eff_woodDamage.20"
+        },
+        "particles_destroy_18_931F4A3B4D11F18EEB1F9CA953CE116C": {
+          "ObjectName": "ParticleSystem'eff_snowBreak'",
+          "ObjectPath": "VotV/Content/particles/eff_snowBreak.16"
+        },
+        "staticSound_20_882C181F4ED7AD6803CAC3A3B025613D": true,
+        "pTypes_destroy_27_97200A304E4BCEB4B5A2C195BE99C887": []
+      },
+      "sand": {
+        "step_2_264EF62E47692AC3EC4D1DB1D2EFDB37": {
+          "ObjectName": "SoundCue'ns_footstep_sand_Cue'",
+          "ObjectPath": "VotV/Content/audio/newsounds/effects/physics/footsteps/ns_footstep_sand_Cue.0"
+        },
+        "impact_4_B669AE3D4B8D794F27201B972A9C256C": {
+          "ObjectName": "SoundCue'dirt_impact_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/dirt_impact_Cue.0"
+        },
+        "soft_30_1E6AA0474C29728BFC6F82AF9108D822": {
+          "ObjectName": "SoundCue'footstepSand_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/footsteps/footstepSand_Cue.0"
+        },
+        "damaged_7_BE976D7C45CF1D5F920305B1CB262187": {
+          "ObjectName": "SoundCue'dirt_impact_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/dirt_impact_Cue.0"
+        },
+        "destroyed_9_755C91FF493AF4A154B5AFA566C4EDB4": {
+          "ObjectName": "SoundCue'dirt_impact_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/dirt_impact_Cue.0"
+        },
+        "scrape_12_D33ECAAF4F65CE405E09C693C27B7C40": {
+          "ObjectName": "SoundWave'scrape_paper'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/scrape/scrape_paper.0"
+        },
+        "particles_damage_16_95FC380F43EFC12B3D6D898494E55ADC": {
+          "ObjectName": "ParticleSystem'eff_dirtDamage'",
+          "ObjectPath": "VotV/Content/particles/eff_dirtDamage.33"
+        },
+        "particles_destroy_18_931F4A3B4D11F18EEB1F9CA953CE116C": {
+          "ObjectName": "ParticleSystem'eff_dirtBreak'",
+          "ObjectPath": "VotV/Content/particles/eff_dirtBreak.35"
+        },
+        "staticSound_20_882C181F4ED7AD6803CAC3A3B025613D": true,
+        "pTypes_destroy_27_97200A304E4BCEB4B5A2C195BE99C887": []
+      },
+      "goop": {
+        "step_2_264EF62E47692AC3EC4D1DB1D2EFDB37": {
+          "ObjectName": "SoundCue'footstepGoop_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/footstepGoop_Cue.0"
+        },
+        "impact_4_B669AE3D4B8D794F27201B972A9C256C": {
+          "ObjectName": "SoundCue'flesh_impact_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/flesh_impact_Cue.0"
+        },
+        "soft_30_1E6AA0474C29728BFC6F82AF9108D822": {
+          "ObjectName": "SoundCue'footstepGoop_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/footstepGoop_Cue.0"
+        },
+        "damaged_7_BE976D7C45CF1D5F920305B1CB262187": {
+          "ObjectName": "SoundCue'flesh_impact_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/flesh_impact_Cue.0"
+        },
+        "destroyed_9_755C91FF493AF4A154B5AFA566C4EDB4": {
+          "ObjectName": "SoundCue'flesh_impact_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/flesh_impact_Cue.0"
+        },
+        "scrape_12_D33ECAAF4F65CE405E09C693C27B7C40": null,
+        "particles_damage_16_95FC380F43EFC12B3D6D898494E55ADC": {
+          "ObjectName": "ParticleSystem'eff_woodDamage'",
+          "ObjectPath": "VotV/Content/particles/eff_woodDamage.20"
+        },
+        "particles_destroy_18_931F4A3B4D11F18EEB1F9CA953CE116C": null,
+        "staticSound_20_882C181F4ED7AD6803CAC3A3B025613D": true,
+        "pTypes_destroy_27_97200A304E4BCEB4B5A2C195BE99C887": []
+      },
+      "soft": {
+        "step_2_264EF62E47692AC3EC4D1DB1D2EFDB37": {
+          "ObjectName": "SoundCue'foot_def_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/footsteps/foot_def_Cue.0"
+        },
+        "impact_4_B669AE3D4B8D794F27201B972A9C256C": {
+          "ObjectName": "SoundCue'impact_food_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/impact_food_Cue.0"
+        },
+        "soft_30_1E6AA0474C29728BFC6F82AF9108D822": {
+          "ObjectName": "SoundCue'softImpact_soft_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/softImpact/softImpact_soft_Cue.0"
+        },
+        "damaged_7_BE976D7C45CF1D5F920305B1CB262187": null,
+        "destroyed_9_755C91FF493AF4A154B5AFA566C4EDB4": null,
+        "scrape_12_D33ECAAF4F65CE405E09C693C27B7C40": {
+          "ObjectName": "SoundWave'scrape_food'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/scrape/scrape_food.0"
+        },
+        "particles_damage_16_95FC380F43EFC12B3D6D898494E55ADC": null,
+        "particles_destroy_18_931F4A3B4D11F18EEB1F9CA953CE116C": null,
+        "staticSound_20_882C181F4ED7AD6803CAC3A3B025613D": false,
+        "pTypes_destroy_27_97200A304E4BCEB4B5A2C195BE99C887": []
+      },
+      "wood_crate": {
+        "step_2_264EF62E47692AC3EC4D1DB1D2EFDB37": {
+          "ObjectName": "SoundCue'ns_footstep_wood_Cue'",
+          "ObjectPath": "VotV/Content/audio/newsounds/effects/physics/footsteps/ns_footstep_wood_Cue.0"
+        },
+        "impact_4_B669AE3D4B8D794F27201B972A9C256C": {
+          "ObjectName": "SoundCue'impact_crate_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/impact_crate_Cue.0"
+        },
+        "soft_30_1E6AA0474C29728BFC6F82AF9108D822": {
+          "ObjectName": "SoundCue'softImpact_woodCrate_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/softImpact/softImpact_woodCrate_Cue.0"
+        },
+        "damaged_7_BE976D7C45CF1D5F920305B1CB262187": {
+          "ObjectName": "SoundCue'damage_wood_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/damage/damage_wood_Cue.0"
+        },
+        "destroyed_9_755C91FF493AF4A154B5AFA566C4EDB4": {
+          "ObjectName": "SoundCue'break_crate_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/break_crate_Cue.0"
+        },
+        "scrape_12_D33ECAAF4F65CE405E09C693C27B7C40": {
+          "ObjectName": "SoundWave'wood_scrape'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/scrape/wood_scrape.0"
+        },
+        "particles_damage_16_95FC380F43EFC12B3D6D898494E55ADC": {
+          "ObjectName": "ParticleSystem'eff_woodDamage'",
+          "ObjectPath": "VotV/Content/particles/eff_woodDamage.20"
+        },
+        "particles_destroy_18_931F4A3B4D11F18EEB1F9CA953CE116C": {
+          "ObjectName": "ParticleSystem'eff_woodBreak'",
+          "ObjectPath": "VotV/Content/particles/eff_woodBreak.120"
+        },
+        "staticSound_20_882C181F4ED7AD6803CAC3A3B025613D": true,
+        "pTypes_destroy_27_97200A304E4BCEB4B5A2C195BE99C887": []
+      },
+      "cardboard": {
+        "step_2_264EF62E47692AC3EC4D1DB1D2EFDB37": {
+          "ObjectName": "SoundCue'footstep_drywall_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/footsteps/footstep_drywall_Cue.0"
+        },
+        "impact_4_B669AE3D4B8D794F27201B972A9C256C": {
+          "ObjectName": "SoundCue'impact_cardboard_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/impact_cardboard_Cue.0"
+        },
+        "soft_30_1E6AA0474C29728BFC6F82AF9108D822": {
+          "ObjectName": "SoundCue'impact_paper_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/impact_paper_Cue.0"
+        },
+        "damaged_7_BE976D7C45CF1D5F920305B1CB262187": {
+          "ObjectName": "SoundCue'damage_paper_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/damage/damage_paper_Cue.0"
+        },
+        "destroyed_9_755C91FF493AF4A154B5AFA566C4EDB4": {
+          "ObjectName": "SoundCue'break_paper_cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/break/break_paper_cue.0"
+        },
+        "scrape_12_D33ECAAF4F65CE405E09C693C27B7C40": {
+          "ObjectName": "SoundWave'scrape_paper'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/scrape/scrape_paper.0"
+        },
+        "particles_damage_16_95FC380F43EFC12B3D6D898494E55ADC": {
+          "ObjectName": "ParticleSystem'eff_paperDamage'",
+          "ObjectPath": "VotV/Content/particles/eff_paperDamage.53"
+        },
+        "particles_destroy_18_931F4A3B4D11F18EEB1F9CA953CE116C": {
+          "ObjectName": "ParticleSystem'eff_paperBreak'",
+          "ObjectPath": "VotV/Content/particles/eff_paperBreak.257"
+        },
+        "staticSound_20_882C181F4ED7AD6803CAC3A3B025613D": false,
+        "pTypes_destroy_27_97200A304E4BCEB4B5A2C195BE99C887": []
+      },
+      "rock": {
+        "step_2_264EF62E47692AC3EC4D1DB1D2EFDB37": {
+          "ObjectName": "SoundCue'ns_footstep_default_Cue'",
+          "ObjectPath": "VotV/Content/audio/newsounds/effects/physics/footsteps/ns_footstep_default_Cue.0"
+        },
+        "impact_4_B669AE3D4B8D794F27201B972A9C256C": {
+          "ObjectName": "SoundCue'impact_rock_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/impact_rock_Cue.0"
+        },
+        "soft_30_1E6AA0474C29728BFC6F82AF9108D822": {
+          "ObjectName": "SoundCue'softImpact_concrete_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/softImpact/softImpact_concrete_Cue.0"
+        },
+        "damaged_7_BE976D7C45CF1D5F920305B1CB262187": {
+          "ObjectName": "SoundCue'concrete_damage_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/concrete_damage_Cue.0"
+        },
+        "destroyed_9_755C91FF493AF4A154B5AFA566C4EDB4": {
+          "ObjectName": "SoundCue'concrete_break_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/concrete_break_Cue.0"
+        },
+        "scrape_12_D33ECAAF4F65CE405E09C693C27B7C40": {
+          "ObjectName": "SoundWave'scrape_rock'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/scrape/scrape_rock.0"
+        },
+        "particles_damage_16_95FC380F43EFC12B3D6D898494E55ADC": {
+          "ObjectName": "ParticleSystem'eff_concreteDamage'",
+          "ObjectPath": "VotV/Content/particles/eff_concreteDamage.19"
+        },
+        "particles_destroy_18_931F4A3B4D11F18EEB1F9CA953CE116C": {
+          "ObjectName": "ParticleSystem'eff_concreteBreak'",
+          "ObjectPath": "VotV/Content/particles/eff_concreteBreak.186"
+        },
+        "staticSound_20_882C181F4ED7AD6803CAC3A3B025613D": true,
+        "pTypes_destroy_27_97200A304E4BCEB4B5A2C195BE99C887": []
+      },
+      "chainlink": {
+        "step_2_264EF62E47692AC3EC4D1DB1D2EFDB37": {
+          "ObjectName": "SoundCue'footstep_chainlink_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/footsteps/footstep_chainlink_Cue.0"
+        },
+        "impact_4_B669AE3D4B8D794F27201B972A9C256C": {
+          "ObjectName": "SoundCue'impact_chainlink_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/impact_chainlink_Cue.0"
+        },
+        "soft_30_1E6AA0474C29728BFC6F82AF9108D822": null,
+        "damaged_7_BE976D7C45CF1D5F920305B1CB262187": {
+          "ObjectName": "SoundCue'break_metal_cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/break/break_metal_cue.0"
+        },
+        "destroyed_9_755C91FF493AF4A154B5AFA566C4EDB4": {
+          "ObjectName": "SoundCue'break_metal_cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/break/break_metal_cue.0"
+        },
+        "scrape_12_D33ECAAF4F65CE405E09C693C27B7C40": {
+          "ObjectName": "SoundWave'scrape_chainlink'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/scrape/scrape_chainlink.0"
+        },
+        "particles_damage_16_95FC380F43EFC12B3D6D898494E55ADC": {
+          "ObjectName": "ParticleSystem'eff_metalSpark'",
+          "ObjectPath": "VotV/Content/particles/eff_metalSpark.21"
+        },
+        "particles_destroy_18_931F4A3B4D11F18EEB1F9CA953CE116C": {
+          "ObjectName": "ParticleSystem'eff_metalBreak'",
+          "ObjectPath": "VotV/Content/particles/eff_metalBreak.155"
+        },
+        "staticSound_20_882C181F4ED7AD6803CAC3A3B025613D": true,
+        "pTypes_destroy_27_97200A304E4BCEB4B5A2C195BE99C887": []
+      },
+      "metal_small": {
+        "step_2_264EF62E47692AC3EC4D1DB1D2EFDB37": {
+          "ObjectName": "SoundCue'ns_footstep_metal_Cue'",
+          "ObjectPath": "VotV/Content/audio/newsounds/effects/physics/footsteps/ns_footstep_metal_Cue.0"
+        },
+        "impact_4_B669AE3D4B8D794F27201B972A9C256C": {
+          "ObjectName": "SoundCue'impact_smallMetal_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/impact_smallMetal_Cue.0"
+        },
+        "soft_30_1E6AA0474C29728BFC6F82AF9108D822": null,
+        "damaged_7_BE976D7C45CF1D5F920305B1CB262187": {
+          "ObjectName": "SoundCue'break_metal_cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/break/break_metal_cue.0"
+        },
+        "destroyed_9_755C91FF493AF4A154B5AFA566C4EDB4": {
+          "ObjectName": "SoundCue'break_metal_cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/break/break_metal_cue.0"
+        },
+        "scrape_12_D33ECAAF4F65CE405E09C693C27B7C40": {
+          "ObjectName": "SoundWave'scrape_drive'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/scrape/scrape_drive.0"
+        },
+        "particles_damage_16_95FC380F43EFC12B3D6D898494E55ADC": {
+          "ObjectName": "ParticleSystem'eff_metalSpark'",
+          "ObjectPath": "VotV/Content/particles/eff_metalSpark.21"
+        },
+        "particles_destroy_18_931F4A3B4D11F18EEB1F9CA953CE116C": {
+          "ObjectName": "ParticleSystem'eff_metalBreak'",
+          "ObjectPath": "VotV/Content/particles/eff_metalBreak.155"
+        },
+        "staticSound_20_882C181F4ED7AD6803CAC3A3B025613D": false,
+        "pTypes_destroy_27_97200A304E4BCEB4B5A2C195BE99C887": []
+      },
+      "metal_sheet": {
+        "step_2_264EF62E47692AC3EC4D1DB1D2EFDB37": {
+          "ObjectName": "SoundCue'ns_footstep_metal_Cue'",
+          "ObjectPath": "VotV/Content/audio/newsounds/effects/physics/footsteps/ns_footstep_metal_Cue.0"
+        },
+        "impact_4_B669AE3D4B8D794F27201B972A9C256C": {
+          "ObjectName": "SoundCue'impact_metalSheet_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/impact_metalSheet_Cue.0"
+        },
+        "soft_30_1E6AA0474C29728BFC6F82AF9108D822": {
+          "ObjectName": "SoundCue'softImpact_hollowMetal_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/softImpact/softImpact_hollowMetal_Cue.0"
+        },
+        "damaged_7_BE976D7C45CF1D5F920305B1CB262187": {
+          "ObjectName": "SoundCue'break_metal_cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/break/break_metal_cue.0"
+        },
+        "destroyed_9_755C91FF493AF4A154B5AFA566C4EDB4": {
+          "ObjectName": "SoundCue'break_metal_cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/break/break_metal_cue.0"
+        },
+        "scrape_12_D33ECAAF4F65CE405E09C693C27B7C40": {
+          "ObjectName": "SoundWave'metal_scrape'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/scrape/metal_scrape.0"
+        },
+        "particles_damage_16_95FC380F43EFC12B3D6D898494E55ADC": {
+          "ObjectName": "ParticleSystem'eff_metalSpark'",
+          "ObjectPath": "VotV/Content/particles/eff_metalSpark.21"
+        },
+        "particles_destroy_18_931F4A3B4D11F18EEB1F9CA953CE116C": {
+          "ObjectName": "ParticleSystem'eff_metalBreak'",
+          "ObjectPath": "VotV/Content/particles/eff_metalBreak.155"
+        },
+        "staticSound_20_882C181F4ED7AD6803CAC3A3B025613D": true,
+        "pTypes_destroy_27_97200A304E4BCEB4B5A2C195BE99C887": []
+      },
+      "paintcan": {
+        "step_2_264EF62E47692AC3EC4D1DB1D2EFDB37": {
+          "ObjectName": "SoundCue'foot_def_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/footsteps/foot_def_Cue.0"
+        },
+        "impact_4_B669AE3D4B8D794F27201B972A9C256C": {
+          "ObjectName": "SoundCue'impact_paintcan_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/impact_paintcan_Cue.0"
+        },
+        "soft_30_1E6AA0474C29728BFC6F82AF9108D822": {
+          "ObjectName": "SoundCue'softImpact_sodaCan_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/softImpact/softImpact_sodaCan_Cue.0"
+        },
+        "damaged_7_BE976D7C45CF1D5F920305B1CB262187": {
+          "ObjectName": "SoundCue'damage_plastic_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/damage/damage_plastic_Cue.0"
+        },
+        "destroyed_9_755C91FF493AF4A154B5AFA566C4EDB4": null,
+        "scrape_12_D33ECAAF4F65CE405E09C693C27B7C40": {
+          "ObjectName": "SoundWave'scrape_can'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/scrape/scrape_can.0"
+        },
+        "particles_damage_16_95FC380F43EFC12B3D6D898494E55ADC": {
+          "ObjectName": "ParticleSystem'eff_metalSpark'",
+          "ObjectPath": "VotV/Content/particles/eff_metalSpark.21"
+        },
+        "particles_destroy_18_931F4A3B4D11F18EEB1F9CA953CE116C": {
+          "ObjectName": "ParticleSystem'eff_metalBreak'",
+          "ObjectPath": "VotV/Content/particles/eff_metalBreak.155"
+        },
+        "staticSound_20_882C181F4ED7AD6803CAC3A3B025613D": true,
+        "pTypes_destroy_27_97200A304E4BCEB4B5A2C195BE99C887": []
+      },
+      "doohickey": {
+        "step_2_264EF62E47692AC3EC4D1DB1D2EFDB37": {
+          "ObjectName": "SoundCue'foot_def_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/footsteps/foot_def_Cue.0"
+        },
+        "impact_4_B669AE3D4B8D794F27201B972A9C256C": {
+          "ObjectName": "SoundCue'impact_doohickey_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/impact_doohickey_Cue.0"
+        },
+        "soft_30_1E6AA0474C29728BFC6F82AF9108D822": {
+          "ObjectName": "SoundCue'softImpact_weapon_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/softImpact/softImpact_weapon_Cue.0"
+        },
+        "damaged_7_BE976D7C45CF1D5F920305B1CB262187": {
+          "ObjectName": "SoundCue'damage_metal_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/damage/damage_metal_Cue.0"
+        },
+        "destroyed_9_755C91FF493AF4A154B5AFA566C4EDB4": {
+          "ObjectName": "SoundCue'break_metal_cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/break/break_metal_cue.0"
+        },
+        "scrape_12_D33ECAAF4F65CE405E09C693C27B7C40": {
+          "ObjectName": "SoundWave'scrape_drive'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/scrape/scrape_drive.0"
+        },
+        "particles_damage_16_95FC380F43EFC12B3D6D898494E55ADC": {
+          "ObjectName": "ParticleSystem'eff_metalSpark'",
+          "ObjectPath": "VotV/Content/particles/eff_metalSpark.21"
+        },
+        "particles_destroy_18_931F4A3B4D11F18EEB1F9CA953CE116C": {
+          "ObjectName": "ParticleSystem'eff_metalBreak'",
+          "ObjectPath": "VotV/Content/particles/eff_metalBreak.155"
+        },
+        "staticSound_20_882C181F4ED7AD6803CAC3A3B025613D": true,
+        "pTypes_destroy_27_97200A304E4BCEB4B5A2C195BE99C887": []
+      },
+      "drywall": {
+        "step_2_264EF62E47692AC3EC4D1DB1D2EFDB37": {
+          "ObjectName": "SoundCue'footstep_drywall_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/footsteps/footstep_drywall_Cue.0"
+        },
+        "impact_4_B669AE3D4B8D794F27201B972A9C256C": {
+          "ObjectName": "SoundCue'impact_drywall_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/impact_drywall_Cue.0"
+        },
+        "soft_30_1E6AA0474C29728BFC6F82AF9108D822": {
+          "ObjectName": "SoundCue'impact_paper_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/impact_paper_Cue.0"
+        },
+        "damaged_7_BE976D7C45CF1D5F920305B1CB262187": {
+          "ObjectName": "SoundCue'impact_cardboard_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/impact_cardboard_Cue.0"
+        },
+        "destroyed_9_755C91FF493AF4A154B5AFA566C4EDB4": {
+          "ObjectName": "SoundCue'break_paper_cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/break/break_paper_cue.0"
+        },
+        "scrape_12_D33ECAAF4F65CE405E09C693C27B7C40": {
+          "ObjectName": "SoundWave'scrape_paper'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/scrape/scrape_paper.0"
+        },
+        "particles_damage_16_95FC380F43EFC12B3D6D898494E55ADC": {
+          "ObjectName": "ParticleSystem'eff_paperDamage'",
+          "ObjectPath": "VotV/Content/particles/eff_paperDamage.53"
+        },
+        "particles_destroy_18_931F4A3B4D11F18EEB1F9CA953CE116C": {
+          "ObjectName": "ParticleSystem'eff_paperBreak'",
+          "ObjectPath": "VotV/Content/particles/eff_paperBreak.257"
+        },
+        "staticSound_20_882C181F4ED7AD6803CAC3A3B025613D": true,
+        "pTypes_destroy_27_97200A304E4BCEB4B5A2C195BE99C887": []
+      },
+      "tile": {
+        "step_2_264EF62E47692AC3EC4D1DB1D2EFDB37": {
+          "ObjectName": "SoundCue'footstep_tile_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/footsteps/footstep_tile_Cue.0"
+        },
+        "impact_4_B669AE3D4B8D794F27201B972A9C256C": {
+          "ObjectName": "SoundCue'impact_concrete_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/impact_concrete_Cue.0"
+        },
+        "soft_30_1E6AA0474C29728BFC6F82AF9108D822": {
+          "ObjectName": "SoundCue'softImpact_concrete_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/softImpact/softImpact_concrete_Cue.0"
+        },
+        "damaged_7_BE976D7C45CF1D5F920305B1CB262187": {
+          "ObjectName": "SoundCue'concrete_damage_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/concrete_damage_Cue.0"
+        },
+        "destroyed_9_755C91FF493AF4A154B5AFA566C4EDB4": {
+          "ObjectName": "SoundCue'concrete_break_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/concrete_break_Cue.0"
+        },
+        "scrape_12_D33ECAAF4F65CE405E09C693C27B7C40": {
+          "ObjectName": "SoundWave'concrete_scrape'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/scrape/concrete_scrape.0"
+        },
+        "particles_damage_16_95FC380F43EFC12B3D6D898494E55ADC": {
+          "ObjectName": "ParticleSystem'eff_concreteDamage'",
+          "ObjectPath": "VotV/Content/particles/eff_concreteDamage.19"
+        },
+        "particles_destroy_18_931F4A3B4D11F18EEB1F9CA953CE116C": {
+          "ObjectName": "ParticleSystem'eff_concreteBreak'",
+          "ObjectPath": "VotV/Content/particles/eff_concreteBreak.186"
+        },
+        "staticSound_20_882C181F4ED7AD6803CAC3A3B025613D": true,
+        "pTypes_destroy_27_97200A304E4BCEB4B5A2C195BE99C887": []
+      },
+      "metal_barrel": {
+        "step_2_264EF62E47692AC3EC4D1DB1D2EFDB37": {
+          "ObjectName": "SoundCue'ns_footstep_metal_Cue'",
+          "ObjectPath": "VotV/Content/audio/newsounds/effects/physics/footsteps/ns_footstep_metal_Cue.0"
+        },
+        "impact_4_B669AE3D4B8D794F27201B972A9C256C": {
+          "ObjectName": "SoundCue'impact_barrel_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/impact_barrel_Cue.0"
+        },
+        "soft_30_1E6AA0474C29728BFC6F82AF9108D822": {
+          "ObjectName": "SoundCue'softImpact_hollowMetal_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/softImpact/softImpact_hollowMetal_Cue.0"
+        },
+        "damaged_7_BE976D7C45CF1D5F920305B1CB262187": {
+          "ObjectName": "SoundCue'damage_barrel_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/damage/damage_barrel_Cue.0"
+        },
+        "destroyed_9_755C91FF493AF4A154B5AFA566C4EDB4": {
+          "ObjectName": "SoundCue'break_metal_cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/break/break_metal_cue.0"
+        },
+        "scrape_12_D33ECAAF4F65CE405E09C693C27B7C40": {
+          "ObjectName": "SoundWave'scrape_canister'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/scrape/scrape_canister.0"
+        },
+        "particles_damage_16_95FC380F43EFC12B3D6D898494E55ADC": {
+          "ObjectName": "ParticleSystem'eff_metalSpark'",
+          "ObjectPath": "VotV/Content/particles/eff_metalSpark.21"
+        },
+        "particles_destroy_18_931F4A3B4D11F18EEB1F9CA953CE116C": {
+          "ObjectName": "ParticleSystem'eff_metalBreak'",
+          "ObjectPath": "VotV/Content/particles/eff_metalBreak.155"
+        },
+        "staticSound_20_882C181F4ED7AD6803CAC3A3B025613D": true,
+        "pTypes_destroy_27_97200A304E4BCEB4B5A2C195BE99C887": []
+      },
+      "wood_log": {
+        "step_2_264EF62E47692AC3EC4D1DB1D2EFDB37": {
+          "ObjectName": "SoundCue'ns_footstep_wood_Cue'",
+          "ObjectPath": "VotV/Content/audio/newsounds/effects/physics/footsteps/ns_footstep_wood_Cue.0"
+        },
+        "impact_4_B669AE3D4B8D794F27201B972A9C256C": {
+          "ObjectName": "SoundCue'impact_woodLog_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/impact_woodLog_Cue.0"
+        },
+        "soft_30_1E6AA0474C29728BFC6F82AF9108D822": {
+          "ObjectName": "SoundCue'softImpact_woodLog_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/softImpact/softImpact_woodLog_Cue.0"
+        },
+        "damaged_7_BE976D7C45CF1D5F920305B1CB262187": {
+          "ObjectName": "SoundCue'damage_wood_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/damage/damage_wood_Cue.0"
+        },
+        "destroyed_9_755C91FF493AF4A154B5AFA566C4EDB4": {
+          "ObjectName": "SoundCue'break_wood_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/break/break_wood_Cue.0"
+        },
+        "scrape_12_D33ECAAF4F65CE405E09C693C27B7C40": {
+          "ObjectName": "SoundWave'scrape_woodLog'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/scrape/scrape_woodLog.0"
+        },
+        "particles_damage_16_95FC380F43EFC12B3D6D898494E55ADC": {
+          "ObjectName": "ParticleSystem'eff_woodDamage'",
+          "ObjectPath": "VotV/Content/particles/eff_woodDamage.20"
+        },
+        "particles_destroy_18_931F4A3B4D11F18EEB1F9CA953CE116C": {
+          "ObjectName": "ParticleSystem'eff_woodBreak'",
+          "ObjectPath": "VotV/Content/particles/eff_woodBreak.120"
+        },
+        "staticSound_20_882C181F4ED7AD6803CAC3A3B025613D": true,
+        "pTypes_destroy_27_97200A304E4BCEB4B5A2C195BE99C887": []
+      },
+      "rock_float": {
+        "step_2_264EF62E47692AC3EC4D1DB1D2EFDB37": {
+          "ObjectName": "SoundCue'foot_def_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/footsteps/foot_def_Cue.0"
+        },
+        "impact_4_B669AE3D4B8D794F27201B972A9C256C": {
+          "ObjectName": "SoundCue'impact_rock_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/impact_rock_Cue.0"
+        },
+        "soft_30_1E6AA0474C29728BFC6F82AF9108D822": {
+          "ObjectName": "SoundCue'softImpact_concrete_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/softImpact/softImpact_concrete_Cue.0"
+        },
+        "damaged_7_BE976D7C45CF1D5F920305B1CB262187": {
+          "ObjectName": "SoundCue'concrete_damage_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/concrete_damage_Cue.0"
+        },
+        "destroyed_9_755C91FF493AF4A154B5AFA566C4EDB4": {
+          "ObjectName": "SoundCue'concrete_break_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/concrete_break_Cue.0"
+        },
+        "scrape_12_D33ECAAF4F65CE405E09C693C27B7C40": {
+          "ObjectName": "SoundWave'scrape_rock'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/scrape/scrape_rock.0"
+        },
+        "particles_damage_16_95FC380F43EFC12B3D6D898494E55ADC": {
+          "ObjectName": "ParticleSystem'eff_concreteDamage'",
+          "ObjectPath": "VotV/Content/particles/eff_concreteDamage.19"
+        },
+        "particles_destroy_18_931F4A3B4D11F18EEB1F9CA953CE116C": {
+          "ObjectName": "ParticleSystem'eff_concreteBreak'",
+          "ObjectPath": "VotV/Content/particles/eff_concreteBreak.186"
+        },
+        "staticSound_20_882C181F4ED7AD6803CAC3A3B025613D": true,
+        "pTypes_destroy_27_97200A304E4BCEB4B5A2C195BE99C887": []
+      },
+      "bottle": {
+        "step_2_264EF62E47692AC3EC4D1DB1D2EFDB37": {
+          "ObjectName": "SoundCue'foot_glass_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/footsteps/foot_glass_Cue.0"
+        },
+        "impact_4_B669AE3D4B8D794F27201B972A9C256C": {
+          "ObjectName": "SoundCue'impact_bottle_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/impact_bottle_Cue.0"
+        },
+        "soft_30_1E6AA0474C29728BFC6F82AF9108D822": {
+          "ObjectName": "SoundCue'softImpact_glass_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/softImpact/softImpact_glass_Cue.0"
+        },
+        "damaged_7_BE976D7C45CF1D5F920305B1CB262187": {
+          "ObjectName": "SoundCue'damage_bottle_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/damage/damage_bottle_Cue.0"
+        },
+        "destroyed_9_755C91FF493AF4A154B5AFA566C4EDB4": {
+          "ObjectName": "SoundCue'break_bottle_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/break/break_bottle_Cue.0"
+        },
+        "scrape_12_D33ECAAF4F65CE405E09C693C27B7C40": {
+          "ObjectName": "SoundWave'concrete_scrape'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/scrape/concrete_scrape.0"
+        },
+        "particles_damage_16_95FC380F43EFC12B3D6D898494E55ADC": null,
+        "particles_destroy_18_931F4A3B4D11F18EEB1F9CA953CE116C": null,
+        "staticSound_20_882C181F4ED7AD6803CAC3A3B025613D": true,
+        "pTypes_destroy_27_97200A304E4BCEB4B5A2C195BE99C887": [
+          {
+            "Key": "StaticMesh'VotV/Content/meshes/beer2/beerClosed.beerClosed'",
+            "Value": {
+              "ObjectName": "ParticleSystem'eff_bottleBreak'",
+              "ObjectPath": "VotV/Content/particles/eff_bottleBreak.124"
+            }
+          },
+          {
+            "Key": "StaticMesh'VotV/Content/meshes/beer2/beerOpen.beerOpen'",
+            "Value": {
+              "ObjectName": "ParticleSystem'eff_bottleBreak'",
+              "ObjectPath": "VotV/Content/particles/eff_bottleBreak.124"
+            }
+          },
+          {
+            "Key": "StaticMesh'VotV/Content/meshes/booz/booz_wine.booz_wine'",
+            "Value": {
+              "ObjectName": "ParticleSystem'eff_wineBreak'",
+              "ObjectPath": "VotV/Content/particles/eff_wineBreak.124"
+            }
+          }
+        ]
+      },
+      "carpet": {
+        "step_2_264EF62E47692AC3EC4D1DB1D2EFDB37": {
+          "ObjectName": "SoundCue'footstepSand_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/footsteps/footstepSand_Cue.0"
+        },
+        "impact_4_B669AE3D4B8D794F27201B972A9C256C": {
+          "ObjectName": "SoundCue'dirt_impact_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/dirt_impact_Cue.0"
+        },
+        "soft_30_1E6AA0474C29728BFC6F82AF9108D822": {
+          "ObjectName": "SoundCue'footstepSand_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/footsteps/footstepSand_Cue.0"
+        },
+        "damaged_7_BE976D7C45CF1D5F920305B1CB262187": {
+          "ObjectName": "SoundCue'dirt_impact_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/dirt_impact_Cue.0"
+        },
+        "destroyed_9_755C91FF493AF4A154B5AFA566C4EDB4": {
+          "ObjectName": "SoundCue'dirt_impact_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/dirt_impact_Cue.0"
+        },
+        "scrape_12_D33ECAAF4F65CE405E09C693C27B7C40": {
+          "ObjectName": "SoundWave'scrape_paper'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/scrape/scrape_paper.0"
+        },
+        "particles_damage_16_95FC380F43EFC12B3D6D898494E55ADC": {
+          "ObjectName": "ParticleSystem'eff_dirtDamage'",
+          "ObjectPath": "VotV/Content/particles/eff_dirtDamage.33"
+        },
+        "particles_destroy_18_931F4A3B4D11F18EEB1F9CA953CE116C": {
+          "ObjectName": "ParticleSystem'eff_dirtBreak'",
+          "ObjectPath": "VotV/Content/particles/eff_dirtBreak.35"
+        },
+        "staticSound_20_882C181F4ED7AD6803CAC3A3B025613D": true,
+        "pTypes_destroy_27_97200A304E4BCEB4B5A2C195BE99C887": []
+      }
+    }
+  }
+]

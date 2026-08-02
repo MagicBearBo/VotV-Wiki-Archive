@@ -1,0 +1,325 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "list_advancements",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "VotV/Content/main/datatables/list_advancements",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'struct_achievement'",
+        "ObjectPath": "VotV/Content/main/structs/struct_achievement.0"
+      }
+    },
+    "Rows": {
+      "arirShipEvent": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "DAFEAE384C5E831BDAEEC48FE2536575",
+          "SourceString": "We are not alone",
+          "LocalizedString": "We are not alone"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "C1EEF9164C1E0CD25334F4B4E2325F46",
+          "SourceString": "Witness an alien ship",
+          "LocalizedString": "Witness an alien ship"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 25
+      },
+      "burger": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "E16D50194403C7548E2AB58AC0BDD40B",
+          "SourceString": "Burger?",
+          "LocalizedString": "Burger?"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 21,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "FEEC86244BB09BD650A1F89A3857A873",
+          "SourceString": "Find all chicken burgers",
+          "LocalizedString": "Find all chicken burgers"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 0
+      },
+      "argemDoll": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "12E61AB741343633809F7F92ACD9E685",
+          "SourceString": "Argemia plush",
+          "LocalizedString": "Argemia plush"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 3,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "BDE190D44141AD5FEEA3BD9C2D759BD5",
+          "SourceString": "Find all Argemia plushies",
+          "LocalizedString": "Find all Argemia plushies"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 100
+      },
+      "funguy": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "D1CCAE004D7C2A3762157FB17EAC07FE",
+          "SourceString": "Funguy",
+          "LocalizedString": "Funguy"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1000,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "22653A494CB441E35C4E729BB979C125",
+          "SourceString": "Pick up 1000 mushrooms",
+          "LocalizedString": "Pick up 1000 mushrooms"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 500
+      },
+      "chipper": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "42F54AD44DEE69D08FE34FBF8B1D2FEE",
+          "SourceString": "Chipper",
+          "LocalizedString": "Chipper"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1000,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "E9418E01495FA56A3DE51EB5633A3D72",
+          "SourceString": "Throw 1000 items in a woodchipper",
+          "LocalizedString": "Throw 1000 items in a woodchipper"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 250
+      },
+      "roachEater": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "EED221DE41E8939B56B8F9B34EE6135A",
+          "SourceString": "Roach eater",
+          "LocalizedString": "Roach eater"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1000,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "F677E56446A8669FCB030A8C5B489500",
+          "SourceString": "Eat 1000 roaches",
+          "LocalizedString": "Eat 1000 roaches"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 300
+      },
+      "piramid": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "FB3194A34FDCA18C5C417BB7E8A6FB0E",
+          "SourceString": "Piramid",
+          "LocalizedString": "Piramid"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "E4C697444AB576C049DACE9561EF163B",
+          "SourceString": "Witness Piramid",
+          "LocalizedString": "Witness Piramid"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 0
+      },
+      "getKerfur": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "32B6252C4FEEECF6E6C5A3A55662F617",
+          "SourceString": "Buy Kerfur",
+          "LocalizedString": "Buy Kerfur"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "DBFDF5974D07206D33CA64B5ADB0FF38",
+          "SourceString": "Buy Kerfur",
+          "LocalizedString": "Buy Kerfur"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 0
+      },
+      "cleanToilet": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "28612735431A7B47B79E64BE3AEF27FC",
+          "SourceString": "Clean toilet",
+          "LocalizedString": "Clean toilet"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "59BCC5904E2CAAAD1BCF11838CFECF99",
+          "SourceString": "Clean the toilet",
+          "LocalizedString": "Clean the toilet"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 40
+      },
+      "cleanSink": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "F4F5B3D5439FEA882ED9D58A77153574",
+          "SourceString": "Clean sink",
+          "LocalizedString": "Clean sink"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "FAF774DE4435BAF7DE5D68AECF5AD58D",
+          "SourceString": "Clean the sink",
+          "LocalizedString": "Clean the sink"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 25
+      },
+      "cleanShower": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "0EE3E546470A2761F9ECB2997A5D6A0F",
+          "SourceString": "Clean shower",
+          "LocalizedString": "Clean shower"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "ECAA551A49029D8AD9C8979566CB8ECB",
+          "SourceString": "Clean the shower",
+          "LocalizedString": "Clean the shower"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 50
+      },
+      "baker_pizza": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "B01FD72A4F9B6889672B1385EE8DFFDC",
+          "SourceString": "Pizza baker",
+          "LocalizedString": "Pizza baker"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "9E835EAD4222424B0BD6A8A488739560",
+          "SourceString": "Bake a pizza",
+          "LocalizedString": "Bake a pizza"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 45
+      },
+      "baker_bread": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "1B3D1FE24EE4F677E145E19F3142C364",
+          "SourceString": "Bread baker",
+          "LocalizedString": "Bread baker"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "7A4E45D345E2F1AEA334D883898C4765",
+          "SourceString": "Bake a bread",
+          "LocalizedString": "Bake a bread"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 25
+      },
+      "baker_cookies": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "5B8A00544CD7339932C9B89A95C6D722",
+          "SourceString": "Cookie baker",
+          "LocalizedString": "Cookie baker"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "E5BA833E49B8197CCD1186A90C0B7A03",
+          "SourceString": "Bake a tray of cookies",
+          "LocalizedString": "Bake a tray of cookies"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 35
+      }
+    }
+  }
+]

@@ -1,0 +1,251 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "list_subtitles",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "VotV/Content/main/datatables/list_subtitles",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'struct_subtitle'",
+        "ObjectPath": "VotV/Content/main/structs/struct_subtitle.0"
+      }
+    },
+    "Rows": {
+      "test": {
+        "character_2_C183393D473B3F53F8AA318AC077A7E8": "enum_char::NewEnumerator0",
+        "sound_5_D68BDDFE4DFC2A88B0903986FAA78FE8": {
+          "ObjectName": "SoundWave'00000000'",
+          "ObjectPath": "VotV/Content/audio/00000000.0"
+        },
+        "text_8_93842A6142E23EC456AF06AF63B52A9A": {
+          "Namespace": "",
+          "Key": "58C5289141B546CC3013558E21BE77B4",
+          "SourceString": "talking",
+          "LocalizedString": "talking"
+        }
+      },
+      "test_0": {
+        "character_2_C183393D473B3F53F8AA318AC077A7E8": "enum_char::NewEnumerator0",
+        "sound_5_D68BDDFE4DFC2A88B0903986FAA78FE8": {
+          "ObjectName": "SoundWave'impact_bodyH_0005'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/impact_bodyH_0005.0"
+        },
+        "text_8_93842A6142E23EC456AF06AF63B52A9A": {
+          "Namespace": "",
+          "Key": "63DA95864A067ACF2833B49EE7885773",
+          "SourceString": "fuck you",
+          "LocalizedString": "fuck you"
+        }
+      },
+      "tutHint_0": {
+        "character_2_C183393D473B3F53F8AA318AC077A7E8": "enum_char::NewEnumerator0",
+        "sound_5_D68BDDFE4DFC2A88B0903986FAA78FE8": {
+          "ObjectName": "SoundWave'achievement'",
+          "ObjectPath": "VotV/Content/audio/ui/achievement.0"
+        },
+        "text_8_93842A6142E23EC456AF06AF63B52A9A": {
+          "Namespace": "",
+          "Key": "DA03E8054CB0C574D2B7FB94310F5525",
+          "SourceString": "Basic controls: WASD – movement, Left Shift – sprint, Left Ctrl – crouch, X – zoom, E – use, Space – jump, F – flashlight",
+          "LocalizedString": "Basic controls: WASD – movement, Left Shift – sprint, Left Ctrl – crouch, X – zoom, E – use, Space – jump, F – flashlight"
+        }
+      },
+      "tutHint_1": {
+        "character_2_C183393D473B3F53F8AA318AC077A7E8": "enum_char::NewEnumerator0",
+        "sound_5_D68BDDFE4DFC2A88B0903986FAA78FE8": {
+          "ObjectName": "SoundWave'achievement'",
+          "ObjectPath": "VotV/Content/audio/ui/achievement.0"
+        },
+        "text_8_93842A6142E23EC456AF06AF63B52A9A": {
+          "Namespace": "",
+          "Key": "472BD5C94A9E77C753D9698BE3479EF9",
+          "SourceString": "Item interaction: E – pickup, E + Left Alt – put in inventory, Left Alt + E – use object on a spot, E + R – hold object in hand, LMB – attack, R – drop, Left Alt + R – place object",
+          "LocalizedString": "Item interaction: E – pickup, E + Left Alt – put in inventory, Left Alt + E – use object on a spot, E + R – hold object in hand, LMB – attack, R – drop, Left Alt + R – place object"
+        }
+      },
+      "tutHint_2": {
+        "character_2_C183393D473B3F53F8AA318AC077A7E8": "enum_char::NewEnumerator0",
+        "sound_5_D68BDDFE4DFC2A88B0903986FAA78FE8": {
+          "ObjectName": "SoundWave'achievement'",
+          "ObjectPath": "VotV/Content/audio/ui/achievement.0"
+        },
+        "text_8_93842A6142E23EC456AF06AF63B52A9A": {
+          "Namespace": "",
+          "Key": "23D7F921450B5D0CB243CAAD8FB3E5EC",
+          "SourceString": "Destroy crates to proceed to the next stage",
+          "LocalizedString": "Destroy crates to proceed to the next stage"
+        }
+      },
+      "tutHint_3": {
+        "character_2_C183393D473B3F53F8AA318AC077A7E8": "enum_char::NewEnumerator0",
+        "sound_5_D68BDDFE4DFC2A88B0903986FAA78FE8": {
+          "ObjectName": "SoundWave'achievement'",
+          "ObjectPath": "VotV/Content/audio/ui/achievement.0"
+        },
+        "text_8_93842A6142E23EC456AF06AF63B52A9A": {
+          "Namespace": "",
+          "Key": "37E88F1247A3885AF6F0C9B2B6FD515B",
+          "SourceString": "Find the signal – use Coordinate panel, Arrow keys – move cursor, Shift – quick scan, Enter – ping signal. After ping wait for the satellite to finish its movement",
+          "LocalizedString": "Find the signal – use Coordinate panel, Arrow keys – move cursor, Shift – quick scan, Enter – ping signal. After ping wait for the satellite to finish its movement"
+        }
+      },
+      "tutHint_4": {
+        "character_2_C183393D473B3F53F8AA318AC077A7E8": "enum_char::NewEnumerator0",
+        "sound_5_D68BDDFE4DFC2A88B0903986FAA78FE8": {
+          "ObjectName": "SoundWave'achievement'",
+          "ObjectPath": "VotV/Content/audio/ui/achievement.0"
+        },
+        "text_8_93842A6142E23EC456AF06AF63B52A9A": {
+          "Namespace": "",
+          "Key": "07AF79CA424F128631DB0BBEC0C534D8",
+          "SourceString": "Download the signal - first use \"Toggle Polarity\" button, then use and hold red using knobs next to the button and use Mouse Scrolling Wheel to change polarity filter speed. Look after \"Output data\" and keep it as close to 100% as possible. Do the same thing with \"Frequency\", wait for it to download both data and Detector image, then press save. Polarization Type - change antenna type to search for right polarity dirction (in case if you cant find correct polarity)",
+          "LocalizedString": "Download the signal - first use \"Toggle Polarity\" button, then use and hold red using knobs next to the button and use Mouse Scrolling Wheel to change polarity filter speed. Look after \"Output data\" and keep it as close to 100% as possible. Do the same thing with \"Frequency\", wait for it to download both data and Detector image, then press save. Polarization Type - change antenna type to search for right polarity dirction (in case if you cant find correct polarity)"
+        }
+      },
+      "tutHint_5": {
+        "character_2_C183393D473B3F53F8AA318AC077A7E8": "enum_char::NewEnumerator0",
+        "sound_5_D68BDDFE4DFC2A88B0903986FAA78FE8": {
+          "ObjectName": "SoundWave'achievement'",
+          "ObjectPath": "VotV/Content/audio/ui/achievement.0"
+        },
+        "text_8_93842A6142E23EC456AF06AF63B52A9A": {
+          "Namespace": "",
+          "Key": "AC8B02C6402CF894195EA0B17448DE1A",
+          "SourceString": "Press Play to play the selected signal. Middle Button is a scroll to scroll through the list of signals. Put the drive in a drive slot and use Extract signal to export or import signal to the drive. Press Save to save the signal on a laptop to play or process it later.",
+          "LocalizedString": "Press Play to play the selected signal. Middle Button is a scroll to scroll through the list of signals. Put the drive in a drive slot and use Extract signal to export or import signal to the drive. Press Save to save the signal on a laptop to play or process it later."
+        }
+      },
+      "tutHint_6": {
+        "character_2_C183393D473B3F53F8AA318AC077A7E8": "enum_char::NewEnumerator0",
+        "sound_5_D68BDDFE4DFC2A88B0903986FAA78FE8": {
+          "ObjectName": "SoundWave'achievement'",
+          "ObjectPath": "VotV/Content/audio/ui/achievement.0"
+        },
+        "text_8_93842A6142E23EC456AF06AF63B52A9A": {
+          "Namespace": "",
+          "Key": "7D3E2EB14F170A5CACF457AC2C4D8047",
+          "SourceString": "Put the drive in a drive slot, press Upload button, then press Start processing. Wait for it to process to the level you need, then upload the signal back to the drive. Higher levels costs more, and cleans up the signal audio, image, and text data",
+          "LocalizedString": "Put the drive in a drive slot, press Upload button, then press Start processing. Wait for it to process to the level you need, then upload the signal back to the drive. Higher levels costs more, and cleans up the signal audio, image, and text data"
+        }
+      },
+      "tutHint_7": {
+        "character_2_C183393D473B3F53F8AA318AC077A7E8": "enum_char::NewEnumerator0",
+        "sound_5_D68BDDFE4DFC2A88B0903986FAA78FE8": {
+          "ObjectName": "SoundWave'achievement'",
+          "ObjectPath": "VotV/Content/audio/ui/achievement.0"
+        },
+        "text_8_93842A6142E23EC456AF06AF63B52A9A": {
+          "Namespace": "",
+          "Key": "C33183914C19261DD3507B92F5A63F70",
+          "SourceString": "There are many upgrades you can find more info about in the Main Menu Help Section, the important one - Computer Level, computer level allows to process the signals further. Computer level will be 0 at the start of the game and you need to upgade first to process the signals",
+          "LocalizedString": "There are many upgrades you can find more info about in the Main Menu Help Section, the important one - Computer Level, computer level allows to process the signals further. Computer level will be 0 at the start of the game and you need to upgade first to process the signals"
+        }
+      },
+      "tutHint_8": {
+        "character_2_C183393D473B3F53F8AA318AC077A7E8": "enum_char::NewEnumerator0",
+        "sound_5_D68BDDFE4DFC2A88B0903986FAA78FE8": {
+          "ObjectName": "SoundWave'achievement'",
+          "ObjectPath": "VotV/Content/audio/ui/achievement.0"
+        },
+        "text_8_93842A6142E23EC456AF06AF63B52A9A": {
+          "Namespace": "",
+          "Key": "34C332D54A366469329659B1C7409133",
+          "SourceString": "Find the signal and process it to proceed to the next stage",
+          "LocalizedString": "Find the signal and process it to proceed to the next stage"
+        }
+      },
+      "tutHint_9": {
+        "character_2_C183393D473B3F53F8AA318AC077A7E8": "enum_char::NewEnumerator0",
+        "sound_5_D68BDDFE4DFC2A88B0903986FAA78FE8": {
+          "ObjectName": "SoundWave'achievement'",
+          "ObjectPath": "VotV/Content/audio/ui/achievement.0"
+        },
+        "text_8_93842A6142E23EC456AF06AF63B52A9A": {
+          "Namespace": "",
+          "Key": "89A0FE114D22B62D5F981FA65C05927E",
+          "SourceString": "Servers might break from time to time. There are two types of servers: base, satellites. Base servers affect signal processing, satellite servers affect signal downloading. To fix the server you can solve the minigame, or use special discs on Disc slot",
+          "LocalizedString": "Servers might break from time to time. There are two types of servers: base, satellites. Base servers affect signal processing, satellite servers affect signal downloading. To fix the server you can solve the minigame, or use special discs on Disc slot"
+        }
+      },
+      "tutHint_10": {
+        "character_2_C183393D473B3F53F8AA318AC077A7E8": "enum_char::NewEnumerator0",
+        "sound_5_D68BDDFE4DFC2A88B0903986FAA78FE8": {
+          "ObjectName": "SoundWave'achievement'",
+          "ObjectPath": "VotV/Content/audio/ui/achievement.0"
+        },
+        "text_8_93842A6142E23EC456AF06AF63B52A9A": {
+          "Namespace": "",
+          "Key": "0BB5AE2D401853C2252FD7AF31FC3C5D",
+          "SourceString": "There is a list of commands on the right. sv.ping shows which satellite is down and needs manual maintenance. sv.calch - checks satellite calibration. sd.cal \"server name\" - calibrates the server. sd.calall - calibrates all servers at once. sv.target \"server name\" - points the compass towards the server",
+          "LocalizedString": "There is a list of commands on the right. sv.ping shows which satellite is down and needs manual maintenance. sv.calch - checks satellite calibration. sd.cal \"server name\" - calibrates the server. sd.calall - calibrates all servers at once. sv.target \"server name\" - points the compass towards the server"
+        }
+      },
+      "tutHint_11": {
+        "character_2_C183393D473B3F53F8AA318AC077A7E8": "enum_char::NewEnumerator0",
+        "sound_5_D68BDDFE4DFC2A88B0903986FAA78FE8": {
+          "ObjectName": "SoundWave'achievement'",
+          "ObjectPath": "VotV/Content/audio/ui/achievement.0"
+        },
+        "text_8_93842A6142E23EC456AF06AF63B52A9A": {
+          "Namespace": "",
+          "Key": "F76EC53046E6BB75573D68B6973CC49A",
+          "SourceString": "Fix all the servers, type all commands in a list order, and proceed to the next stage",
+          "LocalizedString": "Fix all the servers, type all commands in a list order, and proceed to the next stage"
+        }
+      },
+      "tutHint_12": {
+        "character_2_C183393D473B3F53F8AA318AC077A7E8": "enum_char::NewEnumerator0",
+        "sound_5_D68BDDFE4DFC2A88B0903986FAA78FE8": {
+          "ObjectName": "SoundWave'achievement'",
+          "ObjectPath": "VotV/Content/audio/ui/achievement.0"
+        },
+        "text_8_93842A6142E23EC456AF06AF63B52A9A": {
+          "Namespace": "",
+          "Key": "28B2FB064E325C43FB7B4BA007307DAD",
+          "SourceString": "To sell the drives get an orange box, open the box, put drives inside it, close the lid, attach the report on top, put the box in a center of the target, use the console on the wall to call a drone.",
+          "LocalizedString": "To sell the drives get an orange box, open the box, put drives inside it, close the lid, attach the report on top, put the box in a center of the target, use the console on the wall to call a drone."
+        }
+      },
+      "tutHint_13": {
+        "character_2_C183393D473B3F53F8AA318AC077A7E8": "enum_char::NewEnumerator0",
+        "sound_5_D68BDDFE4DFC2A88B0903986FAA78FE8": {
+          "ObjectName": "SoundWave'achievement'",
+          "ObjectPath": "VotV/Content/audio/ui/achievement.0"
+        },
+        "text_8_93842A6142E23EC456AF06AF63B52A9A": {
+          "Namespace": "",
+          "Key": "E6507F2E482EF01E4A6658B95FCE7456",
+          "SourceString": "Put all 8 drives in a box and sell it to complete the tutorial",
+          "LocalizedString": "Put all 8 drives in a box and sell it to complete the tutorial"
+        }
+      },
+      "tutHint_14": {
+        "character_2_C183393D473B3F53F8AA318AC077A7E8": "enum_char::NewEnumerator0",
+        "sound_5_D68BDDFE4DFC2A88B0903986FAA78FE8": {
+          "ObjectName": "SoundWave'achievement'",
+          "ObjectPath": "VotV/Content/audio/ui/achievement.0"
+        },
+        "text_8_93842A6142E23EC456AF06AF63B52A9A": {
+          "Namespace": "",
+          "Key": "9A63E0E84E0801987B4E1BBFD8C7E060",
+          "SourceString": "To make reports first go to the satellite you need, type sv.hash, it will return the hash code. Then use a paper, click on \"Report\" under \"Templates\" and write hashcodes next to satellites they belong to",
+          "LocalizedString": "To make reports first go to the satellite you need, type sv.hash, it will return the hash code. Then use a paper, click on \"Report\" under \"Templates\" and write hashcodes next to satellites they belong to"
+        }
+      },
+      "tutHint_15_end": {
+        "character_2_C183393D473B3F53F8AA318AC077A7E8": "enum_char::NewEnumerator0",
+        "sound_5_D68BDDFE4DFC2A88B0903986FAA78FE8": {
+          "ObjectName": "SoundWave'achievement'",
+          "ObjectPath": "VotV/Content/audio/ui/achievement.0"
+        },
+        "text_8_93842A6142E23EC456AF06AF63B52A9A": {
+          "Namespace": "",
+          "Key": "1488374042ACFE0D898C30BE1E5E582F",
+          "SourceString": "Basic tutorial is completed. Any more information you can find out by yourself, using “Help” section on Main menu, or during the playthrough.                Bye",
+          "LocalizedString": "Basic tutorial is completed. Any more information you can find out by yourself, using “Help” section on Main menu, or during the playthrough.                Bye"
+        }
+      }
+    }
+  }
+]

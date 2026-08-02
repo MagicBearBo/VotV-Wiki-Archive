@@ -1,0 +1,664 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "list_lootTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "VotV/Content/main/datatables/list_lootTable",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'struct_lootArray'",
+        "ObjectPath": "VotV/Content/main/structs/struct_lootArray.0"
+      }
+    },
+    "Rows": {
+      "sbox": {
+        "loot_3_B34B543B479700E8A67FA7BD57722E63": [
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "coal",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 1,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.3
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "coal_s",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 4,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.4
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "mre",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 1,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.25
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "d_wood_0",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 2,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.5
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "d_wood_1",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 2,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.5
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "d_wood_2",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 2,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.5
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "d_wood_3",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 2,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.5
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "scrap_plastic",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 2,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.1
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "scrap_metal",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 2,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.1
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "scrap_paper",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 2,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.1
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "scrap_rubber",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 2,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.1
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "scrap_elec",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 2,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.1
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "g4_rubber_0",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 2,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.1
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "g4_rubber_1",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 2,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.1
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "g4_rubber_3",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 1,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 1.0
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "g4_rubber_2",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 2,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.1
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "g4_rubber_4",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 2,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.1
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "fcan_p",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 1,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.2
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "fcan_p_0",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 1,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.2
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "fcan_p_1",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 1,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.2
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "fcan_p_2",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 1,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.2
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "potato",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 100,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.01
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "mre_poison_2",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 1,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.025
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "mre_infested_0",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 1,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.025
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "mre_infested_1",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 1,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.025
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "mre_infested_2",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 1,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.025
+          }
+        ]
+      },
+      "kerfuroPartBox": {
+        "loot_3_B34B543B479700E8A67FA7BD57722E63": [
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "kerfsp_1",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 2,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 1.0
+          }
+        ]
+      },
+      "fishermanBox": {
+        "loot_3_B34B543B479700E8A67FA7BD57722E63": [
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "p_fishrod_0",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 1,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 1.0
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "p_fishrod_1",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 1,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 1.0
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "p_fishrod_2",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 1,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 1.0
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "p_fishrod_3",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 1,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 1.0
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "p_fishrod_4",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 1,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 1.0
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "p_fishrod_5",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 1,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 1.0
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "p_fishrod_6",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 1,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 1.0
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "fbait_7",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 4,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.5
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "fbait_8",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 4,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.5
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "fbait_9",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 4,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.5
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "fbait_10",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 4,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.5
+          }
+        ]
+      },
+      "wineCellarBarrel": {
+        "loot_3_B34B543B479700E8A67FA7BD57722E63": [
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "g4_organic_0",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 5,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.1
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "g4_organic_1",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 5,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.1
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "g4_organic_2",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 5,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.1
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "g4_organic_3",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 5,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.1
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "g4_organic_4",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 5,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.1
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "cheese",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 2,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.1
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "cheesew",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 1,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.00625
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "potato",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 100,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.005
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "wine",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 10,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.05
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "blueBrain",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 1,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.1
+          }
+        ]
+      },
+      "officeCabinet_paper": {
+        "loot_3_B34B543B479700E8A67FA7BD57722E63": [
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "office_binder_0",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 2,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.2
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "office_binder_1",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 2,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.2
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "office_binder_2",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 2,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.2
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "office_file_0",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 3,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.2
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "office_file_1",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 3,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.2
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "office_notepad_0",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 1,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.1
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "office_notepad_1",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 1,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.1
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "office_paperstack",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 4,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.1
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "g_paper_0",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 5,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.2
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "g_paper_1",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 5,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.2
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "g_paper_2",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 5,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.2
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "paper",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 10,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.25
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "scrap_paper",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 2,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.1
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "floppy_0",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 2,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.05
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "floppy_1",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 2,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.05
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "floppy_2",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 2,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.05
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "clipboard",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 2,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.2
+          }
+        ]
+      },
+      "officeCabinet_tools": {
+        "loot_3_B34B543B479700E8A67FA7BD57722E63": [
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "batts",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 4,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.075
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "floppy_0",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 1,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.1
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "floppy_1",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 1,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.1
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "floppy_2",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 1,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.1
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "office_calc",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 2,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.1
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "office_holder_0",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 1,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.1
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "office_holder_1",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 1,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.1
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "office_holder_2",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 1,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.1
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "office_scissors",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 3,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.1
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "office_stapler",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 2,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.1
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "ducttape",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 1,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.1
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "office_tape",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 2,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.1
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "copperwire",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 1,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.1
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "scrap_elec",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 2,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.1
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "drive",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 4,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.15
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "clipboard",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 2,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.1
+          }
+        ]
+      },
+      "trashBin": {
+        "loot_3_B34B543B479700E8A67FA7BD57722E63": [
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "g2_plastic_0",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 2,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.1
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "g2_plastic_1",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 2,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.1
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "g2_plastic_2",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 2,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.04
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "g2_plastic_3",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 2,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.04
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "g5_glass_3",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 2,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.02
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "g5_glass_0",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 2,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.02
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "g5_glass_1",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 2,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.002
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "g5_glass_2",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 2,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.02
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "g2_plastic_4",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 2,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.04
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "g2_plastic_5",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 2,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.04
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "g2_plastic_6",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 2,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.04
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "g2_paper_7",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 2,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.02
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "g2_paper_8",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 2,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.02
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "g2_paper_9",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 2,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.02
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "g_paper_0",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 5,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.05
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "g_paper_1",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 5,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.05
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "g_paper_2",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 5,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.05
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "g2_paper_0",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 2,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.04
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "g2_paper_1",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 2,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.04
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "g2_paper_2",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 2,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.04
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "g2_paper_3",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 2,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.04
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "g2_paper_4",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 2,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.04
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "g2_paper_5",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 2,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.04
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "g2_paper_6",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 2,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.04
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "scrap_paper",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 2,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.01
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "beer_e",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 4,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.02
+          }
+        ]
+      },
+      "startSuitcase": {
+        "loot_3_B34B543B479700E8A67FA7BD57722E63": [
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "signframe_0",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 1,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 1.0
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "mre",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 2,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 1.0
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "batts",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 2,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 1.0
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "kelplush",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 1,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 1.0
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "toiletroll",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 1,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 1.0
+          }
+        ]
+      },
+      "riverBarrel": {
+        "loot_3_B34B543B479700E8A67FA7BD57722E63": [
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "mre_poison_0",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 20,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.9
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "mre_poison_1",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 20,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.7
+          },
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "mre_poison_2",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 20,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 0.5
+          }
+        ]
+      },
+      "superpotato": {
+        "loot_3_B34B543B479700E8A67FA7BD57722E63": [
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "potato",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 100,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 1.0
+          }
+        ]
+      },
+      "superwine": {
+        "loot_3_B34B543B479700E8A67FA7BD57722E63": [
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "wine",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 100,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 1.0
+          }
+        ]
+      },
+      "megamolotov": {
+        "loot_3_B34B543B479700E8A67FA7BD57722E63": [
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "molotov",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 100,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 1.0
+          }
+        ]
+      },
+      "ultracheese": {
+        "loot_3_B34B543B479700E8A67FA7BD57722E63": [
+          {
+            "object_13_586493D44E02762D9E01F582F91826F8": "cheesew",
+            "amount_14_41A49A4F496B88785E7C5594901E413B": 100,
+            "weight_7_1B94BE08403E22625BF7D5AD3F97CC55": 1.0
+          }
+        ]
+      }
+    }
+  }
+]
