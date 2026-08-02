@@ -1,0 +1,1781 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "list_achievements",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "VotV/Content/main/datatables/list_achievements",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'struct_achievement'",
+        "ObjectPath": "VotV/Content/main/structs/struct_achievement.0"
+      }
+    },
+    "Rows": {
+      "launch": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "68FFCECC4946E433BC2915BD25444D8B",
+          "SourceString": "First launch",
+          "LocalizedString": "First launch"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "23FB0B4C4922780689D3659C2B307D97",
+          "SourceString": "Launch the game at the first time",
+          "LocalizedString": "Launch the game at the first time"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 10
+      },
+      "demo030": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "F49110044F87429398E4F7AE93ECA90A",
+          "SourceString": "Demo player",
+          "LocalizedString": "Demo player"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "6F38FB564131E845F96A3583C7A51DCD",
+          "SourceString": "Launch demo version of the game",
+          "LocalizedString": "Launch demo version of the game"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 5
+      },
+      "demoFinish030": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "4C599BD54D2BC36861B2D5BB2C3A2B9E",
+          "SourceString": "Demo completed",
+          "LocalizedString": "Demo completed"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "584CC9B147BE23A7AB43088BB17E4E0F",
+          "SourceString": "Complete the demo of the game",
+          "LocalizedString": "Complete the demo of the game"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 0
+      },
+      "counter": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "FF31902D45D175429A43528935D45AAB",
+          "SourceString": "counter",
+          "LocalizedString": "counter"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 10,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "CultureInvariantString": null
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 5
+      },
+      "argemFeed": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "DABC2E9A4D22A4C446FCEFB42C4CA92A",
+          "SourceString": "Feed argemia",
+          "LocalizedString": "Feed argemia"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 100,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "F1E78EF849969015DB9A56BA245CC44C",
+          "SourceString": "Feed argemia with shrimp",
+          "LocalizedString": "Feed argemia with shrimp"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 2001
+      },
+      "rozShip": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "59A922EB444D21C0C64F108D6B53639E",
+          "SourceString": "Object in the woods",
+          "LocalizedString": "Object in the woods"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "0CAC305841D8EDC34AC50CA760E60FC5",
+          "SourceString": "Find the strange brass object",
+          "LocalizedString": "Find the strange brass object"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 15
+      },
+      "arirShip": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "59A922EB444D21C0C64F108D6B53639E",
+          "SourceString": "Object in the woods",
+          "LocalizedString": "Object in the woods"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "3987ECB24A8023F9781A6C9DAD91D96C",
+          "SourceString": "Find the strange white object",
+          "LocalizedString": "Find the strange white object"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 15
+      },
+      "hole": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "0EB84F92419C288D649107876DDC47C5",
+          "SourceString": "The hole",
+          "LocalizedString": "The hole"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "6FE09BB24F4E25D8B8D3E9885757E4E4",
+          "SourceString": "Find the weird hole in the ground",
+          "LocalizedString": "Find the weird hole in the ground"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 15
+      },
+      "where": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "CA2EE128401F5AC057A949B5C4CBC534",
+          "SourceString": "Where do you think youre going?",
+          "LocalizedString": "Where do you think youre going?"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "ECDC25B8473C23929D07F28E6DD0E325",
+          "SourceString": "come back",
+          "LocalizedString": "come back"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 0
+      },
+      "driveKick": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "07AA9F6D4D0FB55CD956149199A9D9EA",
+          "SourceString": "WOO!",
+          "LocalizedString": "WOO!"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "1A14B8C44907612B4B71D390C785E620",
+          "SourceString": "Kick the drive in the slot",
+          "LocalizedString": "Kick the drive in the slot"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 5
+      },
+      "tutorial": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "25E115F04808473CCD1DA78F3D51543E",
+          "SourceString": "Launch tutorial level",
+          "LocalizedString": "Launch tutorial level"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "CultureInvariantString": null
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 0
+      },
+      "dream_burger": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "675DB5F640653287AAC92C9B482EE8A1",
+          "SourceString": "Burger dream",
+          "LocalizedString": "Burger dream"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "7CAF9CD0475AC12FD358F1AC8151AA14",
+          "SourceString": "Collect all 10 burgers in a Burger Dream",
+          "LocalizedString": "Collect all 10 burgers in a Burger Dream"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 50
+      },
+      "dream_mann": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "650125EA4D29F15060D3FE9AC5601589",
+          "SourceString": "Mannequin dream",
+          "LocalizedString": "Mannequin dream"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "E84D353C4CF4FCB6714701B35D04F184",
+          "SourceString": "Survive for 120 seconds in a Mannequin Dream",
+          "LocalizedString": "Survive for 120 seconds in a Mannequin Dream"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 50
+      },
+      "halloween_e": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "ABD85A6B4E2DCD7AF0CEA282AFCA7B90",
+          "SourceString": "Halloween begin",
+          "LocalizedString": "Halloween begin"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "9DEE6F744F9A6CC48ED5A08BA4F1B731",
+          "SourceString": "Participate in the halloween event",
+          "LocalizedString": "Participate in the halloween event"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 0
+      },
+      "halloween_c": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "718D2F0741F80FFBDC422882EA034A8C",
+          "SourceString": "Halloween finish",
+          "LocalizedString": "Halloween finish"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "353A797A4FC2CC5AD98EFFBD3413F479",
+          "SourceString": "Complete halloween event",
+          "LocalizedString": "Complete halloween event"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 0
+      },
+      "ending_evil": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "A7D7E4384192AEE8DE9F0E8A86D1F5FA",
+          "SourceString": "Worst ending",
+          "LocalizedString": "Worst ending"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "EC9F570B4C27B946C330BDB0AFCFE6D2",
+          "SourceString": "Attracted the Evil to Earth, causing its total demise and conversion. The Evil now grows larger, spreading the disease of the universe even further.The worst possible ending.",
+          "LocalizedString": "Attracted the Evil to Earth, causing its total demise and conversion. The Evil now grows larger, spreading the disease of the universe even further.The worst possible ending."
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 0
+      },
+      "sandbox": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "6694C98B4231CD2FB07705AC5C74D80B",
+          "SourceString": "Sandbox unlocked",
+          "LocalizedString": "Sandbox unlocked"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "ADF17DEA427DCDB5035281A123AB1EC0",
+          "SourceString": "Complete the first 31 days of story mode to unlock the sandbox",
+          "LocalizedString": "Complete the first 31 days of story mode to unlock the sandbox"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 0
+      },
+      "secretArir": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "558ABB2847CD624FE0C847B3D9518FCE",
+          "SourceString": "Sandbox ariral",
+          "LocalizedString": "Sandbox ariral"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "CC26FBEF455DC91E4DA7AB8C8213A3B8",
+          "SourceString": "Feed the nuclear plush with 69 shrimps to unlock the ariral props in sandbox mode",
+          "LocalizedString": "Feed the nuclear plush with 69 shrimps to unlock the ariral props in sandbox mode"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 0
+      },
+      "burgerFinder": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "590E48804AF1F1CC298AFEAC9B318423",
+          "SourceString": "Super burger finder",
+          "LocalizedString": "Super burger finder"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "3BC012414DBFB6AD0B2F6699A4A2D08F",
+          "SourceString": "Find all 21 burgers at least once",
+          "LocalizedString": "Find all 21 burgers at least once"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 0
+      },
+      "piramidMiracle": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "488CB8E940751277DB93E0A1F6A020B3",
+          "SourceString": "Miracle",
+          "LocalizedString": "Miracle"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "87CCBCC14AE0E1E0301F9786895525D5",
+          "SourceString": "Get cought by Killer Wisp, and get saved by Big Piramid before the wisp tears your limb off.",
+          "LocalizedString": "Get cought by Killer Wisp, and get saved by Big Piramid before the wisp tears your limb off."
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 0
+      },
+      "badsun": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "BA6ED1474134CBCD81FDB0A5D4EBD01E",
+          "SourceString": "Bad Sun",
+          "LocalizedString": "Bad Sun"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "88D4D3934DABE3734E4EB199305F7A8E",
+          "SourceString": "hide from the bad light",
+          "LocalizedString": "hide from the bad light"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 0
+      },
+      "badsun_0": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "894E886343CEC3AF0D3DAC87381D5940",
+          "SourceString": "You have seen everything",
+          "LocalizedString": "You have seen everything"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "DEEFB6A147DA4BB72E1BDEA933EDB721",
+          "SourceString": "enjoy the light",
+          "LocalizedString": "enjoy the light"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 0
+      },
+      "prealpha": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "B29D68A94682B57AD3C8489B2DA9D53B",
+          "SourceString": "Pre-alpha player",
+          "LocalizedString": "Pre-alpha player"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "762720124ECA3802C12888A08D76F9CB",
+          "SourceString": "Launch pre-alpha version of the game",
+          "LocalizedString": "Launch pre-alpha version of the game"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 5
+      },
+      "vaccine": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "C18C28B64455EE9E6D3296BFCE1332E3",
+          "SourceString": "Accepted",
+          "LocalizedString": "Accepted"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "FAD5AA0E4173A5C5668AD7808DAA513A",
+          "SourceString": "Take the vaccine from \"them\"",
+          "LocalizedString": "Take the vaccine from \"them\""
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 250
+      },
+      "prealphaFinish": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "3BBA7D54432C6202A6A7198057AAAFD9",
+          "SourceString": "Pre-alpha completed",
+          "LocalizedString": "Pre-alpha completed"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "FBC9CA234AA3EF927B57D18BB23EC9A5",
+          "SourceString": "Complete the pre-alpha of the game",
+          "LocalizedString": "Complete the pre-alpha of the game"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 0
+      },
+      "greenfiregone": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "94936CA844BBD518EBB1CEBD55EA79AD",
+          "SourceString": "Green Fire Begone",
+          "LocalizedString": "Green Fire Begone"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "82C29404437B8E7B4AEB6F97ECEB5103",
+          "SourceString": "Destroy the green fire",
+          "LocalizedString": "Destroy the green fire"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 300
+      },
+      "kwispDeath": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "7486713F48D3DF14EFAAC8A2C3577806",
+          "SourceString": "Bright death",
+          "LocalizedString": "Bright death"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "FAB10517462FD6E31F0D60A4B11B2BD4",
+          "SourceString": "Die from a yellow wisp",
+          "LocalizedString": "Die from a yellow wisp"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 0
+      },
+      "instaDeath": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "F6A3030841CADB756FDDE4930B0D005E",
+          "SourceString": "Icarus",
+          "LocalizedString": "Icarus"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "E8C54B54432D195CC632C79CB740AD72",
+          "SourceString": "Get 100 fall damage",
+          "LocalizedString": "Get 100 fall damage"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 0
+      },
+      "killRuf": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "1E4790244388FFB30FEEFABA2D8A56BC",
+          "SourceString": "Rufus no more",
+          "LocalizedString": "Rufus no more"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "34762AD94AFA5BFC6B71C3A65F04F3C6",
+          "SourceString": "Defeat Rufus",
+          "LocalizedString": "Defeat Rufus"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 0
+      },
+      "killThic": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "125713C644B497084CEAD5B201E8BDE1",
+          "SourceString": "Thiccfus no more",
+          "LocalizedString": "Thiccfus no more"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "368AB7A24B2CEEF1317668AB46DD99FF",
+          "SourceString": "Defeat Thiccfus",
+          "LocalizedString": "Defeat Thiccfus"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 0
+      },
+      "dunk": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "209D23DE419A9B0AB4E6ACA98C4CF264",
+          "SourceString": "Super dunk",
+          "LocalizedString": "Super dunk"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "CultureInvariantString": null
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 0
+      },
+      "drown": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "FB11F067423D2EBDB4316F80A6B09654",
+          "SourceString": "Drowned",
+          "LocalizedString": "Drowned"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "AFFC40954A99B9EA966897B0F434CAF1",
+          "SourceString": "Drown",
+          "LocalizedString": "Drown"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 0
+      },
+      "efork": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "54E8B65043710ADEED8F308020361DAB",
+          "SourceString": "Big brain",
+          "LocalizedString": "Big brain"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "238FC0D3487647F57B2E1B92BF7E8EE9",
+          "SourceString": "Put fork in an electric socket",
+          "LocalizedString": "Put fork in an electric socket"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 0
+      },
+      "lambert": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "1F99EBD74FE100526F4E18A99B83B517",
+          "SourceString": "Gift of the Red Crown",
+          "LocalizedString": "Gift of the Red Crown"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "F3E338414A9C2EEEC8BB73805F97F949",
+          "SourceString": "Summon the lamb. Infant god.",
+          "LocalizedString": "Summon the lamb. Infant god."
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 0
+      },
+      "wildone": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "C6047A794B63EC8E6B201EACD331C8A9",
+          "SourceString": "The wild one",
+          "LocalizedString": "The wild one"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "F7C7C099463E6ADB13234C967B2E0125",
+          "SourceString": "Survive outside of the base for an entire ingame day",
+          "LocalizedString": "Survive outside of the base for an entire ingame day"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 0
+      },
+      "insomniac": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "DB77BAF94273001DD5D9039911FD9747",
+          "SourceString": "Insomniac",
+          "LocalizedString": "Insomniac"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "E0EFE9E14557098567FDB5A4D667B2C6",
+          "SourceString": "Don't sleep for 7 ingame days in a row",
+          "LocalizedString": "Don't sleep for 7 ingame days in a row"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 0
+      },
+      "maxwell": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "09927F894620CE00178AA18B677CC723",
+          "SourceString": "Maxwell",
+          "LocalizedString": "Maxwell"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "74665433406134FA9FE82CAAD4FBBEDA",
+          "SourceString": "Find Maxwell",
+          "LocalizedString": "Find Maxwell"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 0
+      },
+      "argemwell": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "8BEE20764A50BC5DA9A6649CA290B2FC",
+          "SourceString": "Argemwell",
+          "LocalizedString": "Argemwell"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "DA5635CC4BBAE03757A871A2859B399C",
+          "SourceString": "Find Argemwell",
+          "LocalizedString": "Find Argemwell"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 0
+      },
+      "hellportal": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "F46ADAD745E52113C4B22F965BCD06B9",
+          "SourceString": "Portal",
+          "LocalizedString": "Portal"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "87B15DE24732197B374C3BA41E227BC7",
+          "SourceString": "Open the portal",
+          "LocalizedString": "Open the portal"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 0
+      },
+      "deadFossil": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "47A080AD45809D46F671E6809E9CB916",
+          "SourceString": "Fossilhound",
+          "LocalizedString": "Fossilhound"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "E294693748A079103D71DEB642830474",
+          "SourceString": "Die from fossilhound",
+          "LocalizedString": "Die from fossilhound"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 0
+      },
+      "ripFossil": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "A763FC14482F53DCC10C61AA06BECC5E",
+          "SourceString": "Revenge",
+          "LocalizedString": "Revenge"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "D618960E4B28DFC92E4278ACE3E01537",
+          "SourceString": "Destroy fossilhound",
+          "LocalizedString": "Destroy fossilhound"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 0
+      },
+      "deerEater": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "A1897BCC4F951786AAA642A104C0A1D3",
+          "SourceString": "Deer eater",
+          "LocalizedString": "Deer eater"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "77DAD382482A054511E382841E854F32",
+          "SourceString": "Eat deer corpse",
+          "LocalizedString": "Eat deer corpse"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 0
+      },
+      "treasureHunter": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "2BBDB43B41AE7E7AD1796AA57618A6DC",
+          "SourceString": "Treasure hunter",
+          "LocalizedString": "Treasure hunter"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "8E8B39BC4D61DD7A5FD950A26C39D14C",
+          "SourceString": "Find all treasures",
+          "LocalizedString": "Find all treasures"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 0
+      },
+      "fisherman": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "AA2EC311479EF2AF97A40791E1566692",
+          "SourceString": "Fisherman",
+          "LocalizedString": "Fisherman"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "A9DABFC046AEF8F1E059778885D14870",
+          "SourceString": "Catch all items",
+          "LocalizedString": "Catch all items"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 0
+      },
+      "kerfuro": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "00BE70A84BB72997047CA78243E3DE58",
+          "SourceString": "Upgrade",
+          "LocalizedString": "Upgrade"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "B6432C6E410B6BEB868AF1B790D1AB35",
+          "SourceString": "Assemble your first Kerfur Omega",
+          "LocalizedString": "Assemble your first Kerfur Omega"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 0
+      },
+      "microSkull": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "92B04A894ED22BE419270F99070D3466",
+          "SourceString": "Unleashed",
+          "LocalizedString": "Unleashed"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "FE2B73784291A3BEF4BE7C992CAF59EC",
+          "SourceString": "It has been unleashed",
+          "LocalizedString": "It has been unleashed"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 0
+      },
+      "capsule": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "359BE2544856B3A0EE088CA985396B94",
+          "SourceString": "Yoink",
+          "LocalizedString": "Yoink"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "F67AB3DD4F64896CED9864A62918C37B",
+          "SourceString": "Get the rozital capsule thrown by Igetis down the hole",
+          "LocalizedString": "Get the rozital capsule thrown by Igetis down the hole"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 0
+      },
+      "murderfur": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "C29821104FC03CF03A650087B3E3D829",
+          "SourceString": "Abandoned Kerfur",
+          "LocalizedString": "Abandoned Kerfur"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "5CAF337B4BB3F84F6CDBE98276A46DF9",
+          "SourceString": "Defeat an abandoned Kerfur",
+          "LocalizedString": "Defeat an abandoned Kerfur"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 0
+      },
+      "fallingSky": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "964213D44C83CC22127CC19CFCC82980",
+          "SourceString": "The Sky Is Falling!",
+          "LocalizedString": "The Sky Is Falling!"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "F35F1E7244D42A442A47A8BA4FD3E45E",
+          "SourceString": "Get hit by the cloaking panel",
+          "LocalizedString": "Get hit by the cloaking panel"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 0
+      },
+      "murderfurNoDmg": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "5E1BB08D4780758BDF4D5EB48B5E809E",
+          "SourceString": "No damage",
+          "LocalizedString": "No damage"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "4909D24949EF309D935E70A85B7D63E1",
+          "SourceString": "Defeat an abandoned Kerfur without receiving any damage",
+          "LocalizedString": "Defeat an abandoned Kerfur without receiving any damage"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 0
+      },
+      "jolly": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "3910D28C45E043BBB94544B575DD2D43",
+          "SourceString": "7 hours",
+          "LocalizedString": "7 hours"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "17FE23ED49502B757C612EA93EEEA3DB",
+          "SourceString": "Find Jolly plushie",
+          "LocalizedString": "Find Jolly plushie"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 0
+      },
+      "atvair_1": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "8CC4ED0E4B21D28AAC789CB87069AB9C",
+          "SourceString": "ATV Airtime I",
+          "LocalizedString": "ATV Airtime I"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "373157F64046D79292750C8F6CC0B141",
+          "SourceString": "Be in the air on atv for 1 second",
+          "LocalizedString": "Be in the air on atv for 1 second"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 20
+      },
+      "atvair_2": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "A248D4544DC132A644C3D899425C612F",
+          "SourceString": "ATV Airtime II",
+          "LocalizedString": "ATV Airtime II"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "E11A64504C5D462F01BB7C97BD43A72E",
+          "SourceString": "Be in the air on atv for 3 seconds",
+          "LocalizedString": "Be in the air on atv for 3 seconds"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 50
+      },
+      "atvair_3": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "1D179C454554BBC98122A3A101B6A97C",
+          "SourceString": "ATV Airtime III",
+          "LocalizedString": "ATV Airtime III"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "9D442D394E921759E9E51F9C4685C026",
+          "SourceString": "Be in the air on atv for 5 seconds",
+          "LocalizedString": "Be in the air on atv for 5 seconds"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 100
+      },
+      "atvair_4": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "5C9C6CD64765FD76F193AD8750B04874",
+          "SourceString": "ATV Airtime IV",
+          "LocalizedString": "ATV Airtime IV"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "E414450F4004C5CB484B9B8244BC32C4",
+          "SourceString": "Be in the air on atv for 10 seconds",
+          "LocalizedString": "Be in the air on atv for 10 seconds"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 500
+      },
+      "atvStunts": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "22D067F3409681DBE51C46BA77021E7F",
+          "SourceString": "ATV airtime",
+          "LocalizedString": "ATV airtime"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 100,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "30E7A16F475C8569FFEEB2BC764982A8",
+          "SourceString": "Complete 100 ATV airtime stunts",
+          "LocalizedString": "Complete 100 ATV airtime stunts"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 500
+      },
+      "cavesleep": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "1E4DE0E442F077354629DDB1362AD9AF",
+          "SourceString": "Cave sleeper",
+          "LocalizedString": "Cave sleeper"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "6B4CF51242104F54E2A94DA2B3BAFD35",
+          "SourceString": "Fall asleep in a cave",
+          "LocalizedString": "Fall asleep in a cave"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 25
+      },
+      "gnarpy": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "5FCE5B224DA86E55FF75A8916A54F310",
+          "SourceString": "Super Gnarpy",
+          "LocalizedString": "Super Gnarpy"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1000,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "76CB02BD4895157D924695972BA0E516",
+          "SourceString": "Kick Gnarpy 1000 times",
+          "LocalizedString": "Kick Gnarpy 1000 times"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 25
+      },
+      "liveErie": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "E57D627543EDA846B1E09EA4D54042CD",
+          "SourceString": "SHES ALIVE",
+          "LocalizedString": "SHES ALIVE"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "26B0DEFD4969A0FF3AB7978C35A845F8",
+          "SourceString": "Make Erie alive",
+          "LocalizedString": "Make Erie alive"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 25
+      },
+      "cremator": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "00F2C745498D37BDC60D6FA4B4053597",
+          "SourceString": "Nightmare",
+          "LocalizedString": "Nightmare"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "DA7EF0D14789955507978BAFBA86AEAA",
+          "SourceString": "Get locked inside cremator",
+          "LocalizedString": "Get locked inside cremator"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 25
+      },
+      "500cigs": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "27874A4A4DA172043D09AB841EA3FB35",
+          "SourceString": "Five. Hundred. Cigarettes.",
+          "LocalizedString": "Five. Hundred. Cigarettes."
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 500,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "CultureInvariantString": null
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 1
+      },
+      "wearth": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "D84C93D84DB060A6DC66EDBEFFB51769",
+          "SourceString": "Welcome to earth",
+          "LocalizedString": "Welcome to earth"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "C344070B4575F04D79C691ACB029E853",
+          "SourceString": "Leave a \"gift\" at the treehouse",
+          "LocalizedString": "Leave a \"gift\" at the treehouse"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 25
+      },
+      "back2send": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "0DFCEA24477509F83429568FA9E4EE0E",
+          "SourceString": "Return to sender",
+          "LocalizedString": "Return to sender"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "07CA0B284EF65558F94EF999B2A3CB11",
+          "SourceString": "Use trampoline to send the obelisk back to its sender",
+          "LocalizedString": "Use trampoline to send the obelisk back to its sender"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 25
+      },
+      "halloween13": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "A7DAC1784970E3E590B916A841E50809",
+          "SourceString": "Halloween complete",
+          "LocalizedString": "Halloween complete"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "365692734B5B224E67D48C84D7A91137",
+          "SourceString": "Collect all 13 pumpkins in the halloween mode",
+          "LocalizedString": "Collect all 13 pumpkins in the halloween mode"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 0
+      },
+      "halloween13st": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "41747D0446EFCC08ABCCE2BDC1F1A789",
+          "SourceString": "Halloween begin",
+          "LocalizedString": "Halloween begin"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "74DBA3DE421DE4F60BF5C8A22570F2E8",
+          "SourceString": "Launch a the game during the Halloween event",
+          "LocalizedString": "Launch a the game during the Halloween event"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 0
+      },
+      "ovenfix": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "25278FC3479EF02FD9A6E5A0AA94A08D",
+          "SourceString": "Oven repair",
+          "LocalizedString": "Oven repair"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "6F84CB954392C70E4E3D6CA21B6ADF0C",
+          "SourceString": "Fix the oven",
+          "LocalizedString": "Fix the oven"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 50
+      },
+      "christmas": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "EFDBDB17406BDF5C07D3ABBD8418B820",
+          "SourceString": "Christmas begin",
+          "LocalizedString": "Christmas begin"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "0C315F494D4CF13A6CEF08BEBFA8568F",
+          "SourceString": "Launch the game during the Christmas event",
+          "LocalizedString": "Launch the game during the Christmas event"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 0
+      },
+      "krampus": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "3BA0D4FD44F7F13AC7BA38889EF7BFC0",
+          "SourceString": "Krampus",
+          "LocalizedString": "Krampus"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "F281D7C7473A93438DE96F8B525A4A41",
+          "SourceString": "Please krampus by giving it a jar of alcohol",
+          "LocalizedString": "Please krampus by giving it a jar of alcohol"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 199
+      },
+      "snowman": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "4ABC497A412CCBF550E7BABF63F4783E",
+          "SourceString": "Snowman",
+          "LocalizedString": "Snowman"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "CBCDE3B7448007674C60A08C6FC249AF",
+          "SourceString": "Complete the snowman",
+          "LocalizedString": "Complete the snowman"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 50
+      },
+      "erieboss": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "DA2CF1D2406E9FFA8B9E7B93E9605916",
+          "SourceString": "The Thingy",
+          "LocalizedString": "The Thingy"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "65E6F7AE43B51953B481CFA2698F9D21",
+          "SourceString": "Summon and defeat Erie miniboss",
+          "LocalizedString": "Summon and defeat Erie miniboss"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 0
+      },
+      "maid": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "012A066845388EF6C1A61F92D28AEBC3",
+          "SourceString": "Maid",
+          "LocalizedString": "Maid"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "FAC8D6634D5F93EA21233A9877ED4AEA",
+          "SourceString": "Find KerfurO maid outfit",
+          "LocalizedString": "Find KerfurO maid outfit"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 0
+      },
+      "bronzedog": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "D2AC7CA644354AE62D3CFBADC0678155",
+          "SourceString": "Bronze dog",
+          "LocalizedString": "Bronze dog"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "1581D7FF4BBA13F70CF189B2A490FC93",
+          "SourceString": "Sell an item for 100 points using sell gun turning it into bronze coins only",
+          "LocalizedString": "Sell an item for 100 points using sell gun turning it into bronze coins only"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 5000
+      },
+      "snusklord": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "8BD92F164E1341500A73FD91CE968D5E",
+          "SourceString": "The Snusk Lord",
+          "LocalizedString": "The Snusk Lord"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "3D3E9B914AD4F678CB41D3928B57D94A",
+          "SourceString": "Eat the entire Snusk Loaf",
+          "LocalizedString": "Eat the entire Snusk Loaf"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 0
+      },
+      "frontflip": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "499532B248338951077623951BFD29AC",
+          "SourceString": "ATV frontflip",
+          "LocalizedString": "ATV frontflip"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 100,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "CE3A71EB408EB9BA4FB167B73ECCBF4E",
+          "SourceString": "Complete 100 ATV frontflip stunts",
+          "LocalizedString": "Complete 100 ATV frontflip stunts"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 1000
+      },
+      "backflip": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "015EF62744C908513B8AEAB53C8953DB",
+          "SourceString": "ATV backflip",
+          "LocalizedString": "ATV backflip"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 100,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "8F5F3F2244E03E8A3FC7A1913ACBD2AE",
+          "SourceString": "Complete 100 ATV backflip stunts",
+          "LocalizedString": "Complete 100 ATV backflip stunts"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 1000
+      },
+      "char": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "A534A9444D6C474FD85AA2AAC7575E31",
+          "SourceString": "Charcoal fish",
+          "LocalizedString": "Charcoal fish"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "21485FF94D4C8CAE09E7769CD627E125",
+          "SourceString": "Catch the Charborg fish",
+          "LocalizedString": "Catch the Charborg fish"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 0
+      },
+      "12piece": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "5E91DC5D4EAB64A29FA6F1AA4C0F7E68",
+          "SourceString": "12 piece bucket",
+          "LocalizedString": "12 piece bucket"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "CultureInvariantString": null
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 19
+      },
+      "alphaFinish": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "8025826349CA6CA80D8CD79EECCC6CF9",
+          "SourceString": "Alpha completed",
+          "LocalizedString": "Alpha completed"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "737ABA0346D19B1F37F133944B756EE5",
+          "SourceString": "Complete the alpha version of the game",
+          "LocalizedString": "Complete the alpha version of the game"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 0
+      },
+      "tutorial09": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "9CC308DB43DDAACC9CBCF997D3531053",
+          "SourceString": "Complete 09 the tutorial",
+          "LocalizedString": "Complete 09 the tutorial"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "CultureInvariantString": null
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 0
+      },
+      "horde": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "40AED8904B675A18BA336E83B2AF4C29",
+          "SourceString": "THE HORSE",
+          "LocalizedString": "THE HORSE"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "5E07187C4471EBD07E3DDAB4F9385236",
+          "SourceString": "Complete the zombie horde during the halloween",
+          "LocalizedString": "Complete the zombie horde during the halloween"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 0
+      },
+      "alphaStart": {
+        "name_4_0534A17545E554F4B68649B89423EB76": "None",
+        "image_20_0E252F6A4A1A655ECB0689A250A2EB57": {
+          "ObjectName": "Texture2D'noimage'",
+          "ObjectPath": "VotV/Content/textures/ui/noimage.0"
+        },
+        "displayName_5_B400DAF547199398CDA692B5B2D6A599": {
+          "Namespace": "",
+          "Key": "84F7FE4C42DC824136ADDF9D2C9DA46F",
+          "SourceString": "Alpha player",
+          "LocalizedString": "Alpha player"
+        },
+        "progressTarget_11_43B369D14FAD25B027282CAFFC2C3879": 1,
+        "progress_8_16978C8F431AF43A377F3BA52100DF7A": 1,
+        "desc_14_416AEAFF42C88E5C34C4DA9EC2040435": {
+          "Namespace": "",
+          "Key": "E9DBAD69473A306CA43C338F68B1BC3A",
+          "SourceString": "Launch and alpha version of the game",
+          "LocalizedString": "Launch and alpha version of the game"
+        },
+        "award_17_BF5ED5C148773720D6813BB3F829CC90": 5
+      }
+    }
+  }
+]

@@ -1,0 +1,303 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "list_shrooms",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "VotV/Content/main/datatables/list_shrooms",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'struct_shroom'",
+        "ObjectPath": "VotV/Content/main/structs/struct_shroom.0"
+      }
+    },
+    "Rows": {
+      "edible": {
+        "weight_16_0A33BC3C452BBDFD8B5959877A5B126F": 100.0,
+        "size_2_CB66BB464114AA7C91385D983EE2218E": {
+          "X": 1.0,
+          "Y": 2.0
+        },
+        "spawnSurface_6_7D42EC29484C1640C248B0BD45E07144": [
+          {
+            "ObjectName": "PhysicalMaterial'grass'",
+            "ObjectPath": "VotV/Content/materials/phys/grass.0"
+          }
+        ],
+        "spawnWallOnly_11_E1D9B6024EFCA9EF58FA68A946368386": false,
+        "useWallSpawn_27_C783D2DC45C29BEFB68EA8A62DD85421": [],
+        "prop_19_655235944B5F75060024C1BBF41E4459": "shroom",
+        "spawnOnWallOnly_26_AD87C3D949131965827659BECD133CDE": false,
+        "clusterSize_37_E9F04744473526589FA6C7A548617282": {
+          "X": 1,
+          "Y": 1
+        },
+        "clusterRadius_33_9E3AC3C54ABC558EED1D1C93B7A968E7": 0.0,
+        "effectObject_36_B778996F47435F27DE4E9B9C63381DD5": null
+      },
+      "poison": {
+        "weight_16_0A33BC3C452BBDFD8B5959877A5B126F": 100.0,
+        "size_2_CB66BB464114AA7C91385D983EE2218E": {
+          "X": 1.0,
+          "Y": 2.0
+        },
+        "spawnSurface_6_7D42EC29484C1640C248B0BD45E07144": [
+          {
+            "ObjectName": "PhysicalMaterial'grass'",
+            "ObjectPath": "VotV/Content/materials/phys/grass.0"
+          }
+        ],
+        "spawnWallOnly_11_E1D9B6024EFCA9EF58FA68A946368386": true,
+        "useWallSpawn_27_C783D2DC45C29BEFB68EA8A62DD85421": [
+          {
+            "ObjectName": "PhysicalMaterial'wood'",
+            "ObjectPath": "VotV/Content/materials/phys/wood.0"
+          }
+        ],
+        "prop_19_655235944B5F75060024C1BBF41E4459": "shroom_2",
+        "spawnOnWallOnly_26_AD87C3D949131965827659BECD133CDE": false,
+        "clusterSize_37_E9F04744473526589FA6C7A548617282": {
+          "X": 1,
+          "Y": 1
+        },
+        "clusterRadius_33_9E3AC3C54ABC558EED1D1C93B7A968E7": 0.0,
+        "effectObject_36_B778996F47435F27DE4E9B9C63381DD5": null
+      },
+      "wavy": {
+        "weight_16_0A33BC3C452BBDFD8B5959877A5B126F": 100.0,
+        "size_2_CB66BB464114AA7C91385D983EE2218E": {
+          "X": 1.0,
+          "Y": 2.0
+        },
+        "spawnSurface_6_7D42EC29484C1640C248B0BD45E07144": [
+          {
+            "ObjectName": "PhysicalMaterial'gravel'",
+            "ObjectPath": "VotV/Content/materials/phys/gravel.0"
+          }
+        ],
+        "spawnWallOnly_11_E1D9B6024EFCA9EF58FA68A946368386": false,
+        "useWallSpawn_27_C783D2DC45C29BEFB68EA8A62DD85421": [],
+        "prop_19_655235944B5F75060024C1BBF41E4459": "shroom_3",
+        "spawnOnWallOnly_26_AD87C3D949131965827659BECD133CDE": false,
+        "clusterSize_37_E9F04744473526589FA6C7A548617282": {
+          "X": 1,
+          "Y": 1
+        },
+        "clusterRadius_33_9E3AC3C54ABC558EED1D1C93B7A968E7": 0.0,
+        "effectObject_36_B778996F47435F27DE4E9B9C63381DD5": null
+      },
+      "toilet": {
+        "weight_16_0A33BC3C452BBDFD8B5959877A5B126F": 30.0,
+        "size_2_CB66BB464114AA7C91385D983EE2218E": {
+          "X": 1.0,
+          "Y": 2.0
+        },
+        "spawnSurface_6_7D42EC29484C1640C248B0BD45E07144": [
+          {
+            "ObjectName": "PhysicalMaterial'concrete'",
+            "ObjectPath": "VotV/Content/materials/phys/concrete.0"
+          }
+        ],
+        "spawnWallOnly_11_E1D9B6024EFCA9EF58FA68A946368386": false,
+        "useWallSpawn_27_C783D2DC45C29BEFB68EA8A62DD85421": [],
+        "prop_19_655235944B5F75060024C1BBF41E4459": "shroom_4",
+        "spawnOnWallOnly_26_AD87C3D949131965827659BECD133CDE": false,
+        "clusterSize_37_E9F04744473526589FA6C7A548617282": {
+          "X": 1,
+          "Y": 1
+        },
+        "clusterRadius_33_9E3AC3C54ABC558EED1D1C93B7A968E7": 0.0,
+        "effectObject_36_B778996F47435F27DE4E9B9C63381DD5": null
+      },
+      "blue": {
+        "weight_16_0A33BC3C452BBDFD8B5959877A5B126F": 100.0,
+        "size_2_CB66BB464114AA7C91385D983EE2218E": {
+          "X": 1.0,
+          "Y": 2.0
+        },
+        "spawnSurface_6_7D42EC29484C1640C248B0BD45E07144": [
+          {
+            "ObjectName": "PhysicalMaterial'gravel'",
+            "ObjectPath": "VotV/Content/materials/phys/gravel.0"
+          }
+        ],
+        "spawnWallOnly_11_E1D9B6024EFCA9EF58FA68A946368386": true,
+        "useWallSpawn_27_C783D2DC45C29BEFB68EA8A62DD85421": [
+          {
+            "ObjectName": "PhysicalMaterial'rock'",
+            "ObjectPath": "VotV/Content/materials/phys/rock.0"
+          }
+        ],
+        "prop_19_655235944B5F75060024C1BBF41E4459": "shroom_5",
+        "spawnOnWallOnly_26_AD87C3D949131965827659BECD133CDE": false,
+        "clusterSize_37_E9F04744473526589FA6C7A548617282": {
+          "X": 1,
+          "Y": 1
+        },
+        "clusterRadius_33_9E3AC3C54ABC558EED1D1C93B7A968E7": 0.0,
+        "effectObject_36_B778996F47435F27DE4E9B9C63381DD5": null
+      },
+      "penis": {
+        "weight_16_0A33BC3C452BBDFD8B5959877A5B126F": 25.0,
+        "size_2_CB66BB464114AA7C91385D983EE2218E": {
+          "X": 1.0,
+          "Y": 2.0
+        },
+        "spawnSurface_6_7D42EC29484C1640C248B0BD45E07144": [
+          {
+            "ObjectName": "PhysicalMaterial'marble'",
+            "ObjectPath": "VotV/Content/materials/phys/marble.0"
+          }
+        ],
+        "spawnWallOnly_11_E1D9B6024EFCA9EF58FA68A946368386": false,
+        "useWallSpawn_27_C783D2DC45C29BEFB68EA8A62DD85421": [],
+        "prop_19_655235944B5F75060024C1BBF41E4459": "shroom_6",
+        "spawnOnWallOnly_26_AD87C3D949131965827659BECD133CDE": false,
+        "clusterSize_37_E9F04744473526589FA6C7A548617282": {
+          "X": 1,
+          "Y": 1
+        },
+        "clusterRadius_33_9E3AC3C54ABC558EED1D1C93B7A968E7": 0.0,
+        "effectObject_36_B778996F47435F27DE4E9B9C63381DD5": null
+      },
+      "puff": {
+        "weight_16_0A33BC3C452BBDFD8B5959877A5B126F": 10.0,
+        "size_2_CB66BB464114AA7C91385D983EE2218E": {
+          "X": 0.5,
+          "Y": 2.0
+        },
+        "spawnSurface_6_7D42EC29484C1640C248B0BD45E07144": [
+          {
+            "ObjectName": "PhysicalMaterial'grass'",
+            "ObjectPath": "VotV/Content/materials/phys/grass.0"
+          }
+        ],
+        "spawnWallOnly_11_E1D9B6024EFCA9EF58FA68A946368386": false,
+        "useWallSpawn_27_C783D2DC45C29BEFB68EA8A62DD85421": [],
+        "prop_19_655235944B5F75060024C1BBF41E4459": "shroom_7",
+        "spawnOnWallOnly_26_AD87C3D949131965827659BECD133CDE": false,
+        "clusterSize_37_E9F04744473526589FA6C7A548617282": {
+          "X": 1,
+          "Y": 1
+        },
+        "clusterRadius_33_9E3AC3C54ABC558EED1D1C93B7A968E7": 0.0,
+        "effectObject_36_B778996F47435F27DE4E9B9C63381DD5": null
+      },
+      "funny": {
+        "weight_16_0A33BC3C452BBDFD8B5959877A5B126F": 25.0,
+        "size_2_CB66BB464114AA7C91385D983EE2218E": {
+          "X": 0.5,
+          "Y": 2.0
+        },
+        "spawnSurface_6_7D42EC29484C1640C248B0BD45E07144": [
+          {
+            "ObjectName": "PhysicalMaterial'dirt'",
+            "ObjectPath": "VotV/Content/materials/phys/dirt.0"
+          }
+        ],
+        "spawnWallOnly_11_E1D9B6024EFCA9EF58FA68A946368386": false,
+        "useWallSpawn_27_C783D2DC45C29BEFB68EA8A62DD85421": [],
+        "prop_19_655235944B5F75060024C1BBF41E4459": "funnyshroom",
+        "spawnOnWallOnly_26_AD87C3D949131965827659BECD133CDE": false,
+        "clusterSize_37_E9F04744473526589FA6C7A548617282": {
+          "X": 1,
+          "Y": 1
+        },
+        "clusterRadius_33_9E3AC3C54ABC558EED1D1C93B7A968E7": 0.0,
+        "effectObject_36_B778996F47435F27DE4E9B9C63381DD5": null
+      },
+      "superdeath": {
+        "weight_16_0A33BC3C452BBDFD8B5959877A5B126F": 25.0,
+        "size_2_CB66BB464114AA7C91385D983EE2218E": {
+          "X": 1.0,
+          "Y": 2.0
+        },
+        "spawnSurface_6_7D42EC29484C1640C248B0BD45E07144": [
+          {
+            "ObjectName": "PhysicalMaterial'dirt'",
+            "ObjectPath": "VotV/Content/materials/phys/dirt.0"
+          }
+        ],
+        "spawnWallOnly_11_E1D9B6024EFCA9EF58FA68A946368386": false,
+        "useWallSpawn_27_C783D2DC45C29BEFB68EA8A62DD85421": [],
+        "prop_19_655235944B5F75060024C1BBF41E4459": "shroom_sd",
+        "spawnOnWallOnly_26_AD87C3D949131965827659BECD133CDE": false,
+        "clusterSize_37_E9F04744473526589FA6C7A548617282": {
+          "X": 1,
+          "Y": 1
+        },
+        "clusterRadius_33_9E3AC3C54ABC558EED1D1C93B7A968E7": 0.0,
+        "effectObject_36_B778996F47435F27DE4E9B9C63381DD5": null
+      },
+      "treecap": {
+        "weight_16_0A33BC3C452BBDFD8B5959877A5B126F": 100.0,
+        "size_2_CB66BB464114AA7C91385D983EE2218E": {
+          "X": 0.5,
+          "Y": 2.0
+        },
+        "spawnSurface_6_7D42EC29484C1640C248B0BD45E07144": [
+          {
+            "ObjectName": "PhysicalMaterial'wood'",
+            "ObjectPath": "VotV/Content/materials/phys/wood.0"
+          }
+        ],
+        "spawnWallOnly_11_E1D9B6024EFCA9EF58FA68A946368386": false,
+        "useWallSpawn_27_C783D2DC45C29BEFB68EA8A62DD85421": [],
+        "prop_19_655235944B5F75060024C1BBF41E4459": "shroom_tr",
+        "spawnOnWallOnly_26_AD87C3D949131965827659BECD133CDE": true,
+        "clusterSize_37_E9F04744473526589FA6C7A548617282": {
+          "X": 2,
+          "Y": 10
+        },
+        "clusterRadius_33_9E3AC3C54ABC558EED1D1C93B7A968E7": 50.0,
+        "effectObject_36_B778996F47435F27DE4E9B9C63381DD5": null
+      },
+      "guinea": {
+        "weight_16_0A33BC3C452BBDFD8B5959877A5B126F": 50.0,
+        "size_2_CB66BB464114AA7C91385D983EE2218E": {
+          "X": 0.5,
+          "Y": 2.0
+        },
+        "spawnSurface_6_7D42EC29484C1640C248B0BD45E07144": [
+          {
+            "ObjectName": "PhysicalMaterial'wood'",
+            "ObjectPath": "VotV/Content/materials/phys/wood.0"
+          }
+        ],
+        "spawnWallOnly_11_E1D9B6024EFCA9EF58FA68A946368386": false,
+        "useWallSpawn_27_C783D2DC45C29BEFB68EA8A62DD85421": [],
+        "prop_19_655235944B5F75060024C1BBF41E4459": "shroom_gui",
+        "spawnOnWallOnly_26_AD87C3D949131965827659BECD133CDE": true,
+        "clusterSize_37_E9F04744473526589FA6C7A548617282": {
+          "X": 2,
+          "Y": 6
+        },
+        "clusterRadius_33_9E3AC3C54ABC558EED1D1C93B7A968E7": 50.0,
+        "effectObject_36_B778996F47435F27DE4E9B9C63381DD5": null
+      },
+      "sponge": {
+        "weight_16_0A33BC3C452BBDFD8B5959877A5B126F": 25.0,
+        "size_2_CB66BB464114AA7C91385D983EE2218E": {
+          "X": 0.5,
+          "Y": 2.0
+        },
+        "spawnSurface_6_7D42EC29484C1640C248B0BD45E07144": [
+          {
+            "ObjectName": "PhysicalMaterial'wood'",
+            "ObjectPath": "VotV/Content/materials/phys/wood.0"
+          }
+        ],
+        "spawnWallOnly_11_E1D9B6024EFCA9EF58FA68A946368386": false,
+        "useWallSpawn_27_C783D2DC45C29BEFB68EA8A62DD85421": [],
+        "prop_19_655235944B5F75060024C1BBF41E4459": "shroom_spng",
+        "spawnOnWallOnly_26_AD87C3D949131965827659BECD133CDE": true,
+        "clusterSize_37_E9F04744473526589FA6C7A548617282": {
+          "X": 2,
+          "Y": 5
+        },
+        "clusterRadius_33_9E3AC3C54ABC558EED1D1C93B7A968E7": 50.0,
+        "effectObject_36_B778996F47435F27DE4E9B9C63381DD5": null
+      }
+    }
+  }
+]

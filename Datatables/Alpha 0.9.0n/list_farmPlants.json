@@ -1,0 +1,2845 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "list_farmPlants",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "VotV/Content/main/datatables/list_farmPlants",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'struct_farmPlant'",
+        "ObjectPath": "VotV/Content/main/structs/struct_farmPlant.0"
+      }
+    },
+    "Rows": {
+      "seedpf_b": {
+        "displayName_21_41960D974F29239BCB96D0906BDBEA56": {
+          "Namespace": "",
+          "Key": "03C577D240D624557A9326908EE50164",
+          "SourceString": "Brown mushroom",
+          "LocalizedString": "Brown mushroom"
+        },
+        "plantObject_57_5011E5D845C14E4593D11C876F297187": {
+          "ObjectName": "BlueprintGeneratedClass'growingPlant_C'",
+          "ObjectPath": "VotV/Content/objects/growingPlant.58"
+        },
+        "plantGrow_27_4F38A51C4590D9660F12C7AE06E85D58": {
+          "ObjectName": "StaticMesh'shroom'",
+          "ObjectPath": "VotV/Content/meshes/shroom/shroom.2"
+        },
+        "plantRipe_30_6AF9004C4BE7D2175046B082AC102A03": {
+          "ObjectName": "StaticMesh'shroom'",
+          "ObjectPath": "VotV/Content/meshes/shroom/shroom.2"
+        },
+        "plantSupport_32_5412CEBB47A5982F518ABAA83D92D9D1": null,
+        "drop_5_085ABC2F48074FD7E1BDE987E97A5250": "shroom",
+        "amount_range_82_4F5577114B35C27F510BE1AC8DCCEB4A": {
+          "X": 1,
+          "Y": 1
+        },
+        "growRate_8_F635204C40BD64BAE4DB369063AA13A8": 3600.0,
+        "dirtOnly_26_518E3DF141C65542403963BAC554F6EC": false,
+        "size_35_50E42E654C88BAFA0034708C205426BD": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "plantType_67_9C60606D49F087B9C47B2DA5AB8EEFE1": "enum_farmPlantType::NewEnumerator0",
+        "fruit_44_7BF3CC2643302C01DB52048FEA6E393E": "None",
+        "fruitGrowRate_49_47D346B047D97B04FDE10CA64BADFC47": 0.0,
+        "fruits_48_E7291A6E4A706E81977708B083057BD5": [],
+        "fruitRotate_54_E90285AB407C646CDF859E9B642E2635": 0.0,
+        "ignoreScale_61_4E673D9C4CBF98E0A802C0B0711CD724": false,
+        "minSize_64_795FD20B4229774B0CDEF08B7269C437": 0.0,
+        "maxDryness_70_90593F354BFF5836BEC71F980781FEAD": 7200.0,
+        "nocturnal_74_E1D6F8614794424BA520C3969E5020CB": true,
+        "canGrowInPots_77_43AA5A6942F5175A7BC04CA21AC7204D": true,
+        "canGrowInGround_79_E3E2F73A466330CB6084779671858A44": true
+      },
+      "seedpf_r": {
+        "displayName_21_41960D974F29239BCB96D0906BDBEA56": {
+          "Namespace": "",
+          "Key": "E2AFF1464C07858989019D968141911E",
+          "SourceString": "Red mushroom",
+          "LocalizedString": "Red mushroom"
+        },
+        "plantObject_57_5011E5D845C14E4593D11C876F297187": {
+          "ObjectName": "BlueprintGeneratedClass'growingPlant_C'",
+          "ObjectPath": "VotV/Content/objects/growingPlant.58"
+        },
+        "plantGrow_27_4F38A51C4590D9660F12C7AE06E85D58": {
+          "ObjectName": "StaticMesh'shroom2'",
+          "ObjectPath": "VotV/Content/meshes/shroom/shroom2.2"
+        },
+        "plantRipe_30_6AF9004C4BE7D2175046B082AC102A03": {
+          "ObjectName": "StaticMesh'shroom2'",
+          "ObjectPath": "VotV/Content/meshes/shroom/shroom2.2"
+        },
+        "plantSupport_32_5412CEBB47A5982F518ABAA83D92D9D1": null,
+        "drop_5_085ABC2F48074FD7E1BDE987E97A5250": "shroom_2",
+        "amount_range_82_4F5577114B35C27F510BE1AC8DCCEB4A": {
+          "X": 1,
+          "Y": 1
+        },
+        "growRate_8_F635204C40BD64BAE4DB369063AA13A8": 3600.0,
+        "dirtOnly_26_518E3DF141C65542403963BAC554F6EC": false,
+        "size_35_50E42E654C88BAFA0034708C205426BD": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "plantType_67_9C60606D49F087B9C47B2DA5AB8EEFE1": "enum_farmPlantType::NewEnumerator0",
+        "fruit_44_7BF3CC2643302C01DB52048FEA6E393E": "None",
+        "fruitGrowRate_49_47D346B047D97B04FDE10CA64BADFC47": 0.0,
+        "fruits_48_E7291A6E4A706E81977708B083057BD5": [],
+        "fruitRotate_54_E90285AB407C646CDF859E9B642E2635": 0.0,
+        "ignoreScale_61_4E673D9C4CBF98E0A802C0B0711CD724": false,
+        "minSize_64_795FD20B4229774B0CDEF08B7269C437": 0.0,
+        "maxDryness_70_90593F354BFF5836BEC71F980781FEAD": 7200.0,
+        "nocturnal_74_E1D6F8614794424BA520C3969E5020CB": true,
+        "canGrowInPots_77_43AA5A6942F5175A7BC04CA21AC7204D": true,
+        "canGrowInGround_79_E3E2F73A466330CB6084779671858A44": true
+      },
+      "seedpf_f": {
+        "displayName_21_41960D974F29239BCB96D0906BDBEA56": {
+          "Namespace": "",
+          "Key": "F85519194577CC6888D3D7B6C5BCD8AD",
+          "SourceString": "Flat mushroom",
+          "LocalizedString": "Flat mushroom"
+        },
+        "plantObject_57_5011E5D845C14E4593D11C876F297187": {
+          "ObjectName": "BlueprintGeneratedClass'growingPlant_C'",
+          "ObjectPath": "VotV/Content/objects/growingPlant.58"
+        },
+        "plantGrow_27_4F38A51C4590D9660F12C7AE06E85D58": {
+          "ObjectName": "StaticMesh'shroom3'",
+          "ObjectPath": "VotV/Content/meshes/shroom/shroom3.2"
+        },
+        "plantRipe_30_6AF9004C4BE7D2175046B082AC102A03": {
+          "ObjectName": "StaticMesh'shroom3'",
+          "ObjectPath": "VotV/Content/meshes/shroom/shroom3.2"
+        },
+        "plantSupport_32_5412CEBB47A5982F518ABAA83D92D9D1": null,
+        "drop_5_085ABC2F48074FD7E1BDE987E97A5250": "shroom_3",
+        "amount_range_82_4F5577114B35C27F510BE1AC8DCCEB4A": {
+          "X": 1,
+          "Y": 1
+        },
+        "growRate_8_F635204C40BD64BAE4DB369063AA13A8": 3600.0,
+        "dirtOnly_26_518E3DF141C65542403963BAC554F6EC": false,
+        "size_35_50E42E654C88BAFA0034708C205426BD": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "plantType_67_9C60606D49F087B9C47B2DA5AB8EEFE1": "enum_farmPlantType::NewEnumerator0",
+        "fruit_44_7BF3CC2643302C01DB52048FEA6E393E": "None",
+        "fruitGrowRate_49_47D346B047D97B04FDE10CA64BADFC47": 0.0,
+        "fruits_48_E7291A6E4A706E81977708B083057BD5": [],
+        "fruitRotate_54_E90285AB407C646CDF859E9B642E2635": 0.0,
+        "ignoreScale_61_4E673D9C4CBF98E0A802C0B0711CD724": false,
+        "minSize_64_795FD20B4229774B0CDEF08B7269C437": 0.0,
+        "maxDryness_70_90593F354BFF5836BEC71F980781FEAD": 7200.0,
+        "nocturnal_74_E1D6F8614794424BA520C3969E5020CB": true,
+        "canGrowInPots_77_43AA5A6942F5175A7BC04CA21AC7204D": true,
+        "canGrowInGround_79_E3E2F73A466330CB6084779671858A44": true
+      },
+      "seedpf_y": {
+        "displayName_21_41960D974F29239BCB96D0906BDBEA56": {
+          "Namespace": "",
+          "Key": "DD0D34874E24908643CB00845A89DC48",
+          "SourceString": "Yellow mushroom",
+          "LocalizedString": "Yellow mushroom"
+        },
+        "plantObject_57_5011E5D845C14E4593D11C876F297187": {
+          "ObjectName": "BlueprintGeneratedClass'growingPlant_C'",
+          "ObjectPath": "VotV/Content/objects/growingPlant.58"
+        },
+        "plantGrow_27_4F38A51C4590D9660F12C7AE06E85D58": {
+          "ObjectName": "StaticMesh'shroom4'",
+          "ObjectPath": "VotV/Content/meshes/shroom/shroom4.2"
+        },
+        "plantRipe_30_6AF9004C4BE7D2175046B082AC102A03": {
+          "ObjectName": "StaticMesh'shroom4'",
+          "ObjectPath": "VotV/Content/meshes/shroom/shroom4.2"
+        },
+        "plantSupport_32_5412CEBB47A5982F518ABAA83D92D9D1": null,
+        "drop_5_085ABC2F48074FD7E1BDE987E97A5250": "shroom_4",
+        "amount_range_82_4F5577114B35C27F510BE1AC8DCCEB4A": {
+          "X": 1,
+          "Y": 1
+        },
+        "growRate_8_F635204C40BD64BAE4DB369063AA13A8": 3600.0,
+        "dirtOnly_26_518E3DF141C65542403963BAC554F6EC": false,
+        "size_35_50E42E654C88BAFA0034708C205426BD": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "plantType_67_9C60606D49F087B9C47B2DA5AB8EEFE1": "enum_farmPlantType::NewEnumerator0",
+        "fruit_44_7BF3CC2643302C01DB52048FEA6E393E": "None",
+        "fruitGrowRate_49_47D346B047D97B04FDE10CA64BADFC47": 0.0,
+        "fruits_48_E7291A6E4A706E81977708B083057BD5": [],
+        "fruitRotate_54_E90285AB407C646CDF859E9B642E2635": 0.0,
+        "ignoreScale_61_4E673D9C4CBF98E0A802C0B0711CD724": false,
+        "minSize_64_795FD20B4229774B0CDEF08B7269C437": 0.0,
+        "maxDryness_70_90593F354BFF5836BEC71F980781FEAD": 7200.0,
+        "nocturnal_74_E1D6F8614794424BA520C3969E5020CB": true,
+        "canGrowInPots_77_43AA5A6942F5175A7BC04CA21AC7204D": true,
+        "canGrowInGround_79_E3E2F73A466330CB6084779671858A44": true
+      },
+      "seedpf_bl": {
+        "displayName_21_41960D974F29239BCB96D0906BDBEA56": {
+          "Namespace": "",
+          "Key": "04BC8466483FBAE3465DA1A06FF7D606",
+          "SourceString": "Blue mushroom",
+          "LocalizedString": "Blue mushroom"
+        },
+        "plantObject_57_5011E5D845C14E4593D11C876F297187": {
+          "ObjectName": "BlueprintGeneratedClass'growingPlant_C'",
+          "ObjectPath": "VotV/Content/objects/growingPlant.58"
+        },
+        "plantGrow_27_4F38A51C4590D9660F12C7AE06E85D58": {
+          "ObjectName": "StaticMesh'shroom5'",
+          "ObjectPath": "VotV/Content/meshes/shroom/shroom5.2"
+        },
+        "plantRipe_30_6AF9004C4BE7D2175046B082AC102A03": {
+          "ObjectName": "StaticMesh'shroom5'",
+          "ObjectPath": "VotV/Content/meshes/shroom/shroom5.2"
+        },
+        "plantSupport_32_5412CEBB47A5982F518ABAA83D92D9D1": null,
+        "drop_5_085ABC2F48074FD7E1BDE987E97A5250": "shroom_5",
+        "amount_range_82_4F5577114B35C27F510BE1AC8DCCEB4A": {
+          "X": 1,
+          "Y": 1
+        },
+        "growRate_8_F635204C40BD64BAE4DB369063AA13A8": 7200.0,
+        "dirtOnly_26_518E3DF141C65542403963BAC554F6EC": false,
+        "size_35_50E42E654C88BAFA0034708C205426BD": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "plantType_67_9C60606D49F087B9C47B2DA5AB8EEFE1": "enum_farmPlantType::NewEnumerator0",
+        "fruit_44_7BF3CC2643302C01DB52048FEA6E393E": "None",
+        "fruitGrowRate_49_47D346B047D97B04FDE10CA64BADFC47": 0.0,
+        "fruits_48_E7291A6E4A706E81977708B083057BD5": [],
+        "fruitRotate_54_E90285AB407C646CDF859E9B642E2635": 0.0,
+        "ignoreScale_61_4E673D9C4CBF98E0A802C0B0711CD724": false,
+        "minSize_64_795FD20B4229774B0CDEF08B7269C437": 0.0,
+        "maxDryness_70_90593F354BFF5836BEC71F980781FEAD": 14400.0,
+        "nocturnal_74_E1D6F8614794424BA520C3969E5020CB": true,
+        "canGrowInPots_77_43AA5A6942F5175A7BC04CA21AC7204D": true,
+        "canGrowInGround_79_E3E2F73A466330CB6084779671858A44": true
+      },
+      "seedpf_t": {
+        "displayName_21_41960D974F29239BCB96D0906BDBEA56": {
+          "Namespace": "",
+          "Key": "C18E03F447D126A5C1A6FA99585033FE",
+          "SourceString": "Thick mushroom",
+          "LocalizedString": "Thick mushroom"
+        },
+        "plantObject_57_5011E5D845C14E4593D11C876F297187": {
+          "ObjectName": "BlueprintGeneratedClass'growingPlant_C'",
+          "ObjectPath": "VotV/Content/objects/growingPlant.58"
+        },
+        "plantGrow_27_4F38A51C4590D9660F12C7AE06E85D58": {
+          "ObjectName": "StaticMesh'shroom6'",
+          "ObjectPath": "VotV/Content/meshes/shroom/shroom6.2"
+        },
+        "plantRipe_30_6AF9004C4BE7D2175046B082AC102A03": {
+          "ObjectName": "StaticMesh'shroom6'",
+          "ObjectPath": "VotV/Content/meshes/shroom/shroom6.2"
+        },
+        "plantSupport_32_5412CEBB47A5982F518ABAA83D92D9D1": null,
+        "drop_5_085ABC2F48074FD7E1BDE987E97A5250": "shroom_6",
+        "amount_range_82_4F5577114B35C27F510BE1AC8DCCEB4A": {
+          "X": 1,
+          "Y": 1
+        },
+        "growRate_8_F635204C40BD64BAE4DB369063AA13A8": 1800.0,
+        "dirtOnly_26_518E3DF141C65542403963BAC554F6EC": false,
+        "size_35_50E42E654C88BAFA0034708C205426BD": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "plantType_67_9C60606D49F087B9C47B2DA5AB8EEFE1": "enum_farmPlantType::NewEnumerator0",
+        "fruit_44_7BF3CC2643302C01DB52048FEA6E393E": "None",
+        "fruitGrowRate_49_47D346B047D97B04FDE10CA64BADFC47": 0.0,
+        "fruits_48_E7291A6E4A706E81977708B083057BD5": [],
+        "fruitRotate_54_E90285AB407C646CDF859E9B642E2635": 0.0,
+        "ignoreScale_61_4E673D9C4CBF98E0A802C0B0711CD724": false,
+        "minSize_64_795FD20B4229774B0CDEF08B7269C437": 0.0,
+        "maxDryness_70_90593F354BFF5836BEC71F980781FEAD": 3600.0,
+        "nocturnal_74_E1D6F8614794424BA520C3969E5020CB": true,
+        "canGrowInPots_77_43AA5A6942F5175A7BC04CA21AC7204D": true,
+        "canGrowInGround_79_E3E2F73A466330CB6084779671858A44": true
+      },
+      "seedpf_p": {
+        "displayName_21_41960D974F29239BCB96D0906BDBEA56": {
+          "Namespace": "",
+          "Key": "C0517AB7437A9218F54159B19570F699",
+          "SourceString": "Puffball mushroom",
+          "LocalizedString": "Puffball mushroom"
+        },
+        "plantObject_57_5011E5D845C14E4593D11C876F297187": {
+          "ObjectName": "BlueprintGeneratedClass'growingPlant_C'",
+          "ObjectPath": "VotV/Content/objects/growingPlant.58"
+        },
+        "plantGrow_27_4F38A51C4590D9660F12C7AE06E85D58": {
+          "ObjectName": "StaticMesh'shroom7'",
+          "ObjectPath": "VotV/Content/meshes/shroom/shroom7.2"
+        },
+        "plantRipe_30_6AF9004C4BE7D2175046B082AC102A03": {
+          "ObjectName": "StaticMesh'shroom7'",
+          "ObjectPath": "VotV/Content/meshes/shroom/shroom7.2"
+        },
+        "plantSupport_32_5412CEBB47A5982F518ABAA83D92D9D1": null,
+        "drop_5_085ABC2F48074FD7E1BDE987E97A5250": "shroom_7",
+        "amount_range_82_4F5577114B35C27F510BE1AC8DCCEB4A": {
+          "X": 1,
+          "Y": 1
+        },
+        "growRate_8_F635204C40BD64BAE4DB369063AA13A8": 4500.0,
+        "dirtOnly_26_518E3DF141C65542403963BAC554F6EC": false,
+        "size_35_50E42E654C88BAFA0034708C205426BD": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "plantType_67_9C60606D49F087B9C47B2DA5AB8EEFE1": "enum_farmPlantType::NewEnumerator0",
+        "fruit_44_7BF3CC2643302C01DB52048FEA6E393E": "None",
+        "fruitGrowRate_49_47D346B047D97B04FDE10CA64BADFC47": 0.0,
+        "fruits_48_E7291A6E4A706E81977708B083057BD5": [],
+        "fruitRotate_54_E90285AB407C646CDF859E9B642E2635": 0.0,
+        "ignoreScale_61_4E673D9C4CBF98E0A802C0B0711CD724": false,
+        "minSize_64_795FD20B4229774B0CDEF08B7269C437": 0.0,
+        "maxDryness_70_90593F354BFF5836BEC71F980781FEAD": 9000.0,
+        "nocturnal_74_E1D6F8614794424BA520C3969E5020CB": true,
+        "canGrowInPots_77_43AA5A6942F5175A7BC04CA21AC7204D": true,
+        "canGrowInGround_79_E3E2F73A466330CB6084779671858A44": true
+      },
+      "seedpf_fn": {
+        "displayName_21_41960D974F29239BCB96D0906BDBEA56": {
+          "Namespace": "",
+          "Key": "89466A944048B91F7493FCBE78839A0D",
+          "SourceString": "Funny mushroom",
+          "LocalizedString": "Funny mushroom"
+        },
+        "plantObject_57_5011E5D845C14E4593D11C876F297187": {
+          "ObjectName": "BlueprintGeneratedClass'growingPlant_C'",
+          "ObjectPath": "VotV/Content/objects/growingPlant.58"
+        },
+        "plantGrow_27_4F38A51C4590D9660F12C7AE06E85D58": {
+          "ObjectName": "StaticMesh'funnyshroom'",
+          "ObjectPath": "VotV/Content/meshes/shroom/funnyshroom.2"
+        },
+        "plantRipe_30_6AF9004C4BE7D2175046B082AC102A03": {
+          "ObjectName": "StaticMesh'funnyshroom'",
+          "ObjectPath": "VotV/Content/meshes/shroom/funnyshroom.2"
+        },
+        "plantSupport_32_5412CEBB47A5982F518ABAA83D92D9D1": null,
+        "drop_5_085ABC2F48074FD7E1BDE987E97A5250": "funnyshroom",
+        "amount_range_82_4F5577114B35C27F510BE1AC8DCCEB4A": {
+          "X": 1,
+          "Y": 1
+        },
+        "growRate_8_F635204C40BD64BAE4DB369063AA13A8": 4800.0,
+        "dirtOnly_26_518E3DF141C65542403963BAC554F6EC": false,
+        "size_35_50E42E654C88BAFA0034708C205426BD": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "plantType_67_9C60606D49F087B9C47B2DA5AB8EEFE1": "enum_farmPlantType::NewEnumerator0",
+        "fruit_44_7BF3CC2643302C01DB52048FEA6E393E": "None",
+        "fruitGrowRate_49_47D346B047D97B04FDE10CA64BADFC47": 0.0,
+        "fruits_48_E7291A6E4A706E81977708B083057BD5": [],
+        "fruitRotate_54_E90285AB407C646CDF859E9B642E2635": 0.0,
+        "ignoreScale_61_4E673D9C4CBF98E0A802C0B0711CD724": false,
+        "minSize_64_795FD20B4229774B0CDEF08B7269C437": 0.0,
+        "maxDryness_70_90593F354BFF5836BEC71F980781FEAD": 9600.0,
+        "nocturnal_74_E1D6F8614794424BA520C3969E5020CB": true,
+        "canGrowInPots_77_43AA5A6942F5175A7BC04CA21AC7204D": true,
+        "canGrowInGround_79_E3E2F73A466330CB6084779671858A44": true
+      },
+      "seedp_c": {
+        "displayName_21_41960D974F29239BCB96D0906BDBEA56": {
+          "Namespace": "",
+          "Key": "AEDE7E2C432CFD6E50EEC28110CD7407",
+          "SourceString": "Cucumber",
+          "LocalizedString": "Cucumber"
+        },
+        "plantObject_57_5011E5D845C14E4593D11C876F297187": {
+          "ObjectName": "BlueprintGeneratedClass'growingPlant_C'",
+          "ObjectPath": "VotV/Content/objects/growingPlant.58"
+        },
+        "plantGrow_27_4F38A51C4590D9660F12C7AE06E85D58": {
+          "ObjectName": "StaticMesh'cucumberPlant'",
+          "ObjectPath": "VotV/Content/meshes/farmplants/cucumberPlant.2"
+        },
+        "plantRipe_30_6AF9004C4BE7D2175046B082AC102A03": {
+          "ObjectName": "StaticMesh'cucumberPlantRipe'",
+          "ObjectPath": "VotV/Content/meshes/farmplants/cucumberPlantRipe.2"
+        },
+        "plantSupport_32_5412CEBB47A5982F518ABAA83D92D9D1": {
+          "ObjectName": "StaticMesh'cucumberPlantSupport'",
+          "ObjectPath": "VotV/Content/meshes/farmplants/cucumberPlantSupport.2"
+        },
+        "drop_5_085ABC2F48074FD7E1BDE987E97A5250": "cucumber",
+        "amount_range_82_4F5577114B35C27F510BE1AC8DCCEB4A": {
+          "X": 1,
+          "Y": 2
+        },
+        "growRate_8_F635204C40BD64BAE4DB369063AA13A8": 2700.0,
+        "dirtOnly_26_518E3DF141C65542403963BAC554F6EC": false,
+        "size_35_50E42E654C88BAFA0034708C205426BD": {
+          "X": 0.8,
+          "Y": 0.8,
+          "Z": 0.8
+        },
+        "plantType_67_9C60606D49F087B9C47B2DA5AB8EEFE1": "enum_farmPlantType::NewEnumerator0",
+        "fruit_44_7BF3CC2643302C01DB52048FEA6E393E": "None",
+        "fruitGrowRate_49_47D346B047D97B04FDE10CA64BADFC47": 0.0,
+        "fruits_48_E7291A6E4A706E81977708B083057BD5": [],
+        "fruitRotate_54_E90285AB407C646CDF859E9B642E2635": 0.0,
+        "ignoreScale_61_4E673D9C4CBF98E0A802C0B0711CD724": false,
+        "minSize_64_795FD20B4229774B0CDEF08B7269C437": 0.0,
+        "maxDryness_70_90593F354BFF5836BEC71F980781FEAD": 5400.0,
+        "nocturnal_74_E1D6F8614794424BA520C3969E5020CB": false,
+        "canGrowInPots_77_43AA5A6942F5175A7BC04CA21AC7204D": true,
+        "canGrowInGround_79_E3E2F73A466330CB6084779671858A44": true
+      },
+      "seedp_l": {
+        "displayName_21_41960D974F29239BCB96D0906BDBEA56": {
+          "Namespace": "",
+          "Key": "72A035EA4FC3AED81BA672AF0D83F05A",
+          "SourceString": "Lemon",
+          "LocalizedString": "Lemon"
+        },
+        "plantObject_57_5011E5D845C14E4593D11C876F297187": {
+          "ObjectName": "BlueprintGeneratedClass'growingPlant_lemontree_C'",
+          "ObjectPath": "VotV/Content/objects/growingPlant_lemontree.0"
+        },
+        "plantGrow_27_4F38A51C4590D9660F12C7AE06E85D58": {
+          "ObjectName": "StaticMesh'lemonTree'",
+          "ObjectPath": "VotV/Content/meshes/farmplants/lemonTree.2"
+        },
+        "plantRipe_30_6AF9004C4BE7D2175046B082AC102A03": {
+          "ObjectName": "StaticMesh'lemonTree'",
+          "ObjectPath": "VotV/Content/meshes/farmplants/lemonTree.2"
+        },
+        "plantSupport_32_5412CEBB47A5982F518ABAA83D92D9D1": null,
+        "drop_5_085ABC2F48074FD7E1BDE987E97A5250": "lemon",
+        "amount_range_82_4F5577114B35C27F510BE1AC8DCCEB4A": {
+          "X": 2,
+          "Y": 2
+        },
+        "growRate_8_F635204C40BD64BAE4DB369063AA13A8": 10800.0,
+        "dirtOnly_26_518E3DF141C65542403963BAC554F6EC": true,
+        "size_35_50E42E654C88BAFA0034708C205426BD": {
+          "X": 1.25,
+          "Y": 1.25,
+          "Z": 1.25
+        },
+        "plantType_67_9C60606D49F087B9C47B2DA5AB8EEFE1": "enum_farmPlantType::NewEnumerator2",
+        "fruit_44_7BF3CC2643302C01DB52048FEA6E393E": "lemon",
+        "fruitGrowRate_49_47D346B047D97B04FDE10CA64BADFC47": 1200.0,
+        "fruits_48_E7291A6E4A706E81977708B083057BD5": [
+          {
+            "Rotation": {
+              "X": 0.0030732227,
+              "Y": 0.020834446,
+              "Z": 0.99481255,
+              "W": 0.099520154,
+              "IsNormalized": true,
+              "Size": 0.9999999,
+              "SizeSquared": 0.99999976
+            },
+            "Translation": {
+              "X": -91.3004,
+              "Y": 57.6912,
+              "Z": 179.367
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          {
+            "Rotation": {
+              "X": -0.020657523,
+              "Y": -0.02082187,
+              "Z": -0.9960738,
+              "W": 0.08352663,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": -65.0825,
+              "Y": -35.9824,
+              "Z": 217.718
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          {
+            "Rotation": {
+              "X": -0.020694578,
+              "Y": -0.034407664,
+              "Z": -0.019508092,
+              "W": 0.99900323,
+              "IsNormalized": true,
+              "Size": 1.0000001,
+              "SizeSquared": 1.0000002
+            },
+            "Translation": {
+              "X": 12.7955,
+              "Y": -112.343,
+              "Z": 183.508
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          {
+            "Rotation": {
+              "X": 0.02635983,
+              "Y": -0.018031135,
+              "Z": 0.78793275,
+              "W": 0.6149324,
+              "IsNormalized": true,
+              "Size": 0.99999994,
+              "SizeSquared": 0.9999999
+            },
+            "Translation": {
+              "X": 46.0925,
+              "Y": 43.1462,
+              "Z": 198.555
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          {
+            "Rotation": {
+              "X": -0.018708875,
+              "Y": 0.041933823,
+              "Z": 0.09509794,
+              "W": 0.99440837,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0000001
+            },
+            "Translation": {
+              "X": -37.1078,
+              "Y": -110.791,
+              "Z": 195.694
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          {
+            "Rotation": {
+              "X": 0.0085728755,
+              "Y": -0.045921046,
+              "Z": -0.31812578,
+              "W": 0.946897,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0000001
+            },
+            "Translation": {
+              "X": -61.5355,
+              "Y": -75.4347,
+              "Z": 118.553
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          {
+            "Rotation": {
+              "X": -0.018221904,
+              "Y": 0.0035857374,
+              "Z": -0.99863344,
+              "W": 0.048847858,
+              "IsNormalized": true,
+              "Size": 0.9999998,
+              "SizeSquared": 0.9999997
+            },
+            "Translation": {
+              "X": 78.5337,
+              "Y": 95.5909,
+              "Z": 207.326
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          {
+            "Rotation": {
+              "X": 0.0077713146,
+              "Y": 0.01053934,
+              "Z": -0.9715202,
+              "W": 0.23659466,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": 116.37,
+              "Y": 147.663,
+              "Z": 215.646
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          }
+        ],
+        "fruitRotate_54_E90285AB407C646CDF859E9B642E2635": 90.0,
+        "ignoreScale_61_4E673D9C4CBF98E0A802C0B0711CD724": false,
+        "minSize_64_795FD20B4229774B0CDEF08B7269C437": 0.0,
+        "maxDryness_70_90593F354BFF5836BEC71F980781FEAD": 21600.0,
+        "nocturnal_74_E1D6F8614794424BA520C3969E5020CB": false,
+        "canGrowInPots_77_43AA5A6942F5175A7BC04CA21AC7204D": true,
+        "canGrowInGround_79_E3E2F73A466330CB6084779671858A44": true
+      },
+      "seedp_o": {
+        "displayName_21_41960D974F29239BCB96D0906BDBEA56": {
+          "Namespace": "",
+          "Key": "BD77CA8B4F525660A6CAA3A86906EB3C",
+          "SourceString": "Orange",
+          "LocalizedString": "Orange"
+        },
+        "plantObject_57_5011E5D845C14E4593D11C876F297187": {
+          "ObjectName": "BlueprintGeneratedClass'growingPlant_orangetree_C'",
+          "ObjectPath": "VotV/Content/objects/growingPlant_orangetree.0"
+        },
+        "plantGrow_27_4F38A51C4590D9660F12C7AE06E85D58": {
+          "ObjectName": "StaticMesh'orangeTree'",
+          "ObjectPath": "VotV/Content/meshes/farmplants/orangeTree.2"
+        },
+        "plantRipe_30_6AF9004C4BE7D2175046B082AC102A03": {
+          "ObjectName": "StaticMesh'orangeTree'",
+          "ObjectPath": "VotV/Content/meshes/farmplants/orangeTree.2"
+        },
+        "plantSupport_32_5412CEBB47A5982F518ABAA83D92D9D1": null,
+        "drop_5_085ABC2F48074FD7E1BDE987E97A5250": "orange",
+        "amount_range_82_4F5577114B35C27F510BE1AC8DCCEB4A": {
+          "X": 2,
+          "Y": 2
+        },
+        "growRate_8_F635204C40BD64BAE4DB369063AA13A8": 10800.0,
+        "dirtOnly_26_518E3DF141C65542403963BAC554F6EC": true,
+        "size_35_50E42E654C88BAFA0034708C205426BD": {
+          "X": 1.25,
+          "Y": 1.25,
+          "Z": 1.25
+        },
+        "plantType_67_9C60606D49F087B9C47B2DA5AB8EEFE1": "enum_farmPlantType::NewEnumerator2",
+        "fruit_44_7BF3CC2643302C01DB52048FEA6E393E": "orange",
+        "fruitGrowRate_49_47D346B047D97B04FDE10CA64BADFC47": 1200.0,
+        "fruits_48_E7291A6E4A706E81977708B083057BD5": [
+          {
+            "Rotation": {
+              "X": 0.0,
+              "Y": -0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": -17.6874,
+              "Y": 32.7121,
+              "Z": 164.846
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          {
+            "Rotation": {
+              "X": 0.0,
+              "Y": -0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": -19.457,
+              "Y": -31.8272,
+              "Z": 127.211
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          {
+            "Rotation": {
+              "X": 0.0,
+              "Y": -0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": 50.329,
+              "Y": -67.8292,
+              "Z": 146.912
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          {
+            "Rotation": {
+              "X": 0.0,
+              "Y": -0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": 21.8761,
+              "Y": 52.7913,
+              "Z": 190.686
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          {
+            "Rotation": {
+              "X": 0.0,
+              "Y": -0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": -44.2729,
+              "Y": -19.0772,
+              "Z": 191.574
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          {
+            "Rotation": {
+              "X": 0.0,
+              "Y": -0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": -13.6531,
+              "Y": -53.1225,
+              "Z": 144.691
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          {
+            "Rotation": {
+              "X": 0.0,
+              "Y": -0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": 59.2391,
+              "Y": -34.0917,
+              "Z": 206.509
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          }
+        ],
+        "fruitRotate_54_E90285AB407C646CDF859E9B642E2635": 0.0,
+        "ignoreScale_61_4E673D9C4CBF98E0A802C0B0711CD724": false,
+        "minSize_64_795FD20B4229774B0CDEF08B7269C437": 0.0,
+        "maxDryness_70_90593F354BFF5836BEC71F980781FEAD": 21600.0,
+        "nocturnal_74_E1D6F8614794424BA520C3969E5020CB": false,
+        "canGrowInPots_77_43AA5A6942F5175A7BC04CA21AC7204D": true,
+        "canGrowInGround_79_E3E2F73A466330CB6084779671858A44": true
+      },
+      "potato": {
+        "displayName_21_41960D974F29239BCB96D0906BDBEA56": {
+          "Namespace": "",
+          "Key": "BEDC229048F2FCC07F98EB8F2E6BDA51",
+          "SourceString": "Potato",
+          "LocalizedString": "Potato"
+        },
+        "plantObject_57_5011E5D845C14E4593D11C876F297187": {
+          "ObjectName": "BlueprintGeneratedClass'growingPlant_C'",
+          "ObjectPath": "VotV/Content/objects/growingPlant.58"
+        },
+        "plantGrow_27_4F38A51C4590D9660F12C7AE06E85D58": {
+          "ObjectName": "StaticMesh'potatoPlant'",
+          "ObjectPath": "VotV/Content/meshes/farmplants/potatoPlant.2"
+        },
+        "plantRipe_30_6AF9004C4BE7D2175046B082AC102A03": {
+          "ObjectName": "StaticMesh'potatoPlantRipe'",
+          "ObjectPath": "VotV/Content/meshes/farmplants/potatoPlantRipe.2"
+        },
+        "plantSupport_32_5412CEBB47A5982F518ABAA83D92D9D1": null,
+        "drop_5_085ABC2F48074FD7E1BDE987E97A5250": "potato",
+        "amount_range_82_4F5577114B35C27F510BE1AC8DCCEB4A": {
+          "X": 1,
+          "Y": 3
+        },
+        "growRate_8_F635204C40BD64BAE4DB369063AA13A8": 1800.0,
+        "dirtOnly_26_518E3DF141C65542403963BAC554F6EC": false,
+        "size_35_50E42E654C88BAFA0034708C205426BD": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "plantType_67_9C60606D49F087B9C47B2DA5AB8EEFE1": "enum_farmPlantType::NewEnumerator0",
+        "fruit_44_7BF3CC2643302C01DB52048FEA6E393E": "None",
+        "fruitGrowRate_49_47D346B047D97B04FDE10CA64BADFC47": 0.0,
+        "fruits_48_E7291A6E4A706E81977708B083057BD5": [],
+        "fruitRotate_54_E90285AB407C646CDF859E9B642E2635": 0.0,
+        "ignoreScale_61_4E673D9C4CBF98E0A802C0B0711CD724": false,
+        "minSize_64_795FD20B4229774B0CDEF08B7269C437": 0.0,
+        "maxDryness_70_90593F354BFF5836BEC71F980781FEAD": 3600.0,
+        "nocturnal_74_E1D6F8614794424BA520C3969E5020CB": false,
+        "canGrowInPots_77_43AA5A6942F5175A7BC04CA21AC7204D": true,
+        "canGrowInGround_79_E3E2F73A466330CB6084779671858A44": true
+      },
+      "seedp_t": {
+        "displayName_21_41960D974F29239BCB96D0906BDBEA56": {
+          "Namespace": "",
+          "Key": "F3FF527442EFEB15FD0226A8BFD793F1",
+          "SourceString": "Thingy",
+          "LocalizedString": "Thingy"
+        },
+        "plantObject_57_5011E5D845C14E4593D11C876F297187": {
+          "ObjectName": "BlueprintGeneratedClass'growingPlant_C'",
+          "ObjectPath": "VotV/Content/objects/growingPlant.58"
+        },
+        "plantGrow_27_4F38A51C4590D9660F12C7AE06E85D58": {
+          "ObjectName": "StaticMesh'weedPlant'",
+          "ObjectPath": "VotV/Content/meshes/thingy/weedPlant.2"
+        },
+        "plantRipe_30_6AF9004C4BE7D2175046B082AC102A03": {
+          "ObjectName": "StaticMesh'weedPlantRipe'",
+          "ObjectPath": "VotV/Content/meshes/thingy/weedPlantRipe.2"
+        },
+        "plantSupport_32_5412CEBB47A5982F518ABAA83D92D9D1": null,
+        "drop_5_085ABC2F48074FD7E1BDE987E97A5250": "thingyLeaf",
+        "amount_range_82_4F5577114B35C27F510BE1AC8DCCEB4A": {
+          "X": 0,
+          "Y": 6
+        },
+        "growRate_8_F635204C40BD64BAE4DB369063AA13A8": 3000.0,
+        "dirtOnly_26_518E3DF141C65542403963BAC554F6EC": false,
+        "size_35_50E42E654C88BAFA0034708C205426BD": {
+          "X": 1.1,
+          "Y": 1.1,
+          "Z": 1.1
+        },
+        "plantType_67_9C60606D49F087B9C47B2DA5AB8EEFE1": "enum_farmPlantType::NewEnumerator0",
+        "fruit_44_7BF3CC2643302C01DB52048FEA6E393E": "None",
+        "fruitGrowRate_49_47D346B047D97B04FDE10CA64BADFC47": 0.0,
+        "fruits_48_E7291A6E4A706E81977708B083057BD5": [],
+        "fruitRotate_54_E90285AB407C646CDF859E9B642E2635": 0.0,
+        "ignoreScale_61_4E673D9C4CBF98E0A802C0B0711CD724": false,
+        "minSize_64_795FD20B4229774B0CDEF08B7269C437": 0.0,
+        "maxDryness_70_90593F354BFF5836BEC71F980781FEAD": 3000.0,
+        "nocturnal_74_E1D6F8614794424BA520C3969E5020CB": false,
+        "canGrowInPots_77_43AA5A6942F5175A7BC04CA21AC7204D": true,
+        "canGrowInGround_79_E3E2F73A466330CB6084779671858A44": true
+      },
+      "seedp_tm": {
+        "displayName_21_41960D974F29239BCB96D0906BDBEA56": {
+          "Namespace": "",
+          "Key": "8CB840124C28723E8910BEA6F4FCC5AA",
+          "SourceString": "Tomato",
+          "LocalizedString": "Tomato"
+        },
+        "plantObject_57_5011E5D845C14E4593D11C876F297187": {
+          "ObjectName": "BlueprintGeneratedClass'growingPlant_C'",
+          "ObjectPath": "VotV/Content/objects/growingPlant.58"
+        },
+        "plantGrow_27_4F38A51C4590D9660F12C7AE06E85D58": {
+          "ObjectName": "StaticMesh'tomatoPlant'",
+          "ObjectPath": "VotV/Content/meshes/farmplants/tomatoPlant.2"
+        },
+        "plantRipe_30_6AF9004C4BE7D2175046B082AC102A03": {
+          "ObjectName": "StaticMesh'tomatoPlantRipe'",
+          "ObjectPath": "VotV/Content/meshes/farmplants/tomatoPlantRipe.2"
+        },
+        "plantSupport_32_5412CEBB47A5982F518ABAA83D92D9D1": null,
+        "drop_5_085ABC2F48074FD7E1BDE987E97A5250": "tomato",
+        "amount_range_82_4F5577114B35C27F510BE1AC8DCCEB4A": {
+          "X": 1,
+          "Y": 3
+        },
+        "growRate_8_F635204C40BD64BAE4DB369063AA13A8": 2700.0,
+        "dirtOnly_26_518E3DF141C65542403963BAC554F6EC": false,
+        "size_35_50E42E654C88BAFA0034708C205426BD": {
+          "X": 0.8,
+          "Y": 0.8,
+          "Z": 0.8
+        },
+        "plantType_67_9C60606D49F087B9C47B2DA5AB8EEFE1": "enum_farmPlantType::NewEnumerator0",
+        "fruit_44_7BF3CC2643302C01DB52048FEA6E393E": "None",
+        "fruitGrowRate_49_47D346B047D97B04FDE10CA64BADFC47": 0.0,
+        "fruits_48_E7291A6E4A706E81977708B083057BD5": [],
+        "fruitRotate_54_E90285AB407C646CDF859E9B642E2635": 0.0,
+        "ignoreScale_61_4E673D9C4CBF98E0A802C0B0711CD724": false,
+        "minSize_64_795FD20B4229774B0CDEF08B7269C437": 0.0,
+        "maxDryness_70_90593F354BFF5836BEC71F980781FEAD": 5400.0,
+        "nocturnal_74_E1D6F8614794424BA520C3969E5020CB": false,
+        "canGrowInPots_77_43AA5A6942F5175A7BC04CA21AC7204D": true,
+        "canGrowInGround_79_E3E2F73A466330CB6084779671858A44": true
+      },
+      "pinec_1": {
+        "displayName_21_41960D974F29239BCB96D0906BDBEA56": {
+          "Namespace": "",
+          "Key": "CF0D6CDA46423C9C1587498FE866F128",
+          "SourceString": "Pine",
+          "LocalizedString": "Pine"
+        },
+        "plantObject_57_5011E5D845C14E4593D11C876F297187": {
+          "ObjectName": "BlueprintGeneratedClass'growingPlant_pine_C'",
+          "ObjectPath": "VotV/Content/objects/growingPlant_pine.2"
+        },
+        "plantGrow_27_4F38A51C4590D9660F12C7AE06E85D58": {
+          "ObjectName": "StaticMesh'pine2_summer'",
+          "ObjectPath": "VotV/Content/meshes/pine/pine2_summer.2"
+        },
+        "plantRipe_30_6AF9004C4BE7D2175046B082AC102A03": {
+          "ObjectName": "StaticMesh'pine2_summer'",
+          "ObjectPath": "VotV/Content/meshes/pine/pine2_summer.2"
+        },
+        "plantSupport_32_5412CEBB47A5982F518ABAA83D92D9D1": null,
+        "drop_5_085ABC2F48074FD7E1BDE987E97A5250": "None",
+        "amount_range_82_4F5577114B35C27F510BE1AC8DCCEB4A": {
+          "X": 1,
+          "Y": 1
+        },
+        "growRate_8_F635204C40BD64BAE4DB369063AA13A8": 28800.0,
+        "dirtOnly_26_518E3DF141C65542403963BAC554F6EC": true,
+        "size_35_50E42E654C88BAFA0034708C205426BD": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "plantType_67_9C60606D49F087B9C47B2DA5AB8EEFE1": "enum_farmPlantType::NewEnumerator2",
+        "fruit_44_7BF3CC2643302C01DB52048FEA6E393E": "None",
+        "fruitGrowRate_49_47D346B047D97B04FDE10CA64BADFC47": 0.0,
+        "fruits_48_E7291A6E4A706E81977708B083057BD5": [],
+        "fruitRotate_54_E90285AB407C646CDF859E9B642E2635": 0.0,
+        "ignoreScale_61_4E673D9C4CBF98E0A802C0B0711CD724": false,
+        "minSize_64_795FD20B4229774B0CDEF08B7269C437": 0.0,
+        "maxDryness_70_90593F354BFF5836BEC71F980781FEAD": 57600.0,
+        "nocturnal_74_E1D6F8614794424BA520C3969E5020CB": false,
+        "canGrowInPots_77_43AA5A6942F5175A7BC04CA21AC7204D": true,
+        "canGrowInGround_79_E3E2F73A466330CB6084779671858A44": true
+      },
+      "seedp_po": {
+        "displayName_21_41960D974F29239BCB96D0906BDBEA56": {
+          "Namespace": "",
+          "Key": "7191C8D44D3C16A6786671A0EDD73573",
+          "SourceString": "Poppy",
+          "LocalizedString": "Poppy"
+        },
+        "plantObject_57_5011E5D845C14E4593D11C876F297187": {
+          "ObjectName": "BlueprintGeneratedClass'growingPlant_C'",
+          "ObjectPath": "VotV/Content/objects/growingPlant.58"
+        },
+        "plantGrow_27_4F38A51C4590D9660F12C7AE06E85D58": {
+          "ObjectName": "StaticMesh'poppysPlant'",
+          "ObjectPath": "VotV/Content/meshes/farmplants/poppysPlant.2"
+        },
+        "plantRipe_30_6AF9004C4BE7D2175046B082AC102A03": {
+          "ObjectName": "StaticMesh'poppysPlantRipe'",
+          "ObjectPath": "VotV/Content/meshes/farmplants/poppysPlantRipe.2"
+        },
+        "plantSupport_32_5412CEBB47A5982F518ABAA83D92D9D1": null,
+        "drop_5_085ABC2F48074FD7E1BDE987E97A5250": "seedp_po",
+        "amount_range_82_4F5577114B35C27F510BE1AC8DCCEB4A": {
+          "X": 0,
+          "Y": 3
+        },
+        "growRate_8_F635204C40BD64BAE4DB369063AA13A8": 1800.0,
+        "dirtOnly_26_518E3DF141C65542403963BAC554F6EC": false,
+        "size_35_50E42E654C88BAFA0034708C205426BD": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "plantType_67_9C60606D49F087B9C47B2DA5AB8EEFE1": "enum_farmPlantType::NewEnumerator0",
+        "fruit_44_7BF3CC2643302C01DB52048FEA6E393E": "None",
+        "fruitGrowRate_49_47D346B047D97B04FDE10CA64BADFC47": 0.0,
+        "fruits_48_E7291A6E4A706E81977708B083057BD5": [],
+        "fruitRotate_54_E90285AB407C646CDF859E9B642E2635": 0.0,
+        "ignoreScale_61_4E673D9C4CBF98E0A802C0B0711CD724": false,
+        "minSize_64_795FD20B4229774B0CDEF08B7269C437": 0.0,
+        "maxDryness_70_90593F354BFF5836BEC71F980781FEAD": 3600.0,
+        "nocturnal_74_E1D6F8614794424BA520C3969E5020CB": false,
+        "canGrowInPots_77_43AA5A6942F5175A7BC04CA21AC7204D": true,
+        "canGrowInGround_79_E3E2F73A466330CB6084779671858A44": true
+      },
+      "seedp_pu": {
+        "displayName_21_41960D974F29239BCB96D0906BDBEA56": {
+          "Namespace": "",
+          "Key": "80097FCC435E06F614C218861791E8A0",
+          "SourceString": "Pumpkin",
+          "LocalizedString": "Pumpkin"
+        },
+        "plantObject_57_5011E5D845C14E4593D11C876F297187": {
+          "ObjectName": "BlueprintGeneratedClass'growingPlant_C'",
+          "ObjectPath": "VotV/Content/objects/growingPlant.58"
+        },
+        "plantGrow_27_4F38A51C4590D9660F12C7AE06E85D58": {
+          "ObjectName": "StaticMesh'pumpkinPlant'",
+          "ObjectPath": "VotV/Content/meshes/farmplants/pumpkinPlant.2"
+        },
+        "plantRipe_30_6AF9004C4BE7D2175046B082AC102A03": {
+          "ObjectName": "StaticMesh'pumpkinPlantRipe'",
+          "ObjectPath": "VotV/Content/meshes/farmplants/pumpkinPlantRipe.2"
+        },
+        "plantSupport_32_5412CEBB47A5982F518ABAA83D92D9D1": null,
+        "drop_5_085ABC2F48074FD7E1BDE987E97A5250": "pumpkin",
+        "amount_range_82_4F5577114B35C27F510BE1AC8DCCEB4A": {
+          "X": 1,
+          "Y": 1
+        },
+        "growRate_8_F635204C40BD64BAE4DB369063AA13A8": 4800.0,
+        "dirtOnly_26_518E3DF141C65542403963BAC554F6EC": false,
+        "size_35_50E42E654C88BAFA0034708C205426BD": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "plantType_67_9C60606D49F087B9C47B2DA5AB8EEFE1": "enum_farmPlantType::NewEnumerator0",
+        "fruit_44_7BF3CC2643302C01DB52048FEA6E393E": "None",
+        "fruitGrowRate_49_47D346B047D97B04FDE10CA64BADFC47": 0.0,
+        "fruits_48_E7291A6E4A706E81977708B083057BD5": [],
+        "fruitRotate_54_E90285AB407C646CDF859E9B642E2635": 0.0,
+        "ignoreScale_61_4E673D9C4CBF98E0A802C0B0711CD724": false,
+        "minSize_64_795FD20B4229774B0CDEF08B7269C437": 0.0,
+        "maxDryness_70_90593F354BFF5836BEC71F980781FEAD": 9600.0,
+        "nocturnal_74_E1D6F8614794424BA520C3969E5020CB": false,
+        "canGrowInPots_77_43AA5A6942F5175A7BC04CA21AC7204D": true,
+        "canGrowInGround_79_E3E2F73A466330CB6084779671858A44": true
+      },
+      "seedp_w": {
+        "displayName_21_41960D974F29239BCB96D0906BDBEA56": {
+          "Namespace": "",
+          "Key": "0F7575294A8A5AE60EBF0DB1C01DDC05",
+          "SourceString": "Watermelon",
+          "LocalizedString": "Watermelon"
+        },
+        "plantObject_57_5011E5D845C14E4593D11C876F297187": {
+          "ObjectName": "BlueprintGeneratedClass'growingPlant_C'",
+          "ObjectPath": "VotV/Content/objects/growingPlant.58"
+        },
+        "plantGrow_27_4F38A51C4590D9660F12C7AE06E85D58": {
+          "ObjectName": "StaticMesh'watermelonPlant'",
+          "ObjectPath": "VotV/Content/meshes/farmplants/watermelonPlant.2"
+        },
+        "plantRipe_30_6AF9004C4BE7D2175046B082AC102A03": {
+          "ObjectName": "StaticMesh'watermelonPlantRipe'",
+          "ObjectPath": "VotV/Content/meshes/farmplants/watermelonPlantRipe.2"
+        },
+        "plantSupport_32_5412CEBB47A5982F518ABAA83D92D9D1": null,
+        "drop_5_085ABC2F48074FD7E1BDE987E97A5250": "watermelon",
+        "amount_range_82_4F5577114B35C27F510BE1AC8DCCEB4A": {
+          "X": 1,
+          "Y": 1
+        },
+        "growRate_8_F635204C40BD64BAE4DB369063AA13A8": 4800.0,
+        "dirtOnly_26_518E3DF141C65542403963BAC554F6EC": false,
+        "size_35_50E42E654C88BAFA0034708C205426BD": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "plantType_67_9C60606D49F087B9C47B2DA5AB8EEFE1": "enum_farmPlantType::NewEnumerator0",
+        "fruit_44_7BF3CC2643302C01DB52048FEA6E393E": "None",
+        "fruitGrowRate_49_47D346B047D97B04FDE10CA64BADFC47": 0.0,
+        "fruits_48_E7291A6E4A706E81977708B083057BD5": [],
+        "fruitRotate_54_E90285AB407C646CDF859E9B642E2635": 0.0,
+        "ignoreScale_61_4E673D9C4CBF98E0A802C0B0711CD724": false,
+        "minSize_64_795FD20B4229774B0CDEF08B7269C437": 0.0,
+        "maxDryness_70_90593F354BFF5836BEC71F980781FEAD": 9600.0,
+        "nocturnal_74_E1D6F8614794424BA520C3969E5020CB": false,
+        "canGrowInPots_77_43AA5A6942F5175A7BC04CA21AC7204D": true,
+        "canGrowInGround_79_E3E2F73A466330CB6084779671858A44": true
+      },
+      "sugarcane": {
+        "displayName_21_41960D974F29239BCB96D0906BDBEA56": {
+          "Namespace": "",
+          "Key": "F40440A74121B069E575F6B15AC6F44A",
+          "SourceString": "Sugarcane",
+          "LocalizedString": "Sugarcane"
+        },
+        "plantObject_57_5011E5D845C14E4593D11C876F297187": {
+          "ObjectName": "BlueprintGeneratedClass'growingPlant_C'",
+          "ObjectPath": "VotV/Content/objects/growingPlant.58"
+        },
+        "plantGrow_27_4F38A51C4590D9660F12C7AE06E85D58": {
+          "ObjectName": "StaticMesh'sugarcanePlant'",
+          "ObjectPath": "VotV/Content/meshes/farmplants/sugarcanePlant.2"
+        },
+        "plantRipe_30_6AF9004C4BE7D2175046B082AC102A03": {
+          "ObjectName": "StaticMesh'sugarcanePlantRipe'",
+          "ObjectPath": "VotV/Content/meshes/farmplants/sugarcanePlantRipe.2"
+        },
+        "plantSupport_32_5412CEBB47A5982F518ABAA83D92D9D1": null,
+        "drop_5_085ABC2F48074FD7E1BDE987E97A5250": "sugarcane",
+        "amount_range_82_4F5577114B35C27F510BE1AC8DCCEB4A": {
+          "X": 1,
+          "Y": 4
+        },
+        "growRate_8_F635204C40BD64BAE4DB369063AA13A8": 900.0,
+        "dirtOnly_26_518E3DF141C65542403963BAC554F6EC": false,
+        "size_35_50E42E654C88BAFA0034708C205426BD": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "plantType_67_9C60606D49F087B9C47B2DA5AB8EEFE1": "enum_farmPlantType::NewEnumerator0",
+        "fruit_44_7BF3CC2643302C01DB52048FEA6E393E": "None",
+        "fruitGrowRate_49_47D346B047D97B04FDE10CA64BADFC47": 0.0,
+        "fruits_48_E7291A6E4A706E81977708B083057BD5": [],
+        "fruitRotate_54_E90285AB407C646CDF859E9B642E2635": 0.0,
+        "ignoreScale_61_4E673D9C4CBF98E0A802C0B0711CD724": false,
+        "minSize_64_795FD20B4229774B0CDEF08B7269C437": 0.0,
+        "maxDryness_70_90593F354BFF5836BEC71F980781FEAD": 1800.0,
+        "nocturnal_74_E1D6F8614794424BA520C3969E5020CB": false,
+        "canGrowInPots_77_43AA5A6942F5175A7BC04CA21AC7204D": true,
+        "canGrowInGround_79_E3E2F73A466330CB6084779671858A44": true
+      },
+      "seedp_brb": {
+        "displayName_21_41960D974F29239BCB96D0906BDBEA56": {
+          "Namespace": "",
+          "Key": "A3B8B3D140D0DFEC6C93A2A920E904CF",
+          "SourceString": "Blueberry",
+          "LocalizedString": "Blueberry"
+        },
+        "plantObject_57_5011E5D845C14E4593D11C876F297187": {
+          "ObjectName": "BlueprintGeneratedClass'growingPlant_C'",
+          "ObjectPath": "VotV/Content/objects/growingPlant.58"
+        },
+        "plantGrow_27_4F38A51C4590D9660F12C7AE06E85D58": {
+          "ObjectName": "StaticMesh'berrybush'",
+          "ObjectPath": "VotV/Content/meshes/berrybush/berrybush.2"
+        },
+        "plantRipe_30_6AF9004C4BE7D2175046B082AC102A03": {
+          "ObjectName": "StaticMesh'berrybushBerries_blue'",
+          "ObjectPath": "VotV/Content/meshes/berrybush/berrybushBerries_blue.2"
+        },
+        "plantSupport_32_5412CEBB47A5982F518ABAA83D92D9D1": null,
+        "drop_5_085ABC2F48074FD7E1BDE987E97A5250": "berry_0",
+        "amount_range_82_4F5577114B35C27F510BE1AC8DCCEB4A": {
+          "X": 1,
+          "Y": 1
+        },
+        "growRate_8_F635204C40BD64BAE4DB369063AA13A8": 5000.0,
+        "dirtOnly_26_518E3DF141C65542403963BAC554F6EC": false,
+        "size_35_50E42E654C88BAFA0034708C205426BD": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "plantType_67_9C60606D49F087B9C47B2DA5AB8EEFE1": "enum_farmPlantType::NewEnumerator1",
+        "fruit_44_7BF3CC2643302C01DB52048FEA6E393E": "None",
+        "fruitGrowRate_49_47D346B047D97B04FDE10CA64BADFC47": 900.0,
+        "fruits_48_E7291A6E4A706E81977708B083057BD5": [],
+        "fruitRotate_54_E90285AB407C646CDF859E9B642E2635": 0.0,
+        "ignoreScale_61_4E673D9C4CBF98E0A802C0B0711CD724": false,
+        "minSize_64_795FD20B4229774B0CDEF08B7269C437": 0.0,
+        "maxDryness_70_90593F354BFF5836BEC71F980781FEAD": 10000.0,
+        "nocturnal_74_E1D6F8614794424BA520C3969E5020CB": false,
+        "canGrowInPots_77_43AA5A6942F5175A7BC04CA21AC7204D": true,
+        "canGrowInGround_79_E3E2F73A466330CB6084779671858A44": true
+      },
+      "seedp_brr": {
+        "displayName_21_41960D974F29239BCB96D0906BDBEA56": {
+          "Namespace": "",
+          "Key": "965E2A6F42D1BD536E9500B5E71A6BF8",
+          "SourceString": "Raspberry",
+          "LocalizedString": "Raspberry"
+        },
+        "plantObject_57_5011E5D845C14E4593D11C876F297187": {
+          "ObjectName": "BlueprintGeneratedClass'growingPlant_C'",
+          "ObjectPath": "VotV/Content/objects/growingPlant.58"
+        },
+        "plantGrow_27_4F38A51C4590D9660F12C7AE06E85D58": {
+          "ObjectName": "StaticMesh'berrybush'",
+          "ObjectPath": "VotV/Content/meshes/berrybush/berrybush.2"
+        },
+        "plantRipe_30_6AF9004C4BE7D2175046B082AC102A03": {
+          "ObjectName": "StaticMesh'berrybushBerries_red'",
+          "ObjectPath": "VotV/Content/meshes/berrybush/berrybushBerries_red.2"
+        },
+        "plantSupport_32_5412CEBB47A5982F518ABAA83D92D9D1": null,
+        "drop_5_085ABC2F48074FD7E1BDE987E97A5250": "berry_1",
+        "amount_range_82_4F5577114B35C27F510BE1AC8DCCEB4A": {
+          "X": 1,
+          "Y": 1
+        },
+        "growRate_8_F635204C40BD64BAE4DB369063AA13A8": 5000.0,
+        "dirtOnly_26_518E3DF141C65542403963BAC554F6EC": false,
+        "size_35_50E42E654C88BAFA0034708C205426BD": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "plantType_67_9C60606D49F087B9C47B2DA5AB8EEFE1": "enum_farmPlantType::NewEnumerator1",
+        "fruit_44_7BF3CC2643302C01DB52048FEA6E393E": "None",
+        "fruitGrowRate_49_47D346B047D97B04FDE10CA64BADFC47": 900.0,
+        "fruits_48_E7291A6E4A706E81977708B083057BD5": [],
+        "fruitRotate_54_E90285AB407C646CDF859E9B642E2635": 0.0,
+        "ignoreScale_61_4E673D9C4CBF98E0A802C0B0711CD724": false,
+        "minSize_64_795FD20B4229774B0CDEF08B7269C437": 0.0,
+        "maxDryness_70_90593F354BFF5836BEC71F980781FEAD": 10000.0,
+        "nocturnal_74_E1D6F8614794424BA520C3969E5020CB": false,
+        "canGrowInPots_77_43AA5A6942F5175A7BC04CA21AC7204D": true,
+        "canGrowInGround_79_E3E2F73A466330CB6084779671858A44": true
+      },
+      "seedp_brs": {
+        "displayName_21_41960D974F29239BCB96D0906BDBEA56": {
+          "Namespace": "",
+          "Key": "3A4C3E51460C90EF1BF16D8E11C36A12",
+          "SourceString": "Snowberry",
+          "LocalizedString": "Snowberry"
+        },
+        "plantObject_57_5011E5D845C14E4593D11C876F297187": {
+          "ObjectName": "BlueprintGeneratedClass'growingPlant_C'",
+          "ObjectPath": "VotV/Content/objects/growingPlant.58"
+        },
+        "plantGrow_27_4F38A51C4590D9660F12C7AE06E85D58": {
+          "ObjectName": "StaticMesh'berrybush'",
+          "ObjectPath": "VotV/Content/meshes/berrybush/berrybush.2"
+        },
+        "plantRipe_30_6AF9004C4BE7D2175046B082AC102A03": {
+          "ObjectName": "StaticMesh'berrybushBerries_white'",
+          "ObjectPath": "VotV/Content/meshes/berrybush/berrybushBerries_white.2"
+        },
+        "plantSupport_32_5412CEBB47A5982F518ABAA83D92D9D1": null,
+        "drop_5_085ABC2F48074FD7E1BDE987E97A5250": "berry_2",
+        "amount_range_82_4F5577114B35C27F510BE1AC8DCCEB4A": {
+          "X": 1,
+          "Y": 1
+        },
+        "growRate_8_F635204C40BD64BAE4DB369063AA13A8": 5000.0,
+        "dirtOnly_26_518E3DF141C65542403963BAC554F6EC": false,
+        "size_35_50E42E654C88BAFA0034708C205426BD": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "plantType_67_9C60606D49F087B9C47B2DA5AB8EEFE1": "enum_farmPlantType::NewEnumerator1",
+        "fruit_44_7BF3CC2643302C01DB52048FEA6E393E": "None",
+        "fruitGrowRate_49_47D346B047D97B04FDE10CA64BADFC47": 900.0,
+        "fruits_48_E7291A6E4A706E81977708B083057BD5": [],
+        "fruitRotate_54_E90285AB407C646CDF859E9B642E2635": 0.0,
+        "ignoreScale_61_4E673D9C4CBF98E0A802C0B0711CD724": false,
+        "minSize_64_795FD20B4229774B0CDEF08B7269C437": 0.0,
+        "maxDryness_70_90593F354BFF5836BEC71F980781FEAD": 10000.0,
+        "nocturnal_74_E1D6F8614794424BA520C3969E5020CB": false,
+        "canGrowInPots_77_43AA5A6942F5175A7BC04CA21AC7204D": true,
+        "canGrowInGround_79_E3E2F73A466330CB6084779671858A44": true
+      },
+      "seedp_bra": {
+        "displayName_21_41960D974F29239BCB96D0906BDBEA56": {
+          "Namespace": "",
+          "Key": "CD1FD76C400CC245E9F781BC16B7A4A5",
+          "SourceString": "Arbutus berry",
+          "LocalizedString": "Arbutus berry"
+        },
+        "plantObject_57_5011E5D845C14E4593D11C876F297187": {
+          "ObjectName": "BlueprintGeneratedClass'growingPlant_C'",
+          "ObjectPath": "VotV/Content/objects/growingPlant.58"
+        },
+        "plantGrow_27_4F38A51C4590D9660F12C7AE06E85D58": {
+          "ObjectName": "StaticMesh'berrybush'",
+          "ObjectPath": "VotV/Content/meshes/berrybush/berrybush.2"
+        },
+        "plantRipe_30_6AF9004C4BE7D2175046B082AC102A03": {
+          "ObjectName": "StaticMesh'berrybushBerries_yellow'",
+          "ObjectPath": "VotV/Content/meshes/berrybush/berrybushBerries_yellow.2"
+        },
+        "plantSupport_32_5412CEBB47A5982F518ABAA83D92D9D1": null,
+        "drop_5_085ABC2F48074FD7E1BDE987E97A5250": "berry_3",
+        "amount_range_82_4F5577114B35C27F510BE1AC8DCCEB4A": {
+          "X": 1,
+          "Y": 1
+        },
+        "growRate_8_F635204C40BD64BAE4DB369063AA13A8": 5000.0,
+        "dirtOnly_26_518E3DF141C65542403963BAC554F6EC": false,
+        "size_35_50E42E654C88BAFA0034708C205426BD": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "plantType_67_9C60606D49F087B9C47B2DA5AB8EEFE1": "enum_farmPlantType::NewEnumerator1",
+        "fruit_44_7BF3CC2643302C01DB52048FEA6E393E": "None",
+        "fruitGrowRate_49_47D346B047D97B04FDE10CA64BADFC47": 900.0,
+        "fruits_48_E7291A6E4A706E81977708B083057BD5": [],
+        "fruitRotate_54_E90285AB407C646CDF859E9B642E2635": 0.0,
+        "ignoreScale_61_4E673D9C4CBF98E0A802C0B0711CD724": false,
+        "minSize_64_795FD20B4229774B0CDEF08B7269C437": 0.0,
+        "maxDryness_70_90593F354BFF5836BEC71F980781FEAD": 10000.0,
+        "nocturnal_74_E1D6F8614794424BA520C3969E5020CB": false,
+        "canGrowInPots_77_43AA5A6942F5175A7BC04CA21AC7204D": true,
+        "canGrowInGround_79_E3E2F73A466330CB6084779671858A44": true
+      },
+      "potato_h": {
+        "displayName_21_41960D974F29239BCB96D0906BDBEA56": {
+          "Namespace": "",
+          "Key": "BEDC229048F2FCC07F98EB8F2E6BDA51",
+          "SourceString": "Potato",
+          "LocalizedString": "Potato"
+        },
+        "plantObject_57_5011E5D845C14E4593D11C876F297187": {
+          "ObjectName": "BlueprintGeneratedClass'growingPlant_C'",
+          "ObjectPath": "VotV/Content/objects/growingPlant.58"
+        },
+        "plantGrow_27_4F38A51C4590D9660F12C7AE06E85D58": {
+          "ObjectName": "StaticMesh'potatoPlant'",
+          "ObjectPath": "VotV/Content/meshes/farmplants/potatoPlant.2"
+        },
+        "plantRipe_30_6AF9004C4BE7D2175046B082AC102A03": {
+          "ObjectName": "StaticMesh'potatoPlantRipe'",
+          "ObjectPath": "VotV/Content/meshes/farmplants/potatoPlantRipe.2"
+        },
+        "plantSupport_32_5412CEBB47A5982F518ABAA83D92D9D1": null,
+        "drop_5_085ABC2F48074FD7E1BDE987E97A5250": "potato",
+        "amount_range_82_4F5577114B35C27F510BE1AC8DCCEB4A": {
+          "X": 1,
+          "Y": 3
+        },
+        "growRate_8_F635204C40BD64BAE4DB369063AA13A8": 1800.0,
+        "dirtOnly_26_518E3DF141C65542403963BAC554F6EC": false,
+        "size_35_50E42E654C88BAFA0034708C205426BD": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "plantType_67_9C60606D49F087B9C47B2DA5AB8EEFE1": "enum_farmPlantType::NewEnumerator0",
+        "fruit_44_7BF3CC2643302C01DB52048FEA6E393E": "None",
+        "fruitGrowRate_49_47D346B047D97B04FDE10CA64BADFC47": 0.0,
+        "fruits_48_E7291A6E4A706E81977708B083057BD5": [],
+        "fruitRotate_54_E90285AB407C646CDF859E9B642E2635": 0.0,
+        "ignoreScale_61_4E673D9C4CBF98E0A802C0B0711CD724": false,
+        "minSize_64_795FD20B4229774B0CDEF08B7269C437": 0.0,
+        "maxDryness_70_90593F354BFF5836BEC71F980781FEAD": 3600.0,
+        "nocturnal_74_E1D6F8614794424BA520C3969E5020CB": false,
+        "canGrowInPots_77_43AA5A6942F5175A7BC04CA21AC7204D": true,
+        "canGrowInGround_79_E3E2F73A466330CB6084779671858A44": true
+      },
+      "potato_q": {
+        "displayName_21_41960D974F29239BCB96D0906BDBEA56": {
+          "Namespace": "",
+          "Key": "BEDC229048F2FCC07F98EB8F2E6BDA51",
+          "SourceString": "Potato",
+          "LocalizedString": "Potato"
+        },
+        "plantObject_57_5011E5D845C14E4593D11C876F297187": {
+          "ObjectName": "BlueprintGeneratedClass'growingPlant_C'",
+          "ObjectPath": "VotV/Content/objects/growingPlant.58"
+        },
+        "plantGrow_27_4F38A51C4590D9660F12C7AE06E85D58": {
+          "ObjectName": "StaticMesh'potatoPlant'",
+          "ObjectPath": "VotV/Content/meshes/farmplants/potatoPlant.2"
+        },
+        "plantRipe_30_6AF9004C4BE7D2175046B082AC102A03": {
+          "ObjectName": "StaticMesh'potatoPlantRipe'",
+          "ObjectPath": "VotV/Content/meshes/farmplants/potatoPlantRipe.2"
+        },
+        "plantSupport_32_5412CEBB47A5982F518ABAA83D92D9D1": null,
+        "drop_5_085ABC2F48074FD7E1BDE987E97A5250": "potato",
+        "amount_range_82_4F5577114B35C27F510BE1AC8DCCEB4A": {
+          "X": 1,
+          "Y": 3
+        },
+        "growRate_8_F635204C40BD64BAE4DB369063AA13A8": 1800.0,
+        "dirtOnly_26_518E3DF141C65542403963BAC554F6EC": false,
+        "size_35_50E42E654C88BAFA0034708C205426BD": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "plantType_67_9C60606D49F087B9C47B2DA5AB8EEFE1": "enum_farmPlantType::NewEnumerator0",
+        "fruit_44_7BF3CC2643302C01DB52048FEA6E393E": "None",
+        "fruitGrowRate_49_47D346B047D97B04FDE10CA64BADFC47": 0.0,
+        "fruits_48_E7291A6E4A706E81977708B083057BD5": [],
+        "fruitRotate_54_E90285AB407C646CDF859E9B642E2635": 0.0,
+        "ignoreScale_61_4E673D9C4CBF98E0A802C0B0711CD724": false,
+        "minSize_64_795FD20B4229774B0CDEF08B7269C437": 0.0,
+        "maxDryness_70_90593F354BFF5836BEC71F980781FEAD": 3600.0,
+        "nocturnal_74_E1D6F8614794424BA520C3969E5020CB": false,
+        "canGrowInPots_77_43AA5A6942F5175A7BC04CA21AC7204D": true,
+        "canGrowInGround_79_E3E2F73A466330CB6084779671858A44": true
+      },
+      "deadgrass": {
+        "displayName_21_41960D974F29239BCB96D0906BDBEA56": {
+          "Namespace": "",
+          "Key": "00F6FC704C6833C50D25CEA0D35BC235",
+          "SourceString": "Dead plant",
+          "LocalizedString": "Dead plant"
+        },
+        "plantObject_57_5011E5D845C14E4593D11C876F297187": {
+          "ObjectName": "BlueprintGeneratedClass'growingPlant_C'",
+          "ObjectPath": "VotV/Content/objects/growingPlant.58"
+        },
+        "plantGrow_27_4F38A51C4590D9660F12C7AE06E85D58": {
+          "ObjectName": "StaticMesh'deadfarmplants_deadPlant'",
+          "ObjectPath": "VotV/Content/meshes/deadplants/deadfarmplants_deadPlant.2"
+        },
+        "plantRipe_30_6AF9004C4BE7D2175046B082AC102A03": {
+          "ObjectName": "StaticMesh'deadfarmplants_deadPlant'",
+          "ObjectPath": "VotV/Content/meshes/deadplants/deadfarmplants_deadPlant.2"
+        },
+        "plantSupport_32_5412CEBB47A5982F518ABAA83D92D9D1": null,
+        "drop_5_085ABC2F48074FD7E1BDE987E97A5250": "hay",
+        "amount_range_82_4F5577114B35C27F510BE1AC8DCCEB4A": {
+          "X": 1,
+          "Y": 1
+        },
+        "growRate_8_F635204C40BD64BAE4DB369063AA13A8": 1.0,
+        "dirtOnly_26_518E3DF141C65542403963BAC554F6EC": false,
+        "size_35_50E42E654C88BAFA0034708C205426BD": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "plantType_67_9C60606D49F087B9C47B2DA5AB8EEFE1": "enum_farmPlantType::NewEnumerator0",
+        "fruit_44_7BF3CC2643302C01DB52048FEA6E393E": "None",
+        "fruitGrowRate_49_47D346B047D97B04FDE10CA64BADFC47": 0.0,
+        "fruits_48_E7291A6E4A706E81977708B083057BD5": [],
+        "fruitRotate_54_E90285AB407C646CDF859E9B642E2635": 0.0,
+        "ignoreScale_61_4E673D9C4CBF98E0A802C0B0711CD724": false,
+        "minSize_64_795FD20B4229774B0CDEF08B7269C437": 0.0,
+        "maxDryness_70_90593F354BFF5836BEC71F980781FEAD": -1.0,
+        "nocturnal_74_E1D6F8614794424BA520C3969E5020CB": false,
+        "canGrowInPots_77_43AA5A6942F5175A7BC04CA21AC7204D": true,
+        "canGrowInGround_79_E3E2F73A466330CB6084779671858A44": true
+      },
+      "deadbush": {
+        "displayName_21_41960D974F29239BCB96D0906BDBEA56": {
+          "Namespace": "",
+          "Key": "39D3B98449197FC4091FBDACC6B6F0D3",
+          "SourceString": "Dead bush",
+          "LocalizedString": "Dead bush"
+        },
+        "plantObject_57_5011E5D845C14E4593D11C876F297187": {
+          "ObjectName": "BlueprintGeneratedClass'growingPlant_C'",
+          "ObjectPath": "VotV/Content/objects/growingPlant.58"
+        },
+        "plantGrow_27_4F38A51C4590D9660F12C7AE06E85D58": {
+          "ObjectName": "StaticMesh'deadfarmplants_deadBush'",
+          "ObjectPath": "VotV/Content/meshes/deadplants/deadfarmplants_deadBush.2"
+        },
+        "plantRipe_30_6AF9004C4BE7D2175046B082AC102A03": {
+          "ObjectName": "StaticMesh'deadfarmplants_deadBush'",
+          "ObjectPath": "VotV/Content/meshes/deadplants/deadfarmplants_deadBush.2"
+        },
+        "plantSupport_32_5412CEBB47A5982F518ABAA83D92D9D1": null,
+        "drop_5_085ABC2F48074FD7E1BDE987E97A5250": "hay",
+        "amount_range_82_4F5577114B35C27F510BE1AC8DCCEB4A": {
+          "X": 1,
+          "Y": 1
+        },
+        "growRate_8_F635204C40BD64BAE4DB369063AA13A8": 1.0,
+        "dirtOnly_26_518E3DF141C65542403963BAC554F6EC": false,
+        "size_35_50E42E654C88BAFA0034708C205426BD": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "plantType_67_9C60606D49F087B9C47B2DA5AB8EEFE1": "enum_farmPlantType::NewEnumerator0",
+        "fruit_44_7BF3CC2643302C01DB52048FEA6E393E": "None",
+        "fruitGrowRate_49_47D346B047D97B04FDE10CA64BADFC47": 0.0,
+        "fruits_48_E7291A6E4A706E81977708B083057BD5": [],
+        "fruitRotate_54_E90285AB407C646CDF859E9B642E2635": 0.0,
+        "ignoreScale_61_4E673D9C4CBF98E0A802C0B0711CD724": false,
+        "minSize_64_795FD20B4229774B0CDEF08B7269C437": 0.0,
+        "maxDryness_70_90593F354BFF5836BEC71F980781FEAD": -1.0,
+        "nocturnal_74_E1D6F8614794424BA520C3969E5020CB": false,
+        "canGrowInPots_77_43AA5A6942F5175A7BC04CA21AC7204D": true,
+        "canGrowInGround_79_E3E2F73A466330CB6084779671858A44": true
+      },
+      "deadtree": {
+        "displayName_21_41960D974F29239BCB96D0906BDBEA56": {
+          "Namespace": "",
+          "Key": "B1E0666F4588EC6F24E57F967C1847F0",
+          "SourceString": "Dead tree",
+          "LocalizedString": "Dead tree"
+        },
+        "plantObject_57_5011E5D845C14E4593D11C876F297187": {
+          "ObjectName": "BlueprintGeneratedClass'growingPlant_deadtree_C'",
+          "ObjectPath": "VotV/Content/objects/growingPlant_deadtree.0"
+        },
+        "plantGrow_27_4F38A51C4590D9660F12C7AE06E85D58": {
+          "ObjectName": "StaticMesh'deadfarmplants_deadTree'",
+          "ObjectPath": "VotV/Content/meshes/deadplants/deadfarmplants_deadTree.2"
+        },
+        "plantRipe_30_6AF9004C4BE7D2175046B082AC102A03": {
+          "ObjectName": "StaticMesh'deadfarmplants_deadTree'",
+          "ObjectPath": "VotV/Content/meshes/deadplants/deadfarmplants_deadTree.2"
+        },
+        "plantSupport_32_5412CEBB47A5982F518ABAA83D92D9D1": null,
+        "drop_5_085ABC2F48074FD7E1BDE987E97A5250": "hay",
+        "amount_range_82_4F5577114B35C27F510BE1AC8DCCEB4A": {
+          "X": 1,
+          "Y": 1
+        },
+        "growRate_8_F635204C40BD64BAE4DB369063AA13A8": 1.0,
+        "dirtOnly_26_518E3DF141C65542403963BAC554F6EC": false,
+        "size_35_50E42E654C88BAFA0034708C205426BD": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "plantType_67_9C60606D49F087B9C47B2DA5AB8EEFE1": "enum_farmPlantType::NewEnumerator2",
+        "fruit_44_7BF3CC2643302C01DB52048FEA6E393E": "None",
+        "fruitGrowRate_49_47D346B047D97B04FDE10CA64BADFC47": 0.0,
+        "fruits_48_E7291A6E4A706E81977708B083057BD5": [],
+        "fruitRotate_54_E90285AB407C646CDF859E9B642E2635": 0.0,
+        "ignoreScale_61_4E673D9C4CBF98E0A802C0B0711CD724": false,
+        "minSize_64_795FD20B4229774B0CDEF08B7269C437": 0.0,
+        "maxDryness_70_90593F354BFF5836BEC71F980781FEAD": -1.0,
+        "nocturnal_74_E1D6F8614794424BA520C3969E5020CB": false,
+        "canGrowInPots_77_43AA5A6942F5175A7BC04CA21AC7204D": true,
+        "canGrowInGround_79_E3E2F73A466330CB6084779671858A44": true
+      },
+      "seedp_foliage_bush_0": {
+        "displayName_21_41960D974F29239BCB96D0906BDBEA56": {
+          "Namespace": "",
+          "Key": "CB22D87443EDCF2C752E2B9D07932B1E",
+          "SourceString": "Common bush",
+          "LocalizedString": "Common bush"
+        },
+        "plantObject_57_5011E5D845C14E4593D11C876F297187": {
+          "ObjectName": "BlueprintGeneratedClass'growingPlant_C'",
+          "ObjectPath": "VotV/Content/objects/growingPlant.58"
+        },
+        "plantGrow_27_4F38A51C4590D9660F12C7AE06E85D58": {
+          "ObjectName": "StaticMesh'bushes_bush1'",
+          "ObjectPath": "VotV/Content/meshes/bush/bushes_bush1.2"
+        },
+        "plantRipe_30_6AF9004C4BE7D2175046B082AC102A03": {
+          "ObjectName": "StaticMesh'bushes_bush1'",
+          "ObjectPath": "VotV/Content/meshes/bush/bushes_bush1.2"
+        },
+        "plantSupport_32_5412CEBB47A5982F518ABAA83D92D9D1": null,
+        "drop_5_085ABC2F48074FD7E1BDE987E97A5250": "None",
+        "amount_range_82_4F5577114B35C27F510BE1AC8DCCEB4A": {
+          "X": 0,
+          "Y": 0
+        },
+        "growRate_8_F635204C40BD64BAE4DB369063AA13A8": 2700.0,
+        "dirtOnly_26_518E3DF141C65542403963BAC554F6EC": false,
+        "size_35_50E42E654C88BAFA0034708C205426BD": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "plantType_67_9C60606D49F087B9C47B2DA5AB8EEFE1": "enum_farmPlantType::NewEnumerator0",
+        "fruit_44_7BF3CC2643302C01DB52048FEA6E393E": "None",
+        "fruitGrowRate_49_47D346B047D97B04FDE10CA64BADFC47": 0.0,
+        "fruits_48_E7291A6E4A706E81977708B083057BD5": [],
+        "fruitRotate_54_E90285AB407C646CDF859E9B642E2635": 0.0,
+        "ignoreScale_61_4E673D9C4CBF98E0A802C0B0711CD724": false,
+        "minSize_64_795FD20B4229774B0CDEF08B7269C437": 0.0,
+        "maxDryness_70_90593F354BFF5836BEC71F980781FEAD": 5400.0,
+        "nocturnal_74_E1D6F8614794424BA520C3969E5020CB": false,
+        "canGrowInPots_77_43AA5A6942F5175A7BC04CA21AC7204D": true,
+        "canGrowInGround_79_E3E2F73A466330CB6084779671858A44": true
+      },
+      "seedp_foliage_bush_1": {
+        "displayName_21_41960D974F29239BCB96D0906BDBEA56": {
+          "Namespace": "",
+          "Key": "B3E7F3194FA27DEA91AA4792DF87D773",
+          "SourceString": "Wet bush",
+          "LocalizedString": "Wet bush"
+        },
+        "plantObject_57_5011E5D845C14E4593D11C876F297187": {
+          "ObjectName": "BlueprintGeneratedClass'growingPlant_C'",
+          "ObjectPath": "VotV/Content/objects/growingPlant.58"
+        },
+        "plantGrow_27_4F38A51C4590D9660F12C7AE06E85D58": {
+          "ObjectName": "StaticMesh'flora_plant_000'",
+          "ObjectPath": "VotV/Content/meshes/flora/flora_plant_000.2"
+        },
+        "plantRipe_30_6AF9004C4BE7D2175046B082AC102A03": {
+          "ObjectName": "StaticMesh'flora_plant_000'",
+          "ObjectPath": "VotV/Content/meshes/flora/flora_plant_000.2"
+        },
+        "plantSupport_32_5412CEBB47A5982F518ABAA83D92D9D1": null,
+        "drop_5_085ABC2F48074FD7E1BDE987E97A5250": "None",
+        "amount_range_82_4F5577114B35C27F510BE1AC8DCCEB4A": {
+          "X": 0,
+          "Y": 0
+        },
+        "growRate_8_F635204C40BD64BAE4DB369063AA13A8": 2700.0,
+        "dirtOnly_26_518E3DF141C65542403963BAC554F6EC": false,
+        "size_35_50E42E654C88BAFA0034708C205426BD": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "plantType_67_9C60606D49F087B9C47B2DA5AB8EEFE1": "enum_farmPlantType::NewEnumerator0",
+        "fruit_44_7BF3CC2643302C01DB52048FEA6E393E": "None",
+        "fruitGrowRate_49_47D346B047D97B04FDE10CA64BADFC47": 0.0,
+        "fruits_48_E7291A6E4A706E81977708B083057BD5": [],
+        "fruitRotate_54_E90285AB407C646CDF859E9B642E2635": 0.0,
+        "ignoreScale_61_4E673D9C4CBF98E0A802C0B0711CD724": false,
+        "minSize_64_795FD20B4229774B0CDEF08B7269C437": 0.0,
+        "maxDryness_70_90593F354BFF5836BEC71F980781FEAD": 5400.0,
+        "nocturnal_74_E1D6F8614794424BA520C3969E5020CB": false,
+        "canGrowInPots_77_43AA5A6942F5175A7BC04CA21AC7204D": true,
+        "canGrowInGround_79_E3E2F73A466330CB6084779671858A44": true
+      },
+      "seedp_foliage_bush_2": {
+        "displayName_21_41960D974F29239BCB96D0906BDBEA56": {
+          "Namespace": "",
+          "Key": "5ECB9C6841C7513E747E048FD7B129E5",
+          "SourceString": "Thick bush",
+          "LocalizedString": "Thick bush"
+        },
+        "plantObject_57_5011E5D845C14E4593D11C876F297187": {
+          "ObjectName": "BlueprintGeneratedClass'growingPlant_C'",
+          "ObjectPath": "VotV/Content/objects/growingPlant.58"
+        },
+        "plantGrow_27_4F38A51C4590D9660F12C7AE06E85D58": {
+          "ObjectName": "StaticMesh'flora_plant_001'",
+          "ObjectPath": "VotV/Content/meshes/flora/flora_plant_001.2"
+        },
+        "plantRipe_30_6AF9004C4BE7D2175046B082AC102A03": {
+          "ObjectName": "StaticMesh'flora_plant_001'",
+          "ObjectPath": "VotV/Content/meshes/flora/flora_plant_001.2"
+        },
+        "plantSupport_32_5412CEBB47A5982F518ABAA83D92D9D1": null,
+        "drop_5_085ABC2F48074FD7E1BDE987E97A5250": "None",
+        "amount_range_82_4F5577114B35C27F510BE1AC8DCCEB4A": {
+          "X": 0,
+          "Y": 0
+        },
+        "growRate_8_F635204C40BD64BAE4DB369063AA13A8": 2700.0,
+        "dirtOnly_26_518E3DF141C65542403963BAC554F6EC": false,
+        "size_35_50E42E654C88BAFA0034708C205426BD": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "plantType_67_9C60606D49F087B9C47B2DA5AB8EEFE1": "enum_farmPlantType::NewEnumerator0",
+        "fruit_44_7BF3CC2643302C01DB52048FEA6E393E": "None",
+        "fruitGrowRate_49_47D346B047D97B04FDE10CA64BADFC47": 0.0,
+        "fruits_48_E7291A6E4A706E81977708B083057BD5": [],
+        "fruitRotate_54_E90285AB407C646CDF859E9B642E2635": 0.0,
+        "ignoreScale_61_4E673D9C4CBF98E0A802C0B0711CD724": false,
+        "minSize_64_795FD20B4229774B0CDEF08B7269C437": 0.0,
+        "maxDryness_70_90593F354BFF5836BEC71F980781FEAD": 5400.0,
+        "nocturnal_74_E1D6F8614794424BA520C3969E5020CB": false,
+        "canGrowInPots_77_43AA5A6942F5175A7BC04CA21AC7204D": true,
+        "canGrowInGround_79_E3E2F73A466330CB6084779671858A44": true
+      },
+      "seedp_foliage_bush_3": {
+        "displayName_21_41960D974F29239BCB96D0906BDBEA56": {
+          "Namespace": "",
+          "Key": "05C4748349F44BDA987569B270715D6F",
+          "SourceString": "Light bush",
+          "LocalizedString": "Light bush"
+        },
+        "plantObject_57_5011E5D845C14E4593D11C876F297187": {
+          "ObjectName": "BlueprintGeneratedClass'growingPlant_C'",
+          "ObjectPath": "VotV/Content/objects/growingPlant.58"
+        },
+        "plantGrow_27_4F38A51C4590D9660F12C7AE06E85D58": {
+          "ObjectName": "StaticMesh'flora_plant_002'",
+          "ObjectPath": "VotV/Content/meshes/flora/flora_plant_002.2"
+        },
+        "plantRipe_30_6AF9004C4BE7D2175046B082AC102A03": {
+          "ObjectName": "StaticMesh'flora_plant_002'",
+          "ObjectPath": "VotV/Content/meshes/flora/flora_plant_002.2"
+        },
+        "plantSupport_32_5412CEBB47A5982F518ABAA83D92D9D1": null,
+        "drop_5_085ABC2F48074FD7E1BDE987E97A5250": "None",
+        "amount_range_82_4F5577114B35C27F510BE1AC8DCCEB4A": {
+          "X": 0,
+          "Y": 0
+        },
+        "growRate_8_F635204C40BD64BAE4DB369063AA13A8": 2700.0,
+        "dirtOnly_26_518E3DF141C65542403963BAC554F6EC": false,
+        "size_35_50E42E654C88BAFA0034708C205426BD": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "plantType_67_9C60606D49F087B9C47B2DA5AB8EEFE1": "enum_farmPlantType::NewEnumerator0",
+        "fruit_44_7BF3CC2643302C01DB52048FEA6E393E": "None",
+        "fruitGrowRate_49_47D346B047D97B04FDE10CA64BADFC47": 0.0,
+        "fruits_48_E7291A6E4A706E81977708B083057BD5": [],
+        "fruitRotate_54_E90285AB407C646CDF859E9B642E2635": 0.0,
+        "ignoreScale_61_4E673D9C4CBF98E0A802C0B0711CD724": false,
+        "minSize_64_795FD20B4229774B0CDEF08B7269C437": 0.0,
+        "maxDryness_70_90593F354BFF5836BEC71F980781FEAD": 5400.0,
+        "nocturnal_74_E1D6F8614794424BA520C3969E5020CB": false,
+        "canGrowInPots_77_43AA5A6942F5175A7BC04CA21AC7204D": true,
+        "canGrowInGround_79_E3E2F73A466330CB6084779671858A44": true
+      },
+      "seedp_foliage_bush_4": {
+        "displayName_21_41960D974F29239BCB96D0906BDBEA56": {
+          "Namespace": "",
+          "Key": "4B6F70E341E63E5CBA5057BF0AD7EE33",
+          "SourceString": "Red bush",
+          "LocalizedString": "Red bush"
+        },
+        "plantObject_57_5011E5D845C14E4593D11C876F297187": {
+          "ObjectName": "BlueprintGeneratedClass'growingPlant_C'",
+          "ObjectPath": "VotV/Content/objects/growingPlant.58"
+        },
+        "plantGrow_27_4F38A51C4590D9660F12C7AE06E85D58": {
+          "ObjectName": "StaticMesh'flora_plant_003'",
+          "ObjectPath": "VotV/Content/meshes/flora/flora_plant_003.2"
+        },
+        "plantRipe_30_6AF9004C4BE7D2175046B082AC102A03": {
+          "ObjectName": "StaticMesh'flora_plant_003'",
+          "ObjectPath": "VotV/Content/meshes/flora/flora_plant_003.2"
+        },
+        "plantSupport_32_5412CEBB47A5982F518ABAA83D92D9D1": null,
+        "drop_5_085ABC2F48074FD7E1BDE987E97A5250": "None",
+        "amount_range_82_4F5577114B35C27F510BE1AC8DCCEB4A": {
+          "X": 0,
+          "Y": 0
+        },
+        "growRate_8_F635204C40BD64BAE4DB369063AA13A8": 2700.0,
+        "dirtOnly_26_518E3DF141C65542403963BAC554F6EC": false,
+        "size_35_50E42E654C88BAFA0034708C205426BD": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "plantType_67_9C60606D49F087B9C47B2DA5AB8EEFE1": "enum_farmPlantType::NewEnumerator0",
+        "fruit_44_7BF3CC2643302C01DB52048FEA6E393E": "None",
+        "fruitGrowRate_49_47D346B047D97B04FDE10CA64BADFC47": 0.0,
+        "fruits_48_E7291A6E4A706E81977708B083057BD5": [],
+        "fruitRotate_54_E90285AB407C646CDF859E9B642E2635": 0.0,
+        "ignoreScale_61_4E673D9C4CBF98E0A802C0B0711CD724": false,
+        "minSize_64_795FD20B4229774B0CDEF08B7269C437": 0.0,
+        "maxDryness_70_90593F354BFF5836BEC71F980781FEAD": 5400.0,
+        "nocturnal_74_E1D6F8614794424BA520C3969E5020CB": false,
+        "canGrowInPots_77_43AA5A6942F5175A7BC04CA21AC7204D": true,
+        "canGrowInGround_79_E3E2F73A466330CB6084779671858A44": true
+      },
+      "seedp_foliage_bush_5": {
+        "displayName_21_41960D974F29239BCB96D0906BDBEA56": {
+          "Namespace": "",
+          "Key": "B45F76064B9E138A760DAC9EC30F3D51",
+          "SourceString": "Smooth bush",
+          "LocalizedString": "Smooth bush"
+        },
+        "plantObject_57_5011E5D845C14E4593D11C876F297187": {
+          "ObjectName": "BlueprintGeneratedClass'growingPlant_C'",
+          "ObjectPath": "VotV/Content/objects/growingPlant.58"
+        },
+        "plantGrow_27_4F38A51C4590D9660F12C7AE06E85D58": {
+          "ObjectName": "StaticMesh'flora_plant_004'",
+          "ObjectPath": "VotV/Content/meshes/flora/flora_plant_004.2"
+        },
+        "plantRipe_30_6AF9004C4BE7D2175046B082AC102A03": {
+          "ObjectName": "StaticMesh'flora_plant_004'",
+          "ObjectPath": "VotV/Content/meshes/flora/flora_plant_004.2"
+        },
+        "plantSupport_32_5412CEBB47A5982F518ABAA83D92D9D1": null,
+        "drop_5_085ABC2F48074FD7E1BDE987E97A5250": "None",
+        "amount_range_82_4F5577114B35C27F510BE1AC8DCCEB4A": {
+          "X": 0,
+          "Y": 0
+        },
+        "growRate_8_F635204C40BD64BAE4DB369063AA13A8": 2700.0,
+        "dirtOnly_26_518E3DF141C65542403963BAC554F6EC": false,
+        "size_35_50E42E654C88BAFA0034708C205426BD": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "plantType_67_9C60606D49F087B9C47B2DA5AB8EEFE1": "enum_farmPlantType::NewEnumerator0",
+        "fruit_44_7BF3CC2643302C01DB52048FEA6E393E": "None",
+        "fruitGrowRate_49_47D346B047D97B04FDE10CA64BADFC47": 0.0,
+        "fruits_48_E7291A6E4A706E81977708B083057BD5": [],
+        "fruitRotate_54_E90285AB407C646CDF859E9B642E2635": 0.0,
+        "ignoreScale_61_4E673D9C4CBF98E0A802C0B0711CD724": false,
+        "minSize_64_795FD20B4229774B0CDEF08B7269C437": 0.0,
+        "maxDryness_70_90593F354BFF5836BEC71F980781FEAD": 5400.0,
+        "nocturnal_74_E1D6F8614794424BA520C3969E5020CB": false,
+        "canGrowInPots_77_43AA5A6942F5175A7BC04CA21AC7204D": true,
+        "canGrowInGround_79_E3E2F73A466330CB6084779671858A44": true
+      },
+      "seedp_foliage_bush_6": {
+        "displayName_21_41960D974F29239BCB96D0906BDBEA56": {
+          "Namespace": "",
+          "Key": "D04EC4194D8A236E7916BE9E152D260B",
+          "SourceString": "Rough bush",
+          "LocalizedString": "Rough bush"
+        },
+        "plantObject_57_5011E5D845C14E4593D11C876F297187": {
+          "ObjectName": "BlueprintGeneratedClass'growingPlant_C'",
+          "ObjectPath": "VotV/Content/objects/growingPlant.58"
+        },
+        "plantGrow_27_4F38A51C4590D9660F12C7AE06E85D58": {
+          "ObjectName": "StaticMesh'flora_plant_005'",
+          "ObjectPath": "VotV/Content/meshes/flora/flora_plant_005.2"
+        },
+        "plantRipe_30_6AF9004C4BE7D2175046B082AC102A03": {
+          "ObjectName": "StaticMesh'flora_plant_005'",
+          "ObjectPath": "VotV/Content/meshes/flora/flora_plant_005.2"
+        },
+        "plantSupport_32_5412CEBB47A5982F518ABAA83D92D9D1": null,
+        "drop_5_085ABC2F48074FD7E1BDE987E97A5250": "None",
+        "amount_range_82_4F5577114B35C27F510BE1AC8DCCEB4A": {
+          "X": 0,
+          "Y": 0
+        },
+        "growRate_8_F635204C40BD64BAE4DB369063AA13A8": 2700.0,
+        "dirtOnly_26_518E3DF141C65542403963BAC554F6EC": false,
+        "size_35_50E42E654C88BAFA0034708C205426BD": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "plantType_67_9C60606D49F087B9C47B2DA5AB8EEFE1": "enum_farmPlantType::NewEnumerator0",
+        "fruit_44_7BF3CC2643302C01DB52048FEA6E393E": "None",
+        "fruitGrowRate_49_47D346B047D97B04FDE10CA64BADFC47": 0.0,
+        "fruits_48_E7291A6E4A706E81977708B083057BD5": [],
+        "fruitRotate_54_E90285AB407C646CDF859E9B642E2635": 0.0,
+        "ignoreScale_61_4E673D9C4CBF98E0A802C0B0711CD724": false,
+        "minSize_64_795FD20B4229774B0CDEF08B7269C437": 0.0,
+        "maxDryness_70_90593F354BFF5836BEC71F980781FEAD": 5400.0,
+        "nocturnal_74_E1D6F8614794424BA520C3969E5020CB": false,
+        "canGrowInPots_77_43AA5A6942F5175A7BC04CA21AC7204D": true,
+        "canGrowInGround_79_E3E2F73A466330CB6084779671858A44": true
+      },
+      "seedp_foliage_bush_7": {
+        "displayName_21_41960D974F29239BCB96D0906BDBEA56": {
+          "Namespace": "",
+          "Key": "AABAEEA4410CBC5A665C6384A8972DA0",
+          "SourceString": "Lavender bush",
+          "LocalizedString": "Lavender bush"
+        },
+        "plantObject_57_5011E5D845C14E4593D11C876F297187": {
+          "ObjectName": "BlueprintGeneratedClass'growingPlant_C'",
+          "ObjectPath": "VotV/Content/objects/growingPlant.58"
+        },
+        "plantGrow_27_4F38A51C4590D9660F12C7AE06E85D58": {
+          "ObjectName": "StaticMesh'flora_plant_006'",
+          "ObjectPath": "VotV/Content/meshes/flora/flora_plant_006.2"
+        },
+        "plantRipe_30_6AF9004C4BE7D2175046B082AC102A03": {
+          "ObjectName": "StaticMesh'flora_plant_006'",
+          "ObjectPath": "VotV/Content/meshes/flora/flora_plant_006.2"
+        },
+        "plantSupport_32_5412CEBB47A5982F518ABAA83D92D9D1": null,
+        "drop_5_085ABC2F48074FD7E1BDE987E97A5250": "None",
+        "amount_range_82_4F5577114B35C27F510BE1AC8DCCEB4A": {
+          "X": 0,
+          "Y": 0
+        },
+        "growRate_8_F635204C40BD64BAE4DB369063AA13A8": 2700.0,
+        "dirtOnly_26_518E3DF141C65542403963BAC554F6EC": false,
+        "size_35_50E42E654C88BAFA0034708C205426BD": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "plantType_67_9C60606D49F087B9C47B2DA5AB8EEFE1": "enum_farmPlantType::NewEnumerator0",
+        "fruit_44_7BF3CC2643302C01DB52048FEA6E393E": "None",
+        "fruitGrowRate_49_47D346B047D97B04FDE10CA64BADFC47": 0.0,
+        "fruits_48_E7291A6E4A706E81977708B083057BD5": [],
+        "fruitRotate_54_E90285AB407C646CDF859E9B642E2635": 0.0,
+        "ignoreScale_61_4E673D9C4CBF98E0A802C0B0711CD724": false,
+        "minSize_64_795FD20B4229774B0CDEF08B7269C437": 0.0,
+        "maxDryness_70_90593F354BFF5836BEC71F980781FEAD": 5400.0,
+        "nocturnal_74_E1D6F8614794424BA520C3969E5020CB": false,
+        "canGrowInPots_77_43AA5A6942F5175A7BC04CA21AC7204D": true,
+        "canGrowInGround_79_E3E2F73A466330CB6084779671858A44": true
+      },
+      "seedp_foliage_bush_8": {
+        "displayName_21_41960D974F29239BCB96D0906BDBEA56": {
+          "Namespace": "",
+          "Key": "ED741E414090001A262B7BAA52D234B8",
+          "SourceString": "Wide bush",
+          "LocalizedString": "Wide bush"
+        },
+        "plantObject_57_5011E5D845C14E4593D11C876F297187": {
+          "ObjectName": "BlueprintGeneratedClass'growingPlant_C'",
+          "ObjectPath": "VotV/Content/objects/growingPlant.58"
+        },
+        "plantGrow_27_4F38A51C4590D9660F12C7AE06E85D58": {
+          "ObjectName": "StaticMesh'flora_plant_007'",
+          "ObjectPath": "VotV/Content/meshes/flora/flora_plant_007.2"
+        },
+        "plantRipe_30_6AF9004C4BE7D2175046B082AC102A03": {
+          "ObjectName": "StaticMesh'flora_plant_007'",
+          "ObjectPath": "VotV/Content/meshes/flora/flora_plant_007.2"
+        },
+        "plantSupport_32_5412CEBB47A5982F518ABAA83D92D9D1": null,
+        "drop_5_085ABC2F48074FD7E1BDE987E97A5250": "None",
+        "amount_range_82_4F5577114B35C27F510BE1AC8DCCEB4A": {
+          "X": 0,
+          "Y": 0
+        },
+        "growRate_8_F635204C40BD64BAE4DB369063AA13A8": 2700.0,
+        "dirtOnly_26_518E3DF141C65542403963BAC554F6EC": false,
+        "size_35_50E42E654C88BAFA0034708C205426BD": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "plantType_67_9C60606D49F087B9C47B2DA5AB8EEFE1": "enum_farmPlantType::NewEnumerator0",
+        "fruit_44_7BF3CC2643302C01DB52048FEA6E393E": "None",
+        "fruitGrowRate_49_47D346B047D97B04FDE10CA64BADFC47": 0.0,
+        "fruits_48_E7291A6E4A706E81977708B083057BD5": [],
+        "fruitRotate_54_E90285AB407C646CDF859E9B642E2635": 0.0,
+        "ignoreScale_61_4E673D9C4CBF98E0A802C0B0711CD724": false,
+        "minSize_64_795FD20B4229774B0CDEF08B7269C437": 0.0,
+        "maxDryness_70_90593F354BFF5836BEC71F980781FEAD": 5400.0,
+        "nocturnal_74_E1D6F8614794424BA520C3969E5020CB": false,
+        "canGrowInPots_77_43AA5A6942F5175A7BC04CA21AC7204D": true,
+        "canGrowInGround_79_E3E2F73A466330CB6084779671858A44": true
+      },
+      "seedp_foliage_bush_9": {
+        "displayName_21_41960D974F29239BCB96D0906BDBEA56": {
+          "Namespace": "",
+          "Key": "27AF8E524CFCDB16B89CE28D9EE64C45",
+          "SourceString": "Dark bush",
+          "LocalizedString": "Dark bush"
+        },
+        "plantObject_57_5011E5D845C14E4593D11C876F297187": {
+          "ObjectName": "BlueprintGeneratedClass'growingPlant_C'",
+          "ObjectPath": "VotV/Content/objects/growingPlant.58"
+        },
+        "plantGrow_27_4F38A51C4590D9660F12C7AE06E85D58": {
+          "ObjectName": "StaticMesh'flora_plant_008'",
+          "ObjectPath": "VotV/Content/meshes/flora/flora_plant_008.2"
+        },
+        "plantRipe_30_6AF9004C4BE7D2175046B082AC102A03": {
+          "ObjectName": "StaticMesh'flora_plant_008'",
+          "ObjectPath": "VotV/Content/meshes/flora/flora_plant_008.2"
+        },
+        "plantSupport_32_5412CEBB47A5982F518ABAA83D92D9D1": null,
+        "drop_5_085ABC2F48074FD7E1BDE987E97A5250": "None",
+        "amount_range_82_4F5577114B35C27F510BE1AC8DCCEB4A": {
+          "X": 0,
+          "Y": 0
+        },
+        "growRate_8_F635204C40BD64BAE4DB369063AA13A8": 2700.0,
+        "dirtOnly_26_518E3DF141C65542403963BAC554F6EC": false,
+        "size_35_50E42E654C88BAFA0034708C205426BD": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "plantType_67_9C60606D49F087B9C47B2DA5AB8EEFE1": "enum_farmPlantType::NewEnumerator0",
+        "fruit_44_7BF3CC2643302C01DB52048FEA6E393E": "None",
+        "fruitGrowRate_49_47D346B047D97B04FDE10CA64BADFC47": 0.0,
+        "fruits_48_E7291A6E4A706E81977708B083057BD5": [],
+        "fruitRotate_54_E90285AB407C646CDF859E9B642E2635": 0.0,
+        "ignoreScale_61_4E673D9C4CBF98E0A802C0B0711CD724": false,
+        "minSize_64_795FD20B4229774B0CDEF08B7269C437": 0.0,
+        "maxDryness_70_90593F354BFF5836BEC71F980781FEAD": 5400.0,
+        "nocturnal_74_E1D6F8614794424BA520C3969E5020CB": false,
+        "canGrowInPots_77_43AA5A6942F5175A7BC04CA21AC7204D": true,
+        "canGrowInGround_79_E3E2F73A466330CB6084779671858A44": true
+      },
+      "seedp_foliage_bush_10": {
+        "displayName_21_41960D974F29239BCB96D0906BDBEA56": {
+          "Namespace": "",
+          "Key": "E432343044CFE0A7D685FB9645F41E79",
+          "SourceString": "Round bush",
+          "LocalizedString": "Round bush"
+        },
+        "plantObject_57_5011E5D845C14E4593D11C876F297187": {
+          "ObjectName": "BlueprintGeneratedClass'growingPlant_C'",
+          "ObjectPath": "VotV/Content/objects/growingPlant.58"
+        },
+        "plantGrow_27_4F38A51C4590D9660F12C7AE06E85D58": {
+          "ObjectName": "StaticMesh'flora_plant_009'",
+          "ObjectPath": "VotV/Content/meshes/flora/flora_plant_009.2"
+        },
+        "plantRipe_30_6AF9004C4BE7D2175046B082AC102A03": {
+          "ObjectName": "StaticMesh'flora_plant_009'",
+          "ObjectPath": "VotV/Content/meshes/flora/flora_plant_009.2"
+        },
+        "plantSupport_32_5412CEBB47A5982F518ABAA83D92D9D1": null,
+        "drop_5_085ABC2F48074FD7E1BDE987E97A5250": "None",
+        "amount_range_82_4F5577114B35C27F510BE1AC8DCCEB4A": {
+          "X": 0,
+          "Y": 0
+        },
+        "growRate_8_F635204C40BD64BAE4DB369063AA13A8": 2700.0,
+        "dirtOnly_26_518E3DF141C65542403963BAC554F6EC": false,
+        "size_35_50E42E654C88BAFA0034708C205426BD": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "plantType_67_9C60606D49F087B9C47B2DA5AB8EEFE1": "enum_farmPlantType::NewEnumerator0",
+        "fruit_44_7BF3CC2643302C01DB52048FEA6E393E": "None",
+        "fruitGrowRate_49_47D346B047D97B04FDE10CA64BADFC47": 0.0,
+        "fruits_48_E7291A6E4A706E81977708B083057BD5": [],
+        "fruitRotate_54_E90285AB407C646CDF859E9B642E2635": 0.0,
+        "ignoreScale_61_4E673D9C4CBF98E0A802C0B0711CD724": false,
+        "minSize_64_795FD20B4229774B0CDEF08B7269C437": 0.0,
+        "maxDryness_70_90593F354BFF5836BEC71F980781FEAD": 5400.0,
+        "nocturnal_74_E1D6F8614794424BA520C3969E5020CB": false,
+        "canGrowInPots_77_43AA5A6942F5175A7BC04CA21AC7204D": true,
+        "canGrowInGround_79_E3E2F73A466330CB6084779671858A44": true
+      },
+      "seedp_foliage_bush_11": {
+        "displayName_21_41960D974F29239BCB96D0906BDBEA56": {
+          "Namespace": "",
+          "Key": "727E3D3B4D2EB969D74EE8A2095B92C2",
+          "SourceString": "Sin bush",
+          "LocalizedString": "Sin bush"
+        },
+        "plantObject_57_5011E5D845C14E4593D11C876F297187": {
+          "ObjectName": "BlueprintGeneratedClass'growingPlant_C'",
+          "ObjectPath": "VotV/Content/objects/growingPlant.58"
+        },
+        "plantGrow_27_4F38A51C4590D9660F12C7AE06E85D58": {
+          "ObjectName": "StaticMesh'flora_plant_010'",
+          "ObjectPath": "VotV/Content/meshes/flora/flora_plant_010.2"
+        },
+        "plantRipe_30_6AF9004C4BE7D2175046B082AC102A03": {
+          "ObjectName": "StaticMesh'flora_plant_010'",
+          "ObjectPath": "VotV/Content/meshes/flora/flora_plant_010.2"
+        },
+        "plantSupport_32_5412CEBB47A5982F518ABAA83D92D9D1": null,
+        "drop_5_085ABC2F48074FD7E1BDE987E97A5250": "None",
+        "amount_range_82_4F5577114B35C27F510BE1AC8DCCEB4A": {
+          "X": 0,
+          "Y": 0
+        },
+        "growRate_8_F635204C40BD64BAE4DB369063AA13A8": 2700.0,
+        "dirtOnly_26_518E3DF141C65542403963BAC554F6EC": false,
+        "size_35_50E42E654C88BAFA0034708C205426BD": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "plantType_67_9C60606D49F087B9C47B2DA5AB8EEFE1": "enum_farmPlantType::NewEnumerator0",
+        "fruit_44_7BF3CC2643302C01DB52048FEA6E393E": "None",
+        "fruitGrowRate_49_47D346B047D97B04FDE10CA64BADFC47": 0.0,
+        "fruits_48_E7291A6E4A706E81977708B083057BD5": [],
+        "fruitRotate_54_E90285AB407C646CDF859E9B642E2635": 0.0,
+        "ignoreScale_61_4E673D9C4CBF98E0A802C0B0711CD724": false,
+        "minSize_64_795FD20B4229774B0CDEF08B7269C437": 0.0,
+        "maxDryness_70_90593F354BFF5836BEC71F980781FEAD": 5400.0,
+        "nocturnal_74_E1D6F8614794424BA520C3969E5020CB": false,
+        "canGrowInPots_77_43AA5A6942F5175A7BC04CA21AC7204D": true,
+        "canGrowInGround_79_E3E2F73A466330CB6084779671858A44": true
+      },
+      "seedp_foliage_bush_12": {
+        "displayName_21_41960D974F29239BCB96D0906BDBEA56": {
+          "Namespace": "",
+          "Key": "58CBAEB444BCF364B0D872AE1317BD09",
+          "SourceString": "Big bush",
+          "LocalizedString": "Big bush"
+        },
+        "plantObject_57_5011E5D845C14E4593D11C876F297187": {
+          "ObjectName": "BlueprintGeneratedClass'growingPlant_C'",
+          "ObjectPath": "VotV/Content/objects/growingPlant.58"
+        },
+        "plantGrow_27_4F38A51C4590D9660F12C7AE06E85D58": {
+          "ObjectName": "StaticMesh'flora_flower_000'",
+          "ObjectPath": "VotV/Content/meshes/flora/flora_flower_000.2"
+        },
+        "plantRipe_30_6AF9004C4BE7D2175046B082AC102A03": {
+          "ObjectName": "StaticMesh'flora_flower_000'",
+          "ObjectPath": "VotV/Content/meshes/flora/flora_flower_000.2"
+        },
+        "plantSupport_32_5412CEBB47A5982F518ABAA83D92D9D1": null,
+        "drop_5_085ABC2F48074FD7E1BDE987E97A5250": "None",
+        "amount_range_82_4F5577114B35C27F510BE1AC8DCCEB4A": {
+          "X": 0,
+          "Y": 0
+        },
+        "growRate_8_F635204C40BD64BAE4DB369063AA13A8": 2700.0,
+        "dirtOnly_26_518E3DF141C65542403963BAC554F6EC": false,
+        "size_35_50E42E654C88BAFA0034708C205426BD": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "plantType_67_9C60606D49F087B9C47B2DA5AB8EEFE1": "enum_farmPlantType::NewEnumerator0",
+        "fruit_44_7BF3CC2643302C01DB52048FEA6E393E": "None",
+        "fruitGrowRate_49_47D346B047D97B04FDE10CA64BADFC47": 0.0,
+        "fruits_48_E7291A6E4A706E81977708B083057BD5": [],
+        "fruitRotate_54_E90285AB407C646CDF859E9B642E2635": 0.0,
+        "ignoreScale_61_4E673D9C4CBF98E0A802C0B0711CD724": false,
+        "minSize_64_795FD20B4229774B0CDEF08B7269C437": 0.0,
+        "maxDryness_70_90593F354BFF5836BEC71F980781FEAD": 5400.0,
+        "nocturnal_74_E1D6F8614794424BA520C3969E5020CB": false,
+        "canGrowInPots_77_43AA5A6942F5175A7BC04CA21AC7204D": true,
+        "canGrowInGround_79_E3E2F73A466330CB6084779671858A44": true
+      },
+      "seedp_foliage_bush_13": {
+        "displayName_21_41960D974F29239BCB96D0906BDBEA56": {
+          "Namespace": "",
+          "Key": "C884C23A4B65357C587C3991378B87DF",
+          "SourceString": "Firey bush",
+          "LocalizedString": "Firey bush"
+        },
+        "plantObject_57_5011E5D845C14E4593D11C876F297187": {
+          "ObjectName": "BlueprintGeneratedClass'growingPlant_C'",
+          "ObjectPath": "VotV/Content/objects/growingPlant.58"
+        },
+        "plantGrow_27_4F38A51C4590D9660F12C7AE06E85D58": {
+          "ObjectName": "StaticMesh'flora_flower_001'",
+          "ObjectPath": "VotV/Content/meshes/flora/flora_flower_001.2"
+        },
+        "plantRipe_30_6AF9004C4BE7D2175046B082AC102A03": {
+          "ObjectName": "StaticMesh'flora_flower_001'",
+          "ObjectPath": "VotV/Content/meshes/flora/flora_flower_001.2"
+        },
+        "plantSupport_32_5412CEBB47A5982F518ABAA83D92D9D1": null,
+        "drop_5_085ABC2F48074FD7E1BDE987E97A5250": "None",
+        "amount_range_82_4F5577114B35C27F510BE1AC8DCCEB4A": {
+          "X": 0,
+          "Y": 0
+        },
+        "growRate_8_F635204C40BD64BAE4DB369063AA13A8": 2700.0,
+        "dirtOnly_26_518E3DF141C65542403963BAC554F6EC": false,
+        "size_35_50E42E654C88BAFA0034708C205426BD": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "plantType_67_9C60606D49F087B9C47B2DA5AB8EEFE1": "enum_farmPlantType::NewEnumerator0",
+        "fruit_44_7BF3CC2643302C01DB52048FEA6E393E": "None",
+        "fruitGrowRate_49_47D346B047D97B04FDE10CA64BADFC47": 0.0,
+        "fruits_48_E7291A6E4A706E81977708B083057BD5": [],
+        "fruitRotate_54_E90285AB407C646CDF859E9B642E2635": 0.0,
+        "ignoreScale_61_4E673D9C4CBF98E0A802C0B0711CD724": false,
+        "minSize_64_795FD20B4229774B0CDEF08B7269C437": 0.0,
+        "maxDryness_70_90593F354BFF5836BEC71F980781FEAD": 5400.0,
+        "nocturnal_74_E1D6F8614794424BA520C3969E5020CB": false,
+        "canGrowInPots_77_43AA5A6942F5175A7BC04CA21AC7204D": true,
+        "canGrowInGround_79_E3E2F73A466330CB6084779671858A44": true
+      },
+      "seedp_foliage_bush_14": {
+        "displayName_21_41960D974F29239BCB96D0906BDBEA56": {
+          "Namespace": "",
+          "Key": "0AB39D7A4D891F61CAAE2E9F88EA22CA",
+          "SourceString": "Magma bush",
+          "LocalizedString": "Magma bush"
+        },
+        "plantObject_57_5011E5D845C14E4593D11C876F297187": {
+          "ObjectName": "BlueprintGeneratedClass'growingPlant_C'",
+          "ObjectPath": "VotV/Content/objects/growingPlant.58"
+        },
+        "plantGrow_27_4F38A51C4590D9660F12C7AE06E85D58": {
+          "ObjectName": "StaticMesh'flora_flower_002'",
+          "ObjectPath": "VotV/Content/meshes/flora/flora_flower_002.2"
+        },
+        "plantRipe_30_6AF9004C4BE7D2175046B082AC102A03": {
+          "ObjectName": "StaticMesh'flora_flower_002'",
+          "ObjectPath": "VotV/Content/meshes/flora/flora_flower_002.2"
+        },
+        "plantSupport_32_5412CEBB47A5982F518ABAA83D92D9D1": null,
+        "drop_5_085ABC2F48074FD7E1BDE987E97A5250": "None",
+        "amount_range_82_4F5577114B35C27F510BE1AC8DCCEB4A": {
+          "X": 0,
+          "Y": 0
+        },
+        "growRate_8_F635204C40BD64BAE4DB369063AA13A8": 2700.0,
+        "dirtOnly_26_518E3DF141C65542403963BAC554F6EC": false,
+        "size_35_50E42E654C88BAFA0034708C205426BD": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "plantType_67_9C60606D49F087B9C47B2DA5AB8EEFE1": "enum_farmPlantType::NewEnumerator0",
+        "fruit_44_7BF3CC2643302C01DB52048FEA6E393E": "None",
+        "fruitGrowRate_49_47D346B047D97B04FDE10CA64BADFC47": 0.0,
+        "fruits_48_E7291A6E4A706E81977708B083057BD5": [],
+        "fruitRotate_54_E90285AB407C646CDF859E9B642E2635": 0.0,
+        "ignoreScale_61_4E673D9C4CBF98E0A802C0B0711CD724": false,
+        "minSize_64_795FD20B4229774B0CDEF08B7269C437": 0.0,
+        "maxDryness_70_90593F354BFF5836BEC71F980781FEAD": 5400.0,
+        "nocturnal_74_E1D6F8614794424BA520C3969E5020CB": false,
+        "canGrowInPots_77_43AA5A6942F5175A7BC04CA21AC7204D": true,
+        "canGrowInGround_79_E3E2F73A466330CB6084779671858A44": true
+      },
+      "seedp_foliage_bush_15": {
+        "displayName_21_41960D974F29239BCB96D0906BDBEA56": {
+          "Namespace": "",
+          "Key": "6549A67B466B4729876E3788B2D4D3F7",
+          "SourceString": "Cliff bush",
+          "LocalizedString": "Cliff bush"
+        },
+        "plantObject_57_5011E5D845C14E4593D11C876F297187": {
+          "ObjectName": "BlueprintGeneratedClass'growingPlant_C'",
+          "ObjectPath": "VotV/Content/objects/growingPlant.58"
+        },
+        "plantGrow_27_4F38A51C4590D9660F12C7AE06E85D58": {
+          "ObjectName": "StaticMesh'flora_flower_003'",
+          "ObjectPath": "VotV/Content/meshes/flora/flora_flower_003.2"
+        },
+        "plantRipe_30_6AF9004C4BE7D2175046B082AC102A03": {
+          "ObjectName": "StaticMesh'flora_flower_003'",
+          "ObjectPath": "VotV/Content/meshes/flora/flora_flower_003.2"
+        },
+        "plantSupport_32_5412CEBB47A5982F518ABAA83D92D9D1": null,
+        "drop_5_085ABC2F48074FD7E1BDE987E97A5250": "None",
+        "amount_range_82_4F5577114B35C27F510BE1AC8DCCEB4A": {
+          "X": 0,
+          "Y": 0
+        },
+        "growRate_8_F635204C40BD64BAE4DB369063AA13A8": 2700.0,
+        "dirtOnly_26_518E3DF141C65542403963BAC554F6EC": false,
+        "size_35_50E42E654C88BAFA0034708C205426BD": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "plantType_67_9C60606D49F087B9C47B2DA5AB8EEFE1": "enum_farmPlantType::NewEnumerator0",
+        "fruit_44_7BF3CC2643302C01DB52048FEA6E393E": "None",
+        "fruitGrowRate_49_47D346B047D97B04FDE10CA64BADFC47": 0.0,
+        "fruits_48_E7291A6E4A706E81977708B083057BD5": [],
+        "fruitRotate_54_E90285AB407C646CDF859E9B642E2635": 0.0,
+        "ignoreScale_61_4E673D9C4CBF98E0A802C0B0711CD724": false,
+        "minSize_64_795FD20B4229774B0CDEF08B7269C437": 0.0,
+        "maxDryness_70_90593F354BFF5836BEC71F980781FEAD": 5400.0,
+        "nocturnal_74_E1D6F8614794424BA520C3969E5020CB": false,
+        "canGrowInPots_77_43AA5A6942F5175A7BC04CA21AC7204D": true,
+        "canGrowInGround_79_E3E2F73A466330CB6084779671858A44": true
+      },
+      "seedp_foliage_bush_16": {
+        "displayName_21_41960D974F29239BCB96D0906BDBEA56": {
+          "Namespace": "",
+          "Key": "E985378B43BFB693CD4BEAAF1F05C895",
+          "SourceString": "Floral bush",
+          "LocalizedString": "Floral bush"
+        },
+        "plantObject_57_5011E5D845C14E4593D11C876F297187": {
+          "ObjectName": "BlueprintGeneratedClass'growingPlant_C'",
+          "ObjectPath": "VotV/Content/objects/growingPlant.58"
+        },
+        "plantGrow_27_4F38A51C4590D9660F12C7AE06E85D58": {
+          "ObjectName": "StaticMesh'flora_flower_004'",
+          "ObjectPath": "VotV/Content/meshes/flora/flora_flower_004.2"
+        },
+        "plantRipe_30_6AF9004C4BE7D2175046B082AC102A03": {
+          "ObjectName": "StaticMesh'flora_flower_004'",
+          "ObjectPath": "VotV/Content/meshes/flora/flora_flower_004.2"
+        },
+        "plantSupport_32_5412CEBB47A5982F518ABAA83D92D9D1": null,
+        "drop_5_085ABC2F48074FD7E1BDE987E97A5250": "None",
+        "amount_range_82_4F5577114B35C27F510BE1AC8DCCEB4A": {
+          "X": 0,
+          "Y": 0
+        },
+        "growRate_8_F635204C40BD64BAE4DB369063AA13A8": 2700.0,
+        "dirtOnly_26_518E3DF141C65542403963BAC554F6EC": false,
+        "size_35_50E42E654C88BAFA0034708C205426BD": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "plantType_67_9C60606D49F087B9C47B2DA5AB8EEFE1": "enum_farmPlantType::NewEnumerator0",
+        "fruit_44_7BF3CC2643302C01DB52048FEA6E393E": "None",
+        "fruitGrowRate_49_47D346B047D97B04FDE10CA64BADFC47": 0.0,
+        "fruits_48_E7291A6E4A706E81977708B083057BD5": [],
+        "fruitRotate_54_E90285AB407C646CDF859E9B642E2635": 0.0,
+        "ignoreScale_61_4E673D9C4CBF98E0A802C0B0711CD724": false,
+        "minSize_64_795FD20B4229774B0CDEF08B7269C437": 0.0,
+        "maxDryness_70_90593F354BFF5836BEC71F980781FEAD": 5400.0,
+        "nocturnal_74_E1D6F8614794424BA520C3969E5020CB": false,
+        "canGrowInPots_77_43AA5A6942F5175A7BC04CA21AC7204D": true,
+        "canGrowInGround_79_E3E2F73A466330CB6084779671858A44": true
+      },
+      "seedp_foliage_bush_17": {
+        "displayName_21_41960D974F29239BCB96D0906BDBEA56": {
+          "Namespace": "",
+          "Key": "C91966A246408AFE5A060AA30DFE8969",
+          "SourceString": "Tall bush",
+          "LocalizedString": "Tall bush"
+        },
+        "plantObject_57_5011E5D845C14E4593D11C876F297187": {
+          "ObjectName": "BlueprintGeneratedClass'growingPlant_C'",
+          "ObjectPath": "VotV/Content/objects/growingPlant.58"
+        },
+        "plantGrow_27_4F38A51C4590D9660F12C7AE06E85D58": {
+          "ObjectName": "StaticMesh'flora_flower_005'",
+          "ObjectPath": "VotV/Content/meshes/flora/flora_flower_005.2"
+        },
+        "plantRipe_30_6AF9004C4BE7D2175046B082AC102A03": {
+          "ObjectName": "StaticMesh'flora_flower_005'",
+          "ObjectPath": "VotV/Content/meshes/flora/flora_flower_005.2"
+        },
+        "plantSupport_32_5412CEBB47A5982F518ABAA83D92D9D1": null,
+        "drop_5_085ABC2F48074FD7E1BDE987E97A5250": "None",
+        "amount_range_82_4F5577114B35C27F510BE1AC8DCCEB4A": {
+          "X": 0,
+          "Y": 0
+        },
+        "growRate_8_F635204C40BD64BAE4DB369063AA13A8": 2700.0,
+        "dirtOnly_26_518E3DF141C65542403963BAC554F6EC": false,
+        "size_35_50E42E654C88BAFA0034708C205426BD": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "plantType_67_9C60606D49F087B9C47B2DA5AB8EEFE1": "enum_farmPlantType::NewEnumerator0",
+        "fruit_44_7BF3CC2643302C01DB52048FEA6E393E": "None",
+        "fruitGrowRate_49_47D346B047D97B04FDE10CA64BADFC47": 0.0,
+        "fruits_48_E7291A6E4A706E81977708B083057BD5": [],
+        "fruitRotate_54_E90285AB407C646CDF859E9B642E2635": 0.0,
+        "ignoreScale_61_4E673D9C4CBF98E0A802C0B0711CD724": false,
+        "minSize_64_795FD20B4229774B0CDEF08B7269C437": 0.0,
+        "maxDryness_70_90593F354BFF5836BEC71F980781FEAD": 5400.0,
+        "nocturnal_74_E1D6F8614794424BA520C3969E5020CB": false,
+        "canGrowInPots_77_43AA5A6942F5175A7BC04CA21AC7204D": true,
+        "canGrowInGround_79_E3E2F73A466330CB6084779671858A44": true
+      },
+      "seedp_foliage_bush_18": {
+        "displayName_21_41960D974F29239BCB96D0906BDBEA56": {
+          "Namespace": "",
+          "Key": "4A6EB2094DD8A1420E7CCFA4A8CAB80B",
+          "SourceString": "Golden bush",
+          "LocalizedString": "Golden bush"
+        },
+        "plantObject_57_5011E5D845C14E4593D11C876F297187": {
+          "ObjectName": "BlueprintGeneratedClass'growingPlant_C'",
+          "ObjectPath": "VotV/Content/objects/growingPlant.58"
+        },
+        "plantGrow_27_4F38A51C4590D9660F12C7AE06E85D58": {
+          "ObjectName": "StaticMesh'flora_flower_006'",
+          "ObjectPath": "VotV/Content/meshes/flora/flora_flower_006.2"
+        },
+        "plantRipe_30_6AF9004C4BE7D2175046B082AC102A03": {
+          "ObjectName": "StaticMesh'flora_flower_006'",
+          "ObjectPath": "VotV/Content/meshes/flora/flora_flower_006.2"
+        },
+        "plantSupport_32_5412CEBB47A5982F518ABAA83D92D9D1": null,
+        "drop_5_085ABC2F48074FD7E1BDE987E97A5250": "None",
+        "amount_range_82_4F5577114B35C27F510BE1AC8DCCEB4A": {
+          "X": 0,
+          "Y": 0
+        },
+        "growRate_8_F635204C40BD64BAE4DB369063AA13A8": 2700.0,
+        "dirtOnly_26_518E3DF141C65542403963BAC554F6EC": false,
+        "size_35_50E42E654C88BAFA0034708C205426BD": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "plantType_67_9C60606D49F087B9C47B2DA5AB8EEFE1": "enum_farmPlantType::NewEnumerator0",
+        "fruit_44_7BF3CC2643302C01DB52048FEA6E393E": "None",
+        "fruitGrowRate_49_47D346B047D97B04FDE10CA64BADFC47": 0.0,
+        "fruits_48_E7291A6E4A706E81977708B083057BD5": [],
+        "fruitRotate_54_E90285AB407C646CDF859E9B642E2635": 0.0,
+        "ignoreScale_61_4E673D9C4CBF98E0A802C0B0711CD724": false,
+        "minSize_64_795FD20B4229774B0CDEF08B7269C437": 0.0,
+        "maxDryness_70_90593F354BFF5836BEC71F980781FEAD": 5400.0,
+        "nocturnal_74_E1D6F8614794424BA520C3969E5020CB": false,
+        "canGrowInPots_77_43AA5A6942F5175A7BC04CA21AC7204D": true,
+        "canGrowInGround_79_E3E2F73A466330CB6084779671858A44": true
+      },
+      "seedp_foliage_flower_0": {
+        "displayName_21_41960D974F29239BCB96D0906BDBEA56": {
+          "Namespace": "",
+          "Key": "C11B7A6641949C27CDFAD288EB81F7E7",
+          "SourceString": "Dwarf poppy",
+          "LocalizedString": "Dwarf poppy"
+        },
+        "plantObject_57_5011E5D845C14E4593D11C876F297187": {
+          "ObjectName": "BlueprintGeneratedClass'growingPlant_C'",
+          "ObjectPath": "VotV/Content/objects/growingPlant.58"
+        },
+        "plantGrow_27_4F38A51C4590D9660F12C7AE06E85D58": {
+          "ObjectName": "StaticMesh'flora_flower_007'",
+          "ObjectPath": "VotV/Content/meshes/flora/flora_flower_007.2"
+        },
+        "plantRipe_30_6AF9004C4BE7D2175046B082AC102A03": {
+          "ObjectName": "StaticMesh'flora_flower_007'",
+          "ObjectPath": "VotV/Content/meshes/flora/flora_flower_007.2"
+        },
+        "plantSupport_32_5412CEBB47A5982F518ABAA83D92D9D1": null,
+        "drop_5_085ABC2F48074FD7E1BDE987E97A5250": "None",
+        "amount_range_82_4F5577114B35C27F510BE1AC8DCCEB4A": {
+          "X": 0,
+          "Y": 0
+        },
+        "growRate_8_F635204C40BD64BAE4DB369063AA13A8": 1200.0,
+        "dirtOnly_26_518E3DF141C65542403963BAC554F6EC": false,
+        "size_35_50E42E654C88BAFA0034708C205426BD": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "plantType_67_9C60606D49F087B9C47B2DA5AB8EEFE1": "enum_farmPlantType::NewEnumerator0",
+        "fruit_44_7BF3CC2643302C01DB52048FEA6E393E": "None",
+        "fruitGrowRate_49_47D346B047D97B04FDE10CA64BADFC47": 0.0,
+        "fruits_48_E7291A6E4A706E81977708B083057BD5": [],
+        "fruitRotate_54_E90285AB407C646CDF859E9B642E2635": 0.0,
+        "ignoreScale_61_4E673D9C4CBF98E0A802C0B0711CD724": false,
+        "minSize_64_795FD20B4229774B0CDEF08B7269C437": 0.0,
+        "maxDryness_70_90593F354BFF5836BEC71F980781FEAD": 2400.0,
+        "nocturnal_74_E1D6F8614794424BA520C3969E5020CB": false,
+        "canGrowInPots_77_43AA5A6942F5175A7BC04CA21AC7204D": true,
+        "canGrowInGround_79_E3E2F73A466330CB6084779671858A44": true
+      },
+      "seedp_foliage_flower_1": {
+        "displayName_21_41960D974F29239BCB96D0906BDBEA56": {
+          "Namespace": "",
+          "Key": "E12EA57F4FE4885CEC95DAA274533EAC",
+          "SourceString": "Purple daisy flower",
+          "LocalizedString": "Purple daisy flower"
+        },
+        "plantObject_57_5011E5D845C14E4593D11C876F297187": {
+          "ObjectName": "BlueprintGeneratedClass'growingPlant_C'",
+          "ObjectPath": "VotV/Content/objects/growingPlant.58"
+        },
+        "plantGrow_27_4F38A51C4590D9660F12C7AE06E85D58": {
+          "ObjectName": "StaticMesh'flora_flower_008'",
+          "ObjectPath": "VotV/Content/meshes/flora/flora_flower_008.2"
+        },
+        "plantRipe_30_6AF9004C4BE7D2175046B082AC102A03": {
+          "ObjectName": "StaticMesh'flora_flower_008'",
+          "ObjectPath": "VotV/Content/meshes/flora/flora_flower_008.2"
+        },
+        "plantSupport_32_5412CEBB47A5982F518ABAA83D92D9D1": null,
+        "drop_5_085ABC2F48074FD7E1BDE987E97A5250": "None",
+        "amount_range_82_4F5577114B35C27F510BE1AC8DCCEB4A": {
+          "X": 0,
+          "Y": 0
+        },
+        "growRate_8_F635204C40BD64BAE4DB369063AA13A8": 1200.0,
+        "dirtOnly_26_518E3DF141C65542403963BAC554F6EC": false,
+        "size_35_50E42E654C88BAFA0034708C205426BD": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "plantType_67_9C60606D49F087B9C47B2DA5AB8EEFE1": "enum_farmPlantType::NewEnumerator0",
+        "fruit_44_7BF3CC2643302C01DB52048FEA6E393E": "None",
+        "fruitGrowRate_49_47D346B047D97B04FDE10CA64BADFC47": 0.0,
+        "fruits_48_E7291A6E4A706E81977708B083057BD5": [],
+        "fruitRotate_54_E90285AB407C646CDF859E9B642E2635": 0.0,
+        "ignoreScale_61_4E673D9C4CBF98E0A802C0B0711CD724": false,
+        "minSize_64_795FD20B4229774B0CDEF08B7269C437": 0.0,
+        "maxDryness_70_90593F354BFF5836BEC71F980781FEAD": 2400.0,
+        "nocturnal_74_E1D6F8614794424BA520C3969E5020CB": false,
+        "canGrowInPots_77_43AA5A6942F5175A7BC04CA21AC7204D": true,
+        "canGrowInGround_79_E3E2F73A466330CB6084779671858A44": true
+      },
+      "seedp_foliage_flower_2": {
+        "displayName_21_41960D974F29239BCB96D0906BDBEA56": {
+          "Namespace": "",
+          "Key": "EFC9245441DA188B9BC78D94DB6CBFCA",
+          "SourceString": "Red salvia flower",
+          "LocalizedString": "Red salvia flower"
+        },
+        "plantObject_57_5011E5D845C14E4593D11C876F297187": {
+          "ObjectName": "BlueprintGeneratedClass'growingPlant_C'",
+          "ObjectPath": "VotV/Content/objects/growingPlant.58"
+        },
+        "plantGrow_27_4F38A51C4590D9660F12C7AE06E85D58": {
+          "ObjectName": "StaticMesh'flora_flower_009'",
+          "ObjectPath": "VotV/Content/meshes/flora/flora_flower_009.2"
+        },
+        "plantRipe_30_6AF9004C4BE7D2175046B082AC102A03": {
+          "ObjectName": "StaticMesh'flora_flower_009'",
+          "ObjectPath": "VotV/Content/meshes/flora/flora_flower_009.2"
+        },
+        "plantSupport_32_5412CEBB47A5982F518ABAA83D92D9D1": null,
+        "drop_5_085ABC2F48074FD7E1BDE987E97A5250": "None",
+        "amount_range_82_4F5577114B35C27F510BE1AC8DCCEB4A": {
+          "X": 0,
+          "Y": 0
+        },
+        "growRate_8_F635204C40BD64BAE4DB369063AA13A8": 1200.0,
+        "dirtOnly_26_518E3DF141C65542403963BAC554F6EC": false,
+        "size_35_50E42E654C88BAFA0034708C205426BD": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "plantType_67_9C60606D49F087B9C47B2DA5AB8EEFE1": "enum_farmPlantType::NewEnumerator0",
+        "fruit_44_7BF3CC2643302C01DB52048FEA6E393E": "None",
+        "fruitGrowRate_49_47D346B047D97B04FDE10CA64BADFC47": 0.0,
+        "fruits_48_E7291A6E4A706E81977708B083057BD5": [],
+        "fruitRotate_54_E90285AB407C646CDF859E9B642E2635": 0.0,
+        "ignoreScale_61_4E673D9C4CBF98E0A802C0B0711CD724": false,
+        "minSize_64_795FD20B4229774B0CDEF08B7269C437": 0.0,
+        "maxDryness_70_90593F354BFF5836BEC71F980781FEAD": 2400.0,
+        "nocturnal_74_E1D6F8614794424BA520C3969E5020CB": false,
+        "canGrowInPots_77_43AA5A6942F5175A7BC04CA21AC7204D": true,
+        "canGrowInGround_79_E3E2F73A466330CB6084779671858A44": true
+      },
+      "seedp_foliage_flower_3": {
+        "displayName_21_41960D974F29239BCB96D0906BDBEA56": {
+          "Namespace": "",
+          "Key": "96AF384C406998CD22FF93A8EF304EAC",
+          "SourceString": "White daisy flower",
+          "LocalizedString": "White daisy flower"
+        },
+        "plantObject_57_5011E5D845C14E4593D11C876F297187": {
+          "ObjectName": "BlueprintGeneratedClass'growingPlant_C'",
+          "ObjectPath": "VotV/Content/objects/growingPlant.58"
+        },
+        "plantGrow_27_4F38A51C4590D9660F12C7AE06E85D58": {
+          "ObjectName": "StaticMesh'flora_flower_010'",
+          "ObjectPath": "VotV/Content/meshes/flora/flora_flower_010.2"
+        },
+        "plantRipe_30_6AF9004C4BE7D2175046B082AC102A03": {
+          "ObjectName": "StaticMesh'flora_flower_010'",
+          "ObjectPath": "VotV/Content/meshes/flora/flora_flower_010.2"
+        },
+        "plantSupport_32_5412CEBB47A5982F518ABAA83D92D9D1": null,
+        "drop_5_085ABC2F48074FD7E1BDE987E97A5250": "None",
+        "amount_range_82_4F5577114B35C27F510BE1AC8DCCEB4A": {
+          "X": 0,
+          "Y": 0
+        },
+        "growRate_8_F635204C40BD64BAE4DB369063AA13A8": 1200.0,
+        "dirtOnly_26_518E3DF141C65542403963BAC554F6EC": false,
+        "size_35_50E42E654C88BAFA0034708C205426BD": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "plantType_67_9C60606D49F087B9C47B2DA5AB8EEFE1": "enum_farmPlantType::NewEnumerator0",
+        "fruit_44_7BF3CC2643302C01DB52048FEA6E393E": "None",
+        "fruitGrowRate_49_47D346B047D97B04FDE10CA64BADFC47": 0.0,
+        "fruits_48_E7291A6E4A706E81977708B083057BD5": [],
+        "fruitRotate_54_E90285AB407C646CDF859E9B642E2635": 0.0,
+        "ignoreScale_61_4E673D9C4CBF98E0A802C0B0711CD724": false,
+        "minSize_64_795FD20B4229774B0CDEF08B7269C437": 0.0,
+        "maxDryness_70_90593F354BFF5836BEC71F980781FEAD": 2400.0,
+        "nocturnal_74_E1D6F8614794424BA520C3969E5020CB": false,
+        "canGrowInPots_77_43AA5A6942F5175A7BC04CA21AC7204D": true,
+        "canGrowInGround_79_E3E2F73A466330CB6084779671858A44": true
+      },
+      "seedp_foliage_flower_4": {
+        "displayName_21_41960D974F29239BCB96D0906BDBEA56": {
+          "Namespace": "",
+          "Key": "BF6619034E6DE84558682083ED2D6053",
+          "SourceString": "Yellow lilly flower",
+          "LocalizedString": "Yellow lilly flower"
+        },
+        "plantObject_57_5011E5D845C14E4593D11C876F297187": {
+          "ObjectName": "BlueprintGeneratedClass'growingPlant_C'",
+          "ObjectPath": "VotV/Content/objects/growingPlant.58"
+        },
+        "plantGrow_27_4F38A51C4590D9660F12C7AE06E85D58": {
+          "ObjectName": "StaticMesh'flora_flower_011'",
+          "ObjectPath": "VotV/Content/meshes/flora/flora_flower_011.2"
+        },
+        "plantRipe_30_6AF9004C4BE7D2175046B082AC102A03": {
+          "ObjectName": "StaticMesh'flora_flower_011'",
+          "ObjectPath": "VotV/Content/meshes/flora/flora_flower_011.2"
+        },
+        "plantSupport_32_5412CEBB47A5982F518ABAA83D92D9D1": null,
+        "drop_5_085ABC2F48074FD7E1BDE987E97A5250": "None",
+        "amount_range_82_4F5577114B35C27F510BE1AC8DCCEB4A": {
+          "X": 0,
+          "Y": 0
+        },
+        "growRate_8_F635204C40BD64BAE4DB369063AA13A8": 1200.0,
+        "dirtOnly_26_518E3DF141C65542403963BAC554F6EC": false,
+        "size_35_50E42E654C88BAFA0034708C205426BD": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "plantType_67_9C60606D49F087B9C47B2DA5AB8EEFE1": "enum_farmPlantType::NewEnumerator0",
+        "fruit_44_7BF3CC2643302C01DB52048FEA6E393E": "None",
+        "fruitGrowRate_49_47D346B047D97B04FDE10CA64BADFC47": 0.0,
+        "fruits_48_E7291A6E4A706E81977708B083057BD5": [],
+        "fruitRotate_54_E90285AB407C646CDF859E9B642E2635": 0.0,
+        "ignoreScale_61_4E673D9C4CBF98E0A802C0B0711CD724": false,
+        "minSize_64_795FD20B4229774B0CDEF08B7269C437": 0.0,
+        "maxDryness_70_90593F354BFF5836BEC71F980781FEAD": 2400.0,
+        "nocturnal_74_E1D6F8614794424BA520C3969E5020CB": false,
+        "canGrowInPots_77_43AA5A6942F5175A7BC04CA21AC7204D": true,
+        "canGrowInGround_79_E3E2F73A466330CB6084779671858A44": true
+      },
+      "seedp_foliage_flower_5": {
+        "displayName_21_41960D974F29239BCB96D0906BDBEA56": {
+          "Namespace": "",
+          "Key": "606A4B614FFCA9277B6D798526ADDB2D",
+          "SourceString": "Green helleborus flower",
+          "LocalizedString": "Green helleborus flower"
+        },
+        "plantObject_57_5011E5D845C14E4593D11C876F297187": {
+          "ObjectName": "BlueprintGeneratedClass'growingPlant_C'",
+          "ObjectPath": "VotV/Content/objects/growingPlant.58"
+        },
+        "plantGrow_27_4F38A51C4590D9660F12C7AE06E85D58": {
+          "ObjectName": "StaticMesh'flora_flower_012'",
+          "ObjectPath": "VotV/Content/meshes/flora/flora_flower_012.2"
+        },
+        "plantRipe_30_6AF9004C4BE7D2175046B082AC102A03": {
+          "ObjectName": "StaticMesh'flora_flower_012'",
+          "ObjectPath": "VotV/Content/meshes/flora/flora_flower_012.2"
+        },
+        "plantSupport_32_5412CEBB47A5982F518ABAA83D92D9D1": null,
+        "drop_5_085ABC2F48074FD7E1BDE987E97A5250": "None",
+        "amount_range_82_4F5577114B35C27F510BE1AC8DCCEB4A": {
+          "X": 0,
+          "Y": 0
+        },
+        "growRate_8_F635204C40BD64BAE4DB369063AA13A8": 1200.0,
+        "dirtOnly_26_518E3DF141C65542403963BAC554F6EC": false,
+        "size_35_50E42E654C88BAFA0034708C205426BD": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "plantType_67_9C60606D49F087B9C47B2DA5AB8EEFE1": "enum_farmPlantType::NewEnumerator0",
+        "fruit_44_7BF3CC2643302C01DB52048FEA6E393E": "None",
+        "fruitGrowRate_49_47D346B047D97B04FDE10CA64BADFC47": 0.0,
+        "fruits_48_E7291A6E4A706E81977708B083057BD5": [],
+        "fruitRotate_54_E90285AB407C646CDF859E9B642E2635": 0.0,
+        "ignoreScale_61_4E673D9C4CBF98E0A802C0B0711CD724": false,
+        "minSize_64_795FD20B4229774B0CDEF08B7269C437": 0.0,
+        "maxDryness_70_90593F354BFF5836BEC71F980781FEAD": 2400.0,
+        "nocturnal_74_E1D6F8614794424BA520C3969E5020CB": false,
+        "canGrowInPots_77_43AA5A6942F5175A7BC04CA21AC7204D": true,
+        "canGrowInGround_79_E3E2F73A466330CB6084779671858A44": true
+      },
+      "seedp_grass": {
+        "displayName_21_41960D974F29239BCB96D0906BDBEA56": {
+          "Namespace": "",
+          "Key": "132D63C34F3FBED5D08356BB45E071E2",
+          "SourceString": "Grass patch",
+          "LocalizedString": "Grass patch"
+        },
+        "plantObject_57_5011E5D845C14E4593D11C876F297187": {
+          "ObjectName": "BlueprintGeneratedClass'growingPlant_grassPatch_C'",
+          "ObjectPath": "VotV/Content/objects/growingPlant_grassPatch.4"
+        },
+        "plantGrow_27_4F38A51C4590D9660F12C7AE06E85D58": {
+          "ObjectName": "StaticMesh'grassFoliage_tri1'",
+          "ObjectPath": "VotV/Content/meshes/misc/grassFoliage_tri1.2"
+        },
+        "plantRipe_30_6AF9004C4BE7D2175046B082AC102A03": {
+          "ObjectName": "StaticMesh'grassFoliage_tri1'",
+          "ObjectPath": "VotV/Content/meshes/misc/grassFoliage_tri1.2"
+        },
+        "plantSupport_32_5412CEBB47A5982F518ABAA83D92D9D1": null,
+        "drop_5_085ABC2F48074FD7E1BDE987E97A5250": "None",
+        "amount_range_82_4F5577114B35C27F510BE1AC8DCCEB4A": {
+          "X": 0,
+          "Y": 0
+        },
+        "growRate_8_F635204C40BD64BAE4DB369063AA13A8": 120.0,
+        "dirtOnly_26_518E3DF141C65542403963BAC554F6EC": false,
+        "size_35_50E42E654C88BAFA0034708C205426BD": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "plantType_67_9C60606D49F087B9C47B2DA5AB8EEFE1": "enum_farmPlantType::NewEnumerator0",
+        "fruit_44_7BF3CC2643302C01DB52048FEA6E393E": "None",
+        "fruitGrowRate_49_47D346B047D97B04FDE10CA64BADFC47": 0.0,
+        "fruits_48_E7291A6E4A706E81977708B083057BD5": [],
+        "fruitRotate_54_E90285AB407C646CDF859E9B642E2635": 0.0,
+        "ignoreScale_61_4E673D9C4CBF98E0A802C0B0711CD724": false,
+        "minSize_64_795FD20B4229774B0CDEF08B7269C437": 0.0,
+        "maxDryness_70_90593F354BFF5836BEC71F980781FEAD": -1.0,
+        "nocturnal_74_E1D6F8614794424BA520C3969E5020CB": false,
+        "canGrowInPots_77_43AA5A6942F5175A7BC04CA21AC7204D": false,
+        "canGrowInGround_79_E3E2F73A466330CB6084779671858A44": true
+      },
+      "seedp_stolasherb": {
+        "displayName_21_41960D974F29239BCB96D0906BDBEA56": {
+          "Namespace": "",
+          "Key": "980563324AAAF9E99B3B06A68F410096",
+          "SourceString": "Stolas herb",
+          "LocalizedString": "Stolas herb"
+        },
+        "plantObject_57_5011E5D845C14E4593D11C876F297187": {
+          "ObjectName": "BlueprintGeneratedClass'growingPlant_stolasHerb_C'",
+          "ObjectPath": "VotV/Content/objects/growingPlant_stolasHerb.2"
+        },
+        "plantGrow_27_4F38A51C4590D9660F12C7AE06E85D58": {
+          "ObjectName": "StaticMesh'stolasHerb_notGrown'",
+          "ObjectPath": "VotV/Content/meshes/stolasherb/stolasHerb_notGrown.2"
+        },
+        "plantRipe_30_6AF9004C4BE7D2175046B082AC102A03": {
+          "ObjectName": "StaticMesh'stolasHerb_grown'",
+          "ObjectPath": "VotV/Content/meshes/stolasherb/stolasHerb_grown.2"
+        },
+        "plantSupport_32_5412CEBB47A5982F518ABAA83D92D9D1": null,
+        "drop_5_085ABC2F48074FD7E1BDE987E97A5250": "stolasherb",
+        "amount_range_82_4F5577114B35C27F510BE1AC8DCCEB4A": {
+          "X": 1,
+          "Y": 1
+        },
+        "growRate_8_F635204C40BD64BAE4DB369063AA13A8": 2700.0,
+        "dirtOnly_26_518E3DF141C65542403963BAC554F6EC": false,
+        "size_35_50E42E654C88BAFA0034708C205426BD": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "plantType_67_9C60606D49F087B9C47B2DA5AB8EEFE1": "enum_farmPlantType::NewEnumerator0",
+        "fruit_44_7BF3CC2643302C01DB52048FEA6E393E": "None",
+        "fruitGrowRate_49_47D346B047D97B04FDE10CA64BADFC47": 0.0,
+        "fruits_48_E7291A6E4A706E81977708B083057BD5": [],
+        "fruitRotate_54_E90285AB407C646CDF859E9B642E2635": 0.0,
+        "ignoreScale_61_4E673D9C4CBF98E0A802C0B0711CD724": false,
+        "minSize_64_795FD20B4229774B0CDEF08B7269C437": 0.0,
+        "maxDryness_70_90593F354BFF5836BEC71F980781FEAD": 27000.0,
+        "nocturnal_74_E1D6F8614794424BA520C3969E5020CB": false,
+        "canGrowInPots_77_43AA5A6942F5175A7BC04CA21AC7204D": true,
+        "canGrowInGround_79_E3E2F73A466330CB6084779671858A44": true
+      },
+      "carrot_seed": {
+        "displayName_21_41960D974F29239BCB96D0906BDBEA56": {
+          "Namespace": "",
+          "Key": "2782EFFB480524646048769016EF61F3",
+          "SourceString": "Carrot",
+          "LocalizedString": "Carrot"
+        },
+        "plantObject_57_5011E5D845C14E4593D11C876F297187": {
+          "ObjectName": "BlueprintGeneratedClass'growingPlant_C'",
+          "ObjectPath": "VotV/Content/objects/growingPlant.58"
+        },
+        "plantGrow_27_4F38A51C4590D9660F12C7AE06E85D58": {
+          "ObjectName": "StaticMesh'carrotGrow'",
+          "ObjectPath": "VotV/Content/meshes/carrot/carrotGrow.2"
+        },
+        "plantRipe_30_6AF9004C4BE7D2175046B082AC102A03": {
+          "ObjectName": "StaticMesh'carrot'",
+          "ObjectPath": "VotV/Content/meshes/carrot/carrot.2"
+        },
+        "plantSupport_32_5412CEBB47A5982F518ABAA83D92D9D1": null,
+        "drop_5_085ABC2F48074FD7E1BDE987E97A5250": "carrot",
+        "amount_range_82_4F5577114B35C27F510BE1AC8DCCEB4A": {
+          "X": 1,
+          "Y": 1
+        },
+        "growRate_8_F635204C40BD64BAE4DB369063AA13A8": 900.0,
+        "dirtOnly_26_518E3DF141C65542403963BAC554F6EC": false,
+        "size_35_50E42E654C88BAFA0034708C205426BD": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "plantType_67_9C60606D49F087B9C47B2DA5AB8EEFE1": "enum_farmPlantType::NewEnumerator0",
+        "fruit_44_7BF3CC2643302C01DB52048FEA6E393E": "None",
+        "fruitGrowRate_49_47D346B047D97B04FDE10CA64BADFC47": 0.0,
+        "fruits_48_E7291A6E4A706E81977708B083057BD5": [],
+        "fruitRotate_54_E90285AB407C646CDF859E9B642E2635": 0.0,
+        "ignoreScale_61_4E673D9C4CBF98E0A802C0B0711CD724": false,
+        "minSize_64_795FD20B4229774B0CDEF08B7269C437": 0.0,
+        "maxDryness_70_90593F354BFF5836BEC71F980781FEAD": 1800.0,
+        "nocturnal_74_E1D6F8614794424BA520C3969E5020CB": false,
+        "canGrowInPots_77_43AA5A6942F5175A7BC04CA21AC7204D": true,
+        "canGrowInGround_79_E3E2F73A466330CB6084779671858A44": true
+      },
+      "sugarcane_w": {
+        "displayName_21_41960D974F29239BCB96D0906BDBEA56": {
+          "Namespace": "",
+          "Key": "9B0A95BE495F2876F03E5D936EE1D5A6",
+          "SourceString": "Wild Sugarcane",
+          "LocalizedString": "Wild Sugarcane"
+        },
+        "plantObject_57_5011E5D845C14E4593D11C876F297187": {
+          "ObjectName": "BlueprintGeneratedClass'growingPlant_C'",
+          "ObjectPath": "VotV/Content/objects/growingPlant.58"
+        },
+        "plantGrow_27_4F38A51C4590D9660F12C7AE06E85D58": {
+          "ObjectName": "StaticMesh'sugarcanePlant'",
+          "ObjectPath": "VotV/Content/meshes/farmplants/sugarcanePlant.2"
+        },
+        "plantRipe_30_6AF9004C4BE7D2175046B082AC102A03": {
+          "ObjectName": "StaticMesh'sugarcanePlantRipe'",
+          "ObjectPath": "VotV/Content/meshes/farmplants/sugarcanePlantRipe.2"
+        },
+        "plantSupport_32_5412CEBB47A5982F518ABAA83D92D9D1": null,
+        "drop_5_085ABC2F48074FD7E1BDE987E97A5250": "sugarcane",
+        "amount_range_82_4F5577114B35C27F510BE1AC8DCCEB4A": {
+          "X": 0,
+          "Y": 1
+        },
+        "growRate_8_F635204C40BD64BAE4DB369063AA13A8": 900.0,
+        "dirtOnly_26_518E3DF141C65542403963BAC554F6EC": false,
+        "size_35_50E42E654C88BAFA0034708C205426BD": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "plantType_67_9C60606D49F087B9C47B2DA5AB8EEFE1": "enum_farmPlantType::NewEnumerator0",
+        "fruit_44_7BF3CC2643302C01DB52048FEA6E393E": "None",
+        "fruitGrowRate_49_47D346B047D97B04FDE10CA64BADFC47": 0.0,
+        "fruits_48_E7291A6E4A706E81977708B083057BD5": [],
+        "fruitRotate_54_E90285AB407C646CDF859E9B642E2635": 0.0,
+        "ignoreScale_61_4E673D9C4CBF98E0A802C0B0711CD724": false,
+        "minSize_64_795FD20B4229774B0CDEF08B7269C437": 0.0,
+        "maxDryness_70_90593F354BFF5836BEC71F980781FEAD": -1.0,
+        "nocturnal_74_E1D6F8614794424BA520C3969E5020CB": false,
+        "canGrowInPots_77_43AA5A6942F5175A7BC04CA21AC7204D": true,
+        "canGrowInGround_79_E3E2F73A466330CB6084779671858A44": true
+      }
+    }
+  }
+]

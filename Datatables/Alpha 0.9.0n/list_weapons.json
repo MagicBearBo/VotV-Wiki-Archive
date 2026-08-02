@@ -1,0 +1,910 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "list_weapons",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "VotV/Content/main/datatables/list_weapons",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'struct_weapon'",
+        "ObjectPath": "VotV/Content/main/structs/struct_weapon.0"
+      }
+    },
+    "Rows": {
+      "crowbar": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_crowbar_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_crowbar_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 10.0,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.4,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 200.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 2500.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": true,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [
+          {
+            "ObjectName": "PhysicalMaterial'wood'",
+            "ObjectPath": "VotV/Content/materials/phys/wood.0"
+          },
+          {
+            "ObjectName": "PhysicalMaterial'wood_log'",
+            "ObjectPath": "VotV/Content/materials/phys/wood_log.0"
+          },
+          {
+            "ObjectName": "PhysicalMaterial'wood_crate'",
+            "ObjectPath": "VotV/Content/materials/phys/wood_crate.0"
+          }
+        ],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": [
+          1.25,
+          1.1,
+          1.5
+        ]
+      },
+      "rock": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_crowbar_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_crowbar_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 2.0,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.75,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 200.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 4000.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": true,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": []
+      },
+      "propKiller": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_crowbar_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_crowbar_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 9.942427E+18,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.4,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 200.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 2500.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": true,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": []
+      },
+      "slapper": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_crowbar_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_crowbar_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 10.0,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.4,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 200.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 1E+12,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": true,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": []
+      },
+      "g_bone_0": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_crowbar_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_crowbar_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 1.0,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.25,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 200.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 4000.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": true,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": []
+      },
+      "g_bone_2": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_crowbar_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_crowbar_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 1.0,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.4,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 200.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 6000.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": true,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": []
+      },
+      "speedo": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_crowbar_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_crowbar_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 1.1,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.0,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 200.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 2500.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": true,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": []
+      },
+      "breather_t": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_crowbar_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_crowbar_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 10.0,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.4,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 500.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 2500.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": true,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": []
+      },
+      "shovel": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_shovel_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_shovel_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 5.0,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.6,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 200.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 10000.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": true,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": []
+      },
+      "mdetect": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_metalDetector_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_metalDetector_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 10.0,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.5,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 200.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 1000.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": true,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": []
+      },
+      "map_0": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_digitalmap_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_digitalmap_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 10.0,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.5,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 200.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 1000.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": true,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": []
+      },
+      "hammer": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_crowbar_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_crowbar_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 1.0,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.4,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 200.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 500.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": true,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": []
+      },
+      "swatter": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_crowbar_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_crowbar_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 1.0,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.2,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 200.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 2000.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": true,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": []
+      },
+      "chainsaw": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_crowbar_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_crowbar_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 10.0,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.4,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 200.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 2500.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": true,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": []
+      },
+      "metalPipe": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_crowbar_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_crowbar_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 9.942427E+18,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.4,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 200.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 2500.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": true,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": []
+      },
+      "knife": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_crowbar_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_crowbar_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 5.0,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.3,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 200.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 500.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": true,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": []
+      },
+      "ut_knife": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_crowbar_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_crowbar_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 5.0,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.3,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 200.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 500.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": true,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": []
+      },
+      "ut_spatula": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_crowbar_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_crowbar_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 1.0,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.2,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 200.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 2000.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": true,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": []
+      },
+      "tool_w": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_crowbar_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_crowbar_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 3.0,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.35,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 200.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 500.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": true,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": []
+      },
+      "tool_h": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_crowbar_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_crowbar_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 6.0,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.5,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 200.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 500.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": true,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": []
+      },
+      "pickaxe": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_crowbar_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_crowbar_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 15.0,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.8,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 200.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 1000.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": true,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [
+          {
+            "ObjectName": "PhysicalMaterial'concrete'",
+            "ObjectPath": "VotV/Content/materials/phys/concrete.0"
+          },
+          {
+            "ObjectName": "PhysicalMaterial'rock'",
+            "ObjectPath": "VotV/Content/materials/phys/rock.0"
+          }
+        ],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": [
+          5.0,
+          5.0
+        ]
+      },
+      "shArKnife": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_crowbar_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_crowbar_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 8.0,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.4,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 200.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 500.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": true,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": []
+      },
+      "stick": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_crowbar_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_crowbar_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 1.5,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.6,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 200.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 3000.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": true,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": []
+      },
+      "craftTest": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_crowbar_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_crowbar_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 5.0,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.6,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 200.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 5000.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": true,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": []
+      },
+      "superSlapper": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_crowbar_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_crowbar_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 10.0,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.5,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 200.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 3500.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": true,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": []
+      },
+      "ritualKnife": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_ritualKnife_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_ritualKnife_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 5.0,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.25,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 200.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 500.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": true,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": []
+      },
+      "slab_0": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_digitalmap_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_digitalmap_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 10.0,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.5,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 200.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 1000.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": true,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": []
+      },
+      "slab_1": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_digitalmap_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_digitalmap_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 10.0,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.5,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 200.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 1000.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": true,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": []
+      },
+      "slab_2": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_digitalmap_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_digitalmap_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 10.0,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.5,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 200.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 1000.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": true,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": []
+      },
+      "slab_3": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_digitalmap_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_digitalmap_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 10.0,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.5,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 200.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 1000.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": true,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": []
+      },
+      "mop": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_mop_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_mop_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 10.0,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.5,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 300.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 1000.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": false,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": []
+      },
+      "broom": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_mop_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_mop_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 10.0,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.5,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 300.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 1000.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": false,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": []
+      },
+      "suitcase": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_suitcase_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_suitcase_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 10.0,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.5,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 300.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 1000.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": false,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": []
+      },
+      "handradar": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_digitalmap_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_digitalmap_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 10.0,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.5,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 200.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 1000.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": true,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": []
+      },
+      "fireExt": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_fireExt_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_fireExt_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 10.0,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.5,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 300.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 1000.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": false,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": []
+      },
+      "french": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_crowbar_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_crowbar_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 1.1,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.6,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 300.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 3000.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": true,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": []
+      },
+      "eriePlush_p_e": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_crowbar_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_crowbar_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 10.0,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.4,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 200.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 2500.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": true,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": []
+      },
+      "crowbar_0": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_crowbar_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_crowbar_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 200.0,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.4,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 200.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 2500.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": true,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": []
+      },
+      "plunger": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_crowbar_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_crowbar_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 2.5,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.4,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 200.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 2500.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": true,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": []
+      },
+      "leadpipe": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_crowbar_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_crowbar_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 10.0,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.8,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 200.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 4000.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": true,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": []
+      },
+      "icepick": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_crowbar_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_crowbar_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 8.0,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.25,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 200.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 1000.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": true,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": []
+      },
+      "watercan": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_fireExt_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_fireExt_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 10.0,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.5,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 300.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 1000.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": false,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": []
+      },
+      "axe": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_crowbar_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_crowbar_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 20.0,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.8,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 200.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 500.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": true,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [
+          {
+            "ObjectName": "PhysicalMaterial'wood'",
+            "ObjectPath": "VotV/Content/materials/phys/wood.0"
+          },
+          {
+            "ObjectName": "PhysicalMaterial'wood_crate'",
+            "ObjectPath": "VotV/Content/materials/phys/wood_crate.0"
+          },
+          {
+            "ObjectName": "PhysicalMaterial'wood_log'",
+            "ObjectPath": "VotV/Content/materials/phys/wood_log.0"
+          }
+        ],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": [
+          2.0,
+          2.0,
+          5.0
+        ]
+      },
+      "logcut": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_crowbar_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_crowbar_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 5.0,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 1.0,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 200.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 12500.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": true,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": []
+      },
+      "sugarcane": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_crowbar_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_crowbar_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 2.0,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.3,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 200.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 500.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": true,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": []
+      },
+      "baseball_1": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_crowbar_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_crowbar_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 10.0,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.75,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 200.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 15000.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": true,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": []
+      },
+      "baseball_3": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_crowbar_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_crowbar_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 20.0,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.5,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 200.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 10000.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": true,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": []
+      },
+      "bucket": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_fireExt_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_fireExt_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 10.0,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.5,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 300.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 1000.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": false,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": []
+      },
+      "rake": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_rake_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_rake_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 10.0,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.5,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 300.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 1000.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": false,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": []
+      },
+      "sLantern_0": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_fireExt_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_fireExt_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 10.0,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.5,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 300.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 1000.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": false,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": []
+      },
+      "sLantern_1": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_fireExt_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_fireExt_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 10.0,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.5,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 300.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 1000.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": false,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": []
+      },
+      "rollingpin": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_crowbar_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_crowbar_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 3.0,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.5,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 200.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 5000.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": true,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [
+          {
+            "ObjectName": "PhysicalMaterial'wood'",
+            "ObjectPath": "VotV/Content/materials/phys/wood.0"
+          },
+          {
+            "ObjectName": "PhysicalMaterial'wood_log'",
+            "ObjectPath": "VotV/Content/materials/phys/wood_log.0"
+          }
+        ],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": [
+          0.75,
+          0.5
+        ]
+      },
+      "torch": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_crowbar_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_crowbar_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 3.0,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.8,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 200.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 2500.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": true,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [
+          {
+            "ObjectName": "PhysicalMaterial'wood'",
+            "ObjectPath": "VotV/Content/materials/phys/wood.0"
+          },
+          {
+            "ObjectName": "PhysicalMaterial'wood_log'",
+            "ObjectPath": "VotV/Content/materials/phys/wood_log.0"
+          }
+        ],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": [
+          0.75,
+          0.5
+        ]
+      },
+      "compostB": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_fireExt_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_fireExt_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 10.0,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.5,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 300.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 1000.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": false,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": []
+      },
+      "lamp": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_fireExt_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_fireExt_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 10.0,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.5,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 300.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 1000.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": false,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": []
+      },
+      "sleepingbag_m": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_fireExt_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_fireExt_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 10.0,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.5,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 300.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 1000.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": false,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": []
+      },
+      "sleepingbag": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_fireExt_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_fireExt_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 10.0,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.5,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 300.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 1000.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": false,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": []
+      },
+      "sleepingbag_br": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_fireExt_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_fireExt_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 10.0,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.5,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 300.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 1000.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": false,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": []
+      },
+      "sleepingbag_st": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_fireExt_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_fireExt_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 10.0,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.5,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 300.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 1000.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": false,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": []
+      },
+      "toolbox": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_fireExt_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_fireExt_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 10.0,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.5,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 200.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 1000.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": false,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": []
+      },
+      "paddle": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_shovel_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_shovel_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 3.0,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.9,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 300.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 8000.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": true,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": []
+      },
+      "crowbargib_1": {
+        "montage_9_4B16A04E4D5F5DF99428C190FE6D1295": {
+          "ObjectName": "AnimMontage'FP_crowbar_Skeleton_Montage'",
+          "ObjectPath": "VotV/Content/meshes/viewmodel/FP_crowbar_Skeleton_Montage.0"
+        },
+        "damage_2_2BBE09C54B6F4950DED4C3A51636F41B": 2.5,
+        "reload_4_5849B2654C00818A554F40BBBA77FC80": 0.2,
+        "length_6_BEECCE6348C913B1B87E1282F8CD6F4B": 200.0,
+        "force_12_D9A4F34E4676DD79D5E79C8B28F38D7C": 2500.0,
+        "attack_14_3E3BE6824AD2AF5DBAE1918A72260674": true,
+        "matEff_21_184D7DC9414F64A7AE914FBDB6ED92DC": [
+          {
+            "ObjectName": "PhysicalMaterial'wood'",
+            "ObjectPath": "VotV/Content/materials/phys/wood.0"
+          },
+          {
+            "ObjectName": "PhysicalMaterial'wood_log'",
+            "ObjectPath": "VotV/Content/materials/phys/wood_log.0"
+          },
+          {
+            "ObjectName": "PhysicalMaterial'wood_crate'",
+            "ObjectPath": "VotV/Content/materials/phys/wood_crate.0"
+          }
+        ],
+        "matEffDmg_24_AC0D37B0493EB271F2FFEA9469747A71": [
+          1.25,
+          1.1,
+          1.5
+        ]
+      }
+    }
+  }
+]

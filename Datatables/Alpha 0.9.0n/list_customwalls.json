@@ -1,0 +1,251 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "list_customwalls",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "VotV/Content/main/datatables/list_customwalls",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'struct_customwall'",
+        "ObjectPath": "VotV/Content/main/structs/struct_customwall.0"
+      }
+    },
+    "Rows": {
+      "brick": {
+        "healthMult_2_B48405FD407DAB2FF3B2D892E2E5DDA0": 1.0,
+        "material_6_3CC3495847DF40B12512E7AF6DED2B8C": {
+          "ObjectName": "Material'mat_brickBreakable'",
+          "ObjectPath": "VotV/Content/materials/basic/mat_brickBreakable.0"
+        },
+        "drop_12_C7A56D904D3D3936F5FCE08E81EF9E61": "brick",
+        "wallClass_16_CF2B01074055E8DB58BB38B985687C6E": {
+          "ObjectName": "BlueprintGeneratedClass'customWall_C'",
+          "ObjectPath": "VotV/Content/objects/customWall.17"
+        },
+        "brickSize_19_2393FD7548B7CFDA2DE41E9D0C27B017": 1
+      },
+      "scrap_wood": {
+        "healthMult_2_B48405FD407DAB2FF3B2D892E2E5DDA0": 0.5,
+        "material_6_3CC3495847DF40B12512E7AF6DED2B8C": {
+          "ObjectName": "MaterialInstanceConstant'inst_woodBreakable'",
+          "ObjectPath": "VotV/Content/materials/basic/inst_woodBreakable.0"
+        },
+        "drop_12_C7A56D904D3D3936F5FCE08E81EF9E61": "scrap_wood",
+        "wallClass_16_CF2B01074055E8DB58BB38B985687C6E": {
+          "ObjectName": "BlueprintGeneratedClass'customWall_C'",
+          "ObjectPath": "VotV/Content/objects/customWall.17"
+        },
+        "brickSize_19_2393FD7548B7CFDA2DE41E9D0C27B017": 2
+      },
+      "scrap_rubble": {
+        "healthMult_2_B48405FD407DAB2FF3B2D892E2E5DDA0": 1.2,
+        "material_6_3CC3495847DF40B12512E7AF6DED2B8C": {
+          "ObjectName": "MaterialInstanceConstant'inst_cobblestoneBreakable'",
+          "ObjectPath": "VotV/Content/materials/basic/inst_cobblestoneBreakable.0"
+        },
+        "drop_12_C7A56D904D3D3936F5FCE08E81EF9E61": "scrap_rubble",
+        "wallClass_16_CF2B01074055E8DB58BB38B985687C6E": {
+          "ObjectName": "BlueprintGeneratedClass'customWall_C'",
+          "ObjectPath": "VotV/Content/objects/customWall.17"
+        },
+        "brickSize_19_2393FD7548B7CFDA2DE41E9D0C27B017": 2
+      },
+      "scrap_plastic": {
+        "healthMult_2_B48405FD407DAB2FF3B2D892E2E5DDA0": 0.65,
+        "material_6_3CC3495847DF40B12512E7AF6DED2B8C": {
+          "ObjectName": "MaterialInstanceConstant'inst_plasticBreakable'",
+          "ObjectPath": "VotV/Content/materials/basic/inst_plasticBreakable.0"
+        },
+        "drop_12_C7A56D904D3D3936F5FCE08E81EF9E61": "scrap_plastic",
+        "wallClass_16_CF2B01074055E8DB58BB38B985687C6E": {
+          "ObjectName": "BlueprintGeneratedClass'customWall_C'",
+          "ObjectPath": "VotV/Content/objects/customWall.17"
+        },
+        "brickSize_19_2393FD7548B7CFDA2DE41E9D0C27B017": 3
+      },
+      "scrap_paper": {
+        "healthMult_2_B48405FD407DAB2FF3B2D892E2E5DDA0": 0.1,
+        "material_6_3CC3495847DF40B12512E7AF6DED2B8C": {
+          "ObjectName": "MaterialInstanceConstant'inst_cardboardBreakable'",
+          "ObjectPath": "VotV/Content/materials/basic/inst_cardboardBreakable.0"
+        },
+        "drop_12_C7A56D904D3D3936F5FCE08E81EF9E61": "scrap_paper",
+        "wallClass_16_CF2B01074055E8DB58BB38B985687C6E": {
+          "ObjectName": "BlueprintGeneratedClass'customWall_C'",
+          "ObjectPath": "VotV/Content/objects/customWall.17"
+        },
+        "brickSize_19_2393FD7548B7CFDA2DE41E9D0C27B017": 8
+      },
+      "scrap_elec": {
+        "healthMult_2_B48405FD407DAB2FF3B2D892E2E5DDA0": 0.8,
+        "material_6_3CC3495847DF40B12512E7AF6DED2B8C": {
+          "ObjectName": "MaterialInstanceConstant'inst_elecBreakable'",
+          "ObjectPath": "VotV/Content/materials/basic/inst_elecBreakable.0"
+        },
+        "drop_12_C7A56D904D3D3936F5FCE08E81EF9E61": "scrap_elec",
+        "wallClass_16_CF2B01074055E8DB58BB38B985687C6E": {
+          "ObjectName": "BlueprintGeneratedClass'customWall_C'",
+          "ObjectPath": "VotV/Content/objects/customWall.17"
+        },
+        "brickSize_19_2393FD7548B7CFDA2DE41E9D0C27B017": 2
+      },
+      "goregib_g_5": {
+        "healthMult_2_B48405FD407DAB2FF3B2D892E2E5DDA0": 0.5,
+        "material_6_3CC3495847DF40B12512E7AF6DED2B8C": {
+          "ObjectName": "MaterialInstanceConstant'inst_fleshBreakable'",
+          "ObjectPath": "VotV/Content/materials/basic/inst_fleshBreakable.0"
+        },
+        "drop_12_C7A56D904D3D3936F5FCE08E81EF9E61": "goregib_g_5",
+        "wallClass_16_CF2B01074055E8DB58BB38B985687C6E": {
+          "ObjectName": "BlueprintGeneratedClass'customWall_C'",
+          "ObjectPath": "VotV/Content/objects/customWall.17"
+        },
+        "brickSize_19_2393FD7548B7CFDA2DE41E9D0C27B017": 2
+      },
+      "scrap_metal": {
+        "healthMult_2_B48405FD407DAB2FF3B2D892E2E5DDA0": 1.5,
+        "material_6_3CC3495847DF40B12512E7AF6DED2B8C": {
+          "ObjectName": "MaterialInstanceConstant'inst_metalBreakable'",
+          "ObjectPath": "VotV/Content/materials/basic/inst_metalBreakable.0"
+        },
+        "drop_12_C7A56D904D3D3936F5FCE08E81EF9E61": "scrap_metal",
+        "wallClass_16_CF2B01074055E8DB58BB38B985687C6E": {
+          "ObjectName": "BlueprintGeneratedClass'customWall_C'",
+          "ObjectPath": "VotV/Content/objects/customWall.17"
+        },
+        "brickSize_19_2393FD7548B7CFDA2DE41E9D0C27B017": 2
+      },
+      "scrap_rubber": {
+        "healthMult_2_B48405FD407DAB2FF3B2D892E2E5DDA0": 0.8,
+        "material_6_3CC3495847DF40B12512E7AF6DED2B8C": {
+          "ObjectName": "MaterialInstanceConstant'inst_rubberBreakable'",
+          "ObjectPath": "VotV/Content/materials/basic/inst_rubberBreakable.0"
+        },
+        "drop_12_C7A56D904D3D3936F5FCE08E81EF9E61": "scrap_rubber",
+        "wallClass_16_CF2B01074055E8DB58BB38B985687C6E": {
+          "ObjectName": "BlueprintGeneratedClass'customWall_C'",
+          "ObjectPath": "VotV/Content/objects/customWall.17"
+        },
+        "brickSize_19_2393FD7548B7CFDA2DE41E9D0C27B017": 2
+      },
+      "dirtball": {
+        "healthMult_2_B48405FD407DAB2FF3B2D892E2E5DDA0": 0.1,
+        "material_6_3CC3495847DF40B12512E7AF6DED2B8C": {
+          "ObjectName": "MaterialInstanceConstant'inst_dirtBreakable'",
+          "ObjectPath": "VotV/Content/materials/basic/inst_dirtBreakable.0"
+        },
+        "drop_12_C7A56D904D3D3936F5FCE08E81EF9E61": "dirtball",
+        "wallClass_16_CF2B01074055E8DB58BB38B985687C6E": {
+          "ObjectName": "BlueprintGeneratedClass'customWall_C'",
+          "ObjectPath": "VotV/Content/objects/customWall.17"
+        },
+        "brickSize_19_2393FD7548B7CFDA2DE41E9D0C27B017": 2
+      },
+      "poo_1": {
+        "healthMult_2_B48405FD407DAB2FF3B2D892E2E5DDA0": 0.5,
+        "material_6_3CC3495847DF40B12512E7AF6DED2B8C": {
+          "ObjectName": "MaterialInstanceConstant'inst_pooBreakable'",
+          "ObjectPath": "VotV/Content/materials/basic/inst_pooBreakable.0"
+        },
+        "drop_12_C7A56D904D3D3936F5FCE08E81EF9E61": "poo_1",
+        "wallClass_16_CF2B01074055E8DB58BB38B985687C6E": {
+          "ObjectName": "BlueprintGeneratedClass'customWall_C'",
+          "ObjectPath": "VotV/Content/objects/customWall.17"
+        },
+        "brickSize_19_2393FD7548B7CFDA2DE41E9D0C27B017": 1
+      },
+      "logcut_1": {
+        "healthMult_2_B48405FD407DAB2FF3B2D892E2E5DDA0": 1.0,
+        "material_6_3CC3495847DF40B12512E7AF6DED2B8C": {
+          "ObjectName": "MaterialInstanceConstant'inst_logBreakable'",
+          "ObjectPath": "VotV/Content/materials/basic/inst_logBreakable.0"
+        },
+        "drop_12_C7A56D904D3D3936F5FCE08E81EF9E61": "logcut_1",
+        "wallClass_16_CF2B01074055E8DB58BB38B985687C6E": {
+          "ObjectName": "BlueprintGeneratedClass'customWall_C'",
+          "ObjectPath": "VotV/Content/objects/customWall.17"
+        },
+        "brickSize_19_2393FD7548B7CFDA2DE41E9D0C27B017": 2
+      },
+      "sugarcane": {
+        "healthMult_2_B48405FD407DAB2FF3B2D892E2E5DDA0": 0.2,
+        "material_6_3CC3495847DF40B12512E7AF6DED2B8C": {
+          "ObjectName": "MaterialInstanceConstant'inst_bambooBreakable'",
+          "ObjectPath": "VotV/Content/materials/basic/inst_bambooBreakable.0"
+        },
+        "drop_12_C7A56D904D3D3936F5FCE08E81EF9E61": "sugarcane",
+        "wallClass_16_CF2B01074055E8DB58BB38B985687C6E": {
+          "ObjectName": "BlueprintGeneratedClass'customWall_C'",
+          "ObjectPath": "VotV/Content/objects/customWall.17"
+        },
+        "brickSize_19_2393FD7548B7CFDA2DE41E9D0C27B017": 2
+      },
+      "scrap_glass": {
+        "healthMult_2_B48405FD407DAB2FF3B2D892E2E5DDA0": 0.05,
+        "material_6_3CC3495847DF40B12512E7AF6DED2B8C": {
+          "ObjectName": "Material'mat_glassDebris'",
+          "ObjectPath": "VotV/Content/meshes/debris/mat_glassDebris.0"
+        },
+        "drop_12_C7A56D904D3D3936F5FCE08E81EF9E61": "d_glass_0",
+        "wallClass_16_CF2B01074055E8DB58BB38B985687C6E": {
+          "ObjectName": "BlueprintGeneratedClass'customWall_C'",
+          "ObjectPath": "VotV/Content/objects/customWall.17"
+        },
+        "brickSize_19_2393FD7548B7CFDA2DE41E9D0C27B017": 2
+      },
+      "quartzCrystal": {
+        "healthMult_2_B48405FD407DAB2FF3B2D892E2E5DDA0": 1.0,
+        "material_6_3CC3495847DF40B12512E7AF6DED2B8C": {
+          "ObjectName": "MaterialInstanceConstant'inst_quartzBreakable'",
+          "ObjectPath": "VotV/Content/materials/basic/inst_quartzBreakable.0"
+        },
+        "drop_12_C7A56D904D3D3936F5FCE08E81EF9E61": "quartzCrystal",
+        "wallClass_16_CF2B01074055E8DB58BB38B985687C6E": {
+          "ObjectName": "BlueprintGeneratedClass'customWall_C'",
+          "ObjectPath": "VotV/Content/objects/customWall.17"
+        },
+        "brickSize_19_2393FD7548B7CFDA2DE41E9D0C27B017": 2
+      },
+      "radCrystal": {
+        "healthMult_2_B48405FD407DAB2FF3B2D892E2E5DDA0": 1.0,
+        "material_6_3CC3495847DF40B12512E7AF6DED2B8C": {
+          "ObjectName": "MaterialInstanceConstant'inst_uraniumBreakable'",
+          "ObjectPath": "VotV/Content/materials/basic/inst_uraniumBreakable.0"
+        },
+        "drop_12_C7A56D904D3D3936F5FCE08E81EF9E61": "radCrystal",
+        "wallClass_16_CF2B01074055E8DB58BB38B985687C6E": {
+          "ObjectName": "BlueprintGeneratedClass'customWall_rad_C'",
+          "ObjectPath": "VotV/Content/objects/customWall_rad.0"
+        },
+        "brickSize_19_2393FD7548B7CFDA2DE41E9D0C27B017": 2
+      },
+      "concrete": {
+        "healthMult_2_B48405FD407DAB2FF3B2D892E2E5DDA0": 1.0,
+        "material_6_3CC3495847DF40B12512E7AF6DED2B8C": {
+          "ObjectName": "MaterialInstanceConstant'inst_liquidConcreteBreakable'",
+          "ObjectPath": "VotV/Content/materials/basic/inst_liquidConcreteBreakable.0"
+        },
+        "drop_12_C7A56D904D3D3936F5FCE08E81EF9E61": "concreteBall",
+        "wallClass_16_CF2B01074055E8DB58BB38B985687C6E": {
+          "ObjectName": "BlueprintGeneratedClass'customWall_wetConcrete_C'",
+          "ObjectPath": "VotV/Content/objects/customWall_wetConcrete.3"
+        },
+        "brickSize_19_2393FD7548B7CFDA2DE41E9D0C27B017": 4
+      },
+      "concrete_0": {
+        "healthMult_2_B48405FD407DAB2FF3B2D892E2E5DDA0": 1.0,
+        "material_6_3CC3495847DF40B12512E7AF6DED2B8C": {
+          "ObjectName": "MaterialInstanceConstant'inst_solidConcreteBreakable'",
+          "ObjectPath": "VotV/Content/materials/basic/inst_solidConcreteBreakable.0"
+        },
+        "drop_12_C7A56D904D3D3936F5FCE08E81EF9E61": "rock",
+        "wallClass_16_CF2B01074055E8DB58BB38B985687C6E": {
+          "ObjectName": "BlueprintGeneratedClass'customWall_C'",
+          "ObjectPath": "VotV/Content/objects/customWall.17"
+        },
+        "brickSize_19_2393FD7548B7CFDA2DE41E9D0C27B017": 1
+      }
+    }
+  }
+]

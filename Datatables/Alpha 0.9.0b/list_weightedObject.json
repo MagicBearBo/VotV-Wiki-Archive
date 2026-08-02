@@ -1,0 +1,873 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "list_weightedObject",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "VotV/Content/main/datatables/list_weightedObject",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'struct_objectProb'",
+        "ObjectPath": "VotV/Content/main/structs/struct_objectProb.0"
+      }
+    },
+    "Rows": {
+      "mercury": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 100.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "venus": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 100.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "mars": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 100.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "earth_0": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 30.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "earth_1": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 30.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "jupiter": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 100.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "saturn": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 100.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "uranus": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 100.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "neptune": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 100.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "bennu": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 100.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "ceres": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 100.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "ceres_0": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 100.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "dione": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 100.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "enceladus": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 75.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "eris": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 100.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "europa": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 75.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "iapetus": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 100.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "iapetus_0": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 100.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "io": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 100.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "makemake": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 100.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "mimas": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 100.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "moon": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 150.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "phobos": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 100.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "rhea": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 100.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "rhea_0": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 100.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "tethys": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 100.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "vesta": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 100.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "asteroid_0": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 250.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "evil": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 20.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "tamalan": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 25.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "roz_0": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 25.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "star_0": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 100.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "redDwarf_0": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 200.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "redGiant_0": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 200.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "brownDwarf_0": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 75.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "blackhole_0": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 20.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "whiteDwarf_0": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 100.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "neutron_0": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 100.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "tamalan_fl": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 30.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "mettus": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 50.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "monty": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 50.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "amogus": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 30.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "sat1_0": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 50.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "nev1": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 30.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "lifecrystal": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 20.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "ha": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 60.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "dnoose": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 60.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "wooshes": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 75.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "crisps": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 80.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "gargle": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 50.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "hisses": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 45.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "basser1": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 60.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "birbies": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 45.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "shiffler1": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 40.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "iris": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 50.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "treasurePlanet": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 2.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "woowoo": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 70.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "flesh": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 15.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "sat1_1": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 30.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "calm4": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 1.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "retroplanet": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 1.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "sat1_2": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 50.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "spaace": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 3.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "pizzabreather": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 1.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "garb_0": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 150.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "garb_1": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 150.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "garb_2": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 150.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "garb_3": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 150.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "garb_4": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 150.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "garb_5": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 150.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "virus": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 15.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "mars_bday": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 30.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "poem": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 15.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "fard": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 1.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "aburan": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 100.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "amazur": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 100.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "blance": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 100.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "caliro": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 100.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "friante": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 100.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "hilero": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 100.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "mardad": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 100.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "oscular": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 100.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "subplanet": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 20.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "ironstar": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "shooters": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 20.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "tan": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "booer": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 20.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "vion": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 20.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "ironlung": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 5.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "fesh": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 25.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "eeh": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "faces": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "waves": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "wormy": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "wubbes": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "zzzuu": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "lizard": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "hairy": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "sums2": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "earth_1_2": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 5.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "arirAngry": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 5.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "sigGen6_1": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "sigGen6_2": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "sigGen6_3": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "sigGen6_4": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "sigGen6_5": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "sigGen6_6": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "sigGen6_7": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "sigGen6_8": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "sigGen6_9": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "sigGen6_10": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "sigGen6_11": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "sigGen6_12": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "sigGen6_13": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "sigGen6_14": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "sigGen6_15": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "sigGen6_16": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "sigGen6_17": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "sigGen6_19": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "sigGen6_20": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "sigGen6_21": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "sigGen6_22": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "sigGen6_23": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "sigGen6_24": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "sigGen602_1": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "sigGen602_2": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "sigGen602_3": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "sigGen602_4": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "sigGen602_5": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "sigGen602_6": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "sigGen602_7": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "sigGen602_10": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "sigGen602_11": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "sigGen602_12": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "deer": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "shitDuende": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 25.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "ufo_0": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 5.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "curiosity": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "asteroidXS": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 100.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "asteroidS": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 100.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "asteroidM": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 100.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "asteroidL": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 100.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "asteroidXL": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 100.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "asteroidXXL": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 100.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "coffin": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "planetExp": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "comet": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 20.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "process": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 5.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "shortArirTp": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 200.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "looker_bathroom": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 5.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "looker_basement": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 5.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "looker_gener": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 5.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "looker_forest": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 5.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "looker_stone": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 5.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "looker_entrance": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 5.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "nolisten": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 50.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "bcpu": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 25.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "sigGen7_1": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "sigGen7_2": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "sigGen7_3": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "sigGen7_4": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "sigGen7_5": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "sigGen7_6": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "sigGen7_7": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "sigGen7_8": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "sigGen7_9": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "sigGen7_10": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "sigGen7_11": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "sigGen7_12": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "sigGen7_13": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "sigGen7_14": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "sigGen7_15": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "sigGen7_16": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "sigGen7_17": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "sigGen7_18": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "sigGen7_19": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "tardis": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 5.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "ovalius": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "mreows": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "corpse2": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 25.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "sighisser": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 25.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "sigGen8_1": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "sigGen8_2": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "sigGen8_3": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "sigGen8_4": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "sigGen8_5": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "sigGen8_6": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "sigGen8_7": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "sigGen8_8": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "sigGen8_9": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "sigGen8_10": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "sigGen8_11": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "sigGen8_12": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "sigGen8_13": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "sigGen8_14": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "sigGen8_15": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "sigGen8_16": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "sigGen8_17": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "sigGen8_18": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "sigGen8_19": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "sigGen8_20": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "sigGen8_21": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "echoecho": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "trifo": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "robospeak": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "bassechos": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "umfer": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "poker": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "lonelyOne": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "echoticker": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "ker": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 1.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": true
+      },
+      "reve": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 10.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "a33": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 5.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      },
+      "prtr": {
+        "chance_9_5D4439A246F28F53EB133DAE1AACC82D": 5.0,
+        "removeInAmbient_14_7DE46A7A4A44ACFD9F8F7D95915B0E00": false
+      }
+    }
+  }
+]

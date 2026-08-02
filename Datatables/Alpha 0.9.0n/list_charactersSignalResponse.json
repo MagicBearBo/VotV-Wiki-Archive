@@ -1,0 +1,479 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "list_charactersSignalResponse",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "VotV/Content/main/datatables/list_charactersSignalResponse",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'struct_characterResponse_v21'",
+        "ObjectPath": "VotV/Content/main/structs/struct_characterResponse_v21.0"
+      }
+    },
+    "Rows": {
+      "Dr_Max": {
+        "normal_raw_15_611725B04930374145E646A87B5E4360": {
+          "topics_13_1D17D0B0484E52225DCDB5937D69CE2B": [
+            {
+              "Namespace": "",
+              "Key": "B4A099E04F8066940910C3AB820B1922",
+              "SourceString": "Too noisy",
+              "LocalizedString": "Too noisy"
+            }
+          ],
+          "responses_4_39E9A09E442B620574F248AE409DC7A7": [
+            {
+              "Namespace": "",
+              "Key": "691C7A9D4E7F615415E41B9D9A68DC4A",
+              "SourceString": "The data has too much noise, can't do much with this information.",
+              "LocalizedString": "The data has too much noise, can't do much with this information."
+            }
+          ],
+          "priority_9_B6E7589E4A0FB58E56F1AB9754851F69": 0
+        },
+        "normal_low_16_37B5F9A941EE78D112D36ABF74B2A86D": {
+          "topics_13_1D17D0B0484E52225DCDB5937D69CE2B": [
+            {
+              "Namespace": "",
+              "Key": "9F4A38C64058AE1E63D8D3941D10FF22",
+              "SourceString": "Not great",
+              "LocalizedString": "Not great"
+            }
+          ],
+          "responses_4_39E9A09E442B620574F248AE409DC7A7": [
+            {
+              "Namespace": "",
+              "Key": "03288EB04150FEFACA25589FD0E4E2E7",
+              "SourceString": "It's better but still not enough to gather anything. Need more refined data.",
+              "LocalizedString": "It's better but still not enough to gather anything. Need more refined data."
+            }
+          ],
+          "priority_9_B6E7589E4A0FB58E56F1AB9754851F69": 0
+        },
+        "normal_noisy_17_7A41F79D43A1339C10B46DB79A1D8E50": {
+          "topics_13_1D17D0B0484E52225DCDB5937D69CE2B": [
+            {
+              "Namespace": "",
+              "Key": "59443ECD44C9A0A12EC7459FC76DA823",
+              "SourceString": "Better",
+              "LocalizedString": "Better"
+            }
+          ],
+          "responses_4_39E9A09E442B620574F248AE409DC7A7": [
+            {
+              "Namespace": "",
+              "Key": "E3B072B14CBAF3DC577F508354E9C2D0",
+              "SourceString": "It is definetely better now but still, would be even better if you could refine it even further.",
+              "LocalizedString": "It is definetely better now but still, would be even better if you could refine it even further."
+            }
+          ],
+          "priority_9_B6E7589E4A0FB58E56F1AB9754851F69": 0
+        },
+        "normal_clear_18_21CB0D5C4928A64B027A51AB2F045CA1": {
+          "topics_13_1D17D0B0484E52225DCDB5937D69CE2B": [
+            {
+              "Namespace": "",
+              "Key": "BDC0CC154DB4904BBAC66698A15CB395",
+              "SourceString": "Can hear stuff",
+              "LocalizedString": "Can hear stuff"
+            }
+          ],
+          "responses_4_39E9A09E442B620574F248AE409DC7A7": [
+            {
+              "Namespace": "",
+              "Key": "7456AF57447B15BB719AAABD2B0B4323",
+              "SourceString": "I can definetely hear frequencies and electromagnetic wind. This data will be very helpful in our research.",
+              "LocalizedString": "I can definetely hear frequencies and electromagnetic wind. This data will be very helpful in our research."
+            }
+          ],
+          "priority_9_B6E7589E4A0FB58E56F1AB9754851F69": 0
+        },
+        "interest_noisy_19_F748CF0B4583D667F437CDB67A8294A9": {
+          "topics_13_1D17D0B0484E52225DCDB5937D69CE2B": [
+            {
+              "Namespace": "",
+              "Key": "E707884A4C7209F9354DA9B9BD1156A3",
+              "SourceString": "Weird",
+              "LocalizedString": "Weird"
+            }
+          ],
+          "responses_4_39E9A09E442B620574F248AE409DC7A7": [
+            {
+              "Namespace": "",
+              "Key": "590021B74F16D0BC7A44D6876B112812",
+              "SourceString": "Its noisy but it sounds kinda weird. Not sure if i wanna know what it is...",
+              "LocalizedString": "Its noisy but it sounds kinda weird. Not sure if i wanna know what it is..."
+            }
+          ],
+          "priority_9_B6E7589E4A0FB58E56F1AB9754851F69": 0
+        },
+        "interest_clear_20_0E06806C4E643D342FBC39963711F6D0": {
+          "topics_13_1D17D0B0484E52225DCDB5937D69CE2B": [
+            {
+              "Namespace": "",
+              "Key": "1D44668442BF079C31884FA11E8248E4",
+              "SourceString": "Not as bad",
+              "LocalizedString": "Not as bad"
+            }
+          ],
+          "responses_4_39E9A09E442B620574F248AE409DC7A7": [
+            {
+              "Namespace": "",
+              "Key": "CD83BD354349329B82CA1C9A70B01C1A",
+              "SourceString": "Its not as bad as i thought, very interesting and unique data you got. Keep going Kel",
+              "LocalizedString": "Its not as bad as i thought, very interesting and unique data you got. Keep going Kel"
+            }
+          ],
+          "priority_9_B6E7589E4A0FB58E56F1AB9754851F69": 0
+        },
+        "spooky_clear_21_01E63332476D3C365946A88FDD944987": {
+          "topics_13_1D17D0B0484E52225DCDB5937D69CE2B": [
+            {
+              "Namespace": "",
+              "Key": "0C24636940EA4EB5403736986A76E48F",
+              "SourceString": "I dont like this",
+              "LocalizedString": "I dont like this"
+            }
+          ],
+          "responses_4_39E9A09E442B620574F248AE409DC7A7": [
+            {
+              "Namespace": "",
+              "Key": "A7A3254E4FC189C08A8CA68F22D00601",
+              "SourceString": "I dont like how this sounds, quite scary and unnerving. I will sent this data to Ena, she will analyze it further.",
+              "LocalizedString": "I dont like how this sounds, quite scary and unnerving. I will sent this data to Ena, she will analyze it further."
+            }
+          ],
+          "priority_9_B6E7589E4A0FB58E56F1AB9754851F69": 0
+        },
+        "empty_27_A6F585E7455F00C9ADB26F8D3B8269FF": {
+          "topics_13_1D17D0B0484E52225DCDB5937D69CE2B": [
+            {
+              "Namespace": "",
+              "Key": "20F189074A0AC95CEE44B797CB6B28A0",
+              "SourceString": "empty?",
+              "LocalizedString": "empty?"
+            }
+          ],
+          "responses_4_39E9A09E442B620574F248AE409DC7A7": [
+            {
+              "Namespace": "",
+              "Key": "4C8386A849C0B91F299974A6B26790F8",
+              "SourceString": "empty box",
+              "LocalizedString": "empty box"
+            }
+          ],
+          "priority_9_B6E7589E4A0FB58E56F1AB9754851F69": 0
+        }
+      },
+      "Dr_Ken": {
+        "normal_raw_15_611725B04930374145E646A87B5E4360": {
+          "topics_13_1D17D0B0484E52225DCDB5937D69CE2B": [
+            {
+              "Namespace": "",
+              "Key": "1494D57948AE49E4941FCB84B24E984D",
+              "SourceString": "Not enough data",
+              "LocalizedString": "Not enough data"
+            }
+          ],
+          "responses_4_39E9A09E442B620574F248AE409DC7A7": [
+            {
+              "Namespace": "",
+              "Key": "82A6DEF74E112737ED9ADE85DCB527BC",
+              "SourceString": "These are okay but our systems cant recognize anything useful. Try to find something more interesting than that.",
+              "LocalizedString": "These are okay but our systems cant recognize anything useful. Try to find something more interesting than that."
+            }
+          ],
+          "priority_9_B6E7589E4A0FB58E56F1AB9754851F69": 0
+        },
+        "normal_low_16_37B5F9A941EE78D112D36ABF74B2A86D": {
+          "topics_13_1D17D0B0484E52225DCDB5937D69CE2B": [
+            {
+              "Namespace": "",
+              "Key": "F3F6DE1F44061EE0BF8A2DBB29335E1D",
+              "SourceString": "Too noisy",
+              "LocalizedString": "Too noisy"
+            }
+          ],
+          "responses_4_39E9A09E442B620574F248AE409DC7A7": [
+            {
+              "Namespace": "",
+              "Key": "7863D5E049094B6DEF01F98BD0E75D49",
+              "SourceString": "Still too noisy, process it more please we cant gather anything from it.",
+              "LocalizedString": "Still too noisy, process it more please we cant gather anything from it."
+            }
+          ],
+          "priority_9_B6E7589E4A0FB58E56F1AB9754851F69": 0
+        },
+        "normal_noisy_17_7A41F79D43A1339C10B46DB79A1D8E50": {
+          "topics_13_1D17D0B0484E52225DCDB5937D69CE2B": [
+            {
+              "Namespace": "",
+              "Key": "17092E9047191D0C7A8D2EBE2E65B1BA",
+              "SourceString": "Alright",
+              "LocalizedString": "Alright"
+            }
+          ],
+          "responses_4_39E9A09E442B620574F248AE409DC7A7": [
+            {
+              "Namespace": "",
+              "Key": "CC79F378404B903EBF235493E455CE5C",
+              "SourceString": "Yeah now we can hear things, winds, emissions. Process these further we need more data.",
+              "LocalizedString": "Yeah now we can hear things, winds, emissions. Process these further we need more data."
+            }
+          ],
+          "priority_9_B6E7589E4A0FB58E56F1AB9754851F69": 0
+        },
+        "normal_clear_18_21CB0D5C4928A64B027A51AB2F045CA1": {
+          "topics_13_1D17D0B0484E52225DCDB5937D69CE2B": [
+            {
+              "Namespace": "",
+              "Key": "989E43434E133483AF367B89841CC261",
+              "SourceString": "Thats something",
+              "LocalizedString": "Thats something"
+            }
+          ],
+          "responses_4_39E9A09E442B620574F248AE409DC7A7": [
+            {
+              "Namespace": "",
+              "Key": "E62354BA438140317EF0308F5C602BE7",
+              "SourceString": "Very interesting, the sounds of space are fascinating. Gotta release the papers as soon as possible. Well done pal.",
+              "LocalizedString": "Very interesting, the sounds of space are fascinating. Gotta release the papers as soon as possible. Well done pal."
+            }
+          ],
+          "priority_9_B6E7589E4A0FB58E56F1AB9754851F69": 0
+        },
+        "interest_noisy_19_F748CF0B4583D667F437CDB67A8294A9": {
+          "topics_13_1D17D0B0484E52225DCDB5937D69CE2B": [
+            {
+              "Namespace": "",
+              "Key": "828B8838480FBA558EA1AFAB48BD8EFF",
+              "SourceString": "Surprising",
+              "LocalizedString": "Surprising"
+            }
+          ],
+          "responses_4_39E9A09E442B620574F248AE409DC7A7": [
+            {
+              "Namespace": "",
+              "Key": "D572C7D848C49A7FEEA6888CF9999CA3",
+              "SourceString": "I must admit, I'm positively surprised that old facility was actually able to give us results like this, even if it does need some more processing. I'm sure you'll find more data.",
+              "LocalizedString": "I must admit, I'm positively surprised that old facility was actually able to give us results like this, even if it does need some more processing. I'm sure you'll find more data."
+            }
+          ],
+          "priority_9_B6E7589E4A0FB58E56F1AB9754851F69": 0
+        },
+        "interest_clear_20_0E06806C4E643D342FBC39963711F6D0": {
+          "topics_13_1D17D0B0484E52225DCDB5937D69CE2B": [
+            {
+              "Namespace": "",
+              "Key": "9AC5B0E14A9BF1C6FB8AC69EB6FABA29",
+              "SourceString": "Gaussian field theory?",
+              "LocalizedString": "Gaussian field theory?"
+            }
+          ],
+          "responses_4_39E9A09E442B620574F248AE409DC7A7": [
+            {
+              "Namespace": "",
+              "Key": "6B9DAA6C48F888547156ECA990C32C52",
+              "SourceString": "This is incredible, This data helps explain so much about deep-space field theory. We don't even know where to begin. There are flux patterns like we've never seen, and you can actually hear the shapes interacting. At least, we think that's what we're hearing. Nice job, keep them coming!",
+              "LocalizedString": "This is incredible, This data helps explain so much about deep-space field theory. We don't even know where to begin. There are flux patterns like we've never seen, and you can actually hear the shapes interacting. At least, we think that's what we're hearing. Nice job, keep them coming!"
+            }
+          ],
+          "priority_9_B6E7589E4A0FB58E56F1AB9754851F69": 0
+        },
+        "spooky_clear_21_01E63332476D3C365946A88FDD944987": {
+          "topics_13_1D17D0B0484E52225DCDB5937D69CE2B": [
+            {
+              "Namespace": "",
+              "Key": "E55EEEFA47D9CC49B68DB39AF903D426",
+              "SourceString": "Disturbing find, but maybe it's nothing.",
+              "LocalizedString": "Disturbing find, but maybe it's nothing."
+            }
+          ],
+          "responses_4_39E9A09E442B620574F248AE409DC7A7": [
+            {
+              "Namespace": "",
+              "Key": "455CE04A449FCEECD4099A88F522DC59",
+              "SourceString": "We have listened to this recording in the early hours of the morning, and swore I heard something dreadful behind the noise—something otherworldy. That said, I haven't been sleeping very well, working extremely odd hours just to finish all of my tasks, so perhaps there's a more mundane explanation for this.",
+              "LocalizedString": "We have listened to this recording in the early hours of the morning, and swore I heard something dreadful behind the noise—something otherworldy. That said, I haven't been sleeping very well, working extremely odd hours just to finish all of my tasks, so perhaps there's a more mundane explanation for this."
+            }
+          ],
+          "priority_9_B6E7589E4A0FB58E56F1AB9754851F69": 0
+        },
+        "empty_27_A6F585E7455F00C9ADB26F8D3B8269FF": {
+          "topics_13_1D17D0B0484E52225DCDB5937D69CE2B": [
+            {
+              "Namespace": "",
+              "Key": "20F189074A0AC95CEE44B797CB6B28A0",
+              "SourceString": "empty?",
+              "LocalizedString": "empty?"
+            }
+          ],
+          "responses_4_39E9A09E442B620574F248AE409DC7A7": [
+            {
+              "Namespace": "",
+              "Key": "4C8386A849C0B91F299974A6B26790F8",
+              "SourceString": "empty box",
+              "LocalizedString": "empty box"
+            }
+          ],
+          "priority_9_B6E7589E4A0FB58E56F1AB9754851F69": 0
+        }
+      },
+      "Dr_Ena": {
+        "normal_raw_15_611725B04930374145E646A87B5E4360": {
+          "topics_13_1D17D0B0484E52225DCDB5937D69CE2B": [
+            {
+              "Namespace": "",
+              "Key": "4A0D12094ED1A559C333CD982B70300B",
+              "SourceString": "Sucks",
+              "LocalizedString": "Sucks"
+            }
+          ],
+          "responses_4_39E9A09E442B620574F248AE409DC7A7": [
+            {
+              "Namespace": "",
+              "Key": "898A1CF04A05A350DFFDB59C3A4317A2",
+              "SourceString": "This data sucks, cannot gather anything from it. I hope your dishes are fine though, we cant send another technician to your place.",
+              "LocalizedString": "This data sucks, cannot gather anything from it. I hope your dishes are fine though, we cant send another technician to your place."
+            }
+          ],
+          "priority_9_B6E7589E4A0FB58E56F1AB9754851F69": 0
+        },
+        "normal_low_16_37B5F9A941EE78D112D36ABF74B2A86D": {
+          "topics_13_1D17D0B0484E52225DCDB5937D69CE2B": [
+            {
+              "Namespace": "",
+              "Key": "1048690B4951A449B8B8169AF28B91EE",
+              "SourceString": "Noise",
+              "LocalizedString": "Noise"
+            }
+          ],
+          "responses_4_39E9A09E442B620574F248AE409DC7A7": [
+            {
+              "Namespace": "",
+              "Key": "CE97F3EF4CE02B1B341FB1939B6A22F6",
+              "SourceString": "Its very noisy and low quality but still, i think i can catch something out of this.",
+              "LocalizedString": "Its very noisy and low quality but still, i think i can catch something out of this."
+            }
+          ],
+          "priority_9_B6E7589E4A0FB58E56F1AB9754851F69": 0
+        },
+        "normal_noisy_17_7A41F79D43A1339C10B46DB79A1D8E50": {
+          "topics_13_1D17D0B0484E52225DCDB5937D69CE2B": [
+            {
+              "Namespace": "",
+              "Key": "61F44A4C4F25A090A3D1978B8B0A8E59",
+              "SourceString": "I can hear",
+              "LocalizedString": "I can hear"
+            }
+          ],
+          "responses_4_39E9A09E442B620574F248AE409DC7A7": [
+            {
+              "Namespace": "",
+              "Key": "40DDCF08460DD6158F592FAB7C7C6A44",
+              "SourceString": "I can hear stuff, noisy but manageble. I will try to refine it even more and gather at least something out of this.",
+              "LocalizedString": "I can hear stuff, noisy but manageble. I will try to refine it even more and gather at least something out of this."
+            }
+          ],
+          "priority_9_B6E7589E4A0FB58E56F1AB9754851F69": 0
+        },
+        "normal_clear_18_21CB0D5C4928A64B027A51AB2F045CA1": {
+          "topics_13_1D17D0B0484E52225DCDB5937D69CE2B": [
+            {
+              "Namespace": "",
+              "Key": "8E5ECBC74865B1A31C92CEBF72FCD062",
+              "SourceString": "Nice",
+              "LocalizedString": "Nice"
+            }
+          ],
+          "responses_4_39E9A09E442B620574F248AE409DC7A7": [
+            {
+              "Namespace": "",
+              "Key": "9385FD7E4DF322EBA3A0A3B3747B7A75",
+              "SourceString": "You did a good job Kel, this piece is very good and data is clear.",
+              "LocalizedString": "You did a good job Kel, this piece is very good and data is clear."
+            }
+          ],
+          "priority_9_B6E7589E4A0FB58E56F1AB9754851F69": 0
+        },
+        "interest_noisy_19_F748CF0B4583D667F437CDB67A8294A9": {
+          "topics_13_1D17D0B0484E52225DCDB5937D69CE2B": [
+            {
+              "Namespace": "",
+              "Key": "FE42D3F1424D4F4CC31F4980BC6C5C61",
+              "SourceString": "Interesting",
+              "LocalizedString": "Interesting"
+            }
+          ],
+          "responses_4_39E9A09E442B620574F248AE409DC7A7": [
+            {
+              "Namespace": "",
+              "Key": "8616A0B94557E3B6CACCEB9E421885EA",
+              "SourceString": "This sounds interesting and unusual. I cant process it even further so i hope you get something to make it better, im curious.",
+              "LocalizedString": "This sounds interesting and unusual. I cant process it even further so i hope you get something to make it better, im curious."
+            }
+          ],
+          "priority_9_B6E7589E4A0FB58E56F1AB9754851F69": 0
+        },
+        "interest_clear_20_0E06806C4E643D342FBC39963711F6D0": {
+          "topics_13_1D17D0B0484E52225DCDB5937D69CE2B": [
+            {
+              "Namespace": "",
+              "Key": "5376554F4F23B0F306E4D7B995923CAC",
+              "SourceString": "I like it",
+              "LocalizedString": "I like it"
+            }
+          ],
+          "responses_4_39E9A09E442B620574F248AE409DC7A7": [
+            {
+              "Namespace": "",
+              "Key": "8C93E3554A3E20D8DABF94B4FDDF3390",
+              "SourceString": "I personally like how it sounds so i saved it as a backup, hopefully i can export it and we can listen to it later when you get out of there.",
+              "LocalizedString": "I personally like how it sounds so i saved it as a backup, hopefully i can export it and we can listen to it later when you get out of there."
+            }
+          ],
+          "priority_9_B6E7589E4A0FB58E56F1AB9754851F69": 0
+        },
+        "spooky_clear_21_01E63332476D3C365946A88FDD944987": {
+          "topics_13_1D17D0B0484E52225DCDB5937D69CE2B": [
+            {
+              "Namespace": "",
+              "Key": "5763A193435FF3F3F9A242AE5B1624B4",
+              "SourceString": "Spooky",
+              "LocalizedString": "Spooky"
+            }
+          ],
+          "responses_4_39E9A09E442B620574F248AE409DC7A7": [
+            {
+              "Namespace": "",
+              "Key": "EC012BF24A2E4B0B76F453B4DEFB2C8F",
+              "SourceString": "Sounds spooky, not sure what makes this frequency but it doesnt sound friendly or good, whatever it was.",
+              "LocalizedString": "Sounds spooky, not sure what makes this frequency but it doesnt sound friendly or good, whatever it was."
+            }
+          ],
+          "priority_9_B6E7589E4A0FB58E56F1AB9754851F69": 0
+        },
+        "empty_27_A6F585E7455F00C9ADB26F8D3B8269FF": {
+          "topics_13_1D17D0B0484E52225DCDB5937D69CE2B": [
+            {
+              "Namespace": "",
+              "Key": "20F189074A0AC95CEE44B797CB6B28A0",
+              "SourceString": "empty?",
+              "LocalizedString": "empty?"
+            }
+          ],
+          "responses_4_39E9A09E442B620574F248AE409DC7A7": [
+            {
+              "Namespace": "",
+              "Key": "4C8386A849C0B91F299974A6B26790F8",
+              "SourceString": "empty box",
+              "LocalizedString": "empty box"
+            }
+          ],
+          "priority_9_B6E7589E4A0FB58E56F1AB9754851F69": 0
+        }
+      }
+    }
+  }
+]
