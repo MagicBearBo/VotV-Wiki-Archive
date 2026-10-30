@@ -1,0 +1,911 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "list_signalEmailResponse_obsolete",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "VotV/Content/main/datatables/list_signalEmailResponse_obsolete",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'struct_SignalEmailResponse'",
+        "ObjectPath": "VotV/Content/main/structs/struct_SignalEmailResponse.0"
+      }
+    },
+    "Rows": {
+      "normal_raw": {
+        "topics_13_1D17D0B0484E52225DCDB5937D69CE2B": [
+          {
+            "Namespace": "",
+            "Key": "0942848D4794279A94451098BF102E07",
+            "SourceString": "okay",
+            "LocalizedString": "okay"
+          },
+          {
+            "Namespace": "",
+            "Key": "04E0CD874F6DDB67438D88B52A4E899B",
+            "SourceString": "meh",
+            "LocalizedString": "meh"
+          },
+          {
+            "Namespace": "",
+            "Key": "A7BE4F014B548D2E204CEEBD7149D4EC",
+            "SourceString": "not enough data",
+            "LocalizedString": "not enough data"
+          },
+          {
+            "Namespace": "",
+            "Key": "DC74CE49418F72783D071BB5CAEB2A3E",
+            "SourceString": "noise only",
+            "LocalizedString": "noise only"
+          },
+          {
+            "Namespace": "",
+            "Key": "150A70D440B65EEF8EE0BB9132B6D24E",
+            "SourceString": "It's a start",
+            "LocalizedString": "It's a start"
+          },
+          {
+            "Namespace": "",
+            "Key": "A31EA7BC410A18DD40730C9BFD27A555",
+            "SourceString": "A drop in the bucket",
+            "LocalizedString": "A drop in the bucket"
+          },
+          {
+            "Namespace": "",
+            "Key": "04F065804ED11CB26A5657907D1E1C34",
+            "SourceString": "Too little",
+            "LocalizedString": "Too little"
+          },
+          {
+            "Namespace": "",
+            "Key": "852716B94527440BCB870BABB537608E",
+            "SourceString": "Upgrade needed",
+            "LocalizedString": "Upgrade needed"
+          },
+          {
+            "Namespace": "",
+            "Key": "4EBD04C740DEF6863F7EC2BAC6D84828",
+            "SourceString": "Process the data?",
+            "LocalizedString": "Process the data?"
+          }
+        ],
+        "responses_4_39E9A09E442B620574F248AE409DC7A7": [
+          {
+            "Namespace": "",
+            "Key": "5BDBB6DB4D1029FC0E922CB8B8113B07",
+            "SourceString": "Ehh not enough data, but take a reward anyways, i hope we can do something with it.",
+            "LocalizedString": "Ehh not enough data, but take a reward anyways, i hope we can do something with it."
+          },
+          {
+            "Namespace": "",
+            "Key": "EAFF69B4470FC87831B924996178BEF5",
+            "SourceString": "Umm, we cant gather anything from these, too much noise and data is too crushed. Keep going pal i hope you will find someing decent someday.",
+            "LocalizedString": "Umm, we cant gather anything from these, too much noise and data is too crushed. Keep going pal i hope you will find someing decent someday."
+          },
+          {
+            "Namespace": "",
+            "Key": "0C77EB2B416E77F6B88AABA1AE22B88E",
+            "SourceString": "These are okay but... our systems cant recognize anything useful. Try to find something more interesting than that.",
+            "LocalizedString": "These are okay but... our systems cant recognize anything useful. Try to find something more interesting than that."
+          },
+          {
+            "Namespace": "",
+            "Key": "B820707F41BE83316B8A978E4B917661",
+            "SourceString": "Cant hear anything, only noise and more noise. I really hope you will find something interessting next time.",
+            "LocalizedString": "Cant hear anything, only noise and more noise. I really hope you will find something interessting next time."
+          },
+          {
+            "Namespace": "",
+            "Key": "760CAAE04C2AB58AF61D24AE9AF32BF7",
+            "SourceString": "As interesting as the data is, there isn't much to be gained from it. However, this does prove to be a good start.",
+            "LocalizedString": "As interesting as the data is, there isn't much to be gained from it. However, this does prove to be a good start."
+          },
+          {
+            "Namespace": "",
+            "Key": "CF115ABA4AEB5A5D9355508D2FF22169",
+            "SourceString": "Data is data. This is a good baseline for us to use to calibrate our filtering and noise reduction algorithms.",
+            "LocalizedString": "Data is data. This is a good baseline for us to use to calibrate our filtering and noise reduction algorithms."
+          },
+          {
+            "Namespace": "",
+            "Key": "7423F5C14FB09DED764B72B937A3F899",
+            "SourceString": "I'd prefer not to be harsh, but this is almost worthless. It'd take a lot of work on our end to get anything out of this.",
+            "LocalizedString": "I'd prefer not to be harsh, but this is almost worthless. It'd take a lot of work on our end to get anything out of this."
+          },
+          {
+            "Namespace": "",
+            "Key": "434845834866B8FA9511E8A9E6D6B6E3",
+            "SourceString": "No matter how much we try, we can't do much with this at all. Perhaps you should upgrade your local processing capabilities?",
+            "LocalizedString": "No matter how much we try, we can't do much with this at all. Perhaps you should upgrade your local processing capabilities?"
+          },
+          {
+            "Namespace": "",
+            "Key": "A1E3ADEB4F8B66EB7EE6F58C80237EA5",
+            "SourceString": "There is almost nothing to be gained from this. Perhaps you should process this sort of data?",
+            "LocalizedString": "There is almost nothing to be gained from this. Perhaps you should process this sort of data?"
+          }
+        ],
+        "priority_9_B6E7589E4A0FB58E56F1AB9754851F69": 0
+      },
+      "normal_low": {
+        "topics_13_1D17D0B0484E52225DCDB5937D69CE2B": [
+          {
+            "Namespace": "",
+            "Key": "7A812D8F4B20C72677C401AB91E18ECC",
+            "SourceString": "alright",
+            "LocalizedString": "alright"
+          },
+          {
+            "Namespace": "",
+            "Key": "9AFFE43B4AFE35C5C6755BBB65D00771",
+            "SourceString": "better",
+            "LocalizedString": "better"
+          },
+          {
+            "Namespace": "",
+            "Key": "1FA93709403011C29C06C9A93E30E47E",
+            "SourceString": "too noisy",
+            "LocalizedString": "too noisy"
+          },
+          {
+            "Namespace": "",
+            "Key": "615DA2654E4FB5E52A742398ECD4CDD0",
+            "SourceString": "no data",
+            "LocalizedString": "no data"
+          },
+          {
+            "Namespace": "",
+            "Key": "FF8C9F624041DF3B07BB569F249877DE",
+            "SourceString": "Better than nothing!",
+            "LocalizedString": "Better than nothing!"
+          },
+          {
+            "Namespace": "",
+            "Key": "D751F9DF484ED1CFBDCFABA2D80032DE",
+            "SourceString": "Okay?",
+            "LocalizedString": "Okay?"
+          }
+        ],
+        "responses_4_39E9A09E442B620574F248AE409DC7A7": [
+          {
+            "Namespace": "",
+            "Key": "942773D14910356A393D85A3BB5895F9",
+            "SourceString": "I like these, wish they were more processed because i can hear something but im not sure. Anyways nice job.",
+            "LocalizedString": "I like these, wish they were more processed because i can hear something but im not sure. Anyways nice job."
+          },
+          {
+            "Namespace": "",
+            "Key": "91BD1BC64E8A1A20617B60AAB69E3F67",
+            "SourceString": "These are quite good signals. Could be better but still better than nothing. Keep up the good work.",
+            "LocalizedString": "These are quite good signals. Could be better but still better than nothing. Keep up the good work."
+          },
+          {
+            "Namespace": "",
+            "Key": "F5DA4CB845822BDA282882BDC08293B5",
+            "SourceString": "Still too noisy, process it more please we cant gather anything from it.",
+            "LocalizedString": "Still too noisy, process it more please we cant gather anything from it."
+          },
+          {
+            "Namespace": "",
+            "Key": "22E7EB5646913D2DF0658BA51E6D405D",
+            "SourceString": "Nice job but we cant find anything useful in this data.",
+            "LocalizedString": "Nice job but we cant find anything useful in this data."
+          },
+          {
+            "Namespace": "",
+            "Key": "EF5654D9461573CE1E9EFCA1D0015028",
+            "SourceString": "It's a step in the right direction. We can make out some patterns in the data, and match them with other types of noise. Keep going.",
+            "LocalizedString": "It's a step in the right direction. We can make out some patterns in the data, and match them with other types of noise. Keep going."
+          },
+          {
+            "Namespace": "",
+            "Key": "D7B98CC748803944A348F3B3ADD2CF47",
+            "SourceString": "Not exactly something I'd call good data, but I think we can work with this.",
+            "LocalizedString": "Not exactly something I'd call good data, but I think we can work with this."
+          }
+        ],
+        "priority_9_B6E7589E4A0FB58E56F1AB9754851F69": 1
+      },
+      "normal_noisy": {
+        "topics_13_1D17D0B0484E52225DCDB5937D69CE2B": [
+          {
+            "Namespace": "",
+            "Key": "ED6EFCA74773EA572B032082E73AED41",
+            "SourceString": "nice ones",
+            "LocalizedString": "nice ones"
+          },
+          {
+            "Namespace": "",
+            "Key": "0DDE2AA543152A359A4B9483DC498292",
+            "SourceString": "nice job",
+            "LocalizedString": "nice job"
+          },
+          {
+            "Namespace": "",
+            "Key": "6712DEA84D7C538F4D0249B8395ADD37",
+            "SourceString": "alright",
+            "LocalizedString": "alright"
+          },
+          {
+            "Namespace": "",
+            "Key": "AAC46F9B405B4BF38CF5E4966AD06265",
+            "SourceString": "great",
+            "LocalizedString": "great"
+          },
+          {
+            "Namespace": "",
+            "Key": "F4C6084C4220838B88A63DB0DE3EB74D",
+            "SourceString": "Like treasure hunting",
+            "LocalizedString": "Like treasure hunting"
+          },
+          {
+            "Namespace": "",
+            "Key": "5CC41B684D013A57EED439B3E9434CFF",
+            "SourceString": "Good!",
+            "LocalizedString": "Good!"
+          }
+        ],
+        "responses_4_39E9A09E442B620574F248AE409DC7A7": [
+          {
+            "Namespace": "",
+            "Key": "FFEE84964E641740B6176A90806C7339",
+            "SourceString": "The quality of the data is way better this time. I can hear something at least. Keep up the good work.",
+            "LocalizedString": "The quality of the data is way better this time. I can hear something at least. Keep up the good work."
+          },
+          {
+            "Namespace": "",
+            "Key": "77E71CA8474E973141E7A797FD23E9E4",
+            "SourceString": "Alright, we gathered some data from it. Process more data so we can get enough to release papers in public.",
+            "LocalizedString": "Alright, we gathered some data from it. Process more data so we can get enough to release papers in public."
+          },
+          {
+            "Namespace": "",
+            "Key": "D87EA34547613481D2DE7B9ABEEBB96B",
+            "SourceString": "Yeah now i can hear things, winds, emissions. Process these further we need more data.",
+            "LocalizedString": "Yeah now i can hear things, winds, emissions. Process these further we need more data."
+          },
+          {
+            "Namespace": "",
+            "Key": "234AB8F24E0636FA2974E8ADD6A43CA0",
+            "SourceString": "Sounds like winds, interesting. Keep going.",
+            "LocalizedString": "Sounds like winds, interesting. Keep going."
+          },
+          {
+            "Namespace": "",
+            "Key": "1DA8CA33424FFBAC935FFF8B481EF49A",
+            "SourceString": "That's better. We can consistently match some token reference points with other filtered signals. The picture is getting clearer. Try cleaning up the noise a bit.",
+            "LocalizedString": "That's better. We can consistently match some token reference points with other filtered signals. The picture is getting clearer. Try cleaning up the noise a bit."
+          },
+          {
+            "Namespace": "",
+            "Key": "6143F65E44E530BEB4492AACF74FB44A",
+            "SourceString": "Finally, we can hear something in these. It's not perfect of course, but I trust that you can get us even better data now.",
+            "LocalizedString": "Finally, we can hear something in these. It's not perfect of course, but I trust that you can get us even better data now."
+          }
+        ],
+        "priority_9_B6E7589E4A0FB58E56F1AB9754851F69": 2
+      },
+      "normal_clear": {
+        "topics_13_1D17D0B0484E52225DCDB5937D69CE2B": [
+          {
+            "Namespace": "",
+            "Key": "F5F395584A86E20626911FAC567F013F",
+            "SourceString": "wow",
+            "LocalizedString": "wow"
+          },
+          {
+            "Namespace": "",
+            "Key": "581B08454558FE26758556B3C2AE0F58",
+            "SourceString": "NICE",
+            "LocalizedString": "NICE"
+          },
+          {
+            "Namespace": "",
+            "Key": "CDEE872B4F9C236013BA3F908E856428",
+            "SourceString": "yess",
+            "LocalizedString": "yess"
+          },
+          {
+            "Namespace": "",
+            "Key": "8865A229494B887A8E4515980D1D3F3C",
+            "SourceString": "thats something",
+            "LocalizedString": "thats something"
+          },
+          {
+            "Namespace": "",
+            "Key": "AEAB8DEB41B1CD35A3933E96202CF66C",
+            "SourceString": "Finally",
+            "LocalizedString": "Finally"
+          }
+        ],
+        "responses_4_39E9A09E442B620574F248AE409DC7A7": [
+          {
+            "Namespace": "",
+            "Key": "6AF45A424E2D6A24FBDEB691E13B60E3",
+            "SourceString": "Now this is a clear sound. We can definetely gather alot of data from it",
+            "LocalizedString": "Now this is a clear sound. We can definetely gather alot of data from it"
+          },
+          {
+            "Namespace": "",
+            "Key": "3DFE94514CFC27E6FC9241A00A5F4BDE",
+            "SourceString": "Great job. I can even hear the rocks and sand. Gotta release the papers as soon as possible.",
+            "LocalizedString": "Great job. I can even hear the rocks and sand. Gotta release the papers as soon as possible."
+          },
+          {
+            "Namespace": "",
+            "Key": "9D0F5F3440C19B2583CCF0ADD02E1D67",
+            "SourceString": "Well done pal, alot of stuff for research just from one single signal. Keep going.",
+            "LocalizedString": "Well done pal, alot of stuff for research just from one single signal. Keep going."
+          },
+          {
+            "Namespace": "",
+            "Key": "0E90A8654DFB3DF65FA9F0B1DD10EFD6",
+            "SourceString": "Very interesting, the sounds of space are fascinating.",
+            "LocalizedString": "Very interesting, the sounds of space are fascinating."
+          },
+          {
+            "Namespace": "",
+            "Key": "87C3CDC84D3606BD861162A5F68F60C1",
+            "SourceString": "Now that's the good stuff. With enough of this kind of data, we can really start to build a better picture of what's out there. Good work, Dr. Kel.",
+            "LocalizedString": "Now that's the good stuff. With enough of this kind of data, we can really start to build a better picture of what's out there. Good work, Dr. Kel."
+          }
+        ],
+        "priority_9_B6E7589E4A0FB58E56F1AB9754851F69": 3
+      },
+      "interest_noisy": {
+        "topics_13_1D17D0B0484E52225DCDB5937D69CE2B": [
+          {
+            "Namespace": "",
+            "Key": "D6B2049F4083FCCB25C3BBB95512AC1A",
+            "SourceString": "wweird",
+            "LocalizedString": "wweird"
+          },
+          {
+            "Namespace": "",
+            "Key": "F552037040148723B9138EAC87AA26E2",
+            "SourceString": "uh",
+            "LocalizedString": "uh"
+          },
+          {
+            "Namespace": "",
+            "Key": "B88FF2BD455A93AD62ACE6A5F199D3B5",
+            "SourceString": "i dont like it",
+            "LocalizedString": "i dont like it"
+          },
+          {
+            "Namespace": "",
+            "Key": "C678CA3149B73434AF1AF79E1798BF75",
+            "SourceString": "VOICES",
+            "LocalizedString": "VOICES"
+          },
+          {
+            "Namespace": "",
+            "Key": "D0D1F2E742FE7C1E8B7ECEA727624E36",
+            "SourceString": "So close",
+            "LocalizedString": "So close"
+          },
+          {
+            "Namespace": "",
+            "Key": "A1EB824749EEA302DEDEE3867C08325E",
+            "SourceString": "Surprise",
+            "LocalizedString": "Surprise"
+          }
+        ],
+        "responses_4_39E9A09E442B620574F248AE409DC7A7": [
+          {
+            "Namespace": "",
+            "Key": "22770DCB498A317445BAA3B78589455A",
+            "SourceString": "I think i can hear something. Not sure what exactly and what the source could be but its definetely not natural...",
+            "LocalizedString": "I think i can hear something. Not sure what exactly and what the source could be but its definetely not natural..."
+          },
+          {
+            "Namespace": "",
+            "Key": "665086A349209A503C154CAEDBBCEF4E",
+            "SourceString": "I can clearly hear something in this noise, our systems cant detect anything, but i hear strange sounds.",
+            "LocalizedString": "I can clearly hear something in this noise, our systems cant detect anything, but i hear strange sounds."
+          },
+          {
+            "Namespace": "",
+            "Key": "2713D7C64C650BF1424FC7BAB2EF3291",
+            "SourceString": "You got this stuff from space? Very interesting...",
+            "LocalizedString": "You got this stuff from space? Very interesting..."
+          },
+          {
+            "Namespace": "",
+            "Key": "64F1169D40B28FC9BCAB37BFC9DE3C4A",
+            "SourceString": "Maybe i had too much coffee this night, but i can hear voices. I think.",
+            "LocalizedString": "Maybe i had too much coffee this night, but i can hear voices. I think."
+          },
+          {
+            "Namespace": "",
+            "Key": "A058DF554EB86EFF00C43A811DCDCE24",
+            "SourceString": "We can make out some enormous potential in this. We're not sure what we're hearing, but it will advance our understanding anyway. See if you can copy this signal for later, and process it for noise reduction. We're really excited to see what this is.",
+            "LocalizedString": "We can make out some enormous potential in this. We're not sure what we're hearing, but it will advance our understanding anyway. See if you can copy this signal for later, and process it for noise reduction. We're really excited to see what this is."
+          },
+          {
+            "Namespace": "",
+            "Key": "4945212F4D1B51DB9D5FB0816F0453F6",
+            "SourceString": "I must admit, I'm positively surprised that old facility was actually able to give us results like this, even if it does need some more processing. Keep going, I'm sure you'll find even more impressive Data.",
+            "LocalizedString": "I must admit, I'm positively surprised that old facility was actually able to give us results like this, even if it does need some more processing. Keep going, I'm sure you'll find even more impressive Data."
+          }
+        ],
+        "priority_9_B6E7589E4A0FB58E56F1AB9754851F69": 4
+      },
+      "interest_clear": {
+        "topics_13_1D17D0B0484E52225DCDB5937D69CE2B": [
+          {
+            "Namespace": "",
+            "Key": "32F41831455D315A4C499894529A805A",
+            "SourceString": "COOL",
+            "LocalizedString": "COOL"
+          },
+          {
+            "Namespace": "",
+            "Key": "96262DD2460AA514D2B1918E5BA49246",
+            "SourceString": "very interessting",
+            "LocalizedString": "very interessting"
+          },
+          {
+            "Namespace": "",
+            "Key": "E86228F94A546CEE6C7D2BBD4B0548CF",
+            "SourceString": "Valuable find",
+            "LocalizedString": "Valuable find"
+          },
+          {
+            "Namespace": "",
+            "Key": "A0BF38DD4AA4567948813F990EC218EB",
+            "SourceString": "An incredible discovery!",
+            "LocalizedString": "An incredible discovery!"
+          },
+          {
+            "Namespace": "",
+            "Key": "42ABEFF2475D7FECB17B8EB99D43D161",
+            "SourceString": "Holy crap",
+            "LocalizedString": "Holy crap"
+          },
+          {
+            "Namespace": "",
+            "Key": "C3D6F40E427B70AEDB9E9A9F17D7DBED",
+            "SourceString": "Gaussian field theory?",
+            "LocalizedString": "Gaussian field theory?"
+          },
+          {
+            "Namespace": "",
+            "Key": "43F23B894C7F4146CFDF7CBEAC0E46AA",
+            "SourceString": "Breathtaking",
+            "LocalizedString": "Breathtaking"
+          }
+        ],
+        "responses_4_39E9A09E442B620574F248AE409DC7A7": [
+          {
+            "Namespace": "",
+            "Key": "99D8F8834DEF405CB8507489B49282C6",
+            "SourceString": "Wow im fascinated. You start getting very interesting stuff lately. Cant wait to see more",
+            "LocalizedString": "Wow im fascinated. You start getting very interesting stuff lately. Cant wait to see more"
+          },
+          {
+            "Namespace": "",
+            "Key": "0310A5CF4E705E30231AAF98362DBB61",
+            "SourceString": "That was cool, the sound is so clear and the data is pure. Papers will be released tomorrow.",
+            "LocalizedString": "That was cool, the sound is so clear and the data is pure. Papers will be released tomorrow."
+          },
+          {
+            "Namespace": "",
+            "Key": "CDB85BBC46AA04F41F396CA94D335CA7",
+            "SourceString": "We must say, you've simply outdone yourself with this, we'll be sure to credit you in our reports, you've earned it",
+            "LocalizedString": "We must say, you've simply outdone yourself with this, we'll be sure to credit you in our reports, you've earned it"
+          },
+          {
+            "Namespace": "",
+            "Key": "8BFDC8BF4DBAFE2CE953C896D327C2CB",
+            "SourceString": "I never thought I'd hear something like THIS out in deep space! This could be the beginning of a fundamental breakthrough in our understanding of astrophysics, perhaps even cosmology.",
+            "LocalizedString": "I never thought I'd hear something like THIS out in deep space! This could be the beginning of a fundamental breakthrough in our understanding of astrophysics, perhaps even cosmology."
+          },
+          {
+            "Namespace": "",
+            "Key": "1C8013E04E6FE71B054EFDB57A316817",
+            "SourceString": "That is.. wow. We try not to make assumptions, so this probably has a natural explanation, but I admit it feels like we found something special. If this is a natural phenomenon, we won't even be able to measure the progress. And if it isn't.. well let's not get ahead of ourselves. We'll have our top minds chewing on this for a long time, I think.",
+            "LocalizedString": "That is.. wow. We try not to make assumptions, so this probably has a natural explanation, but I admit it feels like we found something special. If this is a natural phenomenon, we won't even be able to measure the progress. And if it isn't.. well let's not get ahead of ourselves. We'll have our top minds chewing on this for a long time, I think."
+          },
+          {
+            "Namespace": "",
+            "Key": "556F2B5C43D9F6237E5D11A297401F39",
+            "SourceString": "This is incredible, Dr. Kel. This data helps explain so much about deep-space field theory. We don't even know where to begin. There are flux patterns like we've never seen, and you can actually hear the shapes interacting. At least, we think that's what we're hearing. Fantastic job, keep them coming!",
+            "LocalizedString": "This is incredible, Dr. Kel. This data helps explain so much about deep-space field theory. We don't even know where to begin. There are flux patterns like we've never seen, and you can actually hear the shapes interacting. At least, we think that's what we're hearing. Fantastic job, keep them coming!"
+          },
+          {
+            "Namespace": "",
+            "Key": "510B5C1043753ED6EBCF3D90A060BAE5",
+            "SourceString": "I am flabbergasted. This is some incredible data, Dr. Kel. If we can keep this up we might just be able to advance our field of science!",
+            "LocalizedString": "I am flabbergasted. This is some incredible data, Dr. Kel. If we can keep this up we might just be able to advance our field of science!"
+          }
+        ],
+        "priority_9_B6E7589E4A0FB58E56F1AB9754851F69": 5
+      },
+      "spooky_clear": {
+        "topics_13_1D17D0B0484E52225DCDB5937D69CE2B": [
+          {
+            "Namespace": "",
+            "Key": "C938D0424FA95DDB0166F6AF22DF7FB9",
+            "SourceString": "Disturbing find, but maybe it's nothing.",
+            "LocalizedString": "Disturbing find, but maybe it's nothing."
+          },
+          {
+            "Namespace": "",
+            "Key": "A4110EC948F36F7D6601608E41B92C32",
+            "SourceString": "PLEASE give us a heads-up next time.",
+            "LocalizedString": "PLEASE give us a heads-up next time."
+          },
+          {
+            "Namespace": "",
+            "Key": "6B57B88444CC99DA04CFED86705639D6",
+            "SourceString": "WOTW will be real",
+            "LocalizedString": "WOTW will be real"
+          },
+          {
+            "Namespace": "",
+            "Key": "88CBFB204235E302DBD632A501175B87",
+            "SourceString": "Oh God",
+            "LocalizedString": "Oh God"
+          },
+          {
+            "Namespace": "",
+            "Key": "9B81F22742030EE1BB749E85905AFB14",
+            "SourceString": "Well that's unsettling",
+            "LocalizedString": "Well that's unsettling"
+          },
+          {
+            "Namespace": "",
+            "Key": "437C56A043D1C5221961BA94D4BFF568",
+            "SourceString": "Don't worry about it.",
+            "LocalizedString": "Don't worry about it."
+          },
+          {
+            "Namespace": "",
+            "Key": "B7BA19114A14679DF8AD349DF2B282E4",
+            "SourceString": "Plz read asap",
+            "LocalizedString": "Plz read asap"
+          },
+          {
+            "Namespace": "",
+            "Key": "B46D7FD84B052EA9C6D44E8AFBB64776",
+            "SourceString": "Please Dr. Kel",
+            "LocalizedString": "Please Dr. Kel"
+          },
+          {
+            "Namespace": "",
+            "Key": "6A5288704ED546EB247661B309511081",
+            "SourceString": "Can't be right",
+            "LocalizedString": "Can't be right"
+          },
+          {
+            "Namespace": "",
+            "Key": "8F0ED0BD4DE08721BB17F5A04C12C3C3",
+            "SourceString": "Won't publish",
+            "LocalizedString": "Won't publish"
+          },
+          {
+            "Namespace": "",
+            "Key": "BF3D93214E78371B6440F48D7C553E32",
+            "SourceString": "Delete this",
+            "LocalizedString": "Delete this"
+          },
+          {
+            "Namespace": "",
+            "Key": "B39352624C2536C3349C2D82399A171D",
+            "SourceString": "Shipment Error",
+            "LocalizedString": "Shipment Error"
+          }
+        ],
+        "responses_4_39E9A09E442B620574F248AE409DC7A7": [
+          {
+            "Namespace": "",
+            "Key": "AB3A5C5E472A535385D9FA9BFE25B0A2",
+            "SourceString": "I listened to this recording in the early hours of the morning, and swore I heard something dreadful behind the noise—something otherworldy. That said, I haven't been sleeping very well, working extremely odd hours just to finish all of my tasks, so perhaps there's a more mundane explanation for this.",
+            "LocalizedString": "I listened to this recording in the early hours of the morning, and swore I heard something dreadful behind the noise—something otherworldy. That said, I haven't been sleeping very well, working extremely odd hours just to finish all of my tasks, so perhaps there's a more mundane explanation for this."
+          },
+          {
+            "Namespace": "",
+            "Key": "F72A13A949833F8FCA730A9523694FE8",
+            "SourceString": "When we played this recording, our senior researcher nearly had a heart attack. We've verified that this data is genuine, so I don't believe this to be a prank, but please warn us ahead of time.",
+            "LocalizedString": "When we played this recording, our senior researcher nearly had a heart attack. We've verified that this data is genuine, so I don't believe this to be a prank, but please warn us ahead of time."
+          },
+          {
+            "Namespace": "",
+            "Key": "1154AD57462D2146E0EBD68C369FE123",
+            "SourceString": "We can’t let anybody know about this. I’m deleting the signal off of the drive immediately, do NOT send something like this ever again.",
+            "LocalizedString": "We can’t let anybody know about this. I’m deleting the signal off of the drive immediately, do NOT send something like this ever again."
+          },
+          {
+            "Namespace": "",
+            "Key": "040DE19F4BCC639C7FB2F582955EFA2F",
+            "SourceString": "Dr Kel, whatever the hell is on this damn tape, the public does NOT need to find out. You should keep these coming so we can further research these \"beings\", but sweet Jesus this is NOT GOOD",
+            "LocalizedString": "Dr Kel, whatever the hell is on this damn tape, the public does NOT need to find out. You should keep these coming so we can further research these \"beings\", but sweet Jesus this is NOT GOOD"
+          },
+          {
+            "Namespace": "",
+            "Key": "348CAEBA458FEE69E96951B6333D3F75",
+            "SourceString": "\"I'm sure we're just hearing shapes in the clouds, but yeeg. This is beginning to creep me out. None of this lines up with any natural phenomena we know about, so at least we'll learn something. Hopefully something not terrible. Man.",
+            "LocalizedString": "\"I'm sure we're just hearing shapes in the clouds, but yeeg. This is beginning to creep me out. None of this lines up with any natural phenomena we know about, so at least we'll learn something. Hopefully something not terrible. Man."
+          },
+          {
+            "Namespace": "",
+            "Key": "44904856470F9362FD3623A4F67047A4",
+            "SourceString": "We found out that Dr. Ash was messing with the harmonic oscillators in the bunker again. That's all this was. Nothing else. Just a prank. Go ahead and wipe the drive and forget about it. No sense in setting science back a year. And for heaven's sake, Dr. Kel, please exercise some discernment.",
+            "LocalizedString": "We found out that Dr. Ash was messing with the harmonic oscillators in the bunker again. That's all this was. Nothing else. Just a prank. Go ahead and wipe the drive and forget about it. No sense in setting science back a year. And for heaven's sake, Dr. Kel, please exercise some discernment."
+          },
+          {
+            "Namespace": "",
+            "Key": "F697948E4A66B98A41DA9ABE655AA5CB",
+            "SourceString": "Okay. We both know what that was. Or at least who it wasn't. Whatever we might learn from this data isn't worth the cost. Just remember, that was a long time ago, and very distant. Whoever sent that probably isn't a threat. Try to get some sleep.",
+            "LocalizedString": "Okay. We both know what that was. Or at least who it wasn't. Whatever we might learn from this data isn't worth the cost. Just remember, that was a long time ago, and very distant. Whoever sent that probably isn't a threat. Try to get some sleep."
+          },
+          {
+            "Namespace": "",
+            "Key": "0A2E171E451B8F7980C6CD9B38103A92",
+            "SourceString": "NOBODY can hear this tape. If you keep sending me these types of transmissions, we'll both get fired, or worse. Please don't send these to me, imagine if Dr. Bao heard this tape.",
+            "LocalizedString": "NOBODY can hear this tape. If you keep sending me these types of transmissions, we'll both get fired, or worse. Please don't send these to me, imagine if Dr. Bao heard this tape."
+          },
+          {
+            "Namespace": "",
+            "Key": "88BE28C940985218E9DF31BD24D2A589",
+            "SourceString": "Surely I'm just imagining things, but I can't shake the feeling that there's more to this.",
+            "LocalizedString": "Surely I'm just imagining things, but I can't shake the feeling that there's more to this."
+          },
+          {
+            "Namespace": "",
+            "Key": "624B030A49B0C5492800C8AB5D789F3D",
+            "SourceString": "I'll be frank, I do not like what I'm hearing. I don't think we should let the public know about this.",
+            "LocalizedString": "I'll be frank, I do not like what I'm hearing. I don't think we should let the public know about this."
+          },
+          {
+            "Namespace": "",
+            "Key": "9D557C2A4176AD357F955DBE31B5053F",
+            "SourceString": "Dr. Kel, I'm addressing you directly for this. Purge that data. Now.",
+            "LocalizedString": "Dr. Kel, I'm addressing you directly for this. Purge that data. Now."
+          },
+          {
+            "Namespace": "",
+            "Key": "B9BA576D4B53B228C2E16D8D2219D34A",
+            "SourceString": "We must make one thing quite clear, we never received this drive, and if we did, the data was too corrupt to view, we will credit you for a delivery, but officially, that drive no longer exists, we recommend you forget that you sent anything, for both our sakes",
+            "LocalizedString": "We must make one thing quite clear, we never received this drive, and if we did, the data was too corrupt to view, we will credit you for a delivery, but officially, that drive no longer exists, we recommend you forget that you sent anything, for both our sakes"
+          }
+        ],
+        "priority_9_B6E7589E4A0FB58E56F1AB9754851F69": 6
+      },
+      "special_the_evil": {
+        "topics_13_1D17D0B0484E52225DCDB5937D69CE2B": [
+          {
+            "Namespace": "",
+            "Key": "0CCF986B429C1012B2346DB29F94E74E",
+            "SourceString": "text box",
+            "LocalizedString": "text box"
+          }
+        ],
+        "responses_4_39E9A09E442B620574F248AE409DC7A7": [
+          {
+            "Namespace": "",
+            "Key": "269E74764D8C88EEA60E60942EAA3B4A",
+            "SourceString": "#####DES#TR#OY_#DIS#C#####_RU#N######NIN######G#_###D#E###STR###O#Y_#A#############LL#_CO####N#TAINE#########R#_A#_############E###_R#U###N#N###ING_###DES####TROY####_AL#L_######E#############_D########ATA#_I#MM#######EDIA#TELY_#TH#########E_P###L######ANET#_W######ILL#_##BE##_IT ####WA#######S DE##STROYED_W########E#_NO####_######EN##O###UGH_T#IME##_#########################################################",
+            "LocalizedString": "#####DES#TR#OY_#DIS#C#####_RU#N######NIN######G#_###D#E###STR###O#Y_#A#############LL#_CO####N#TAINE#########R#_A#_############E###_R#U###N#N###ING_###DES####TROY####_AL#L_######E#############_D########ATA#_I#MM#######EDIA#TELY_#TH#########E_P###L######ANET#_W######ILL#_##BE##_IT ####WA#######S DE##STROYED_W########E#_NO####_######EN##O###UGH_T#IME##_#########################################################"
+          }
+        ],
+        "priority_9_B6E7589E4A0FB58E56F1AB9754851F69": 9999
+      },
+      "special_wormhole": {
+        "topics_13_1D17D0B0484E52225DCDB5937D69CE2B": [
+          {
+            "Namespace": "",
+            "Key": "EFDBB3F94E03834A6DE849A17FFF30A3",
+            "SourceString": "text box",
+            "LocalizedString": "text box"
+          }
+        ],
+        "responses_4_39E9A09E442B620574F248AE409DC7A7": [
+          {
+            "Namespace": "",
+            "Key": "2DAE7AFA4A71213526D157935C6AAE0F",
+            "SourceString": "... okay pal listen i will keep this fucking drive for myself, noone should know about this, got it? if you tell anyone i will kill you with my bare hands",
+            "LocalizedString": "... okay pal listen i will keep this fucking drive for myself, noone should know about this, got it? if you tell anyone i will kill you with my bare hands"
+          }
+        ],
+        "priority_9_B6E7589E4A0FB58E56F1AB9754851F69": 7
+      },
+      "special_arirImage": {
+        "topics_13_1D17D0B0484E52225DCDB5937D69CE2B": [
+          {
+            "Namespace": "",
+            "Key": "B3A4A6BF409BC6E8086C9CBCB92DD763",
+            "SourceString": "text box",
+            "LocalizedString": "text box"
+          }
+        ],
+        "responses_4_39E9A09E442B620574F248AE409DC7A7": [
+          {
+            "Namespace": "",
+            "Key": "A316684A46120F8A7667B38BE54DD5E5",
+            "SourceString": "dr ena left a gun and ammo behind the crate in a garage, protect the base at all costs",
+            "LocalizedString": "dr ena left a gun and ammo behind the crate in a garage, protect the base at all costs"
+          }
+        ],
+        "priority_9_B6E7589E4A0FB58E56F1AB9754851F69": 7
+      },
+      "special_arirTalk": {
+        "topics_13_1D17D0B0484E52225DCDB5937D69CE2B": [
+          {
+            "Namespace": "",
+            "Key": "44FB0FAB4A21ED61EB263B890BFA568D",
+            "SourceString": "text box",
+            "LocalizedString": "text box"
+          }
+        ],
+        "responses_4_39E9A09E442B620574F248AE409DC7A7": [
+          {
+            "CultureInvariantString": null
+          }
+        ],
+        "priority_9_B6E7589E4A0FB58E56F1AB9754851F69": 7
+      },
+      "special_earth": {
+        "topics_13_1D17D0B0484E52225DCDB5937D69CE2B": [
+          {
+            "Namespace": "",
+            "Key": "7B2758CD45BA13AB5208C583E85642CC",
+            "SourceString": "what?",
+            "LocalizedString": "what?"
+          },
+          {
+            "Namespace": "",
+            "Key": "6CB8BF6F4C8C3676E81AC98BAF33BBE5",
+            "SourceString": "earth?",
+            "LocalizedString": "earth?"
+          }
+        ],
+        "responses_4_39E9A09E442B620574F248AE409DC7A7": [
+          {
+            "Namespace": "",
+            "Key": "A6AED4AC49521624B2D174990DAB3F09",
+            "SourceString": "i got a little bit confused but maybe it got reflected or something. Anyways heres some points for your efforts",
+            "LocalizedString": "i got a little bit confused but maybe it got reflected or something. Anyways heres some points for your efforts"
+          },
+          {
+            "Namespace": "",
+            "Key": "5F1E5C1C4DE15B2BF59964B4567015B1",
+            "SourceString": "I think it get reflected and send back to earth, the signal i mean",
+            "LocalizedString": "I think it get reflected and send back to earth, the signal i mean"
+          }
+        ],
+        "priority_9_B6E7589E4A0FB58E56F1AB9754851F69": 0
+      },
+      "empty": {
+        "topics_13_1D17D0B0484E52225DCDB5937D69CE2B": [
+          {
+            "Namespace": "",
+            "Key": "71FF8F1243EA1F476F3B498C6F3D7124",
+            "SourceString": "empty?",
+            "LocalizedString": "empty?"
+          },
+          {
+            "Namespace": "",
+            "Key": "8B9A38C9400FE231D65CF2AEE23F88E4",
+            "SourceString": "nothing is there",
+            "LocalizedString": "nothing is there"
+          },
+          {
+            "Namespace": "",
+            "Key": "7EBE7EE445218C8A1E33ADBCDEFFACB0",
+            "SourceString": "joke?",
+            "LocalizedString": "joke?"
+          },
+          {
+            "Namespace": "",
+            "Key": "EF94C34E4E15C04148CB00A672B5BF5B",
+            "SourceString": "empty",
+            "LocalizedString": "empty"
+          }
+        ],
+        "responses_4_39E9A09E442B620574F248AE409DC7A7": [
+          {
+            "Namespace": "",
+            "Key": "3BF9D2854417720F74A2BA8D51B64AF7",
+            "SourceString": "I dont hear anything, maybe it got corrupted or something",
+            "LocalizedString": "I dont hear anything, maybe it got corrupted or something"
+          },
+          {
+            "Namespace": "",
+            "Key": "24422FE94AE67E525CC3F9BF9312C064",
+            "SourceString": "theres nothing on the drive, i dont know what happened but whatever",
+            "LocalizedString": "theres nothing on the drive, i dont know what happened but whatever"
+          },
+          {
+            "Namespace": "",
+            "Key": "86F0DC164BEF55061935CD841C86723B",
+            "SourceString": "i dont know if it was a joke but please dont waste the drives, okay? we are not funded enough to waste these things",
+            "LocalizedString": "i dont know if it was a joke but please dont waste the drives, okay? we are not funded enough to waste these things"
+          },
+          {
+            "Namespace": "",
+            "Key": "28F3C2234E39A80A5CC0248E66242133",
+            "SourceString": "the data is empty, theres nothing on the drive",
+            "LocalizedString": "the data is empty, theres nothing on the drive"
+          }
+        ],
+        "priority_9_B6E7589E4A0FB58E56F1AB9754851F69": 0
+      },
+      "calm4": {
+        "topics_13_1D17D0B0484E52225DCDB5937D69CE2B": [
+          {
+            "Namespace": "",
+            "Key": "5B2D76B843961014225EC6B4EDF06215",
+            "SourceString": "aw man",
+            "LocalizedString": "aw man"
+          }
+        ],
+        "responses_4_39E9A09E442B620574F248AE409DC7A7": [
+          {
+            "Namespace": "",
+            "Key": "3835B5F844235FD60B900BAFAC2BBCA7",
+            "SourceString": "00000000000000000000000000000000\\00000000000000000000000000000000\\00000000000000000000000000000000\\00000000000000000000000000000000\\00001111111100000000111111110000\\00001111111100000000111111110000\\00001111111100000000111111110000\\00001111111100000000111111110000\\00000000000011111111000000000000\\00000000000011111111000000000000\\00000000111111111111111100000000\\00000000111111111111111100000000\\00000000111111111111111100000000\\00000000111111111111111100000000\\00000000111100000000111100000000\\00000000111100000000111100000000\\",
+            "LocalizedString": "00000000000000000000000000000000\\00000000000000000000000000000000\\00000000000000000000000000000000\\00000000000000000000000000000000\\00001111111100000000111111110000\\00001111111100000000111111110000\\00001111111100000000111111110000\\00001111111100000000111111110000\\00000000000011111111000000000000\\00000000000011111111000000000000\\00000000111111111111111100000000\\00000000111111111111111100000000\\00000000111111111111111100000000\\00000000111111111111111100000000\\00000000111100000000111100000000\\00000000111100000000111100000000\\"
+          }
+        ],
+        "priority_9_B6E7589E4A0FB58E56F1AB9754851F69": 999
+      },
+      "exp": {
+        "topics_13_1D17D0B0484E52225DCDB5937D69CE2B": [
+          {
+            "Namespace": "",
+            "Key": "E4DD072C49FDEAD98D923BAEEB7892D2",
+            "SourceString": "KEL",
+            "LocalizedString": "KEL"
+          },
+          {
+            "Namespace": "",
+            "Key": "DB2D7DC44C8088678BE36ABCEC8780E2",
+            "SourceString": "Thats not funny",
+            "LocalizedString": "Thats not funny"
+          },
+          {
+            "Namespace": "",
+            "Key": "A4850BF14781442BADCDB1A8113C52B0",
+            "SourceString": "HOW",
+            "LocalizedString": "HOW"
+          },
+          {
+            "Namespace": "",
+            "Key": "BB9BDC984B2F3A2D5C15B19A77B37446",
+            "SourceString": "?????????",
+            "LocalizedString": "?????????"
+          }
+        ],
+        "responses_4_39E9A09E442B620574F248AE409DC7A7": [
+          {
+            "Namespace": "",
+            "Key": "E65B4F7043AC0E26D3C9F1A2875ED2B2",
+            "SourceString": "WHAT THE FUCK KEL? ARE YOU OUT OF YOUR MIND?",
+            "LocalizedString": "WHAT THE FUCK KEL? ARE YOU OUT OF YOUR MIND?"
+          },
+          {
+            "Namespace": "",
+            "Key": "F1A486214A0C29723597CA9232589DDB",
+            "SourceString": "If you perform this kind of shit again - Bao will fire you",
+            "LocalizedString": "If you perform this kind of shit again - Bao will fire you"
+          },
+          {
+            "Namespace": "",
+            "Key": "365E59084285FAE67AA7F6906D7CD174",
+            "SourceString": "HOW did you make this and HOW did it exploded??? DONT do this shit again",
+            "LocalizedString": "HOW did you make this and HOW did it exploded??? DONT do this shit again"
+          },
+          {
+            "Namespace": "",
+            "Key": "5D3A1618470D026B159924BA7546C83E",
+            "SourceString": "I will fine you for this shit",
+            "LocalizedString": "I will fine you for this shit"
+          }
+        ],
+        "priority_9_B6E7589E4A0FB58E56F1AB9754851F69": 999
+      }
+    }
+  }
+]
