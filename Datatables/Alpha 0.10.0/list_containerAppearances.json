@@ -1,0 +1,134 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "list_containerAppearances",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "VotV/Content/main/datatables/list_containerAppearances",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'struct_containerAppearance'",
+        "ObjectPath": "VotV/Content/main/structs/struct_containerAppearance.0"
+      }
+    },
+    "Rows": {
+      "default": {
+        "sound_open_2_296A3F60466C81752AFC34B73A945540": null,
+        "sound_close_4_F83E74F14A58908DE223E8BC72C21201": null,
+        "material_background_7_8108A59C41B21B64A47BB7B7E45A605D": null,
+        "material_border_9_D0154AAC40546241ECD3C9BE1F0618BA": {
+          "ObjectName": "MaterialInstanceConstant'inst_invBord_default'",
+          "ObjectPath": "VotV/Content/umg/test/inst_invBord_default.0"
+        }
+      },
+      "fabric": {
+        "sound_open_2_296A3F60466C81752AFC34B73A945540": {
+          "ObjectName": "SoundWave'clothContainerOpen'",
+          "ObjectPath": "VotV/Content/audio/newsounds/effects/clothContainerOpen.0"
+        },
+        "sound_close_4_F83E74F14A58908DE223E8BC72C21201": {
+          "ObjectName": "SoundWave'clothContainerClose'",
+          "ObjectPath": "VotV/Content/audio/newsounds/effects/clothContainerClose.0"
+        },
+        "material_background_7_8108A59C41B21B64A47BB7B7E45A605D": {
+          "ObjectName": "MaterialInstanceConstant'inst_invBack_farbric'",
+          "ObjectPath": "VotV/Content/umg/test/inst_invBack_farbric.0"
+        },
+        "material_border_9_D0154AAC40546241ECD3C9BE1F0618BA": {
+          "ObjectName": "MaterialInstanceConstant'inst_invBord_fabric'",
+          "ObjectPath": "VotV/Content/umg/test/inst_invBord_fabric.0"
+        }
+      },
+      "wood": {
+        "sound_open_2_296A3F60466C81752AFC34B73A945540": {
+          "ObjectName": "SoundWave'woodContainerOpen'",
+          "ObjectPath": "VotV/Content/audio/newsounds/effects/woodContainerOpen.0"
+        },
+        "sound_close_4_F83E74F14A58908DE223E8BC72C21201": {
+          "ObjectName": "SoundWave'woodContainerClose'",
+          "ObjectPath": "VotV/Content/audio/newsounds/effects/woodContainerClose.0"
+        },
+        "material_background_7_8108A59C41B21B64A47BB7B7E45A605D": {
+          "ObjectName": "MaterialInstanceConstant'inst_invBack_wood'",
+          "ObjectPath": "VotV/Content/umg/test/inst_invBack_wood.0"
+        },
+        "material_border_9_D0154AAC40546241ECD3C9BE1F0618BA": {
+          "ObjectName": "MaterialInstanceConstant'inst_invBord_wood'",
+          "ObjectPath": "VotV/Content/umg/test/inst_invBord_wood.0"
+        }
+      },
+      "metal": {
+        "sound_open_2_296A3F60466C81752AFC34B73A945540": {
+          "ObjectName": "SoundWave'metalContainerOpen'",
+          "ObjectPath": "VotV/Content/audio/newsounds/effects/metalContainerOpen.0"
+        },
+        "sound_close_4_F83E74F14A58908DE223E8BC72C21201": {
+          "ObjectName": "SoundWave'metalContainerClose'",
+          "ObjectPath": "VotV/Content/audio/newsounds/effects/metalContainerClose.0"
+        },
+        "material_background_7_8108A59C41B21B64A47BB7B7E45A605D": {
+          "ObjectName": "MaterialInstanceConstant'inst_invBack_metal'",
+          "ObjectPath": "VotV/Content/umg/test/inst_invBack_metal.0"
+        },
+        "material_border_9_D0154AAC40546241ECD3C9BE1F0618BA": {
+          "ObjectName": "MaterialInstanceConstant'inst_invBord_metal'",
+          "ObjectPath": "VotV/Content/umg/test/inst_invBord_metal.0"
+        }
+      },
+      "cardboard": {
+        "sound_open_2_296A3F60466C81752AFC34B73A945540": {
+          "ObjectName": "SoundWave'paperContainerOpen'",
+          "ObjectPath": "VotV/Content/audio/newsounds/effects/paperContainerOpen.0"
+        },
+        "sound_close_4_F83E74F14A58908DE223E8BC72C21201": {
+          "ObjectName": "SoundWave'paperContainerClose'",
+          "ObjectPath": "VotV/Content/audio/newsounds/effects/paperContainerClose.0"
+        },
+        "material_background_7_8108A59C41B21B64A47BB7B7E45A605D": {
+          "ObjectName": "MaterialInstanceConstant'inst_invBack_cardboard'",
+          "ObjectPath": "VotV/Content/umg/test/inst_invBack_cardboard.0"
+        },
+        "material_border_9_D0154AAC40546241ECD3C9BE1F0618BA": {
+          "ObjectName": "MaterialInstanceConstant'inst_invBord_cardboard'",
+          "ObjectPath": "VotV/Content/umg/test/inst_invBord_cardboard.0"
+        }
+      },
+      "plastic": {
+        "sound_open_2_296A3F60466C81752AFC34B73A945540": {
+          "ObjectName": "SoundCue'softImpact_plastic_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/softImpact/softImpact_plastic_Cue.0"
+        },
+        "sound_close_4_F83E74F14A58908DE223E8BC72C21201": {
+          "ObjectName": "SoundCue'impact_plastic_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/impact_plastic_Cue.0"
+        },
+        "material_background_7_8108A59C41B21B64A47BB7B7E45A605D": {
+          "ObjectName": "MaterialInstanceConstant'inst_invBack_plastic'",
+          "ObjectPath": "VotV/Content/umg/test/inst_invBack_plastic.0"
+        },
+        "material_border_9_D0154AAC40546241ECD3C9BE1F0618BA": {
+          "ObjectName": "MaterialInstanceConstant'inst_invBord_plastic'",
+          "ObjectPath": "VotV/Content/umg/test/inst_invBord_plastic.0"
+        }
+      },
+      "garbage": {
+        "sound_open_2_296A3F60466C81752AFC34B73A945540": {
+          "ObjectName": "SoundCue'impact_bag_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/impact_bag_Cue.0"
+        },
+        "sound_close_4_F83E74F14A58908DE223E8BC72C21201": {
+          "ObjectName": "SoundCue'impact_bag_Cue'",
+          "ObjectPath": "VotV/Content/audio/effects/physics/impact/impact_bag_Cue.0"
+        },
+        "material_background_7_8108A59C41B21B64A47BB7B7E45A605D": {
+          "ObjectName": "MaterialInstanceConstant'inst_invBack_bag'",
+          "ObjectPath": "VotV/Content/umg/test/inst_invBack_bag.0"
+        },
+        "material_border_9_D0154AAC40546241ECD3C9BE1F0618BA": {
+          "ObjectName": "MaterialInstanceConstant'inst_invBord_bag'",
+          "ObjectPath": "VotV/Content/umg/test/inst_invBord_bag.0"
+        }
+      }
+    }
+  }
+]

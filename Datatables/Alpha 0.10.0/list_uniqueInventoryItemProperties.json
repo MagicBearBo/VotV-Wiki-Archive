@@ -1,0 +1,85 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "list_uniqueInventoryItemProperties",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "VotV/Content/main/datatables/list_uniqueInventoryItemProperties",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'struct_inventoryItemUniqueProperty'",
+        "ObjectPath": "VotV/Content/main/structs/struct_inventoryItemUniqueProperty.0"
+      }
+    },
+    "Rows": {
+      "crowbar": {
+        "maxStack_2_483752FA40DB355B1530C093C51EBEC5": 8,
+        "isSingular_4_D0F451254CCCBA252E90819FBB080402": true
+      },
+      "drive": {
+        "maxStack_2_483752FA40DB355B1530C093C51EBEC5": 8,
+        "isSingular_4_D0F451254CCCBA252E90819FBB080402": true
+      },
+      "reel_0": {
+        "maxStack_2_483752FA40DB355B1530C093C51EBEC5": 8,
+        "isSingular_4_D0F451254CCCBA252E90819FBB080402": true
+      },
+      "reel_1": {
+        "maxStack_2_483752FA40DB355B1530C093C51EBEC5": 8,
+        "isSingular_4_D0F451254CCCBA252E90819FBB080402": true
+      },
+      "floppy_0": {
+        "maxStack_2_483752FA40DB355B1530C093C51EBEC5": 8,
+        "isSingular_4_D0F451254CCCBA252E90819FBB080402": true
+      },
+      "floppy_1": {
+        "maxStack_2_483752FA40DB355B1530C093C51EBEC5": 8,
+        "isSingular_4_D0F451254CCCBA252E90819FBB080402": true
+      },
+      "floppy_2": {
+        "maxStack_2_483752FA40DB355B1530C093C51EBEC5": 8,
+        "isSingular_4_D0F451254CCCBA252E90819FBB080402": true
+      },
+      "floppy_3": {
+        "maxStack_2_483752FA40DB355B1530C093C51EBEC5": 8,
+        "isSingular_4_D0F451254CCCBA252E90819FBB080402": true
+      },
+      "floppy_4": {
+        "maxStack_2_483752FA40DB355B1530C093C51EBEC5": 8,
+        "isSingular_4_D0F451254CCCBA252E90819FBB080402": true
+      },
+      "floppy_5": {
+        "maxStack_2_483752FA40DB355B1530C093C51EBEC5": 8,
+        "isSingular_4_D0F451254CCCBA252E90819FBB080402": true
+      },
+      "floppy_6": {
+        "maxStack_2_483752FA40DB355B1530C093C51EBEC5": 8,
+        "isSingular_4_D0F451254CCCBA252E90819FBB080402": true
+      },
+      "floppyBox": {
+        "maxStack_2_483752FA40DB355B1530C093C51EBEC5": 8,
+        "isSingular_4_D0F451254CCCBA252E90819FBB080402": true
+      },
+      "reelcase_0": {
+        "maxStack_2_483752FA40DB355B1530C093C51EBEC5": 8,
+        "isSingular_4_D0F451254CCCBA252E90819FBB080402": true
+      },
+      "reelcase_1": {
+        "maxStack_2_483752FA40DB355B1530C093C51EBEC5": 8,
+        "isSingular_4_D0F451254CCCBA252E90819FBB080402": true
+      },
+      "box_p": {
+        "maxStack_2_483752FA40DB355B1530C093C51EBEC5": 8,
+        "isSingular_4_D0F451254CCCBA252E90819FBB080402": true
+      },
+      "camPhoto": {
+        "maxStack_2_483752FA40DB355B1530C093C51EBEC5": 8,
+        "isSingular_4_D0F451254CCCBA252E90819FBB080402": true
+      },
+      "garbBag_r": {
+        "maxStack_2_483752FA40DB355B1530C093C51EBEC5": 8,
+        "isSingular_4_D0F451254CCCBA252E90819FBB080402": true
+      }
+    }
+  }
+]

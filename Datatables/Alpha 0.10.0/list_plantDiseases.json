@@ -1,0 +1,71 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "list_plantDiseases",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "VotV/Content/main/datatables/list_plantDiseases",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'struct_plantDisease'",
+        "ObjectPath": "VotV/Content/main/structs/struct_plantDisease.0"
+      }
+    },
+    "Rows": {
+      "mildew": {
+        "diseaseComponent_15_627B33D84444C45A9537A9B6A53ADEB0": {
+          "ObjectName": "BlueprintGeneratedClass'plantDisease_mildew_C'",
+          "ObjectPath": "VotV/Content/objects/misc/plantDisease_mildew.0"
+        }
+      },
+      "rust": {
+        "diseaseComponent_15_627B33D84444C45A9537A9B6A53ADEB0": {
+          "ObjectName": "BlueprintGeneratedClass'plantDisease_rust_C'",
+          "ObjectPath": "VotV/Content/objects/misc/plantDisease_rust.0"
+        }
+      },
+      "anthracnose": {
+        "diseaseComponent_15_627B33D84444C45A9537A9B6A53ADEB0": {
+          "ObjectName": "BlueprintGeneratedClass'plantDisease_anthracnose_C'",
+          "ObjectPath": "VotV/Content/objects/misc/plantDisease_anthracnose.0"
+        }
+      },
+      "blight": {
+        "diseaseComponent_15_627B33D84444C45A9537A9B6A53ADEB0": {
+          "ObjectName": "BlueprintGeneratedClass'plantDisease_blight_C'",
+          "ObjectPath": "VotV/Content/objects/misc/plantDisease_blight.0"
+        }
+      },
+      "rot": {
+        "diseaseComponent_15_627B33D84444C45A9537A9B6A53ADEB0": {
+          "ObjectName": "BlueprintGeneratedClass'plantDisease_rot_C'",
+          "ObjectPath": "VotV/Content/objects/misc/plantDisease_rot.0"
+        }
+      },
+      "mosaic": {
+        "diseaseComponent_15_627B33D84444C45A9537A9B6A53ADEB0": {
+          "ObjectName": "BlueprintGeneratedClass'plantDisease_mosaic_C'",
+          "ObjectPath": "VotV/Content/objects/misc/plantDisease_mosaic.0"
+        }
+      },
+      "wilt": {
+        "diseaseComponent_15_627B33D84444C45A9537A9B6A53ADEB0": {
+          "ObjectName": "BlueprintGeneratedClass'plantDisease_wilt_C'",
+          "ObjectPath": "VotV/Content/objects/misc/plantDisease_wilt.0"
+        }
+      },
+      "nematodes": {
+        "diseaseComponent_15_627B33D84444C45A9537A9B6A53ADEB0": {
+          "ObjectName": "BlueprintGeneratedClass'plantDisease_nematodes_C'",
+          "ObjectPath": "VotV/Content/objects/misc/plantDisease_nematodes.0"
+        }
+      },
+      "_": {
+        "diseaseComponent_15_627B33D84444C45A9537A9B6A53ADEB0": {
+          "ObjectName": "BlueprintGeneratedClass'plantDisease__C'",
+          "ObjectPath": "VotV/Content/objects/misc/plantDisease_.0"
+        }
+      }
+    }
+  }
+]

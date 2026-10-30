@@ -1,0 +1,198 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "list_specialResponses",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "VotV/Content/main/datatables/list_specialResponses",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'struct_scientistSpecialResponse'",
+        "ObjectPath": "VotV/Content/main/structs/struct_scientistSpecialResponse.0"
+      }
+    },
+    "Rows": {
+      "exp": {
+        "character_4_FEE61152409B1BE51BE8E4BE30CAE48A": "enum_emailChars::NewEnumerator0",
+        "topics_8_068439474C483CFC2A6658B1C5A8163A": [
+          {
+            "Namespace": "",
+            "Key": "AA87768940C4959EDF085EB1DBA580FE",
+            "SourceString": "KEL",
+            "LocalizedString": "KEL"
+          },
+          {
+            "Namespace": "",
+            "Key": "0AFAB9364ABD5CA0B9E4E9912DBAD5A1",
+            "SourceString": "Thats not funny",
+            "LocalizedString": "Thats not funny"
+          },
+          {
+            "Namespace": "",
+            "Key": "2D7300F54371E84DEB834C949542CC3F",
+            "SourceString": "HOW",
+            "LocalizedString": "HOW"
+          },
+          {
+            "Namespace": "",
+            "Key": "CCA8167F4C35DEF57EA44896CB5967D0",
+            "SourceString": "?????????",
+            "LocalizedString": "?????????"
+          }
+        ],
+        "messages_10_30F66A3D47E12D2DA28897B0F7191EC4": [
+          {
+            "Namespace": "",
+            "Key": "7CC33B944F7D98522BB2F9BC207E54F8",
+            "SourceString": "WHAT THE FUCK KEL? ARE YOU OUT OF YOUR MIND?",
+            "LocalizedString": "WHAT THE FUCK KEL? ARE YOU OUT OF YOUR MIND?"
+          },
+          {
+            "Namespace": "",
+            "Key": "3771322F43890B8A178DA28B9C958577",
+            "SourceString": "If you perform this kind of shit again - Bao will fire you",
+            "LocalizedString": "If you perform this kind of shit again - Bao will fire you"
+          },
+          {
+            "Namespace": "",
+            "Key": "9873128E4AA460A1B7D300BAD964B6AD",
+            "SourceString": "HOW did you make this and HOW did it exploded??? DONT do this shit again",
+            "LocalizedString": "HOW did you make this and HOW did it exploded??? DONT do this shit again"
+          },
+          {
+            "Namespace": "",
+            "Key": "1F7262804F2B637B9A5EB99ECB1576C2",
+            "SourceString": "I will fine you for this shit",
+            "LocalizedString": "I will fine you for this shit"
+          }
+        ]
+      },
+      "calm4": {
+        "character_4_FEE61152409B1BE51BE8E4BE30CAE48A": "enum_emailChars::NewEnumerator0",
+        "topics_8_068439474C483CFC2A6658B1C5A8163A": [
+          {
+            "Namespace": "",
+            "Key": "8A1CCFFE462F1C13F70CDAB7E6DD15C0",
+            "SourceString": "aw man",
+            "LocalizedString": "aw man"
+          }
+        ],
+        "messages_10_30F66A3D47E12D2DA28897B0F7191EC4": [
+          {
+            "Namespace": "",
+            "Key": "DDF947B14330CCCCAEB8AA8D659A24F3",
+            "SourceString": "00000000000000000000000000000000\\00000000000000000000000000000000\\00000000000000000000000000000000\\00000000000000000000000000000000\\00001111111100000000111111110000\\00001111111100000000111111110000\\00001111111100000000111111110000\\00001111111100000000111111110000\\00000000000011111111000000000000\\00000000000011111111000000000000\\00000000111111111111111100000000\\00000000111111111111111100000000\\00000000111111111111111100000000\\00000000111111111111111100000000\\00000000111100000000111100000000\\00000000111100000000111100000000\\",
+            "LocalizedString": "00000000000000000000000000000000\\00000000000000000000000000000000\\00000000000000000000000000000000\\00000000000000000000000000000000\\00001111111100000000111111110000\\00001111111100000000111111110000\\00001111111100000000111111110000\\00001111111100000000111111110000\\00000000000011111111000000000000\\00000000000011111111000000000000\\00000000111111111111111100000000\\00000000111111111111111100000000\\00000000111111111111111100000000\\00000000111111111111111100000000\\00000000111100000000111100000000\\00000000111100000000111100000000\\"
+          }
+        ]
+      },
+      "earth": {
+        "character_4_FEE61152409B1BE51BE8E4BE30CAE48A": "enum_emailChars::NewEnumerator0",
+        "topics_8_068439474C483CFC2A6658B1C5A8163A": [
+          {
+            "Namespace": "",
+            "Key": "8EB514E5418845CC40E8CD9A1439647A",
+            "SourceString": "what?",
+            "LocalizedString": "what?"
+          },
+          {
+            "Namespace": "",
+            "Key": "06193BDF4EA6049819B531B4E45A42C7",
+            "SourceString": "earth?",
+            "LocalizedString": "earth?"
+          }
+        ],
+        "messages_10_30F66A3D47E12D2DA28897B0F7191EC4": [
+          {
+            "Namespace": "",
+            "Key": "54408E534EAA5F503224B38061DA86CE",
+            "SourceString": "I got a little bit confused but maybe it got reflected or something. Anyways, heres some points for your efforts",
+            "LocalizedString": "I got a little bit confused but maybe it got reflected or something. Anyways, heres some points for your efforts"
+          },
+          {
+            "Namespace": "",
+            "Key": "0200E1964231A109F8E6279E563B738C",
+            "SourceString": "I think it get reflected and send back to earth, the signal i mean",
+            "LocalizedString": "I think it get reflected and send back to earth, the signal i mean"
+          }
+        ]
+      },
+      "arirTalk": {
+        "character_4_FEE61152409B1BE51BE8E4BE30CAE48A": "enum_emailChars::NewEnumerator0",
+        "topics_8_068439474C483CFC2A6658B1C5A8163A": [
+          {
+            "Namespace": "",
+            "Key": "805A41194D17A8E145B81980D5DAEF43",
+            "SourceString": "What??",
+            "LocalizedString": "What??"
+          }
+        ],
+        "messages_10_30F66A3D47E12D2DA28897B0F7191EC4": [
+          {
+            "Namespace": "",
+            "Key": "42AFDD8A4963966104DF4D8EE9139DAE",
+            "SourceString": "Dr Kel, i cannot believe we found something like this, this might be the speech! Do you understand what that means? The world should know about it! Im sending this data outside asap, we should process their speech further.",
+            "LocalizedString": "Dr Kel, i cannot believe we found something like this, this might be the speech! Do you understand what that means? The world should know about it! Im sending this data outside asap, we should process their speech further."
+          }
+        ]
+      },
+      "arirImage": {
+        "character_4_FEE61152409B1BE51BE8E4BE30CAE48A": "enum_emailChars::NewEnumerator0",
+        "topics_8_068439474C483CFC2A6658B1C5A8163A": [
+          {
+            "Namespace": "",
+            "Key": "B59FFFDD482C275135170CB6DD4C44B5",
+            "SourceString": "text box",
+            "LocalizedString": "text box"
+          }
+        ],
+        "messages_10_30F66A3D47E12D2DA28897B0F7191EC4": [
+          {
+            "Namespace": "",
+            "Key": "52007F5542D91E635E4BE9A64A4D455F",
+            "SourceString": "KEL IT LOOKS LIKE YOUR PLACE KEL. Ena left the gun in the garage behind the crates, take care of yourself!",
+            "LocalizedString": "KEL IT LOOKS LIKE YOUR PLACE KEL. Ena left the gun in the garage behind the crates, take care of yourself!"
+          }
+        ]
+      },
+      "wormhole": {
+        "character_4_FEE61152409B1BE51BE8E4BE30CAE48A": "enum_emailChars::NewEnumerator0",
+        "topics_8_068439474C483CFC2A6658B1C5A8163A": [
+          {
+            "Namespace": "",
+            "Key": "6D5D91024CF228C0A98441ACEB3CEFAC",
+            "SourceString": "text box",
+            "LocalizedString": "text box"
+          }
+        ],
+        "messages_10_30F66A3D47E12D2DA28897B0F7191EC4": [
+          {
+            "Namespace": "",
+            "Key": "374EF15747CF567B927BDFAB3EC47B9B",
+            "SourceString": "... I dont know what it is, but i dont like it at all, and im not sure what we should do with it... i will hide this drive under the concrete tile under kitchen table. DONT tell anyone about it!",
+            "LocalizedString": "... I dont know what it is, but i dont like it at all, and im not sure what we should do with it... i will hide this drive under the concrete tile under kitchen table. DONT tell anyone about it!"
+          }
+        ]
+      },
+      "the_evil": {
+        "character_4_FEE61152409B1BE51BE8E4BE30CAE48A": "enum_emailChars::NewEnumerator0",
+        "topics_8_068439474C483CFC2A6658B1C5A8163A": [
+          {
+            "Namespace": "",
+            "Key": "B100DF034B6DD53311818EA8BE56F775",
+            "SourceString": "text box",
+            "LocalizedString": "text box"
+          }
+        ],
+        "messages_10_30F66A3D47E12D2DA28897B0F7191EC4": [
+          {
+            "Namespace": "",
+            "Key": "931419CA40F9A48BE4F28391A1B360DB",
+            "SourceString": "#####DES#TR#OY_#DIS#C#####_RU#N######NIN######G#_###D#E###STR###O#Y_#A#############LL#_CO####N#TAINE#########R#_A#_############E###_R#U###N#N###ING_###DES####TROY####_AL#L_######E#############_D########ATA#_I#MM#######EDIA#TELY_#TH#########E_P###L######ANET#_W######ILL#_##BE##_IT ####WA#######S DE##STROYED_W########E#_NO####_######EN##O###UGH_T#IME##_#########################################################",
+            "LocalizedString": "#####DES#TR#OY_#DIS#C#####_RU#N######NIN######G#_###D#E###STR###O#Y_#A#############LL#_CO####N#TAINE#########R#_A#_############E###_R#U###N#N###ING_###DES####TROY####_AL#L_######E#############_D########ATA#_I#MM#######EDIA#TELY_#TH#########E_P###L######ANET#_W######ILL#_##BE##_IT ####WA#######S DE##STROYED_W########E#_NO####_######EN##O###UGH_T#IME##_#########################################################"
+          }
+        ]
+      }
+    }
+  }
+]

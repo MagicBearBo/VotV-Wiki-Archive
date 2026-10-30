@@ -1,0 +1,209 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "list_equipmentSpecials",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "VotV/Content/main/datatables/list_equipmentSpecials",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'struct_equipmentSpecials'",
+        "ObjectPath": "VotV/Content/main/structs/struct_equipmentSpecials.0"
+      }
+    },
+    "Rows": {
+      "bikehelmet": {
+        "isUnique_1_913F7AF34C38BFA5AC4100A045C8D06E": true,
+        "occupySlotClass_11_275D9F6C436BF86A132CC98C2415E415": "head",
+        "incompatibles_7_0F9890A94E081F792B3CECBFAF206208": [],
+        "itemClass_10_F3432AAC4319DEE4ADFFD99CAD0997E2": "None"
+      },
+      "flashlight": {
+        "isUnique_1_913F7AF34C38BFA5AC4100A045C8D06E": true,
+        "occupySlotClass_11_275D9F6C436BF86A132CC98C2415E415": "None",
+        "incompatibles_7_0F9890A94E081F792B3CECBFAF206208": [],
+        "itemClass_10_F3432AAC4319DEE4ADFFD99CAD0997E2": "flashlight"
+      },
+      "biglight": {
+        "isUnique_1_913F7AF34C38BFA5AC4100A045C8D06E": true,
+        "occupySlotClass_11_275D9F6C436BF86A132CC98C2415E415": "None",
+        "incompatibles_7_0F9890A94E081F792B3CECBFAF206208": [],
+        "itemClass_10_F3432AAC4319DEE4ADFFD99CAD0997E2": "flashlight"
+      },
+      "flashlight_c": {
+        "isUnique_1_913F7AF34C38BFA5AC4100A045C8D06E": true,
+        "occupySlotClass_11_275D9F6C436BF86A132CC98C2415E415": "None",
+        "incompatibles_7_0F9890A94E081F792B3CECBFAF206208": [],
+        "itemClass_10_F3432AAC4319DEE4ADFFD99CAD0997E2": "flashlight"
+      },
+      "backpack": {
+        "isUnique_1_913F7AF34C38BFA5AC4100A045C8D06E": true,
+        "occupySlotClass_11_275D9F6C436BF86A132CC98C2415E415": "back",
+        "incompatibles_7_0F9890A94E081F792B3CECBFAF206208": [],
+        "itemClass_10_F3432AAC4319DEE4ADFFD99CAD0997E2": "None"
+      },
+      "kerfoout_maid": {
+        "isUnique_1_913F7AF34C38BFA5AC4100A045C8D06E": true,
+        "occupySlotClass_11_275D9F6C436BF86A132CC98C2415E415": "torso",
+        "incompatibles_7_0F9890A94E081F792B3CECBFAF206208": [],
+        "itemClass_10_F3432AAC4319DEE4ADFFD99CAD0997E2": "fullbodysuit"
+      },
+      "scuba": {
+        "isUnique_1_913F7AF34C38BFA5AC4100A045C8D06E": true,
+        "occupySlotClass_11_275D9F6C436BF86A132CC98C2415E415": "head",
+        "incompatibles_7_0F9890A94E081F792B3CECBFAF206208": [],
+        "itemClass_10_F3432AAC4319DEE4ADFFD99CAD0997E2": "None"
+      },
+      "bodyprotect": {
+        "isUnique_1_913F7AF34C38BFA5AC4100A045C8D06E": true,
+        "occupySlotClass_11_275D9F6C436BF86A132CC98C2415E415": "None",
+        "incompatibles_7_0F9890A94E081F792B3CECBFAF206208": [],
+        "itemClass_10_F3432AAC4319DEE4ADFFD99CAD0997E2": "None"
+      },
+      "compass": {
+        "isUnique_1_913F7AF34C38BFA5AC4100A045C8D06E": true,
+        "occupySlotClass_11_275D9F6C436BF86A132CC98C2415E415": "None",
+        "incompatibles_7_0F9890A94E081F792B3CECBFAF206208": [],
+        "itemClass_10_F3432AAC4319DEE4ADFFD99CAD0997E2": "None"
+      },
+      "p_emf": {
+        "isUnique_1_913F7AF34C38BFA5AC4100A045C8D06E": true,
+        "occupySlotClass_11_275D9F6C436BF86A132CC98C2415E415": "None",
+        "incompatibles_7_0F9890A94E081F792B3CECBFAF206208": [],
+        "itemClass_10_F3432AAC4319DEE4ADFFD99CAD0997E2": "None"
+      },
+      "fallboots": {
+        "isUnique_1_913F7AF34C38BFA5AC4100A045C8D06E": true,
+        "occupySlotClass_11_275D9F6C436BF86A132CC98C2415E415": "feet",
+        "incompatibles_7_0F9890A94E081F792B3CECBFAF206208": [],
+        "itemClass_10_F3432AAC4319DEE4ADFFD99CAD0997E2": "None"
+      },
+      "fannypack": {
+        "isUnique_1_913F7AF34C38BFA5AC4100A045C8D06E": true,
+        "occupySlotClass_11_275D9F6C436BF86A132CC98C2415E415": "waist",
+        "incompatibles_7_0F9890A94E081F792B3CECBFAF206208": [],
+        "itemClass_10_F3432AAC4319DEE4ADFFD99CAD0997E2": "None"
+      },
+      "firesuit": {
+        "isUnique_1_913F7AF34C38BFA5AC4100A045C8D06E": true,
+        "occupySlotClass_11_275D9F6C436BF86A132CC98C2415E415": "torso",
+        "incompatibles_7_0F9890A94E081F792B3CECBFAF206208": [],
+        "itemClass_10_F3432AAC4319DEE4ADFFD99CAD0997E2": "fullbodysuit"
+      },
+      "p_gei": {
+        "isUnique_1_913F7AF34C38BFA5AC4100A045C8D06E": true,
+        "occupySlotClass_11_275D9F6C436BF86A132CC98C2415E415": "None",
+        "incompatibles_7_0F9890A94E081F792B3CECBFAF206208": [],
+        "itemClass_10_F3432AAC4319DEE4ADFFD99CAD0997E2": "None"
+      },
+      "hazsuit": {
+        "isUnique_1_913F7AF34C38BFA5AC4100A045C8D06E": true,
+        "occupySlotClass_11_275D9F6C436BF86A132CC98C2415E415": "torso",
+        "incompatibles_7_0F9890A94E081F792B3CECBFAF206208": [],
+        "itemClass_10_F3432AAC4319DEE4ADFFD99CAD0997E2": "fullbodysuit"
+      },
+      "headphones": {
+        "isUnique_1_913F7AF34C38BFA5AC4100A045C8D06E": true,
+        "occupySlotClass_11_275D9F6C436BF86A132CC98C2415E415": "head",
+        "incompatibles_7_0F9890A94E081F792B3CECBFAF206208": [],
+        "itemClass_10_F3432AAC4319DEE4ADFFD99CAD0997E2": "None"
+      },
+      "krampushat": {
+        "isUnique_1_913F7AF34C38BFA5AC4100A045C8D06E": true,
+        "occupySlotClass_11_275D9F6C436BF86A132CC98C2415E415": "head",
+        "incompatibles_7_0F9890A94E081F792B3CECBFAF206208": [],
+        "itemClass_10_F3432AAC4319DEE4ADFFD99CAD0997E2": "None"
+      },
+      "limbprotect": {
+        "isUnique_1_913F7AF34C38BFA5AC4100A045C8D06E": true,
+        "occupySlotClass_11_275D9F6C436BF86A132CC98C2415E415": "None",
+        "incompatibles_7_0F9890A94E081F792B3CECBFAF206208": [],
+        "itemClass_10_F3432AAC4319DEE4ADFFD99CAD0997E2": "None"
+      },
+      "portableMD": {
+        "isUnique_1_913F7AF34C38BFA5AC4100A045C8D06E": true,
+        "occupySlotClass_11_275D9F6C436BF86A132CC98C2415E415": "None",
+        "incompatibles_7_0F9890A94E081F792B3CECBFAF206208": [],
+        "itemClass_10_F3432AAC4319DEE4ADFFD99CAD0997E2": "None"
+      },
+      "mittens": {
+        "isUnique_1_913F7AF34C38BFA5AC4100A045C8D06E": true,
+        "occupySlotClass_11_275D9F6C436BF86A132CC98C2415E415": "None",
+        "incompatibles_7_0F9890A94E081F792B3CECBFAF206208": [],
+        "itemClass_10_F3432AAC4319DEE4ADFFD99CAD0997E2": "gloves"
+      },
+      "gardenGloves": {
+        "isUnique_1_913F7AF34C38BFA5AC4100A045C8D06E": true,
+        "occupySlotClass_11_275D9F6C436BF86A132CC98C2415E415": "None",
+        "incompatibles_7_0F9890A94E081F792B3CECBFAF206208": [],
+        "itemClass_10_F3432AAC4319DEE4ADFFD99CAD0997E2": "gloves"
+      },
+      "gardenGloves_0": {
+        "isUnique_1_913F7AF34C38BFA5AC4100A045C8D06E": true,
+        "occupySlotClass_11_275D9F6C436BF86A132CC98C2415E415": "None",
+        "incompatibles_7_0F9890A94E081F792B3CECBFAF206208": [],
+        "itemClass_10_F3432AAC4319DEE4ADFFD99CAD0997E2": "gloves"
+      },
+      "gardenGloves_1": {
+        "isUnique_1_913F7AF34C38BFA5AC4100A045C8D06E": true,
+        "occupySlotClass_11_275D9F6C436BF86A132CC98C2415E415": "None",
+        "incompatibles_7_0F9890A94E081F792B3CECBFAF206208": [],
+        "itemClass_10_F3432AAC4319DEE4ADFFD99CAD0997E2": "gloves"
+      },
+      "gardenGloves_2": {
+        "isUnique_1_913F7AF34C38BFA5AC4100A045C8D06E": true,
+        "occupySlotClass_11_275D9F6C436BF86A132CC98C2415E415": "None",
+        "incompatibles_7_0F9890A94E081F792B3CECBFAF206208": [],
+        "itemClass_10_F3432AAC4319DEE4ADFFD99CAD0997E2": "gloves"
+      },
+      "watches": {
+        "isUnique_1_913F7AF34C38BFA5AC4100A045C8D06E": true,
+        "occupySlotClass_11_275D9F6C436BF86A132CC98C2415E415": "None",
+        "incompatibles_7_0F9890A94E081F792B3CECBFAF206208": [],
+        "itemClass_10_F3432AAC4319DEE4ADFFD99CAD0997E2": "None"
+      },
+      "tool_wm": {
+        "isUnique_1_913F7AF34C38BFA5AC4100A045C8D06E": true,
+        "occupySlotClass_11_275D9F6C436BF86A132CC98C2415E415": "head",
+        "incompatibles_7_0F9890A94E081F792B3CECBFAF206208": [],
+        "itemClass_10_F3432AAC4319DEE4ADFFD99CAD0997E2": "None"
+      },
+      "woolboots": {
+        "isUnique_1_913F7AF34C38BFA5AC4100A045C8D06E": false,
+        "occupySlotClass_11_275D9F6C436BF86A132CC98C2415E415": "feet",
+        "incompatibles_7_0F9890A94E081F792B3CECBFAF206208": [],
+        "itemClass_10_F3432AAC4319DEE4ADFFD99CAD0997E2": "None"
+      },
+      "kelclothes_beanie": {
+        "isUnique_1_913F7AF34C38BFA5AC4100A045C8D06E": true,
+        "occupySlotClass_11_275D9F6C436BF86A132CC98C2415E415": "head",
+        "incompatibles_7_0F9890A94E081F792B3CECBFAF206208": [],
+        "itemClass_10_F3432AAC4319DEE4ADFFD99CAD0997E2": "None"
+      },
+      "kelclothes_boots": {
+        "isUnique_1_913F7AF34C38BFA5AC4100A045C8D06E": true,
+        "occupySlotClass_11_275D9F6C436BF86A132CC98C2415E415": "feet",
+        "incompatibles_7_0F9890A94E081F792B3CECBFAF206208": [],
+        "itemClass_10_F3432AAC4319DEE4ADFFD99CAD0997E2": "None"
+      },
+      "kelclothes_jacket": {
+        "isUnique_1_913F7AF34C38BFA5AC4100A045C8D06E": true,
+        "occupySlotClass_11_275D9F6C436BF86A132CC98C2415E415": "torso",
+        "incompatibles_7_0F9890A94E081F792B3CECBFAF206208": [],
+        "itemClass_10_F3432AAC4319DEE4ADFFD99CAD0997E2": "None"
+      },
+      "kelclothes_pants": {
+        "isUnique_1_913F7AF34C38BFA5AC4100A045C8D06E": true,
+        "occupySlotClass_11_275D9F6C436BF86A132CC98C2415E415": "legs",
+        "incompatibles_7_0F9890A94E081F792B3CECBFAF206208": [],
+        "itemClass_10_F3432AAC4319DEE4ADFFD99CAD0997E2": "None"
+      },
+      "fannypack_0": {
+        "isUnique_1_913F7AF34C38BFA5AC4100A045C8D06E": true,
+        "occupySlotClass_11_275D9F6C436BF86A132CC98C2415E415": "waist",
+        "incompatibles_7_0F9890A94E081F792B3CECBFAF206208": [],
+        "itemClass_10_F3432AAC4319DEE4ADFFD99CAD0997E2": "None"
+      }
+    }
+  }
+]

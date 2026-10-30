@@ -1,0 +1,59 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "list_itemCombinePairs",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "VotV/Content/main/datatables/list_itemCombinePairs",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'struct_itemCombine'",
+        "ObjectPath": "VotV/Content/main/structs/struct_itemCombine.0"
+      }
+    },
+    "Rows": {
+      "test1": {
+        "itemName_A_dragging_14_DC8FEC4849AB2B60BB62A1B856CB98C4": "burger",
+        "itemName_B_dropOn_15_C5DE6121433DFBD0899184B9C97D6090": "drive",
+        "genericResult_10_41BED3594DBCACEB5B351B9ECBD43033": "batts",
+        "combineObjectClass_13_7C8653854C009F74515DAFBE65E148E3": null
+      },
+      "batteryInFlashlight": {
+        "itemName_A_dragging_14_DC8FEC4849AB2B60BB62A1B856CB98C4": "batts",
+        "itemName_B_dropOn_15_C5DE6121433DFBD0899184B9C97D6090": "flashlight",
+        "genericResult_10_41BED3594DBCACEB5B351B9ECBD43033": "None",
+        "combineObjectClass_13_7C8653854C009F74515DAFBE65E148E3": {
+          "ObjectName": "BlueprintGeneratedClass'itemCombine_batteryInFlashlight_C'",
+          "ObjectPath": "VotV/Content/objects/misc/itemCombine_batteryInFlashlight.1"
+        }
+      },
+      "batteryInFlashlight_biglight": {
+        "itemName_A_dragging_14_DC8FEC4849AB2B60BB62A1B856CB98C4": "batts",
+        "itemName_B_dropOn_15_C5DE6121433DFBD0899184B9C97D6090": "biglight",
+        "genericResult_10_41BED3594DBCACEB5B351B9ECBD43033": "None",
+        "combineObjectClass_13_7C8653854C009F74515DAFBE65E148E3": {
+          "ObjectName": "BlueprintGeneratedClass'itemCombine_batteryInFlashlight_C'",
+          "ObjectPath": "VotV/Content/objects/misc/itemCombine_batteryInFlashlight.1"
+        }
+      },
+      "accBatteryInFlashlight": {
+        "itemName_A_dragging_14_DC8FEC4849AB2B60BB62A1B856CB98C4": "batt_a",
+        "itemName_B_dropOn_15_C5DE6121433DFBD0899184B9C97D6090": "flashlight",
+        "genericResult_10_41BED3594DBCACEB5B351B9ECBD43033": "None",
+        "combineObjectClass_13_7C8653854C009F74515DAFBE65E148E3": {
+          "ObjectName": "BlueprintGeneratedClass'itemCombine_batteryInFlashlight_C'",
+          "ObjectPath": "VotV/Content/objects/misc/itemCombine_batteryInFlashlight.1"
+        }
+      },
+      "accBatteryInFlashlight_crank": {
+        "itemName_A_dragging_14_DC8FEC4849AB2B60BB62A1B856CB98C4": "batt_a",
+        "itemName_B_dropOn_15_C5DE6121433DFBD0899184B9C97D6090": "flashlight_c",
+        "genericResult_10_41BED3594DBCACEB5B351B9ECBD43033": "None",
+        "combineObjectClass_13_7C8653854C009F74515DAFBE65E148E3": {
+          "ObjectName": "BlueprintGeneratedClass'itemCombine_batteryInFlashlight_C'",
+          "ObjectPath": "VotV/Content/objects/misc/itemCombine_batteryInFlashlight.1"
+        }
+      }
+    }
+  }
+]

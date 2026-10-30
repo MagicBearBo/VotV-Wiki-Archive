@@ -1,0 +1,569 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "list_events",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "VotV/Content/main/datatables/list_events",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'struct_event'",
+        "ObjectPath": "VotV/Content/main/structs/struct_event.0"
+      }
+    },
+    "Rows": {
+      "starRain": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 0,
+          "Y": 17,
+          "Z": 1
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "None"
+      },
+      "solar": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 0,
+          "Y": 10,
+          "Z": 3
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "None"
+      },
+      "ventCrawler": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 23,
+          "Y": 27,
+          "Z": 4
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "None"
+      },
+      "peace": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 23,
+          "Y": 14,
+          "Z": 5
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "None"
+      },
+      "picnic": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 0,
+          "Y": 44,
+          "Z": 7
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "None"
+      },
+      "break_RomeoSierra": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 1,
+          "Y": 44,
+          "Z": 7
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "None"
+      },
+      "arirInteraction_0": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 0,
+          "Y": 6,
+          "Z": 8
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "ariralPrank"
+      },
+      "arirSignal": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 18,
+          "Y": 0,
+          "Z": 8
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "None"
+      },
+      "destroyPicnic": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 0,
+          "Y": 0,
+          "Z": 9
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "None"
+      },
+      "arirSpk": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 0,
+          "Y": 2,
+          "Z": 10
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "None"
+      },
+      "ventKnocker": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 0,
+          "Y": 38,
+          "Z": 11
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "None"
+      },
+      "picSignal": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 23,
+          "Y": 10,
+          "Z": 11
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "None"
+      },
+      "arirShip": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 0,
+          "Y": 1,
+          "Z": 12
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "None"
+      },
+      "arirInteraction_1": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 17,
+          "Y": 25,
+          "Z": 13
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "ariralPrank"
+      },
+      "wisps": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 19,
+          "Y": 17,
+          "Z": 13
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "None"
+      },
+      "enasus": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 8,
+          "Y": 49,
+          "Z": 14
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "None"
+      },
+      "arirBuster": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 17,
+          "Y": 0,
+          "Z": 14
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "None"
+      },
+      "arirInteraction_2": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 22,
+          "Y": 0,
+          "Z": 15
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "ariralPrank"
+      },
+      "treehouse_0": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 0,
+          "Y": 0,
+          "Z": 16
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "None"
+      },
+      "agrav": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 1,
+          "Y": 0,
+          "Z": 16
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "None"
+      },
+      "break_Victor": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 1,
+          "Y": 11,
+          "Z": 16
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "None"
+      },
+      "arirInteraction_3": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 23,
+          "Y": 0,
+          "Z": 16
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "ariralPrank"
+      },
+      "treehouse_1": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 0,
+          "Y": 0,
+          "Z": 17
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "None"
+      },
+      "arirInteraction_4": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 19,
+          "Y": 13,
+          "Z": 17
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "ariralPrank"
+      },
+      "treehouse_2": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 0,
+          "Y": 0,
+          "Z": 18
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "None"
+      },
+      "arirInteraction_5": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 2,
+          "Y": 0,
+          "Z": 18
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "ariralPrank"
+      },
+      "treehouse_3": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 0,
+          "Y": 0,
+          "Z": 19
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "None"
+      },
+      "enacros": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 8,
+          "Y": 49,
+          "Z": 19
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "None"
+      },
+      "arirInteraction_6": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 2,
+          "Y": 0,
+          "Z": 19
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "ariralPrank"
+      },
+      "break_Victor2": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 1,
+          "Y": 2,
+          "Z": 19
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "None"
+      },
+      "arirInteraction_7": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 18,
+          "Y": 0,
+          "Z": 20
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "ariralPrank"
+      },
+      "treehouse_4": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 0,
+          "Y": 0,
+          "Z": 20
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "None"
+      },
+      "arirInteraction_8": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 20,
+          "Y": 0,
+          "Z": 21
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "ariralPrank"
+      },
+      "treehouse_5": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 0,
+          "Y": 0,
+          "Z": 21
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "None"
+      },
+      "arirInteraction_9": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 21,
+          "Y": 27,
+          "Z": 22
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "ariralPrank"
+      },
+      "toeStab": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 2,
+          "Y": 3,
+          "Z": 23
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "None"
+      },
+      "arirInteraction_10": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 3,
+          "Y": 30,
+          "Z": 24
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "ariralPrank"
+      },
+      "salt": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 18,
+          "Y": 0,
+          "Z": 24
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "None"
+      },
+      "cookier": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 5,
+          "Y": 30,
+          "Z": 24
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "None"
+      },
+      "obelisk": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 15,
+          "Y": 40,
+          "Z": 24
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "None"
+      },
+      "arirSat_0": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 11,
+          "Y": 0,
+          "Z": 25
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "None"
+      },
+      "arirSat_1": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 12,
+          "Y": 0,
+          "Z": 25
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "None"
+      },
+      "arirSat_2": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 13,
+          "Y": 0,
+          "Z": 25
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "None"
+      },
+      "arirInteraction_14": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 1,
+          "Y": 11,
+          "Z": 26
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "ariralPrank"
+      },
+      "earthTp": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 11,
+          "Y": 27,
+          "Z": 26
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "None"
+      },
+      "looker_0-1": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 20,
+          "Y": 0,
+          "Z": 27
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "None"
+      },
+      "looker_1-1": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 22,
+          "Y": 0,
+          "Z": 27
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "None"
+      },
+      "looker_2-1": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 0,
+          "Y": 0,
+          "Z": 28
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "None"
+      },
+      "arirInteraction_15": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 0,
+          "Y": 11,
+          "Z": 28
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "ariralPrank"
+      },
+      "looker_3-1": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 2,
+          "Y": 0,
+          "Z": 28
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "None"
+      },
+      "looker_4-1": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 4,
+          "Y": 0,
+          "Z": 28
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "None"
+      },
+      "piramid_sig": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 18,
+          "Y": 0,
+          "Z": 29
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "None"
+      },
+      "piramid": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 18,
+          "Y": 0,
+          "Z": 30
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "None"
+      },
+      "dreambase": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 18,
+          "Y": 0,
+          "Z": 30
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "None"
+      },
+      "arirInteraction_13": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 2,
+          "Y": 33,
+          "Z": 31
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "ariralPrank"
+      },
+      "tentacleBalls": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 18,
+          "Y": 0,
+          "Z": 32
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "None"
+      },
+      "arirInteraction_11": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 1,
+          "Y": 44,
+          "Z": 33
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "ariralPrank"
+      },
+      "soltoClean": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 19,
+          "Y": 0,
+          "Z": 34
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "None"
+      },
+      "arirInteraction_12": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 3,
+          "Y": 33,
+          "Z": 35
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "ariralPrank"
+      },
+      "morningGay": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 10,
+          "Y": 50,
+          "Z": 36
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "None"
+      },
+      "borgRozital": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 11,
+          "Y": 0,
+          "Z": 37
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "None"
+      },
+      "rozitalHole": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 0,
+          "Y": 0,
+          "Z": 38
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "None"
+      },
+      "fallbody_0": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 23,
+          "Y": 11,
+          "Z": 39
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "None"
+      },
+      "fallbody_1": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 4,
+          "Y": 18,
+          "Z": 40
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "None"
+      },
+      "fallcar_0": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 22,
+          "Y": 28,
+          "Z": 41
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "None"
+      },
+      "graysforest": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 17,
+          "Y": 1,
+          "Z": 42
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "None"
+      },
+      "graystank": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 18,
+          "Y": 1,
+          "Z": 43
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "None"
+      },
+      "boarwar": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 3,
+          "Y": 0,
+          "Z": 46
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "None"
+      },
+      "call0": {
+        "time_3_78FE5DBD4AFCDB1E8FC4008752193330": {
+          "X": 0,
+          "Y": 1,
+          "Z": 47
+        },
+        "specialTrigger_8_FF1AAF2B42AEAC88AA6952B5505FEB78": "None"
+      }
+    }
+  }
+]

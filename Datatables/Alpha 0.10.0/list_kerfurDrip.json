@@ -1,0 +1,125 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "list_kerfurDrip",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "VotV/Content/main/datatables/list_kerfurDrip",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'struct_kerfurDrip'",
+        "ObjectPath": "VotV/Content/main/structs/struct_kerfurDrip.0"
+      }
+    },
+    "Rows": {
+      "bucket": {
+        "accessoryMesh_13_0BECAD8D458D85CD1786BDA1D90C894B": {
+          "ObjectName": "StaticMesh'accessory_bucket'",
+          "ObjectPath": "VotV/Content/meshes/kerfurAnthro/sk/accessories/accessory_bucket.2"
+        },
+        "accessoryName_15_1DFCA8714E61582B52460E8DE622A2B4": "head",
+        "outfitMesh_12_CDB489C54C31E012FF7BC3980D2F0836": null,
+        "type_8_D8CCF30E439D901AD132CC84D93D1756": "enum_kerfurDripType::NewEnumerator0"
+      },
+      "kerfoacc_pant": {
+        "accessoryMesh_13_0BECAD8D458D85CD1786BDA1D90C894B": {
+          "ObjectName": "StaticMesh'00000000error'",
+          "ObjectPath": "VotV/Content/meshes/misc/00000000error.2"
+        },
+        "accessoryName_15_1DFCA8714E61582B52460E8DE622A2B4": "pelvis",
+        "outfitMesh_12_CDB489C54C31E012FF7BC3980D2F0836": null,
+        "type_8_D8CCF30E439D901AD132CC84D93D1756": "enum_kerfurDripType::NewEnumerator1"
+      },
+      "kerfoacc_jacket": {
+        "accessoryMesh_13_0BECAD8D458D85CD1786BDA1D90C894B": {
+          "ObjectName": "StaticMesh'accessory_jacket'",
+          "ObjectPath": "VotV/Content/meshes/kerfurAnthro/sk/accessories/accessory_jacket.2"
+        },
+        "accessoryName_15_1DFCA8714E61582B52460E8DE622A2B4": "chest",
+        "outfitMesh_12_CDB489C54C31E012FF7BC3980D2F0836": null,
+        "type_8_D8CCF30E439D901AD132CC84D93D1756": "enum_kerfurDripType::NewEnumerator0"
+      },
+      "kerfoacc_glasses": {
+        "accessoryMesh_13_0BECAD8D458D85CD1786BDA1D90C894B": {
+          "ObjectName": "StaticMesh'accessory_glasses'",
+          "ObjectPath": "VotV/Content/meshes/kerfurAnthro/sk/accessories/accessory_glasses.2"
+        },
+        "accessoryName_15_1DFCA8714E61582B52460E8DE622A2B4": "head",
+        "outfitMesh_12_CDB489C54C31E012FF7BC3980D2F0836": null,
+        "type_8_D8CCF30E439D901AD132CC84D93D1756": "enum_kerfurDripType::NewEnumerator1"
+      },
+      "kerfoacc_badge": {
+        "accessoryMesh_13_0BECAD8D458D85CD1786BDA1D90C894B": {
+          "ObjectName": "StaticMesh'accessory_badge'",
+          "ObjectPath": "VotV/Content/meshes/kerfurAnthro/sk/accessories/accessory_badge.2"
+        },
+        "accessoryName_15_1DFCA8714E61582B52460E8DE622A2B4": "chest",
+        "outfitMesh_12_CDB489C54C31E012FF7BC3980D2F0836": null,
+        "type_8_D8CCF30E439D901AD132CC84D93D1756": "enum_kerfurDripType::NewEnumerator1"
+      },
+      "kerfoacc_bowtie": {
+        "accessoryMesh_13_0BECAD8D458D85CD1786BDA1D90C894B": {
+          "ObjectName": "StaticMesh'accessory_bowtie'",
+          "ObjectPath": "VotV/Content/meshes/kerfurAnthro/sk/accessories/accessory_bowtie.2"
+        },
+        "accessoryName_15_1DFCA8714E61582B52460E8DE622A2B4": "neck",
+        "outfitMesh_12_CDB489C54C31E012FF7BC3980D2F0836": null,
+        "type_8_D8CCF30E439D901AD132CC84D93D1756": "enum_kerfurDripType::NewEnumerator1"
+      },
+      "cone": {
+        "accessoryMesh_13_0BECAD8D458D85CD1786BDA1D90C894B": {
+          "ObjectName": "StaticMesh'accessory_cone'",
+          "ObjectPath": "VotV/Content/meshes/kerfurAnthro/sk/accessories/accessory_cone.2"
+        },
+        "accessoryName_15_1DFCA8714E61582B52460E8DE622A2B4": "head",
+        "outfitMesh_12_CDB489C54C31E012FF7BC3980D2F0836": null,
+        "type_8_D8CCF30E439D901AD132CC84D93D1756": "enum_kerfurDripType::NewEnumerator0"
+      },
+      "charhat": {
+        "accessoryMesh_13_0BECAD8D458D85CD1786BDA1D90C894B": {
+          "ObjectName": "StaticMesh'accessory_charhat'",
+          "ObjectPath": "VotV/Content/meshes/charhat/accessory_charhat.2"
+        },
+        "accessoryName_15_1DFCA8714E61582B52460E8DE622A2B4": "head",
+        "outfitMesh_12_CDB489C54C31E012FF7BC3980D2F0836": null,
+        "type_8_D8CCF30E439D901AD132CC84D93D1756": "enum_kerfurDripType::NewEnumerator0"
+      },
+      "cigp": {
+        "accessoryMesh_13_0BECAD8D458D85CD1786BDA1D90C894B": {
+          "ObjectName": "StaticMesh'accessory_cig'",
+          "ObjectPath": "VotV/Content/meshes/charhat/accessory_cig.2"
+        },
+        "accessoryName_15_1DFCA8714E61582B52460E8DE622A2B4": "head",
+        "outfitMesh_12_CDB489C54C31E012FF7BC3980D2F0836": null,
+        "type_8_D8CCF30E439D901AD132CC84D93D1756": "enum_kerfurDripType::NewEnumerator1"
+      },
+      "witch_hat": {
+        "accessoryMesh_13_0BECAD8D458D85CD1786BDA1D90C894B": {
+          "ObjectName": "StaticMesh'accessory_witchhat'",
+          "ObjectPath": "VotV/Content/meshes/kerfurAnthro/sk/accessories/accessory_witchhat.2"
+        },
+        "accessoryName_15_1DFCA8714E61582B52460E8DE622A2B4": "head",
+        "outfitMesh_12_CDB489C54C31E012FF7BC3980D2F0836": null,
+        "type_8_D8CCF30E439D901AD132CC84D93D1756": "enum_kerfurDripType::NewEnumerator0"
+      },
+      "krampushat": {
+        "accessoryMesh_13_0BECAD8D458D85CD1786BDA1D90C894B": {
+          "ObjectName": "StaticMesh'accessory_krampushat'",
+          "ObjectPath": "VotV/Content/meshes/kerfurAnthro/sk/accessories/accessory_krampushat.2"
+        },
+        "accessoryName_15_1DFCA8714E61582B52460E8DE622A2B4": "head",
+        "outfitMesh_12_CDB489C54C31E012FF7BC3980D2F0836": null,
+        "type_8_D8CCF30E439D901AD132CC84D93D1756": "enum_kerfurDripType::NewEnumerator0"
+      },
+      "kerfoout_maid": {
+        "accessoryMesh_13_0BECAD8D458D85CD1786BDA1D90C894B": null,
+        "accessoryName_15_1DFCA8714E61582B52460E8DE622A2B4": "maid",
+        "outfitMesh_12_CDB489C54C31E012FF7BC3980D2F0836": {
+          "ObjectName": "SkeletalMesh'KerfurO_maid'",
+          "ObjectPath": "VotV/Content/meshes/kerfurAnthro/sk/KerfurO_maid.0"
+        },
+        "type_8_D8CCF30E439D901AD132CC84D93D1756": "enum_kerfurDripType::NewEnumerator0"
+      }
+    }
+  }
+]

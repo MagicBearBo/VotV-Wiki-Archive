@@ -1,0 +1,1608 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "list_equipment",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "VotV/Content/main/datatables/list_equipment",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'struct_equipmentWear'",
+        "ObjectPath": "VotV/Content/main/structs/struct_equipmentWear.0"
+      }
+    },
+    "Rows": {
+      "nightGlasses": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_15_B741ADA44441078D77808785087F23AE": false,
+          "data_14_C195F69242C9AE793196B582EDDDFC9A": false,
+          "betterData_13_E7167F6E42272EAC112569BAFE0C6D0D": {
+            "class_26_966EC12C45A0D1DA297122B00DD609FE": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "transform_8_8BC7EC654B26A7B670A5A8936CBFEFD6": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "name_18_1F1BBBB04FFE13CE4912ED8498B09972": "None",
+            "tag_22_D69777A44EE57146B9F994A6479BCAE1": "None",
+            "key_16_9B7C8C34413CDD6CDA151F90E2996F6A": "None",
+            "attachKey_15_FE2698B14ECEA6A62C00C48975145B7C": "None",
+            "actorData_14_56E067C541A32001F39B00BF262A85D1": [],
+            "index_24_66B2C141489F0AB17EF08496160FCBB0": -1
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": true,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "backpack": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_15_B741ADA44441078D77808785087F23AE": false,
+          "data_14_C195F69242C9AE793196B582EDDDFC9A": false,
+          "betterData_13_E7167F6E42272EAC112569BAFE0C6D0D": {
+            "class_26_966EC12C45A0D1DA297122B00DD609FE": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "transform_8_8BC7EC654B26A7B670A5A8936CBFEFD6": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "name_18_1F1BBBB04FFE13CE4912ED8498B09972": "None",
+            "tag_22_D69777A44EE57146B9F994A6479BCAE1": "None",
+            "key_16_9B7C8C34413CDD6CDA151F90E2996F6A": "None",
+            "attachKey_15_FE2698B14ECEA6A62C00C48975145B7C": "None",
+            "actorData_14_56E067C541A32001F39B00BF262A85D1": [],
+            "index_24_66B2C141489F0AB17EF08496160FCBB0": -1
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": true,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "j_bracelet": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_15_B741ADA44441078D77808785087F23AE": false,
+          "data_14_C195F69242C9AE793196B582EDDDFC9A": false,
+          "betterData_13_E7167F6E42272EAC112569BAFE0C6D0D": {
+            "class_26_966EC12C45A0D1DA297122B00DD609FE": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "transform_8_8BC7EC654B26A7B670A5A8936CBFEFD6": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "name_18_1F1BBBB04FFE13CE4912ED8498B09972": "None",
+            "tag_22_D69777A44EE57146B9F994A6479BCAE1": "None",
+            "key_16_9B7C8C34413CDD6CDA151F90E2996F6A": "None",
+            "attachKey_15_FE2698B14ECEA6A62C00C48975145B7C": "None",
+            "actorData_14_56E067C541A32001F39B00BF262A85D1": [],
+            "index_24_66B2C141489F0AB17EF08496160FCBB0": -1
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": false,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "j_watches": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_15_B741ADA44441078D77808785087F23AE": false,
+          "data_14_C195F69242C9AE793196B582EDDDFC9A": false,
+          "betterData_13_E7167F6E42272EAC112569BAFE0C6D0D": {
+            "class_26_966EC12C45A0D1DA297122B00DD609FE": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "transform_8_8BC7EC654B26A7B670A5A8936CBFEFD6": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "name_18_1F1BBBB04FFE13CE4912ED8498B09972": "None",
+            "tag_22_D69777A44EE57146B9F994A6479BCAE1": "None",
+            "key_16_9B7C8C34413CDD6CDA151F90E2996F6A": "None",
+            "attachKey_15_FE2698B14ECEA6A62C00C48975145B7C": "None",
+            "actorData_14_56E067C541A32001F39B00BF262A85D1": [],
+            "index_24_66B2C141489F0AB17EF08496160FCBB0": -1
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": false,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "j_medallion": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_15_B741ADA44441078D77808785087F23AE": false,
+          "data_14_C195F69242C9AE793196B582EDDDFC9A": false,
+          "betterData_13_E7167F6E42272EAC112569BAFE0C6D0D": {
+            "class_26_966EC12C45A0D1DA297122B00DD609FE": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "transform_8_8BC7EC654B26A7B670A5A8936CBFEFD6": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "name_18_1F1BBBB04FFE13CE4912ED8498B09972": "None",
+            "tag_22_D69777A44EE57146B9F994A6479BCAE1": "None",
+            "key_16_9B7C8C34413CDD6CDA151F90E2996F6A": "None",
+            "attachKey_15_FE2698B14ECEA6A62C00C48975145B7C": "None",
+            "actorData_14_56E067C541A32001F39B00BF262A85D1": [],
+            "index_24_66B2C141489F0AB17EF08496160FCBB0": -1
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": false,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "tinhat": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_15_B741ADA44441078D77808785087F23AE": false,
+          "data_14_C195F69242C9AE793196B582EDDDFC9A": false,
+          "betterData_13_E7167F6E42272EAC112569BAFE0C6D0D": {
+            "class_26_966EC12C45A0D1DA297122B00DD609FE": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "transform_8_8BC7EC654B26A7B670A5A8936CBFEFD6": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "name_18_1F1BBBB04FFE13CE4912ED8498B09972": "None",
+            "tag_22_D69777A44EE57146B9F994A6479BCAE1": "None",
+            "key_16_9B7C8C34413CDD6CDA151F90E2996F6A": "None",
+            "attachKey_15_FE2698B14ECEA6A62C00C48975145B7C": "None",
+            "actorData_14_56E067C541A32001F39B00BF262A85D1": [],
+            "index_24_66B2C141489F0AB17EF08496160FCBB0": -1
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": true,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "scuba": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_15_B741ADA44441078D77808785087F23AE": false,
+          "data_14_C195F69242C9AE793196B582EDDDFC9A": false,
+          "betterData_13_E7167F6E42272EAC112569BAFE0C6D0D": {
+            "class_26_966EC12C45A0D1DA297122B00DD609FE": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "transform_8_8BC7EC654B26A7B670A5A8936CBFEFD6": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "name_18_1F1BBBB04FFE13CE4912ED8498B09972": "None",
+            "tag_22_D69777A44EE57146B9F994A6479BCAE1": "None",
+            "key_16_9B7C8C34413CDD6CDA151F90E2996F6A": "None",
+            "attachKey_15_FE2698B14ECEA6A62C00C48975145B7C": "None",
+            "actorData_14_56E067C541A32001F39B00BF262A85D1": [],
+            "index_24_66B2C141489F0AB17EF08496160FCBB0": -1
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": true,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "bikehelmet": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_15_B741ADA44441078D77808785087F23AE": false,
+          "data_14_C195F69242C9AE793196B582EDDDFC9A": false,
+          "betterData_13_E7167F6E42272EAC112569BAFE0C6D0D": {
+            "class_26_966EC12C45A0D1DA297122B00DD609FE": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "transform_8_8BC7EC654B26A7B670A5A8936CBFEFD6": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "name_18_1F1BBBB04FFE13CE4912ED8498B09972": "None",
+            "tag_22_D69777A44EE57146B9F994A6479BCAE1": "None",
+            "key_16_9B7C8C34413CDD6CDA151F90E2996F6A": "None",
+            "attachKey_15_FE2698B14ECEA6A62C00C48975145B7C": "None",
+            "actorData_14_56E067C541A32001F39B00BF262A85D1": [],
+            "index_24_66B2C141489F0AB17EF08496160FCBB0": -1
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": true,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "limbprotect": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_15_B741ADA44441078D77808785087F23AE": false,
+          "data_14_C195F69242C9AE793196B582EDDDFC9A": false,
+          "betterData_13_E7167F6E42272EAC112569BAFE0C6D0D": {
+            "class_26_966EC12C45A0D1DA297122B00DD609FE": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "transform_8_8BC7EC654B26A7B670A5A8936CBFEFD6": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "name_18_1F1BBBB04FFE13CE4912ED8498B09972": "None",
+            "tag_22_D69777A44EE57146B9F994A6479BCAE1": "None",
+            "key_16_9B7C8C34413CDD6CDA151F90E2996F6A": "None",
+            "attachKey_15_FE2698B14ECEA6A62C00C48975145B7C": "None",
+            "actorData_14_56E067C541A32001F39B00BF262A85D1": [],
+            "index_24_66B2C141489F0AB17EF08496160FCBB0": -1
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": true,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "bodyprotect": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_15_B741ADA44441078D77808785087F23AE": false,
+          "data_14_C195F69242C9AE793196B582EDDDFC9A": false,
+          "betterData_13_E7167F6E42272EAC112569BAFE0C6D0D": {
+            "class_26_966EC12C45A0D1DA297122B00DD609FE": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "transform_8_8BC7EC654B26A7B670A5A8936CBFEFD6": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "name_18_1F1BBBB04FFE13CE4912ED8498B09972": "None",
+            "tag_22_D69777A44EE57146B9F994A6479BCAE1": "None",
+            "key_16_9B7C8C34413CDD6CDA151F90E2996F6A": "None",
+            "attachKey_15_FE2698B14ECEA6A62C00C48975145B7C": "None",
+            "actorData_14_56E067C541A32001F39B00BF262A85D1": [],
+            "index_24_66B2C141489F0AB17EF08496160FCBB0": -1
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": true,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "jetpack": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_15_B741ADA44441078D77808785087F23AE": false,
+          "data_14_C195F69242C9AE793196B582EDDDFC9A": false,
+          "betterData_13_E7167F6E42272EAC112569BAFE0C6D0D": {
+            "class_26_966EC12C45A0D1DA297122B00DD609FE": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "transform_8_8BC7EC654B26A7B670A5A8936CBFEFD6": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "name_18_1F1BBBB04FFE13CE4912ED8498B09972": "None",
+            "tag_22_D69777A44EE57146B9F994A6479BCAE1": "None",
+            "key_16_9B7C8C34413CDD6CDA151F90E2996F6A": "None",
+            "attachKey_15_FE2698B14ECEA6A62C00C48975145B7C": "None",
+            "actorData_14_56E067C541A32001F39B00BF262A85D1": [],
+            "index_24_66B2C141489F0AB17EF08496160FCBB0": -1
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": true,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "tool_wm": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_15_B741ADA44441078D77808785087F23AE": false,
+          "data_14_C195F69242C9AE793196B582EDDDFC9A": false,
+          "betterData_13_E7167F6E42272EAC112569BAFE0C6D0D": {
+            "class_26_966EC12C45A0D1DA297122B00DD609FE": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "transform_8_8BC7EC654B26A7B670A5A8936CBFEFD6": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "name_18_1F1BBBB04FFE13CE4912ED8498B09972": "None",
+            "tag_22_D69777A44EE57146B9F994A6479BCAE1": "None",
+            "key_16_9B7C8C34413CDD6CDA151F90E2996F6A": "None",
+            "attachKey_15_FE2698B14ECEA6A62C00C48975145B7C": "None",
+            "actorData_14_56E067C541A32001F39B00BF262A85D1": [],
+            "index_24_66B2C141489F0AB17EF08496160FCBB0": -1
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": true,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "hazsuit": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_15_B741ADA44441078D77808785087F23AE": false,
+          "data_14_C195F69242C9AE793196B582EDDDFC9A": false,
+          "betterData_13_E7167F6E42272EAC112569BAFE0C6D0D": {
+            "class_26_966EC12C45A0D1DA297122B00DD609FE": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "transform_8_8BC7EC654B26A7B670A5A8936CBFEFD6": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "name_18_1F1BBBB04FFE13CE4912ED8498B09972": "None",
+            "tag_22_D69777A44EE57146B9F994A6479BCAE1": "None",
+            "key_16_9B7C8C34413CDD6CDA151F90E2996F6A": "None",
+            "attachKey_15_FE2698B14ECEA6A62C00C48975145B7C": "None",
+            "actorData_14_56E067C541A32001F39B00BF262A85D1": [],
+            "index_24_66B2C141489F0AB17EF08496160FCBB0": -1
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": true,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "charhat": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_15_B741ADA44441078D77808785087F23AE": false,
+          "data_14_C195F69242C9AE793196B582EDDDFC9A": false,
+          "betterData_13_E7167F6E42272EAC112569BAFE0C6D0D": {
+            "class_26_966EC12C45A0D1DA297122B00DD609FE": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "transform_8_8BC7EC654B26A7B670A5A8936CBFEFD6": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "name_18_1F1BBBB04FFE13CE4912ED8498B09972": "None",
+            "tag_22_D69777A44EE57146B9F994A6479BCAE1": "None",
+            "key_16_9B7C8C34413CDD6CDA151F90E2996F6A": "None",
+            "attachKey_15_FE2698B14ECEA6A62C00C48975145B7C": "None",
+            "actorData_14_56E067C541A32001F39B00BF262A85D1": [],
+            "index_24_66B2C141489F0AB17EF08496160FCBB0": -1
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": false,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "firesuit": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_15_B741ADA44441078D77808785087F23AE": false,
+          "data_14_C195F69242C9AE793196B582EDDDFC9A": false,
+          "betterData_13_E7167F6E42272EAC112569BAFE0C6D0D": {
+            "class_26_966EC12C45A0D1DA297122B00DD609FE": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "transform_8_8BC7EC654B26A7B670A5A8936CBFEFD6": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "name_18_1F1BBBB04FFE13CE4912ED8498B09972": "None",
+            "tag_22_D69777A44EE57146B9F994A6479BCAE1": "None",
+            "key_16_9B7C8C34413CDD6CDA151F90E2996F6A": "None",
+            "attachKey_15_FE2698B14ECEA6A62C00C48975145B7C": "None",
+            "actorData_14_56E067C541A32001F39B00BF262A85D1": [],
+            "index_24_66B2C141489F0AB17EF08496160FCBB0": -1
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": true,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "fallboots": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_15_B741ADA44441078D77808785087F23AE": false,
+          "data_14_C195F69242C9AE793196B582EDDDFC9A": false,
+          "betterData_13_E7167F6E42272EAC112569BAFE0C6D0D": {
+            "class_26_966EC12C45A0D1DA297122B00DD609FE": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "transform_8_8BC7EC654B26A7B670A5A8936CBFEFD6": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "name_18_1F1BBBB04FFE13CE4912ED8498B09972": "None",
+            "tag_22_D69777A44EE57146B9F994A6479BCAE1": "None",
+            "key_16_9B7C8C34413CDD6CDA151F90E2996F6A": "None",
+            "attachKey_15_FE2698B14ECEA6A62C00C48975145B7C": "None",
+            "actorData_14_56E067C541A32001F39B00BF262A85D1": [],
+            "index_24_66B2C141489F0AB17EF08496160FCBB0": -1
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": true,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "fannypack": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_15_B741ADA44441078D77808785087F23AE": false,
+          "data_14_C195F69242C9AE793196B582EDDDFC9A": false,
+          "betterData_13_E7167F6E42272EAC112569BAFE0C6D0D": {
+            "class_26_966EC12C45A0D1DA297122B00DD609FE": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "transform_8_8BC7EC654B26A7B670A5A8936CBFEFD6": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "name_18_1F1BBBB04FFE13CE4912ED8498B09972": "None",
+            "tag_22_D69777A44EE57146B9F994A6479BCAE1": "None",
+            "key_16_9B7C8C34413CDD6CDA151F90E2996F6A": "None",
+            "attachKey_15_FE2698B14ECEA6A62C00C48975145B7C": "None",
+            "actorData_14_56E067C541A32001F39B00BF262A85D1": [],
+            "index_24_66B2C141489F0AB17EF08496160FCBB0": -1
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": false,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "witch_hat": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_15_B741ADA44441078D77808785087F23AE": false,
+          "data_14_C195F69242C9AE793196B582EDDDFC9A": false,
+          "betterData_13_E7167F6E42272EAC112569BAFE0C6D0D": {
+            "class_26_966EC12C45A0D1DA297122B00DD609FE": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "transform_8_8BC7EC654B26A7B670A5A8936CBFEFD6": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "name_18_1F1BBBB04FFE13CE4912ED8498B09972": "None",
+            "tag_22_D69777A44EE57146B9F994A6479BCAE1": "None",
+            "key_16_9B7C8C34413CDD6CDA151F90E2996F6A": "None",
+            "attachKey_15_FE2698B14ECEA6A62C00C48975145B7C": "None",
+            "actorData_14_56E067C541A32001F39B00BF262A85D1": [],
+            "index_24_66B2C141489F0AB17EF08496160FCBB0": -1
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": true,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "watches": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_15_B741ADA44441078D77808785087F23AE": false,
+          "data_14_C195F69242C9AE793196B582EDDDFC9A": false,
+          "betterData_13_E7167F6E42272EAC112569BAFE0C6D0D": {
+            "class_26_966EC12C45A0D1DA297122B00DD609FE": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "transform_8_8BC7EC654B26A7B670A5A8936CBFEFD6": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "name_18_1F1BBBB04FFE13CE4912ED8498B09972": "None",
+            "tag_22_D69777A44EE57146B9F994A6479BCAE1": "None",
+            "key_16_9B7C8C34413CDD6CDA151F90E2996F6A": "None",
+            "attachKey_15_FE2698B14ECEA6A62C00C48975145B7C": "None",
+            "actorData_14_56E067C541A32001F39B00BF262A85D1": [],
+            "index_24_66B2C141489F0AB17EF08496160FCBB0": -1
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": true,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "compass": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_15_B741ADA44441078D77808785087F23AE": false,
+          "data_14_C195F69242C9AE793196B582EDDDFC9A": false,
+          "betterData_13_E7167F6E42272EAC112569BAFE0C6D0D": {
+            "class_26_966EC12C45A0D1DA297122B00DD609FE": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "transform_8_8BC7EC654B26A7B670A5A8936CBFEFD6": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "name_18_1F1BBBB04FFE13CE4912ED8498B09972": "None",
+            "tag_22_D69777A44EE57146B9F994A6479BCAE1": "None",
+            "key_16_9B7C8C34413CDD6CDA151F90E2996F6A": "None",
+            "attachKey_15_FE2698B14ECEA6A62C00C48975145B7C": "None",
+            "actorData_14_56E067C541A32001F39B00BF262A85D1": [],
+            "index_24_66B2C141489F0AB17EF08496160FCBB0": -1
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": true,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "glasses": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_15_B741ADA44441078D77808785087F23AE": false,
+          "data_14_C195F69242C9AE793196B582EDDDFC9A": false,
+          "betterData_13_E7167F6E42272EAC112569BAFE0C6D0D": {
+            "class_26_966EC12C45A0D1DA297122B00DD609FE": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "transform_8_8BC7EC654B26A7B670A5A8936CBFEFD6": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "name_18_1F1BBBB04FFE13CE4912ED8498B09972": "None",
+            "tag_22_D69777A44EE57146B9F994A6479BCAE1": "None",
+            "key_16_9B7C8C34413CDD6CDA151F90E2996F6A": "None",
+            "attachKey_15_FE2698B14ECEA6A62C00C48975145B7C": "None",
+            "actorData_14_56E067C541A32001F39B00BF262A85D1": [],
+            "index_24_66B2C141489F0AB17EF08496160FCBB0": -1
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": true,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "flashlight": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_15_B741ADA44441078D77808785087F23AE": false,
+          "data_14_C195F69242C9AE793196B582EDDDFC9A": false,
+          "betterData_13_E7167F6E42272EAC112569BAFE0C6D0D": {
+            "class_26_966EC12C45A0D1DA297122B00DD609FE": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "transform_8_8BC7EC654B26A7B670A5A8936CBFEFD6": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "name_18_1F1BBBB04FFE13CE4912ED8498B09972": "None",
+            "tag_22_D69777A44EE57146B9F994A6479BCAE1": "None",
+            "key_16_9B7C8C34413CDD6CDA151F90E2996F6A": "None",
+            "attachKey_15_FE2698B14ECEA6A62C00C48975145B7C": "None",
+            "actorData_14_56E067C541A32001F39B00BF262A85D1": [],
+            "index_24_66B2C141489F0AB17EF08496160FCBB0": -1
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": true,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "flashlight"
+      },
+      "flashlight_c": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_15_B741ADA44441078D77808785087F23AE": false,
+          "data_14_C195F69242C9AE793196B582EDDDFC9A": false,
+          "betterData_13_E7167F6E42272EAC112569BAFE0C6D0D": {
+            "class_26_966EC12C45A0D1DA297122B00DD609FE": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "transform_8_8BC7EC654B26A7B670A5A8936CBFEFD6": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "name_18_1F1BBBB04FFE13CE4912ED8498B09972": "None",
+            "tag_22_D69777A44EE57146B9F994A6479BCAE1": "None",
+            "key_16_9B7C8C34413CDD6CDA151F90E2996F6A": "None",
+            "attachKey_15_FE2698B14ECEA6A62C00C48975145B7C": "None",
+            "actorData_14_56E067C541A32001F39B00BF262A85D1": [],
+            "index_24_66B2C141489F0AB17EF08496160FCBB0": -1
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": true,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "flashlight"
+      },
+      "p_emf": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_15_B741ADA44441078D77808785087F23AE": false,
+          "data_14_C195F69242C9AE793196B582EDDDFC9A": false,
+          "betterData_13_E7167F6E42272EAC112569BAFE0C6D0D": {
+            "class_26_966EC12C45A0D1DA297122B00DD609FE": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "transform_8_8BC7EC654B26A7B670A5A8936CBFEFD6": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "name_18_1F1BBBB04FFE13CE4912ED8498B09972": "None",
+            "tag_22_D69777A44EE57146B9F994A6479BCAE1": "None",
+            "key_16_9B7C8C34413CDD6CDA151F90E2996F6A": "None",
+            "attachKey_15_FE2698B14ECEA6A62C00C48975145B7C": "None",
+            "actorData_14_56E067C541A32001F39B00BF262A85D1": [],
+            "index_24_66B2C141489F0AB17EF08496160FCBB0": -1
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": true,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "p_gei": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_15_B741ADA44441078D77808785087F23AE": false,
+          "data_14_C195F69242C9AE793196B582EDDDFC9A": false,
+          "betterData_13_E7167F6E42272EAC112569BAFE0C6D0D": {
+            "class_26_966EC12C45A0D1DA297122B00DD609FE": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "transform_8_8BC7EC654B26A7B670A5A8936CBFEFD6": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "name_18_1F1BBBB04FFE13CE4912ED8498B09972": "None",
+            "tag_22_D69777A44EE57146B9F994A6479BCAE1": "None",
+            "key_16_9B7C8C34413CDD6CDA151F90E2996F6A": "None",
+            "attachKey_15_FE2698B14ECEA6A62C00C48975145B7C": "None",
+            "actorData_14_56E067C541A32001F39B00BF262A85D1": [],
+            "index_24_66B2C141489F0AB17EF08496160FCBB0": -1
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": true,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "woolboots": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_15_B741ADA44441078D77808785087F23AE": false,
+          "data_14_C195F69242C9AE793196B582EDDDFC9A": false,
+          "betterData_13_E7167F6E42272EAC112569BAFE0C6D0D": {
+            "class_26_966EC12C45A0D1DA297122B00DD609FE": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "transform_8_8BC7EC654B26A7B670A5A8936CBFEFD6": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "name_18_1F1BBBB04FFE13CE4912ED8498B09972": "None",
+            "tag_22_D69777A44EE57146B9F994A6479BCAE1": "None",
+            "key_16_9B7C8C34413CDD6CDA151F90E2996F6A": "None",
+            "attachKey_15_FE2698B14ECEA6A62C00C48975145B7C": "None",
+            "actorData_14_56E067C541A32001F39B00BF262A85D1": [],
+            "index_24_66B2C141489F0AB17EF08496160FCBB0": -1
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": true,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "portableMD": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_15_B741ADA44441078D77808785087F23AE": false,
+          "data_14_C195F69242C9AE793196B582EDDDFC9A": false,
+          "betterData_13_E7167F6E42272EAC112569BAFE0C6D0D": {
+            "class_26_966EC12C45A0D1DA297122B00DD609FE": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "transform_8_8BC7EC654B26A7B670A5A8936CBFEFD6": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "name_18_1F1BBBB04FFE13CE4912ED8498B09972": "None",
+            "tag_22_D69777A44EE57146B9F994A6479BCAE1": "None",
+            "key_16_9B7C8C34413CDD6CDA151F90E2996F6A": "None",
+            "attachKey_15_FE2698B14ECEA6A62C00C48975145B7C": "None",
+            "actorData_14_56E067C541A32001F39B00BF262A85D1": [],
+            "index_24_66B2C141489F0AB17EF08496160FCBB0": -1
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": true,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "krampushat": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_15_B741ADA44441078D77808785087F23AE": false,
+          "data_14_C195F69242C9AE793196B582EDDDFC9A": false,
+          "betterData_13_E7167F6E42272EAC112569BAFE0C6D0D": {
+            "class_26_966EC12C45A0D1DA297122B00DD609FE": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "transform_8_8BC7EC654B26A7B670A5A8936CBFEFD6": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "name_18_1F1BBBB04FFE13CE4912ED8498B09972": "None",
+            "tag_22_D69777A44EE57146B9F994A6479BCAE1": "None",
+            "key_16_9B7C8C34413CDD6CDA151F90E2996F6A": "None",
+            "attachKey_15_FE2698B14ECEA6A62C00C48975145B7C": "None",
+            "actorData_14_56E067C541A32001F39B00BF262A85D1": [],
+            "index_24_66B2C141489F0AB17EF08496160FCBB0": -1
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": true,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "mittens": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_15_B741ADA44441078D77808785087F23AE": false,
+          "data_14_C195F69242C9AE793196B582EDDDFC9A": false,
+          "betterData_13_E7167F6E42272EAC112569BAFE0C6D0D": {
+            "class_26_966EC12C45A0D1DA297122B00DD609FE": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "transform_8_8BC7EC654B26A7B670A5A8936CBFEFD6": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "name_18_1F1BBBB04FFE13CE4912ED8498B09972": "None",
+            "tag_22_D69777A44EE57146B9F994A6479BCAE1": "None",
+            "key_16_9B7C8C34413CDD6CDA151F90E2996F6A": "None",
+            "attachKey_15_FE2698B14ECEA6A62C00C48975145B7C": "None",
+            "actorData_14_56E067C541A32001F39B00BF262A85D1": [],
+            "index_24_66B2C141489F0AB17EF08496160FCBB0": -1
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": true,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "kerfoout_maid": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_15_B741ADA44441078D77808785087F23AE": false,
+          "data_14_C195F69242C9AE793196B582EDDDFC9A": false,
+          "betterData_13_E7167F6E42272EAC112569BAFE0C6D0D": {
+            "class_26_966EC12C45A0D1DA297122B00DD609FE": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "transform_8_8BC7EC654B26A7B670A5A8936CBFEFD6": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "name_18_1F1BBBB04FFE13CE4912ED8498B09972": "None",
+            "tag_22_D69777A44EE57146B9F994A6479BCAE1": "None",
+            "key_16_9B7C8C34413CDD6CDA151F90E2996F6A": "None",
+            "attachKey_15_FE2698B14ECEA6A62C00C48975145B7C": "None",
+            "actorData_14_56E067C541A32001F39B00BF262A85D1": [],
+            "index_24_66B2C141489F0AB17EF08496160FCBB0": -1
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": true,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "biglight": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_15_B741ADA44441078D77808785087F23AE": false,
+          "data_14_C195F69242C9AE793196B582EDDDFC9A": false,
+          "betterData_13_E7167F6E42272EAC112569BAFE0C6D0D": {
+            "class_26_966EC12C45A0D1DA297122B00DD609FE": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "transform_8_8BC7EC654B26A7B670A5A8936CBFEFD6": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "name_18_1F1BBBB04FFE13CE4912ED8498B09972": "None",
+            "tag_22_D69777A44EE57146B9F994A6479BCAE1": "None",
+            "key_16_9B7C8C34413CDD6CDA151F90E2996F6A": "None",
+            "attachKey_15_FE2698B14ECEA6A62C00C48975145B7C": "None",
+            "actorData_14_56E067C541A32001F39B00BF262A85D1": [],
+            "index_24_66B2C141489F0AB17EF08496160FCBB0": -1
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": true,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "flashlight"
+      },
+      "headphones": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_15_B741ADA44441078D77808785087F23AE": false,
+          "data_14_C195F69242C9AE793196B582EDDDFC9A": false,
+          "betterData_13_E7167F6E42272EAC112569BAFE0C6D0D": {
+            "class_26_966EC12C45A0D1DA297122B00DD609FE": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "transform_8_8BC7EC654B26A7B670A5A8936CBFEFD6": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "name_18_1F1BBBB04FFE13CE4912ED8498B09972": "None",
+            "tag_22_D69777A44EE57146B9F994A6479BCAE1": "None",
+            "key_16_9B7C8C34413CDD6CDA151F90E2996F6A": "None",
+            "attachKey_15_FE2698B14ECEA6A62C00C48975145B7C": "None",
+            "actorData_14_56E067C541A32001F39B00BF262A85D1": [],
+            "index_24_66B2C141489F0AB17EF08496160FCBB0": -1
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": true,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "floorAngleGlasses": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_15_B741ADA44441078D77808785087F23AE": false,
+          "data_14_C195F69242C9AE793196B582EDDDFC9A": false,
+          "betterData_13_E7167F6E42272EAC112569BAFE0C6D0D": {
+            "class_26_966EC12C45A0D1DA297122B00DD609FE": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "transform_8_8BC7EC654B26A7B670A5A8936CBFEFD6": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "name_18_1F1BBBB04FFE13CE4912ED8498B09972": "None",
+            "tag_22_D69777A44EE57146B9F994A6479BCAE1": "None",
+            "key_16_9B7C8C34413CDD6CDA151F90E2996F6A": "None",
+            "attachKey_15_FE2698B14ECEA6A62C00C48975145B7C": "None",
+            "actorData_14_56E067C541A32001F39B00BF262A85D1": [],
+            "index_24_66B2C141489F0AB17EF08496160FCBB0": -1
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": true,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "bunnyears": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_15_B741ADA44441078D77808785087F23AE": false,
+          "data_14_C195F69242C9AE793196B582EDDDFC9A": false,
+          "betterData_13_E7167F6E42272EAC112569BAFE0C6D0D": {
+            "class_26_966EC12C45A0D1DA297122B00DD609FE": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "transform_8_8BC7EC654B26A7B670A5A8936CBFEFD6": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "name_18_1F1BBBB04FFE13CE4912ED8498B09972": "None",
+            "tag_22_D69777A44EE57146B9F994A6479BCAE1": "None",
+            "key_16_9B7C8C34413CDD6CDA151F90E2996F6A": "None",
+            "attachKey_15_FE2698B14ECEA6A62C00C48975145B7C": "None",
+            "actorData_14_56E067C541A32001F39B00BF262A85D1": [],
+            "index_24_66B2C141489F0AB17EF08496160FCBB0": -1
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": false,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "gardenGloves_0": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_15_B741ADA44441078D77808785087F23AE": false,
+          "data_14_C195F69242C9AE793196B582EDDDFC9A": false,
+          "betterData_13_E7167F6E42272EAC112569BAFE0C6D0D": {
+            "class_26_966EC12C45A0D1DA297122B00DD609FE": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "transform_8_8BC7EC654B26A7B670A5A8936CBFEFD6": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "name_18_1F1BBBB04FFE13CE4912ED8498B09972": "None",
+            "tag_22_D69777A44EE57146B9F994A6479BCAE1": "None",
+            "key_16_9B7C8C34413CDD6CDA151F90E2996F6A": "None",
+            "attachKey_15_FE2698B14ECEA6A62C00C48975145B7C": "None",
+            "actorData_14_56E067C541A32001F39B00BF262A85D1": [],
+            "index_24_66B2C141489F0AB17EF08496160FCBB0": -1
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": true,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "gardenGloves_1": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_15_B741ADA44441078D77808785087F23AE": false,
+          "data_14_C195F69242C9AE793196B582EDDDFC9A": false,
+          "betterData_13_E7167F6E42272EAC112569BAFE0C6D0D": {
+            "class_26_966EC12C45A0D1DA297122B00DD609FE": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "transform_8_8BC7EC654B26A7B670A5A8936CBFEFD6": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "name_18_1F1BBBB04FFE13CE4912ED8498B09972": "None",
+            "tag_22_D69777A44EE57146B9F994A6479BCAE1": "None",
+            "key_16_9B7C8C34413CDD6CDA151F90E2996F6A": "None",
+            "attachKey_15_FE2698B14ECEA6A62C00C48975145B7C": "None",
+            "actorData_14_56E067C541A32001F39B00BF262A85D1": [],
+            "index_24_66B2C141489F0AB17EF08496160FCBB0": -1
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": true,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      },
+      "gardenGloves_2": {
+        "data_8_7CAB8627473D5A4CCD0A20B7541551ED": {
+          "prop_15_B741ADA44441078D77808785087F23AE": false,
+          "data_14_C195F69242C9AE793196B582EDDDFC9A": false,
+          "betterData_13_E7167F6E42272EAC112569BAFE0C6D0D": {
+            "class_26_966EC12C45A0D1DA297122B00DD609FE": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "transform_8_8BC7EC654B26A7B670A5A8936CBFEFD6": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "name_18_1F1BBBB04FFE13CE4912ED8498B09972": "None",
+            "tag_22_D69777A44EE57146B9F994A6479BCAE1": "None",
+            "key_16_9B7C8C34413CDD6CDA151F90E2996F6A": "None",
+            "attachKey_15_FE2698B14ECEA6A62C00C48975145B7C": "None",
+            "actorData_14_56E067C541A32001F39B00BF262A85D1": [],
+            "index_24_66B2C141489F0AB17EF08496160FCBB0": -1
+          },
+          "tag_10_9563F82F4ED7CF4F11E6F0A9A485CCFD": "None"
+        },
+        "type_5_06FC60D749467A442672089A8900E93A": 0,
+        "singular_10_8DD39E0F412F42BB4581BFA1B1A6D83C": true,
+        "tag_13_7219196D407BACEF7CB1F2B3036901C0": "None"
+      }
+    }
+  }
+]
